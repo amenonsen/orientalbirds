@@ -1,0 +1,23 @@
+#!/bin/bash
+
+DB=orientalbirds
+USER=ob
+ADMIN=obadmin
+PSQL=psql
+
+echo "Creating users, database, and schema..."
+su -m postgres -c $PSQL <<SQL
+\set ON_ERROR_STOP
+SET client_min_messages TO 'error';
+CREATE USER $USER;
+CREATE USER $ADMIN;
+CREATE DATABASE $DB WITH OWNER $ADMIN;
+\c $DB
+\set user $USER
+SET client_min_messages TO 'error';
+CREATE OR REPLACE LANGUAGE plpgsql;
+SET SESSION AUTHORIZATION $ADMIN;
+begin;
+$(for i in schema/*.sql; do echo "\\i $i"; done)
+commit;
+SQL
