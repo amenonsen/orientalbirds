@@ -1,16 +1,15 @@
--- One row per taxonomic rank (Kingdom, Phylum, Class, etc.)
+-- Taxonomic ranks (for reference)
 
-create table ranks (
-    rank_id serial primary key,
-    rank_name text not null unique
-);
+create type rank as
+    enum ('Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species');
 
--- One row per taxon (but genera and species are handled specially by
--- the next table, though they could in principle be stored here).
+-- One row per taxon (but taxa of rank genus or species are handled
+-- specially by the next table, though they could in principle be
+-- stored here).
 
 create table taxa (
     taxon_id serial primary key,
-    rank_id integer not null references ranks,
+    rank rank not null,
     parent integer references taxa(taxon_id),
     taxon_name text not null unique,
     taxon_description text
