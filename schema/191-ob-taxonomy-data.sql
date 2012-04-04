@@ -1,0 +1,23 @@
+insert into taxa (rank, parent, taxon_name, taxon_description) values
+    ('Class', NULL, 'Aves', 'Birds'),
+
+    ('Order', 1, 'Struthioniformes', 'Cassowaries'),
+    ('Order', 1, 'Craciiformes', 'Scrubfowl, maleo'),
+    ('Order', 1, 'Galliformes', 'Pheasants, partridges, francolins, grouse, fowl, quails'),
+    ('Order', 1, 'Anseriformes', 'Ducks, geese, swans'),
+    ('Order', 1, 'Turniciformes', 'Buttonquails'),
+    ('Order', 1, 'Piciformes', 'Woodpeckers, wrynecks, barbets, honeyguides'),
+    ('Order', 1, 'Bucerotiformes', 'Hornbills'),
+    ('Order', 1, 'Upupiformes', 'Hoopoes'),
+    ('Order', 1, 'Trogoniformes', 'Trogons'),
+    ('Order', 1, 'Coraciiformes', 'Kingfishers, bee-eaters, rollers'),
+    ('Order', 1, 'Cuculiformes', 'Cuckoos, malkohas, coucals'),
+    ('Order', 1, 'Psittaciformes', 'Parrots, parakeets, cockatoos, lorikeets'),
+    ('Order', 1, 'Apodiformes', 'Swifts, needletails, treeswifts'),
+    ('Order', 1, 'Trochiliformes', 'Hummingbirds, sunbirds'),
+    ('Order', 1, 'Strigiformes', 'Owls, frogmouths, nightjars'),
+    ('Order', 1, 'Columbiformes', 'Pigeons, doves'),
+    ('Order', 1, 'Gruiformes', 'Cranes, bustards, finfoots, rails, crakes, gallinules'),
+    ('Order', 1, 'Ciconiiformes', 'Storks, raptors, seabirds, shorebirds, sandgrouse'),
+    ('Order', 1, 'Passeriformes', 'All perching birds'),
+
