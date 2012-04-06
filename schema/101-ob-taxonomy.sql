@@ -1,7 +1,8 @@
 -- Taxonomic ranks (for reference)
 
 create type rank as
-    enum ('Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species');
+    enum ('Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Subfamily',
+          'Tribe', 'Genus', 'Species');
 
 -- One row per taxon (but taxa of rank genus or species are handled
 -- specially by the next table, though they could in principle be
