@@ -79,11 +79,19 @@ foreach my $s (@$species) {
 
     $s->[1] =~ s/\x92/''/g;
     $s->[1] =~ s/\s*$//gsm;
-    $s->[7] =~ s/\x92/''/g;
-    $s->[7] =~ s/[\cM\cJ]/\\n/gsm;
-    $s->[7] =~ s/\s*$//gsm;
+
+    my $notes;
+    if ($notes = $s->[7]) {
+        $notes =~ s/\x92/''/g;
+        $notes =~ s/[\cM\cJ]/\\n/gsm;
+        $notes =~ s/\s*$//gsm;
+    }
+    else {
+        $notes = "\\N";
+    }
+
     push @species, [
-        $parent, $genus, $species, $s->[1], $s->[7]
+        $parent, $genus, $species, $s->[1], $notes
     ];
 
     if (my $salt = $s->[4]) {

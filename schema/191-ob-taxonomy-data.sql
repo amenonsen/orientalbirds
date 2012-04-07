@@ -186,2715 +186,2715 @@ copy taxa (taxon_id, rank, parent, taxon_name, taxon_description) from stdin;
 alter sequence taxa_taxon_id_seq start with 181;
 
 copy species (parent, genus, species, common_name, taxonomic_notes) from stdin;
-21	Casuarius	casuarius	Southern Cassowary	
-22	Eulipoa	wallacei	Moluccan Megapode	
-22	Megapodius	reinwardt	Orange-footed Megapode	
-22	Megapodius	freycinet	Dusky Megapode	
-22	Megapodius	tenimberensis	Tanimbar Megapode	
-22	Megapodius	forsteni	Forsten's Megapode	
+21	Casuarius	casuarius	Southern Cassowary	\N
+22	Eulipoa	wallacei	Moluccan Megapode	\N
+22	Megapodius	reinwardt	Orange-footed Megapode	\N
+22	Megapodius	freycinet	Dusky Megapode	\N
+22	Megapodius	tenimberensis	Tanimbar Megapode	\N
+22	Megapodius	forsteni	Forsten's Megapode	\N
 22	Macrocephalon	maleo	Maleo	Species endemic to the Sulawesi region of Indonesia.
 22	Megapodius	bernsteinii	Sula Megapode	Species endemic to the Sula and Banggai Islands, Indonesia.
 22	Megapodius	nicobariensis	Nicobar Megapode	Species endemic to the Nicobar Islands, India.
-22	Megapodius	cumingii	Philippine Megapode	
-23	Tragopan	caboti	Cabot's Tragopan	
+22	Megapodius	cumingii	Philippine Megapode	\N
+23	Tragopan	caboti	Cabot's Tragopan	\N
 23	Arborophila	rubrirostris	Red-billed Partridge	Species endemic to Sumatra.
-23	Arborophila	cambodiana	Chestnut-headed Partridge	
-23	Arborophila	davidi	Orange-necked Partridge	
+23	Arborophila	cambodiana	Chestnut-headed Partridge	\N
+23	Arborophila	davidi	Orange-necked Partridge	\N
 23	Arborophila	hyperythra	Red-breasted Partridge	Species endemic to Borneo.
-23	Ithaginis	cruentus	Blood Pheasant	
+23	Ithaginis	cruentus	Blood Pheasant	\N
 23	Tragopan	melanocephalus	Western Tragopan	Species endemic to the Indian Subcontinent (India & Pakistan).
-23	Tragopan	satyra	Satyr Tragopan	
-23	Tragopan	blythii	Blyth's Tragopan	
-23	Lagopus	muta	Rock Ptarmigan	
+23	Tragopan	satyra	Satyr Tragopan	\N
+23	Tragopan	blythii	Blyth's Tragopan	\N
+23	Lagopus	muta	Rock Ptarmigan	\N
 23	Arborophila	orientalis	Horsfield's Hill Partridge	Species endemic to east Java. Formerly considered conspecific with <i>A. rolli</i>, <i>A. campbelli</i> and <i>A. sumatrana</i> under the name Grey-breasted Partridge <i>Arborophila orientalis</i> but now split  following\n\n<br>Mees, G. F. (1996) Geographical variation in birds of Java. : i-viii, 1-119. Nuttall Ornithological Club, Cambridge, Mass., USA. Publ. No. 26.\n\n<br>Dickinson, Edward C., Editor (2003) <i>The Howard and Moore Complete Checklist of the Birds of the World</i>, 3rd edition. London: Christopher Helm.
-23	Tetrao	parvirostris	Black-billed Capercaillie	
-23	Pucrasia	macrolopha	Koklass Pheasant	
-23	Lophophorus	impejanus	Himalayan Monal	
-23	Lophophorus	sclateri	Sclater's Monal	
-23	Lophophorus	lhuysii	Chinese Monal	
-23	Tragopan	temminckii	Temminck's Tragopan	
-23	Caloperdix	oculeus	Ferruginous Partridge	
-23	Rollulus	rouloul	Crested Partridge	
-23	Gallus	gallus	Red Junglefowl	
-23	Bambusicola	thoracicus	Chinese Bamboo Partridge	
+23	Tetrao	parvirostris	Black-billed Capercaillie	\N
+23	Pucrasia	macrolopha	Koklass Pheasant	\N
+23	Lophophorus	impejanus	Himalayan Monal	\N
+23	Lophophorus	sclateri	Sclater's Monal	\N
+23	Lophophorus	lhuysii	Chinese Monal	\N
+23	Tragopan	temminckii	Temminck's Tragopan	\N
+23	Caloperdix	oculeus	Ferruginous Partridge	\N
+23	Rollulus	rouloul	Crested Partridge	\N
+23	Gallus	gallus	Red Junglefowl	\N
+23	Bambusicola	thoracicus	Chinese Bamboo Partridge	\N
 23	Galloperdix	spadicea	Red Spurfowl	Species endemic to India.
 23	Galloperdix	lunulata	Painted Spurfowl	Species endemic to India.
 23	Galloperdix	bicalcarata	Sri Lanka Spurfowl	Species endemic to Sri Lanka.\n\n
-23	Tetrao	tetrix	Black Grouse	
+23	Tetrao	tetrix	Black Grouse	\N
 23	Haematortyx	sanguiniceps	Crimson-headed Partridge	Species endemic to Borneo.
-23	Bambusicola	fytchii	Mountain Bamboo Partridge	
-23	Arborophila	charltonii	Chestnut-necklaced Partridge	
-23	Tetrastes	sewerzowi	Severtzov's Grouse	
-23	Tetrastes	bonasia	Hazel Grouse	
-23	Arborophila	ardens	Hainan Partridge	
-23	Polyplectron	malacense	Malayan Peacock Pheasant	
-23	Tetrao	urogallus	Western Capercaillie	
+23	Bambusicola	fytchii	Mountain Bamboo Partridge	\N
+23	Arborophila	charltonii	Chestnut-necklaced Partridge	\N
+23	Tetrastes	sewerzowi	Severtzov's Grouse	\N
+23	Tetrastes	bonasia	Hazel Grouse	\N
+23	Arborophila	ardens	Hainan Partridge	\N
+23	Polyplectron	malacense	Malayan Peacock Pheasant	\N
+23	Tetrao	urogallus	Western Capercaillie	\N
 23	Ophrysia	superciliosa	Himalayan Quail	Species endemic to Uttaranchal, northern India. Possibly extinct. No substantiated records since the 19th century.
-23	Lophura	erythrophthalma	Crestless Fireback	
+23	Lophura	erythrophthalma	Crestless Fireback	\N
 23	Syrmaticus	reevesii	Reeves's Pheasant	Species endemic to central and eastern China.
-23	Syrmaticus	soemmeringii	Copper Pheasant	
+23	Syrmaticus	soemmeringii	Copper Pheasant	\N
 23	Lophura	hatinhensis	Vietnamese Pheasant	Sometimes regarded as a subspecies of Edwards's Pheasant <i>Lophura edwardsi</i>.
-23	Lophura	swinhoii	Swinhoe's Pheasant	
-23	Lophura	hoogerwerfi	Hoogerwerf's Pheasant	
-23	Syrmaticus	mikado	Mikado Pheasant	
-23	Arborophila	rufipectus	Sichuan Partridge	
-23	Arborophila	javanica	Chestnut-bellied Partridge	
+23	Lophura	swinhoii	Swinhoe's Pheasant	\N
+23	Lophura	hoogerwerfi	Hoogerwerf's Pheasant	\N
+23	Syrmaticus	mikado	Mikado Pheasant	\N
+23	Arborophila	rufipectus	Sichuan Partridge	\N
+23	Arborophila	javanica	Chestnut-bellied Partridge	\N
 23	Polyplectron	napoleonis	Palawan Peacock Pheasant	Species endemic to Palawan in the Philippines.\n\n<p>Previously known as Polyplectron emphanum but that name was misdated and does not have priority (Dickinson, 2001).
-23	Lophura	inornata	Salvadori's Pheasant	
-23	Chrysolophus	amherstiae	Lady Amherst's Pheasant	
-23	Lophura	ignita	Crested Fireback	
-23	Lophura	diardi	Siamese Fireback	
+23	Lophura	inornata	Salvadori's Pheasant	\N
+23	Chrysolophus	amherstiae	Lady Amherst's Pheasant	\N
+23	Lophura	ignita	Crested Fireback	\N
+23	Lophura	diardi	Siamese Fireback	\N
 23	Lophura	bulweri	Bulwer's Pheasant	Species endemic to Borneo.
-23	Crossoptilon	harmani	Tibetan Eared Pheasant	
-23	Crossoptilon	crossoptilon	White Eared Pheasant	
-23	Crossoptilon	mantchuricum	Brown Eared Pheasant	
-23	Crossoptilon	auritum	Blue Eared Pheasant	
+23	Crossoptilon	harmani	Tibetan Eared Pheasant	\N
+23	Crossoptilon	crossoptilon	White Eared Pheasant	\N
+23	Crossoptilon	mantchuricum	Brown Eared Pheasant	\N
+23	Crossoptilon	auritum	Blue Eared Pheasant	\N
 23	Catreus	wallichii	Cheer Pheasant	Species endemic to the Indian Subcontinent (India & Nepal, formerly Pakistan).
-23	Syrmaticus	humiae	Mrs Hume's Pheasant	
-23	Argusianus	argus	Great Argus	
+23	Syrmaticus	humiae	Mrs Hume's Pheasant	\N
+23	Argusianus	argus	Great Argus	\N
 23	Gallus	lafayetii	Sri Lanka Junglefowl	Species endemic to Sri Lanka.\n\n
-23	Gallus	varius	Green Junglefowl	
-23	Lophura	leucomelanos	Kalij Pheasant	
-23	Lophura	nycthemera	Silver Pheasant	
+23	Gallus	varius	Green Junglefowl	\N
+23	Lophura	leucomelanos	Kalij Pheasant	\N
+23	Lophura	nycthemera	Silver Pheasant	\N
 23	Lophura	x imperialis	Imperial Pheasant	Originally known only from a pair taken alive to Europe by Jean Théodore Delacour in 1923, from which a captive line was bred. This "species" was rediscovered in 1990, when an immature male was trapped by a rattan collector. Another immature male was caught in February 2000.\n\n\n\n<br>This rare bird has now been shown to not be a full species, but rather an occasional naturally-occurring hybrid between Silver Pheasant <i>L.&#8201;nycthemera</i> and Edwards's Pheasant <i>L.&#8201;edwardsi</i>, with the 1990 bird probably being a hybrid between <i>L.&#8201;nycthemera</i> and Vietnamese Pheasant <i>L. (e.)&#8201;hatinhensis</i>.\n\n<br>Ref:\n\n<br>ALAIN HENNACHE, PAMELA RASMUSSEN, VITTORIO LUCCHINI, SILVIA RIMONDI and ETTORE RANDI. (2003) Hybrid origin of the Imperial Pheasant <i>Lophura imperialis</i> (Delacour and Jabouille, 1924) demonstrated by morphology, hybrid experiments, and DNA analyses. <i>Biological Journal of the Linnean Society</i> 80:4, 573600
-23	Lophura	edwardsi	Edwards's Pheasant	
-23	Lagopus	lagopus	Willow Ptarmigan	
-23	Dendragapus	falcipennis	Siberian Grouse	
-23	Phasianus	colchicus	Common Pheasant	
+23	Lophura	edwardsi	Edwards's Pheasant	\N
+23	Lagopus	lagopus	Willow Ptarmigan	\N
+23	Dendragapus	falcipennis	Siberian Grouse	\N
+23	Phasianus	colchicus	Common Pheasant	\N
 23	Pavo	cristatus	Indian Peafowl	Species endemic to the Indian Subcontinent.
-23	Chrysolophus	pictus	Golden Pheasant	
-23	Rheinardia	ocellata	Crested Argus	
+23	Chrysolophus	pictus	Golden Pheasant	\N
+23	Rheinardia	ocellata	Crested Argus	\N
 23	Polyplectron	schleiermacheri	Bornean Peacock Pheasant	Species endemic to Borneo.
-23	Syrmaticus	ellioti	Elliot's Pheasant	
+23	Syrmaticus	ellioti	Elliot's Pheasant	\N
 23	Polyplectron	katsumatae	Hainan Peacock Pheasant	Formerly considered a subspecies of Grey Peacock Pheasant <i>Polyplectron bicalcaratum</i>.
-23	Polyplectron	bicalcaratum	Grey Peacock Pheasant	
+23	Polyplectron	bicalcaratum	Grey Peacock Pheasant	\N
 23	Polyplectron	germaini	Germain's Peacock Pheasant	Species endemic to S Vietnam.
 23	Polyplectron	inopinatum	Mountain Peacock Pheasant	Species endemic to the central Malay Peninsula.
 23	Polyplectron	chalcurum	Bronze-tailed Peacock Pheasant	Species endemic to Sumatra.
 23	Gallus	sonneratii	Grey Junglefowl	Species endemic to India.
-23	Pavo	muticus	Green Peafowl	
+23	Pavo	muticus	Green Peafowl	\N
 23	Francolinus	pictus	Painted Francolin	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-23	Lerwa	lerwa	Snow Partridge	
-23	Ammoperdix	griseogularis	See-see Partridge	
-23	Arborophila	brunneopectus	Bar-backed Partridge	
-23	Arborophila	gingica	White-necklaced Partridge	
-23	Perdix	perdix	Grey Partridge	
+23	Lerwa	lerwa	Snow Partridge	\N
+23	Ammoperdix	griseogularis	See-see Partridge	\N
+23	Arborophila	brunneopectus	Bar-backed Partridge	\N
+23	Arborophila	gingica	White-necklaced Partridge	\N
+23	Perdix	perdix	Grey Partridge	\N
 23	Francolinus	gularis	Swamp Francolin	Species endemic to the Indian Subcontinent (Bangladesh, Bhutan, India & Nepal).
-23	Perdix	dauurica	Daurian Partridge	
-23	Francolinus	pintadeanus	Chinese Francolin	
-23	Tetraogallus	tibetanus	Tibetan Snowcock	
-23	Francolinus	francolinus	Black Francolin	
-23	Alectoris	magna	Przevalski's Partridge	
-23	Alectoris	chukar	Chukar	
-23	Tetraophasis	szechenyii	Széchenyi's Monal Partridge	
-23	Tetraophasis	obscurus	Verreaux's Monal Partridge	
-23	Tetraogallus	himalayensis	Himalayan Snowcock	
-23	Tetraogallus	altaicus	Altai Snowcock	
-23	Francolinus	pondicerianus	Grey Francolin	
-23	Coturnix	coromandelica	Rain Quail	
+23	Perdix	dauurica	Daurian Partridge	\N
+23	Francolinus	pintadeanus	Chinese Francolin	\N
+23	Tetraogallus	tibetanus	Tibetan Snowcock	\N
+23	Francolinus	francolinus	Black Francolin	\N
+23	Alectoris	magna	Przevalski's Partridge	\N
+23	Alectoris	chukar	Chukar	\N
+23	Tetraophasis	szechenyii	Széchenyi's Monal Partridge	\N
+23	Tetraophasis	obscurus	Verreaux's Monal Partridge	\N
+23	Tetraogallus	himalayensis	Himalayan Snowcock	\N
+23	Tetraogallus	altaicus	Altai Snowcock	\N
+23	Francolinus	pondicerianus	Grey Francolin	\N
+23	Coturnix	coromandelica	Rain Quail	\N
 23	Perdicula	asiatica	Jungle Bush Quail	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-23	Coturnix	chinensis	King Quail	
-23	Coturnix	ypsilophora	Brown Quail	
+23	Coturnix	chinensis	King Quail	\N
+23	Coturnix	ypsilophora	Brown Quail	\N
 23	Perdicula	erythrorhyncha	Painted Bush Quail	Species endemic to India.
 23	Perdicula	manipurensis	Manipur Bush Quail	Species endemic to the Indian Subcontinent (Bangladesh & NE India).
-23	Perdix	hodgsoniae	Tibetan Partridge	
-23	Arborophila	torqueola	Hill Partridge	
+23	Perdix	hodgsoniae	Tibetan Partridge	\N
+23	Arborophila	torqueola	Hill Partridge	\N
 23	Perdicula	argoondah	Rock Bush Quail	Species endemic to India.
-23	Arborophila	atrogularis	White-cheeked Partridge	
-23	Arborophila	crudigularis	Taiwan Partridge	
-23	Arborophila	mandellii	Chestnut-breasted Partridge	
-23	Coturnix	japonica	Japanese Quail	
-23	Coturnix	coturnix	Common Quail	
-23	Melanoperdix	niger	Black Partridge	
-23	Rhizothera	longirostris	Long-billed Partridge	
-23	Arborophila	rufogularis	Rufous-throated Partridge	
-29	Cairina	scutulata	White-winged Duck	
-29	Anser	erythropus	Lesser White-fronted Goose	
-29	Nettapus	pulchellus	Green Pygmy-goose	
-29	Nettapus	coromandelianus	Cotton Pygmy-goose	
-29	Anser	cygnoides	Swan Goose	
-29	Anser	albifrons	Greater White-fronted Goose	
-29	Anser	anser	Greylag Goose	
-29	Anser	indicus	Bar-headed Goose	
-29	Anser	caerulescens	Snow Goose	
-29	Anser	rossii	Ross's Goose	
-29	Anser	canagicus	Emperor Goose	
-29	Branta	bernicla	Brent Goose	
-29	Branta	ruficollis	Red-breasted Goose	
-29	Tadorna	ferruginea	Ruddy Shelduck	
-29	Tadorna	cristata	Crested Shelduck	
-29	Tadorna	tadorna	Common Shelduck	
-29	Tadorna	radjah	Raja Shelduck	
-29	Branta	canadensis	Canada Goose	
-29	Anser	fabalis	Bean Goose	
-29	Sarkidiornis	melanotos	Comb Duck	
-27	Cygnus	cygnus	Whooper Swan	
-27	Cygnus	columbianus	Tundra Swan	
-27	Cygnus	olor	Mute Swan	
-26	Oxyura	leucocephala	White-headed Duck	
-24	Dendrocygna	bicolor	Fulvous Whistling-duck	
-24	Dendrocygna	javanica	Lesser Whistling-duck	
-24	Dendrocygna	arcuata	Wandering Whistling-duck	
-24	Dendrocygna	guttata	Spotted Whistling-duck	
-30	Anas	luzonica	Philippine Duck	
-30	Anas	formosa	Baikal Teal	
-30	Anas	querquedula	Garganey	
-30	Anas	acuta	Northern Pintail	
-30	Anas	gracilis	Grey Teal	
+23	Arborophila	atrogularis	White-cheeked Partridge	\N
+23	Arborophila	crudigularis	Taiwan Partridge	\N
+23	Arborophila	mandellii	Chestnut-breasted Partridge	\N
+23	Coturnix	japonica	Japanese Quail	\N
+23	Coturnix	coturnix	Common Quail	\N
+23	Melanoperdix	niger	Black Partridge	\N
+23	Rhizothera	longirostris	Long-billed Partridge	\N
+23	Arborophila	rufogularis	Rufous-throated Partridge	\N
+29	Cairina	scutulata	White-winged Duck	\N
+29	Anser	erythropus	Lesser White-fronted Goose	\N
+29	Nettapus	pulchellus	Green Pygmy-goose	\N
+29	Nettapus	coromandelianus	Cotton Pygmy-goose	\N
+29	Anser	cygnoides	Swan Goose	\N
+29	Anser	albifrons	Greater White-fronted Goose	\N
+29	Anser	anser	Greylag Goose	\N
+29	Anser	indicus	Bar-headed Goose	\N
+29	Anser	caerulescens	Snow Goose	\N
+29	Anser	rossii	Ross's Goose	\N
+29	Anser	canagicus	Emperor Goose	\N
+29	Branta	bernicla	Brent Goose	\N
+29	Branta	ruficollis	Red-breasted Goose	\N
+29	Tadorna	ferruginea	Ruddy Shelduck	\N
+29	Tadorna	cristata	Crested Shelduck	\N
+29	Tadorna	tadorna	Common Shelduck	\N
+29	Tadorna	radjah	Raja Shelduck	\N
+29	Branta	canadensis	Canada Goose	\N
+29	Anser	fabalis	Bean Goose	\N
+29	Sarkidiornis	melanotos	Comb Duck	\N
+27	Cygnus	cygnus	Whooper Swan	\N
+27	Cygnus	columbianus	Tundra Swan	\N
+27	Cygnus	olor	Mute Swan	\N
+26	Oxyura	leucocephala	White-headed Duck	\N
+24	Dendrocygna	bicolor	Fulvous Whistling-duck	\N
+24	Dendrocygna	javanica	Lesser Whistling-duck	\N
+24	Dendrocygna	arcuata	Wandering Whistling-duck	\N
+24	Dendrocygna	guttata	Spotted Whistling-duck	\N
+30	Anas	luzonica	Philippine Duck	\N
+30	Anas	formosa	Baikal Teal	\N
+30	Anas	querquedula	Garganey	\N
+30	Anas	acuta	Northern Pintail	\N
+30	Anas	gracilis	Grey Teal	\N
 30	Anas	gibberifrons	Sunda Teal	Andaman Teal <i>(Anas gibberifrons albogularis)</i> is treated as a full species <i> Anas albogularis</i> by some authors
-30	Anas	superciliosa	Pacific Black Duck	
-30	Anas	crecca	Common Teal	
-30	Aythya	baeri	Baer's Pochard	
-30	Anas	poecilorhyncha	Spot-billed Duck	
-30	Anas	clypeata	Northern Shoveller	
-30	Marmaronetta	angustirostris	Marbled Duck	
-30	Rhodonessa	caryophyllacea	Pink-headed Duck	
-30	Netta	rufina	Red-crested Pochard	
-30	Aythya	ferina	Common Pochard	
-30	Aythya	valisineria	Canvasback	
-30	Aythya	americana	Redhead	
-30	Anas	platyrhynchos	Mallard	
-30	Aythya	nyroca	Ferruginous Duck	
-30	Mergus	serrator	Red-breasted Merganser	
-30	Aythya	australis	Hardhead	
-30	Aythya	fuligula	Tufted Duck	
-30	Aythya	marila	Greater Scaup	
-30	Aythya	collaris	Ring-necked Duck	
-30	Bucephala	clangula	Common Goldeneye	
-30	Mergus	merganser	Common Merganser	
-30	Somateria	mollissima	Common Eider	
-30	Somateria	spectabilis	King Eider	
-30	Somateria	fischeri	Spectacled Eider	
-30	Polysticta	stelleri	Steller's Eider	
-30	Histrionicus	histrionicus	Harlequin Duck	
-30	Clangula	hyemalis	Long-tailed Duck	
+30	Anas	superciliosa	Pacific Black Duck	\N
+30	Anas	crecca	Common Teal	\N
+30	Aythya	baeri	Baer's Pochard	\N
+30	Anas	poecilorhyncha	Spot-billed Duck	\N
+30	Anas	clypeata	Northern Shoveller	\N
+30	Marmaronetta	angustirostris	Marbled Duck	\N
+30	Rhodonessa	caryophyllacea	Pink-headed Duck	\N
+30	Netta	rufina	Red-crested Pochard	\N
+30	Aythya	ferina	Common Pochard	\N
+30	Aythya	valisineria	Canvasback	\N
+30	Aythya	americana	Redhead	\N
+30	Anas	platyrhynchos	Mallard	\N
+30	Aythya	nyroca	Ferruginous Duck	\N
+30	Mergus	serrator	Red-breasted Merganser	\N
+30	Aythya	australis	Hardhead	\N
+30	Aythya	fuligula	Tufted Duck	\N
+30	Aythya	marila	Greater Scaup	\N
+30	Aythya	collaris	Ring-necked Duck	\N
+30	Bucephala	clangula	Common Goldeneye	\N
+30	Mergus	merganser	Common Merganser	\N
+30	Somateria	mollissima	Common Eider	\N
+30	Somateria	spectabilis	King Eider	\N
+30	Somateria	fischeri	Spectacled Eider	\N
+30	Polysticta	stelleri	Steller's Eider	\N
+30	Histrionicus	histrionicus	Harlequin Duck	\N
+30	Clangula	hyemalis	Long-tailed Duck	\N
 30	Melanitta	nigra	Common Scoter	Monotypic. Breeds as far east as River Khatanga in Russia (approx. longitude 102° East). Ref.: Martin Collinson, David T. Parkin, Alan G. Knox, George Sangster and Andreas J. Helbig. Species limits within the genus Melanitta, the scoters. British Birds Vol. 99: 183-201.
 30	Melanitta	fusca	Velvet Scoter	Monotypic. Breeds from Northern Europe as far east at least as the River Yenisey, possibly as far as the River Khatanga in Russia (Approx. 102° East). Partly sympatric with Melanitta nigra. Ref.: Martin Collinson, David T. Parkin, Alan G. Knox, George Sangster and Andreas J. Helbig. Species limits within the genus Melanitta, the\n\nscoters. British Birds Vol. 99: 183-201.\n\n
-30	Anas	rubripes	American Black Duck	
-30	Bucephala	islandica	Barrow's Goldeneye	
-30	Bucephala	albeola	Bufflehead	
-30	Mergellus	albellus	Smew	
-30	Mergus	squamatus	Scaly-sided Merganser	
-30	Aythya	affinis	Lesser Scaup	
-30	Aix	galericulata	Mandarin Duck	
-30	Anas	strepera	Gadwall	
-30	Anas	falcata	Falcated Duck	
-30	Anas	penelope	Eurasian Wigeon	
-30	Anas	americana	American Wigeon	
+30	Anas	rubripes	American Black Duck	\N
+30	Bucephala	islandica	Barrow's Goldeneye	\N
+30	Bucephala	albeola	Bufflehead	\N
+30	Mergellus	albellus	Smew	\N
+30	Mergus	squamatus	Scaly-sided Merganser	\N
+30	Aythya	affinis	Lesser Scaup	\N
+30	Aix	galericulata	Mandarin Duck	\N
+30	Anas	strepera	Gadwall	\N
+30	Anas	falcata	Falcated Duck	\N
+30	Anas	penelope	Eurasian Wigeon	\N
+30	Anas	americana	American Wigeon	\N
 30	Melanitta	perspicillata	Surf Scoter	Monotypic. Non-breeding birds occur in far northeastern Russia. Ref.: Martin Collinson, David T. Parkin, Alan G. Knox, George Sangster and Andreas J. Helbig. Species limits within the genus Melanitta, the\n\nscoters. British Birds Vol. 99: 183-201.\n\n
-31	Turnix	everetti	Sumba Buttonquail	
-31	Turnix	sylvaticus	Small Buttonquail	
-31	Turnix	maculosus	Red-backed Buttonquail	
-31	Turnix	tanki	Yellow-legged Buttonquail	
-31	Turnix	ocellatus	Spotted Buttonquail	
-31	Turnix	worcesteri	Worcester's Buttonquail	
-31	Turnix	suscitator	Barred Buttonquail	
-33	Dendrocopos	leucotos	White-backed Woodpecker	
-33	Dendrocopos	hyperythrus	Rufous-bellied Woodpecker	
+31	Turnix	everetti	Sumba Buttonquail	\N
+31	Turnix	sylvaticus	Small Buttonquail	\N
+31	Turnix	maculosus	Red-backed Buttonquail	\N
+31	Turnix	tanki	Yellow-legged Buttonquail	\N
+31	Turnix	ocellatus	Spotted Buttonquail	\N
+31	Turnix	worcesteri	Worcester's Buttonquail	\N
+31	Turnix	suscitator	Barred Buttonquail	\N
+33	Dendrocopos	leucotos	White-backed Woodpecker	\N
+33	Dendrocopos	hyperythrus	Rufous-bellied Woodpecker	\N
 33	Dryocopus	hodgei	Andaman Woodpecker	Species endemic to the Andaman Islands, India.
-33	Dendrocopos	darjellensis	Darjeeling Woodpecker	
-33	Dendrocopos	major	Great Spotted Woodpecker	
-33	Dendrocopos	leucopterus	White-winged Woodpecker	
-33	Dendrocopos	assimilis	Sind Woodpecker	
-33	Dendrocopos	himalayensis	Himalayan Woodpecker	
-33	Celeus	brachyurus	Rufous Woodpecker	
-33	Dendrocopos	mahrattensis	Yellow-crowned Woodpecker	
-33	Dendrocopos	moluccensis	Sunda Pygmy Woodpecker	
-33	Dendrocopos	cathpharius	Crimson-breasted Woodpecker	
-33	Dendrocopos	atratus	Stripe-breasted Woodpecker	
-33	Dendrocopos	macei	Fulvous-breasted Woodpecker	
-33	Dendrocopos	auriceps	Brown-fronted Woodpecker	
-33	Dendrocopos	minor	Lesser Spotted Woodpecker	
-33	Dryocopus	martius	Black Woodpecker	
-33	Dendrocopos	canicapillus	Grey-capped Pygmy Woodpecker	
-33	Dryocopus	javensis	White-bellied Woodpecker	
-33	Dendrocopos	nanus	Brown-capped Pygmy Woodpecker	
-33	Dendrocopos	maculatus	Philippine Pygmy Woodpecker	
-33	Dendrocopos	temminckii	Sulawesi Pygmy Woodpecker	
-33	Sasia	ochracea	White-browed Piculet	
-33	Sasia	abnormis	Rufous Piculet	
-33	Picumnus	innominatus	Speckled Piculet	
-33	Jynx	torquilla	Eurasian Wryneck	
-33	Dendrocopos	kizuki	Japanese Pygmy Woodpecker	
-33	Chrysocolaptes	lucidus	Greater Flameback	
-33	Picus	vittatus	Laced Woodpecker	
-33	Meiglyptes	jugularis	Black-and-buff Woodpecker	
-33	Meiglyptes	tristis	Buff-rumped Woodpecker	
-33	Reinwardtipicus	validus	Orange-backed Woodpecker	
-33	Blythipicus	pyrrhotis	Bay Woodpecker	
-33	Blythipicus	rubiginosus	Maroon Woodpecker	
-33	Sapheopipo	noguchii	Okinawa Woodpecker	
-33	Gecinulus	viridis	Bamboo Woodpecker	
-33	Hemicircus	concretus	Grey-and-buff Woodpecker	
-33	Chrysocolaptes	festivus	White-naped Woodpecker	
-33	Hemicircus	canente	Heart-spotted Woodpecker	
-33	Dinopium	benghalense	Black-rumped Flameback	
-33	Dinopium	javanense	Common Flameback	
-33	Picus	miniaceus	Banded Woodpecker	
-33	Picus	chlorolophus	Lesser Yellownape	
-33	Picus	puniceus	Crimson-winged Woodpecker	
-33	Picus	flavinucha	Greater Yellownape	
-33	Picus	mentalis	Checker-throated Woodpecker	
-33	Picus	viridanus	Streak-breasted Woodpecker	
-33	Gecinulus	grantia	Pale-headed Woodpecker	
-33	Mulleripicus	fulvus	Ashy Woodpecker	
-33	Mulleripicus	funebris	Sooty Woodpecker	
-33	Picus	xanthopygaeus	Streak-throated Woodpecker	
-33	Picus	squamatus	Scaly-bellied Woodpecker	
-33	Picus	awokera	Japanese Green Woodpecker	
-33	Picus	rabieri	Red-collared Woodpecker	
-33	Dinopium	shorii	Himalayan Flameback	
-33	Dinopium	rafflesii	Olive-backed Woodpecker	
-33	Picus	canus	Grey-headed Woodpecker	
-33	Picus	erythropygius	Black-headed Woodpecker	
-33	Meiglyptes	tukki	Buff-necked Woodpecker	
-33	Picoides	tridactylus	Three-toed Woodpecker	
-33	Mulleripicus	pulverulentus	Great Slaty Woodpecker	
-32	Indicator	xanthonotus	Yellow-rumped Honeyguide	
-32	Indicator	archipelagicus	Malaysian Honeyguide	
+33	Dendrocopos	darjellensis	Darjeeling Woodpecker	\N
+33	Dendrocopos	major	Great Spotted Woodpecker	\N
+33	Dendrocopos	leucopterus	White-winged Woodpecker	\N
+33	Dendrocopos	assimilis	Sind Woodpecker	\N
+33	Dendrocopos	himalayensis	Himalayan Woodpecker	\N
+33	Celeus	brachyurus	Rufous Woodpecker	\N
+33	Dendrocopos	mahrattensis	Yellow-crowned Woodpecker	\N
+33	Dendrocopos	moluccensis	Sunda Pygmy Woodpecker	\N
+33	Dendrocopos	cathpharius	Crimson-breasted Woodpecker	\N
+33	Dendrocopos	atratus	Stripe-breasted Woodpecker	\N
+33	Dendrocopos	macei	Fulvous-breasted Woodpecker	\N
+33	Dendrocopos	auriceps	Brown-fronted Woodpecker	\N
+33	Dendrocopos	minor	Lesser Spotted Woodpecker	\N
+33	Dryocopus	martius	Black Woodpecker	\N
+33	Dendrocopos	canicapillus	Grey-capped Pygmy Woodpecker	\N
+33	Dryocopus	javensis	White-bellied Woodpecker	\N
+33	Dendrocopos	nanus	Brown-capped Pygmy Woodpecker	\N
+33	Dendrocopos	maculatus	Philippine Pygmy Woodpecker	\N
+33	Dendrocopos	temminckii	Sulawesi Pygmy Woodpecker	\N
+33	Sasia	ochracea	White-browed Piculet	\N
+33	Sasia	abnormis	Rufous Piculet	\N
+33	Picumnus	innominatus	Speckled Piculet	\N
+33	Jynx	torquilla	Eurasian Wryneck	\N
+33	Dendrocopos	kizuki	Japanese Pygmy Woodpecker	\N
+33	Chrysocolaptes	lucidus	Greater Flameback	\N
+33	Picus	vittatus	Laced Woodpecker	\N
+33	Meiglyptes	jugularis	Black-and-buff Woodpecker	\N
+33	Meiglyptes	tristis	Buff-rumped Woodpecker	\N
+33	Reinwardtipicus	validus	Orange-backed Woodpecker	\N
+33	Blythipicus	pyrrhotis	Bay Woodpecker	\N
+33	Blythipicus	rubiginosus	Maroon Woodpecker	\N
+33	Sapheopipo	noguchii	Okinawa Woodpecker	\N
+33	Gecinulus	viridis	Bamboo Woodpecker	\N
+33	Hemicircus	concretus	Grey-and-buff Woodpecker	\N
+33	Chrysocolaptes	festivus	White-naped Woodpecker	\N
+33	Hemicircus	canente	Heart-spotted Woodpecker	\N
+33	Dinopium	benghalense	Black-rumped Flameback	\N
+33	Dinopium	javanense	Common Flameback	\N
+33	Picus	miniaceus	Banded Woodpecker	\N
+33	Picus	chlorolophus	Lesser Yellownape	\N
+33	Picus	puniceus	Crimson-winged Woodpecker	\N
+33	Picus	flavinucha	Greater Yellownape	\N
+33	Picus	mentalis	Checker-throated Woodpecker	\N
+33	Picus	viridanus	Streak-breasted Woodpecker	\N
+33	Gecinulus	grantia	Pale-headed Woodpecker	\N
+33	Mulleripicus	fulvus	Ashy Woodpecker	\N
+33	Mulleripicus	funebris	Sooty Woodpecker	\N
+33	Picus	xanthopygaeus	Streak-throated Woodpecker	\N
+33	Picus	squamatus	Scaly-bellied Woodpecker	\N
+33	Picus	awokera	Japanese Green Woodpecker	\N
+33	Picus	rabieri	Red-collared Woodpecker	\N
+33	Dinopium	shorii	Himalayan Flameback	\N
+33	Dinopium	rafflesii	Olive-backed Woodpecker	\N
+33	Picus	canus	Grey-headed Woodpecker	\N
+33	Picus	erythropygius	Black-headed Woodpecker	\N
+33	Meiglyptes	tukki	Buff-necked Woodpecker	\N
+33	Picoides	tridactylus	Three-toed Woodpecker	\N
+33	Mulleripicus	pulverulentus	Great Slaty Woodpecker	\N
+32	Indicator	xanthonotus	Yellow-rumped Honeyguide	\N
+32	Indicator	archipelagicus	Malaysian Honeyguide	\N
 34	Megalaima	javensis	Black-banded Barbet	Species endemic to Java.
-34	Megalaima	mystacophanos	Red-throated Barbet	
-34	Megalaima	rafflesii	Red-crowned Barbet	
-34	Megalaima	chrysopogon	Gold-whiskered Barbet	
-34	Megalaima	faiostricta	Green-eared Barbet	
+34	Megalaima	mystacophanos	Red-throated Barbet	\N
+34	Megalaima	rafflesii	Red-crowned Barbet	\N
+34	Megalaima	chrysopogon	Gold-whiskered Barbet	\N
+34	Megalaima	faiostricta	Green-eared Barbet	\N
 34	Megalaima	zeylanica	Brown-headed Barbet	Species endemic to the Indian Subcontinent (India, Nepal & Sri Lanka).
-34	Megalaima	lineata	Lineated Barbet	
-34	Megalaima	incognita	Moustached Barbet	
+34	Megalaima	lineata	Lineated Barbet	\N
+34	Megalaima	incognita	Moustached Barbet	\N
 34	Megalaima	flavifrons	Yellow-fronted Barbet	Species endemic to Sri Lanka.\n\n
 34	Megalaima	monticola	Mountain Barbet	Species endemic to Borneo.
-34	Megalaima	asiatica	Blue-throated Barbet	
+34	Megalaima	asiatica	Blue-throated Barbet	\N
 34	Megalaima	corvina	Brown-throated Barbet	Species endemic to Java, Indonesia.
-34	Megalaima	franklinii	Golden-throated Barbet	
-34	Megalaima	oorti	Black-browed Barbet	
-34	Megalaima	virens	Great Barbet	
-34	Psilopogon	pyrolophus	Fire-tufted Barbet	
-34	Megalaima	armillaris	Flame-fronted Barbet	
+34	Megalaima	franklinii	Golden-throated Barbet	\N
+34	Megalaima	oorti	Black-browed Barbet	\N
+34	Megalaima	virens	Great Barbet	\N
+34	Psilopogon	pyrolophus	Fire-tufted Barbet	\N
+34	Megalaima	armillaris	Flame-fronted Barbet	\N
 34	Megalaima	pulcherrima	Golden-naped Barbet	Species endemic to north Borneo.
-34	Megalaima	lagrandieri	Red-vented Barbet	
-34	Megalaima	australis	Blue-eared Barbet	
+34	Megalaima	lagrandieri	Red-vented Barbet	\N
+34	Megalaima	australis	Blue-eared Barbet	\N
 34	Megalaima	viridis	White-cheeked Barbet	Species endemic to western peninsular India.
 34	Megalaima	eximia	Bornean Barbet	Species endemic to Borneo.
 34	Megalaima	rubricapillus	Crimson-fronted Barbet	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-34	Megalaima	haemacephala	Coppersmith Barbet	
-34	Caloramphus	fuliginosus	Brown Barbet	
-34	Megalaima	henricii	Yellow-crowned Barbet	
-35	Buceros	bicornis	Great Hornbill	
-35	Penelopides	affinis	Mindanao Hornbill	
-35	Penelopides	panini	Tarictic Hornbill	
-35	Penelopides	mindorensis	Mindoro Hornbill	
-35	Penelopides	manillae	Luzon Hornbill	
-35	Anorrhinus	galeritus	Bushy-crested Hornbill	
-35	Anorrhinus	tickelli	Brown Hornbill	
+34	Megalaima	haemacephala	Coppersmith Barbet	\N
+34	Caloramphus	fuliginosus	Brown Barbet	\N
+34	Megalaima	henricii	Yellow-crowned Barbet	\N
+35	Buceros	bicornis	Great Hornbill	\N
+35	Penelopides	affinis	Mindanao Hornbill	\N
+35	Penelopides	panini	Tarictic Hornbill	\N
+35	Penelopides	mindorensis	Mindoro Hornbill	\N
+35	Penelopides	manillae	Luzon Hornbill	\N
+35	Anorrhinus	galeritus	Bushy-crested Hornbill	\N
+35	Anorrhinus	tickelli	Brown Hornbill	\N
 35	Penelopides	exarhatus	Sulawesi Hornbill	Species endemic to Sulawesi.
-35	Buceros	hydrocorax	Rufous Hornbill	
+35	Buceros	hydrocorax	Rufous Hornbill	\N
 35	Aceros	waldeni	Walden's Hornbill	Species endemic to Guimaras, Negros and Panay in the Philippines. Formerly considered conspecific with Writhed Hornbill <i>Aceros leucocephalus</i>.
-35	Buceros	rhinoceros	Rhinoceros Hornbill	
-35	Anthracoceros	montani	Sulu Hornbill	
-35	Anthracoceros	marchei	Palawan Hornbill	
-35	Anthracoceros	malayanus	Black Hornbill	
-35	Anthracoceros	albirostris	Oriental Pied Hornbill	
+35	Buceros	rhinoceros	Rhinoceros Hornbill	\N
+35	Anthracoceros	montani	Sulu Hornbill	\N
+35	Anthracoceros	marchei	Palawan Hornbill	\N
+35	Anthracoceros	malayanus	Black Hornbill	\N
+35	Anthracoceros	albirostris	Oriental Pied Hornbill	\N
 35	Anthracoceros	coronatus	Malabar Pied Hornbill	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-35	Buceros	vigil	Helmeted Hornbill	
+35	Buceros	vigil	Helmeted Hornbill	\N
 35	Aceros	everetti	Sumba Hornbill	Species endemic to the island of Sumba, Indonesia.
-35	Aceros	corrugatus	Wrinkled Hornbill	
+35	Aceros	corrugatus	Wrinkled Hornbill	\N
 35	Aceros	leucocephalus	Writhed Hornbill	Species endemic to Camiguin Sur, Dinagat and Mindanao in the Philippines.
 35	Aceros	cassidix	Knobbed Hornbill	Species endemic to Sulawesi and neighbouring islands of Indonesia.
-35	Aceros	undulatus	Wreathed Hornbill	
+35	Aceros	undulatus	Wreathed Hornbill	\N
 35	Aceros	narcondami	Narcondam Hornbill	Species endemic to Narcondam Island in the Andaman Islands, India.
 35	Ocyceros	birostris	Indian Grey Hornbill	Species endemic to the Indian Subcontinent (India & Pakistan).
-35	Aceros	comatus	White-crowned Hornbill	
+35	Aceros	comatus	White-crowned Hornbill	\N
 35	Ocyceros	gingalensis	Sri Lanka Grey Hornbill	Species endemic to Sri Lanka.\n\n
-35	Aceros	nipalensis	Rufous-necked Hornbill	
+35	Aceros	nipalensis	Rufous-necked Hornbill	\N
 35	Ocyceros	griseus	Malabar Grey Hornbill	Species endemic to SW India.
-35	Aceros	subruficollis	Plain-pouched Hornbill	
-35	Aceros	plicatus	Papuan Hornbill	
-36	Upupa	epops	Common Hoopoe	
-37	Harpactes	oreskios	Orange-breasted Trogon	
-37	Harpactes	orrhophaeus	Cinnamon-rumped Trogon	
+35	Aceros	subruficollis	Plain-pouched Hornbill	\N
+35	Aceros	plicatus	Papuan Hornbill	\N
+36	Upupa	epops	Common Hoopoe	\N
+37	Harpactes	oreskios	Orange-breasted Trogon	\N
+37	Harpactes	orrhophaeus	Cinnamon-rumped Trogon	\N
 37	Harpactes	whiteheadi	Whitehead's Trogon	Species endemic to Borneo.
-37	Harpactes	ardens	Philippine Trogon	
-37	Harpactes	diardii	Diard's Trogon	
-37	Harpactes	wardi	Ward's Trogon	
+37	Harpactes	ardens	Philippine Trogon	\N
+37	Harpactes	diardii	Diard's Trogon	\N
+37	Harpactes	wardi	Ward's Trogon	\N
 37	Harpactes	fasciatus	Malabar Trogon	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-37	Harpactes	erythrocephalus	Red-headed Trogon	
-37	Harpactes	duvaucelii	Scarlet-rumped Trogon	
+37	Harpactes	erythrocephalus	Red-headed Trogon	\N
+37	Harpactes	duvaucelii	Scarlet-rumped Trogon	\N
 37	Harpactes	reinwardtii	Javan Trogon	Species endemic to Java.\n\n<br>Javan Trogon <i>Harpactes reinwardtii</i> and Sumatran Trogon <i>Harpactes mackloti</i> split following Collar, Nigel J. and S. Van Balen. 2002. The Blue-tailed Trogon <i>Harpactes (Apalharpactes) reinwardtii</i>: species limits and conservation status. <i>Forktail</i> 18: 121-125.
-37	Harpactes	kasumba	Red-naped Trogon	
-42	Nyctyornis	athertoni	Blue-bearded Bee-eater	
-42	Merops	viridis	Blue-throated Bee-eater	
-42	Merops	orientalis	Green Bee-eater	
-42	Meropogon	forsteni	Purple-bearded Bee-eater	
-42	Merops	philippinus	Blue-tailed Bee-eater	
-42	Merops	ornatus	Rainbow Bee-eater	
-42	Merops	apiaster	European Bee-eater	
-42	Nyctyornis	amictus	Red-bearded Bee-eater	
-42	Merops	leschenaulti	Chestnut-headed Bee-eater	
-42	Merops	persicus	Blue-cheeked Bee-eater	
-38	Eurystomus	orientalis	Dollarbird	
+37	Harpactes	kasumba	Red-naped Trogon	\N
+42	Nyctyornis	athertoni	Blue-bearded Bee-eater	\N
+42	Merops	viridis	Blue-throated Bee-eater	\N
+42	Merops	orientalis	Green Bee-eater	\N
+42	Meropogon	forsteni	Purple-bearded Bee-eater	\N
+42	Merops	philippinus	Blue-tailed Bee-eater	\N
+42	Merops	ornatus	Rainbow Bee-eater	\N
+42	Merops	apiaster	European Bee-eater	\N
+42	Nyctyornis	amictus	Red-bearded Bee-eater	\N
+42	Merops	leschenaulti	Chestnut-headed Bee-eater	\N
+42	Merops	persicus	Blue-cheeked Bee-eater	\N
+38	Eurystomus	orientalis	Dollarbird	\N
 38	Eurystomus	azureus	Purple Roller	Species endemic to the North Moluccas, Indonesia.
-38	Coracias	temminckii	Purple-winged Roller	
-38	Coracias	benghalensis	Indian Roller	
-38	Coracias	garrulus	European Roller	
-41	Megaceryle	lugubris	Crested Kingfisher	
-41	Ceryle	rudis	Pied Kingfisher	
-40	Actenoides	princeps	Scaly Kingfisher	
-40	Todiramphus	chloris	Collared Kingfisher	
-40	Todiramphus	enigma	Talaud Kingfisher	
+38	Coracias	temminckii	Purple-winged Roller	\N
+38	Coracias	benghalensis	Indian Roller	\N
+38	Coracias	garrulus	European Roller	\N
+41	Megaceryle	lugubris	Crested Kingfisher	\N
+41	Ceryle	rudis	Pied Kingfisher	\N
+40	Actenoides	princeps	Scaly Kingfisher	\N
+40	Todiramphus	chloris	Collared Kingfisher	\N
+40	Todiramphus	enigma	Talaud Kingfisher	\N
 40	Todiramphus	saurophagus	Beach Kingfisher	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-40	Todiramphus	australasia	Cinnamon-banded Kingfisher	
-40	Todiramphus	sanctus	Sacred Kingfisher	
-40	Caridonax	fulgidus	White-rumped Kingfisher	
-40	Actenoides	concretus	Rufous-collared Kingfisher	
-40	Actenoides	hombroni	Blue-capped Kingfisher	
+40	Todiramphus	australasia	Cinnamon-banded Kingfisher	\N
+40	Todiramphus	sanctus	Sacred Kingfisher	\N
+40	Caridonax	fulgidus	White-rumped Kingfisher	\N
+40	Actenoides	concretus	Rufous-collared Kingfisher	\N
+40	Actenoides	hombroni	Blue-capped Kingfisher	\N
 40	Todiramphus	funebris	Sombre Kingfisher	Species endemic to Halmahera, Indonesia.
 40	Actenoides	monachus	Green-backed Kingfisher	Species endemic to Sulawesi, Indonesia.
-40	Actenoides	lindsayi	Spotted Kingfisher	
-40	Cittura	cyanotis	Lilac Kingfisher	
-40	Tanysiptera	galatea	Common Paradise-Kingfisher	
+40	Actenoides	lindsayi	Spotted Kingfisher	\N
+40	Cittura	cyanotis	Lilac Kingfisher	\N
+40	Tanysiptera	galatea	Common Paradise-Kingfisher	\N
 40	Todiramphus	cinnamominus	Micronesian Kingfisher	Inclusion in the list of Oriental Birds is based on a single specimen from Miyako Island, Japan, from 1887. Identified as <i>Todiramphus cinnamominus miyakoensis</i>, but the bill sheath is missing and hence the colour of the bill unknown. It has been suggested that if the bill was red, the taxon should be treated as a separate species. Best treated as extinct or probably so, but there is some doubt about the provenance of the specimen and the opinion has been expressed that Miyako Island is unlikely to have been able to support a population of this bird, and that it was at best a vagrant.
-40	Lacedo	pulchella	Banded Kingfisher	
-40	Halcyon	amauroptera	Brown-winged Kingfisher	
-40	Halcyon	capensis	Stork-billed Kingfisher	
+40	Lacedo	pulchella	Banded Kingfisher	\N
+40	Halcyon	amauroptera	Brown-winged Kingfisher	\N
+40	Halcyon	capensis	Stork-billed Kingfisher	\N
 40	Halcyon	melanorhyncha	Great-billed Kingfisher	Species endemic to Sulawesi, Banggai, Sula and other nearby islands of Indonesia.
-40	Halcyon	coromanda	Ruddy Kingfisher	
-40	Halcyon	pileata	Black-capped Kingfisher	
-40	Halcyon	cyanoventris	Javan Kingfisher	
-40	Todiramphus	winchelli	Rufous-lored Kingfisher	
-40	Todiramphus	macleayii	Forest Kingfisher	
+40	Halcyon	coromanda	Ruddy Kingfisher	\N
+40	Halcyon	pileata	Black-capped Kingfisher	\N
+40	Halcyon	cyanoventris	Javan Kingfisher	\N
+40	Todiramphus	winchelli	Rufous-lored Kingfisher	\N
+40	Todiramphus	macleayii	Forest Kingfisher	\N
 40	Todiramphus	diops	Blue-and-white Kingfisher	Species endemic to the North Moluccas, Indonesia.
-40	Todiramphus	lazuli	Lazuli Kingfisher	
-40	Halcyon	smyrnensis	White-throated Kingfisher	
-39	Ceyx	lepidus	Variable Dwarf Kingfisher	
-39	Alcedo	atthis	Common Kingfisher	
-39	Alcedo	meninting	Blue-eared Kingfisher	
-39	Alcedo	azurea	Azure Kingfisher	
-39	Alcedo	euryzona	Blue-banded Kingfisher	
-39	Alcedo	cyanopectus	Indigo-banded Kingfisher	
-39	Alcedo	argentata	Silvery Kingfisher	
-39	Alcedo	pusilla	Little Kingfisher	
-39	Ceyx	erithaca	Oriental Dwarf Kingfisher	
-39	Ceyx	melanurus	Philippine Dwarf Kingfisher	
+40	Todiramphus	lazuli	Lazuli Kingfisher	\N
+40	Halcyon	smyrnensis	White-throated Kingfisher	\N
+39	Ceyx	lepidus	Variable Dwarf Kingfisher	\N
+39	Alcedo	atthis	Common Kingfisher	\N
+39	Alcedo	meninting	Blue-eared Kingfisher	\N
+39	Alcedo	azurea	Azure Kingfisher	\N
+39	Alcedo	euryzona	Blue-banded Kingfisher	\N
+39	Alcedo	cyanopectus	Indigo-banded Kingfisher	\N
+39	Alcedo	argentata	Silvery Kingfisher	\N
+39	Alcedo	pusilla	Little Kingfisher	\N
+39	Ceyx	erithaca	Oriental Dwarf Kingfisher	\N
+39	Ceyx	melanurus	Philippine Dwarf Kingfisher	\N
 39	Ceyx	fallax	Sulawesi Dwarf Kingfisher	Species endemic to Sulawesi and Sangihe, Indonesia.
-39	Alcedo	hercules	Blyth's Kingfisher	
-39	Alcedo	coerulescens	Cerulean Kingfisher	
+39	Alcedo	hercules	Blyth's Kingfisher	\N
+39	Alcedo	coerulescens	Cerulean Kingfisher	\N
 43	Eudynamys	cyanocephalus	Australian Koel	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-43	Phaenicophaeus	diardi	Black-bellied Malkoha	
-43	Phaenicophaeus	tristis	Green-billed Malkoha	
+43	Phaenicophaeus	diardi	Black-bellied Malkoha	\N
+43	Phaenicophaeus	tristis	Green-billed Malkoha	\N
 43	Phaenicophaeus	viridirostris	Blue-faced Malkoha	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-43	Phaenicophaeus	chlorophaeus	Raffles's Malkoha	
-43	Chrysococcyx	basalis	Horsfield's Bronze Cuckoo	
-43	Phaenicophaeus	javanicus	Red-billed Malkoha	
-43	Chrysococcyx	rufomerus	Green-cheeked Bronze Cuckoo	
+43	Phaenicophaeus	chlorophaeus	Raffles's Malkoha	\N
+43	Chrysococcyx	basalis	Horsfield's Bronze Cuckoo	\N
+43	Phaenicophaeus	javanicus	Red-billed Malkoha	\N
+43	Chrysococcyx	rufomerus	Green-cheeked Bronze Cuckoo	\N
 43	Phaenicophaeus	calyorhynchus	Yellow-billed Malkoha	Species endemic to Sulawesi, Togian Islands and Butung Island.
 43	Phaenicophaeus	leschenaultii	Sirkeer Malkoha	Species endemic to the Indian Subcontinent.
-43	Eudynamys	scolopaceus	Asian Koel	
-43	Chrysococcyx	lucidus	Shining Bronze Cuckoo	
-43	Chrysococcyx	maculatus	Asian Emerald Cuckoo	
-43	Chrysococcyx	xanthorhynchus	Violet Cuckoo	
+43	Eudynamys	scolopaceus	Asian Koel	\N
+43	Chrysococcyx	lucidus	Shining Bronze Cuckoo	\N
+43	Chrysococcyx	maculatus	Asian Emerald Cuckoo	\N
+43	Chrysococcyx	xanthorhynchus	Violet Cuckoo	\N
 43	Eudynamys	melanorhynchus	Black-billed Koel	Species endemic to Sulawesi and the Sula Islands.
-43	Phaenicophaeus	sumatranus	Chestnut-bellied Malkoha	
-43	Phaenicophaeus	curvirostris	Chestnut-breasted Malkoha	
-43	Surniculus	lugubris	Asian Drongo Cuckoo	
-43	Chrysococcyx	osculans	Black-eared Cuckoo	
-43	Chrysococcyx	crassirostris	Pied Bronze Cuckoo	
-43	Hierococcyx	varius	Common Hawk Cuckoo	
-43	Scythrops	novaehollandiae	Channel-billed Cuckoo	
-43	Cacomantis	variolosus	Brush Cuckoo	
-43	Cacomantis	sepulcralis	Rusty-breasted Cuckoo	
-43	Cacomantis	merulinus	Plaintive Cuckoo	
+43	Phaenicophaeus	sumatranus	Chestnut-bellied Malkoha	\N
+43	Phaenicophaeus	curvirostris	Chestnut-breasted Malkoha	\N
+43	Surniculus	lugubris	Asian Drongo Cuckoo	\N
+43	Chrysococcyx	osculans	Black-eared Cuckoo	\N
+43	Chrysococcyx	crassirostris	Pied Bronze Cuckoo	\N
+43	Hierococcyx	varius	Common Hawk Cuckoo	\N
+43	Scythrops	novaehollandiae	Channel-billed Cuckoo	\N
+43	Cacomantis	variolosus	Brush Cuckoo	\N
+43	Cacomantis	sepulcralis	Rusty-breasted Cuckoo	\N
+43	Cacomantis	merulinus	Plaintive Cuckoo	\N
 43	Cacomantis	passerinus	Grey-bellied Cuckoo	Species endemic to the Indian Subcontinent.
-43	Cacomantis	sonneratii	Banded Bay Cuckoo	
-43	Cuculus	pallidus	Pallid Cuckoo	
-43	Cuculus	poliocephalus	Lesser Cuckoo	
-43	Cuculus	saturatus	Oriental Cuckoo	
-43	Cuculus	canorus	Eurasian Cuckoo	
-43	Cuculus	micropterus	Indian Cuckoo	
-43	Hierococcyx	vagans	Moustached Hawk Cuckoo	
-43	Cacomantis	heinrichi	Moluccan Cuckoo	
-43	Clamator	jacobinus	Pied Cuckoo	
-43	Clamator	coromandus	Chestnut-winged Cuckoo	
-43	Hierococcyx	crassirostris	Sulawesi Hawk Cuckoo	
-43	Carpococcyx	renauldi	Coral-billed Ground Cuckoo	
+43	Cacomantis	sonneratii	Banded Bay Cuckoo	\N
+43	Cuculus	pallidus	Pallid Cuckoo	\N
+43	Cuculus	poliocephalus	Lesser Cuckoo	\N
+43	Cuculus	saturatus	Oriental Cuckoo	\N
+43	Cuculus	canorus	Eurasian Cuckoo	\N
+43	Cuculus	micropterus	Indian Cuckoo	\N
+43	Hierococcyx	vagans	Moustached Hawk Cuckoo	\N
+43	Cacomantis	heinrichi	Moluccan Cuckoo	\N
+43	Clamator	jacobinus	Pied Cuckoo	\N
+43	Clamator	coromandus	Chestnut-winged Cuckoo	\N
+43	Hierococcyx	crassirostris	Sulawesi Hawk Cuckoo	\N
+43	Carpococcyx	renauldi	Coral-billed Ground Cuckoo	\N
 43	Carpococcyx	viridis	Sumatran Ground Cuckoo	Monotypic species endemic to Sumatra. Previously treated as conspecific with Bornean Ground Cuckoo and known as Sunda Ground Cuckoo <i>Carpococcyx radiceus</i> but now considered a full species following Collar, N.J. and Long,  A.  (1996) Taxonomy and names of <i>Carpococcyx</i> cuckoos from the Greater Sundas. <i>Forktail</i> 11: 135-150.
 43	Hierococcyx	fugax	Malaysian Hawk Cuckoo	Hodgson''s Hawk-Cuckoo <i>Cuculus (Hierococcyx) fugax</i> is split into four species:\n\nHodgson''s Hawk-Cuckoo <i>Cuculus nisicolor</i>, Northern Hawk-Cuckoo <i>Cuculus hyperythrus</i>, Philippine Hawk-Cuckoo <i>Cuculus pectoralis</i> and Malaysian Hawk-Cuckoo <i>Cuculus fugax</i>.  \n\nKing, Ben F. 2002. The <i>Hierococcyx fugax</i>, Hodgson''s Hawk Cuckoo, complex. <i>Bull. B. O. C.</i> 122 (1): 74-80.
-43	Chrysococcyx	minutillus	Little Bronze Cuckoo	
-43	Hierococcyx	sparverioides	Large Hawk Cuckoo	
+43	Chrysococcyx	minutillus	Little Bronze Cuckoo	\N
+43	Hierococcyx	sparverioides	Large Hawk Cuckoo	\N
 43	Carpococcyx	radiceus	Bornean Ground Cuckoo	Species endemic to Borneo. Previously treated as conspecific with Sumatran Ground Cuckoo <i>Carpococcyx (r.) viridis</i> under the name Sunda Ground Cuckoo but now considered a separate monotypic species following Collar, N.J. and Long,  A.  (1996) Taxonomy and names of <i>Carpococcyx</i> cuckoos from the Greater Sundas. <i>Forktail</i> 11: 135-150.
-43	Phaenicophaeus	cumingi	Scale-feathered Malkoha	
-43	Phaenicophaeus	superciliosus	Rough-crested Malkoha	
+43	Phaenicophaeus	cumingi	Scale-feathered Malkoha	\N
+43	Phaenicophaeus	superciliosus	Rough-crested Malkoha	\N
 43	Phaenicophaeus	pyrrhocephalus	Red-faced Malkoha	Species endemic to Sri Lanka.\n\n
-43	Chrysococcyx	russatus	Gould's Bronze Cuckoo	
-44	Centropus	sinensis	Greater Coucal	
+43	Chrysococcyx	russatus	Gould's Bronze Cuckoo	\N
+44	Centropus	sinensis	Greater Coucal	\N
 44	Centropus	phasianinus	Pheasant Coucal	This species is represented in the Oriental Region by the subspecies <i>mui</i> which was described on the basis of one specimen from the island of Timor in Indonesia by Mason et al. (1984). <br>However, it has been suggested, e.g. by Payne (2005) that another Oriental taxon, the Kai Coucal <i>Centropus spilopterus</i>, should best be treated as a subspecies of <i>C. phasianinus</i>.<br>Refs:\n\n<br>Mason, I.J., McKean, J.L. and Dudzinski, M.L. (1984) \n\nGeographical variation in the Pheasant Coucal <i>Centropus phasianinus</i> (Latham) and a description of a new subspecies from Timor. <i>Emu</i> 84: 1-15.\n\n<br>Payne, R.B. <i>The Cuckoos</i> (2005) Oxford University Press.
-44	Centropus	spilopterus	Kai Coucal	
-44	Centropus	rectunguis	Short-toed Coucal	
+44	Centropus	spilopterus	Kai Coucal	\N
+44	Centropus	rectunguis	Short-toed Coucal	\N
 44	Centropus	steerii	Black-hooded Coucal	Species endemic to Mindoro, the Philippines.
 44	Centropus	goliath	Goliath Coucal	Species endemic to the North Moluccas, Indonesia.
 44	Centropus	andamanensis	Andaman Coucal	Species endemic to the Andaman and Coco Islands.
-44	Centropus	nigrorufus	Javan Coucal	
-44	Centropus	viridis	Philippine Coucal	
-44	Centropus	bengalensis	Lesser Coucal	
+44	Centropus	nigrorufus	Javan Coucal	\N
+44	Centropus	viridis	Philippine Coucal	\N
+44	Centropus	bengalensis	Lesser Coucal	\N
 44	Centropus	unirufus	Rufous Coucal	Species endemic to Catanduanes, Luzon and Polillo in the Philippines.
 44	Centropus	chlororhynchos	Green-billed Coucal	Species endemic to Sri Lanka.\n\n
 44	Centropus	melanops	Black-faced Coucal	Species endemic to the Philippines.
 44	Centropus	celebensis	Bay Coucal	Species endemic to Sulawesi and nearby islands.
-45	Psitteuteles	iris	Iris Lorikeet	
-45	Trichoglossus	johnstoniae	Mindanao Lorikeet	
+45	Psitteuteles	iris	Iris Lorikeet	\N
+45	Trichoglossus	johnstoniae	Mindanao Lorikeet	\N
 45	Trichoglossus	flavoviridis	Citrine Lorikeet	Species endemic to Sulawesi and the Sula Islands, Indonesia.
-45	Trichoglossus	euteles	Olive-headed Lorikeet	
-45	Trichoglossus	haematodus	Rainbow Lorikeet	
-45	Eos	reticulata	Blue-streaked Lory	
-45	Charmosyna	placentis	Red-flanked Lorikeet	
-45	Eos	squamata	Violet-necked Lory	
-45	Eos	histrio	Red-and-blue Lory	
-45	Alisterus	amboinensis	Moluccan King Parrot	
+45	Trichoglossus	euteles	Olive-headed Lorikeet	\N
+45	Trichoglossus	haematodus	Rainbow Lorikeet	\N
+45	Eos	reticulata	Blue-streaked Lory	\N
+45	Charmosyna	placentis	Red-flanked Lorikeet	\N
+45	Eos	squamata	Violet-necked Lory	\N
+45	Eos	histrio	Red-and-blue Lory	\N
+45	Alisterus	amboinensis	Moluccan King Parrot	\N
 45	Trichoglossus	ornatus	Ornate Lorikeet	Species endemic to Sulawesi and nearby islands, Indonesia.
 45	Lorius	garrulus	Chattering Lory	Species endemic to the north Moluccas of Indonesia.
-45	Aprosmictus	jonquillaceus	Olive-shouldered Parrot	
-45	Charmosyna	toxopei	Blue-fronted Lorikeet	
+45	Aprosmictus	jonquillaceus	Olive-shouldered Parrot	\N
+45	Charmosyna	toxopei	Blue-fronted Lorikeet	\N
 45	Psittacula	caniceps	Nicobar Parakeet	Species endemic to the Nicobar Islands, India.
-45	Probosciger	aterrimus	Palm Cockatoo	
-45	Cacatua	sulphurea	Yellow-crested Cockatoo	
-45	Cacatua	galerita	Sulphur-crested Cockatoo	
-45	Cacatua	moluccensis	Salmon-crested Cockatoo	
+45	Probosciger	aterrimus	Palm Cockatoo	\N
+45	Cacatua	sulphurea	Yellow-crested Cockatoo	\N
+45	Cacatua	galerita	Sulphur-crested Cockatoo	\N
+45	Cacatua	moluccensis	Salmon-crested Cockatoo	\N
 45	Cacatua	alba	White Cockatoo	Species endemic to the north Moluccas of Indonesia.
-45	Cacatua	haematuropygia	Philippine Cockatoo	
+45	Cacatua	haematuropygia	Philippine Cockatoo	\N
 45	Cacatua	goffiniana	Tanimbar Corella	Zoologische Verhandelingen\n\nSNOAB 48 Rozendaal and Michels p183-196\n\nTanimbar Corella named as Cacatua goffiniana
-45	Lorius	domicella	Purple-naped Lory	
-45	Loriculus	galgulus	Blue-crowned Hanging Parrot	
+45	Lorius	domicella	Purple-naped Lory	\N
+45	Loriculus	galgulus	Blue-crowned Hanging Parrot	\N
 45	Loriculus	stigmatus	Sulawesi Hanging Parrot	Species endemic to Sulawesi and nearby islands, Indonesia.
 45	Loriculus	amabilis	Moluccan Hanging Parrot	Species endemic to the North Moluccas, Indonesia.
 45	Loriculus	catamene	Sangihe Hanging Parrot	Species endemic to Sangihe, Indonesia.
 45	Loriculus	exilis	Pygmy Hanging Parrot	Monotypic species endemic to Sulawesi, Indonesia.
 45	Loriculus	pusillus	Yellow-throated Hanging Parrot	Species endemic to Java and Bali.
-45	Loriculus	flosculus	Wallace's Hanging Parrot	
-45	Psittacula	eupatria	Alexandrine Parakeet	
-45	Psittacula	krameri	Rose-ringed Parakeet	
-45	Loriculus	vernalis	Vernal Hanging Parrot	
-45	Psittacula	finschii	Grey-headed Parakeet	
-45	Melopsittacus	undulatus	Budgerigar	
+45	Loriculus	flosculus	Wallace's Hanging Parrot	\N
+45	Psittacula	eupatria	Alexandrine Parakeet	\N
+45	Psittacula	krameri	Rose-ringed Parakeet	\N
+45	Loriculus	vernalis	Vernal Hanging Parrot	\N
+45	Psittacula	finschii	Grey-headed Parakeet	\N
+45	Melopsittacus	undulatus	Budgerigar	\N
 45	Psittacula	cyanocephala	Plum-headed Parakeet	Species endemic to the Indian Subcontinent (India, Nepal, Pakistan & Sri Lanka).
-45	Psittacula	roseata	Blossom-headed Parakeet	
+45	Psittacula	roseata	Blossom-headed Parakeet	\N
 45	Psittacula	columboides	Malabar Parakeet	Species endemic to SW India.
 45	Psittacula	calthropae	Layard's Parakeet	Species endemic to Sri Lanka.\n\n
-45	Psittacula	derbiana	Derbyan Parakeet	
-45	Psittacula	alexandri	Red-breasted Parakeet	
-45	Eos	semilarvata	Blue-eared Lory	
-45	Psittacula	longicauda	Long-tailed Parakeet	
-45	Micropsitta	keiensis	Yellow-capped Pygmy Parrot	
-45	Psittacula	himalayana	Slaty-headed Parakeet	
-45	Tanygnathus	megalorynchos	Great-billed Parrot	
+45	Psittacula	derbiana	Derbyan Parakeet	\N
+45	Psittacula	alexandri	Red-breasted Parakeet	\N
+45	Eos	semilarvata	Blue-eared Lory	\N
+45	Psittacula	longicauda	Long-tailed Parakeet	\N
+45	Micropsitta	keiensis	Yellow-capped Pygmy Parrot	\N
+45	Psittacula	himalayana	Slaty-headed Parakeet	\N
+45	Tanygnathus	megalorynchos	Great-billed Parrot	\N
 45	Loriculus	philippensis	Philippine Hanging Parrot	Black-billed Hanging Parrot <i>L. p. bonapartei</i> is sometimes treated as a separate species.
-45	Micropsitta	bruijnii	Red-breasted Pygmy Parrot	
-45	Eos	rubra	Red Lory	
-45	Eclectus	roratus	Eclectus Parrot	
+45	Micropsitta	bruijnii	Red-breasted Pygmy Parrot	\N
+45	Eos	rubra	Red Lory	\N
+45	Eclectus	roratus	Eclectus Parrot	\N
 45	Tanygnathus	gramineus	Black-lored Parrot	Species endemic to the island of Buru in Indonesia.
 45	Loriculus	beryllinus	Sri Lanka Hanging Parrot	Species endemic to Sri Lanka.\n\n
-45	Tanygnathus	lucionensis	Blue-naped Parrot	
-45	Prioniturus	mada	Buru Racquet-tail	
-45	Geoffroyus	geoffroyi	Red-cheeked Parrot	
-45	Bolbopsittacus	lunulatus	Guaiabero	
-45	Tanygnathus	sumatranus	Azure-rumped Parrot	
-45	Psittinus	cyanurus	Blue-rumped Parrot	
+45	Tanygnathus	lucionensis	Blue-naped Parrot	\N
+45	Prioniturus	mada	Buru Racquet-tail	\N
+45	Geoffroyus	geoffroyi	Red-cheeked Parrot	\N
+45	Bolbopsittacus	lunulatus	Guaiabero	\N
+45	Tanygnathus	sumatranus	Azure-rumped Parrot	\N
+45	Psittinus	cyanurus	Blue-rumped Parrot	\N
 45	Prioniturus	platurus	Golden-mantled Racquet-tail	Species endemic to Indonesia.
-45	Prioniturus	montanus	Montane Racquet-tail	
-45	Prioniturus	platenae	Blue-headed Racquet-tail	
+45	Prioniturus	montanus	Montane Racquet-tail	\N
+45	Prioniturus	platenae	Blue-headed Racquet-tail	\N
 45	Prioniturus	luconensis	Green Racquet-tail	Species endemic to Luzon and Marinduque in the Philippines.
-45	Prioniturus	discurus	Blue-crowned Racquet-tail	
-45	Prioniturus	verticalis	Blue-winged Racquet-tail	
-47	Hemiprocne	longipennis	Grey-rumped Treeswift	
-47	Hemiprocne	mystacea	Moustached Treeswift	
-47	Hemiprocne	coronata	Crested Treeswift	
-47	Hemiprocne	comata	Whiskered Treeswift	
-46	Apus	pacificus	Fork-tailed Swift	
+45	Prioniturus	discurus	Blue-crowned Racquet-tail	\N
+45	Prioniturus	verticalis	Blue-winged Racquet-tail	\N
+47	Hemiprocne	longipennis	Grey-rumped Treeswift	\N
+47	Hemiprocne	mystacea	Moustached Treeswift	\N
+47	Hemiprocne	coronata	Crested Treeswift	\N
+47	Hemiprocne	comata	Whiskered Treeswift	\N
+46	Apus	pacificus	Fork-tailed Swift	\N
 46	Zoonavena	sylvatica	White-rumped Needletail	Species endemic to the Indian Subcontinent.
-46	Rhaphidura	leucopygialis	Silver-rumped Needletail	
-46	Hirundapus	caudacutus	White-throated Needletail	
-46	Hirundapus	cochinchinensis	Silver-backed Needletail	
-46	Hirundapus	giganteus	Brown-backed Needletail	
-46	Hirundapus	celebensis	Purple Needletail	
-46	Tachymarptis	melba	Alpine Swift	
-46	Apus	pallidus	Pallid Swift	
-46	Apus	acuticauda	Dark-rumped Swift	
-46	Mearnsia	picina	Philippine Needletail	
+46	Rhaphidura	leucopygialis	Silver-rumped Needletail	\N
+46	Hirundapus	caudacutus	White-throated Needletail	\N
+46	Hirundapus	cochinchinensis	Silver-backed Needletail	\N
+46	Hirundapus	giganteus	Brown-backed Needletail	\N
+46	Hirundapus	celebensis	Purple Needletail	\N
+46	Tachymarptis	melba	Alpine Swift	\N
+46	Apus	pallidus	Pallid Swift	\N
+46	Apus	acuticauda	Dark-rumped Swift	\N
+46	Mearnsia	picina	Philippine Needletail	\N
 46	Collocalia	unicolor	Indian Swiftlet	Species endemic to the Indian Subcontinent (SW India & Sri Lanka).
-46	Apus	affinis	House Swift	
-46	Collocalia	germani	Germain's Swiftlet	
-46	Collocalia	fuciphaga	Edible-nest Swiftlet	
-46	Collocalia	maxima	Black-nest Swiftlet	
-46	Collocalia	vanikorensis	Uniform Swiftlet	
-46	Collocalia	salangana	Mossy-nest Swiftlet	
-46	Collocalia	whiteheadi	Whitehead's Swiftlet	
-46	Collocalia	vulcanorum	Volcano Swiftlet	
-46	Collocalia	brevirostris	Himalayan Swiftlet	
-46	Collocalia	mearnsi	Philippine Swiftlet	
-46	Collocalia	troglodytes	Pygmy Swiftlet	
-46	Collocalia	esculenta	Glossy Swiftlet	
-46	Hydrochous	gigas	Waterfall Swift	
-46	Cypsiurus	balasiensis	Asian Palm Swift	
-46	Collocalia	infuscata	Moluccan Swiftlet	
-46	Apus	apus	Common Swift	
-48	Selasphorus	rufus	Rufous Hummingbird	
+46	Apus	affinis	House Swift	\N
+46	Collocalia	germani	Germain's Swiftlet	\N
+46	Collocalia	fuciphaga	Edible-nest Swiftlet	\N
+46	Collocalia	maxima	Black-nest Swiftlet	\N
+46	Collocalia	vanikorensis	Uniform Swiftlet	\N
+46	Collocalia	salangana	Mossy-nest Swiftlet	\N
+46	Collocalia	whiteheadi	Whitehead's Swiftlet	\N
+46	Collocalia	vulcanorum	Volcano Swiftlet	\N
+46	Collocalia	brevirostris	Himalayan Swiftlet	\N
+46	Collocalia	mearnsi	Philippine Swiftlet	\N
+46	Collocalia	troglodytes	Pygmy Swiftlet	\N
+46	Collocalia	esculenta	Glossy Swiftlet	\N
+46	Hydrochous	gigas	Waterfall Swift	\N
+46	Cypsiurus	balasiensis	Asian Palm Swift	\N
+46	Collocalia	infuscata	Moluccan Swiftlet	\N
+46	Apus	apus	Common Swift	\N
+48	Selasphorus	rufus	Rufous Hummingbird	\N
 51	Aegotheles	crinifrons	Moluccan Owlet-nightjar	Species endemic to the North Moluccas, Indonesia.
-54	Caprimulgus	mahrattensis	Sykes's Nightjar	
-54	Caprimulgus	indicus	Grey Nightjar	
-54	Caprimulgus	concretus	Bonaparte's Nightjar	
-54	Caprimulgus	affinis	Savanna Nightjar	
-54	Caprimulgus	asiaticus	Indian Nightjar	
-54	Caprimulgus	celebensis	Sulawesi Nightjar	
-54	Caprimulgus	manillensis	Philippine Nightjar	
+54	Caprimulgus	mahrattensis	Sykes's Nightjar	\N
+54	Caprimulgus	indicus	Grey Nightjar	\N
+54	Caprimulgus	concretus	Bonaparte's Nightjar	\N
+54	Caprimulgus	affinis	Savanna Nightjar	\N
+54	Caprimulgus	asiaticus	Indian Nightjar	\N
+54	Caprimulgus	celebensis	Sulawesi Nightjar	\N
+54	Caprimulgus	manillensis	Philippine Nightjar	\N
 54	Caprimulgus	atripennis	Jerdon's Nightjar	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-54	Caprimulgus	centralasicus	Vaurie's Nightjar	
-54	Caprimulgus	europaeus	European Nightjar	
-54	Caprimulgus	macrurus	Large-tailed Nightjar	
-54	Caprimulgus	aegyptius	Egyptian Nightjar	
-54	Caprimulgus	pulchellus	Salvadori's Nightjar	
-53	Eurostopodus	macrotis	Great Eared Nightjar	
-53	Eurostopodus	temminckii	Malaysian Eared Nightjar	
+54	Caprimulgus	centralasicus	Vaurie's Nightjar	\N
+54	Caprimulgus	europaeus	European Nightjar	\N
+54	Caprimulgus	macrurus	Large-tailed Nightjar	\N
+54	Caprimulgus	aegyptius	Egyptian Nightjar	\N
+54	Caprimulgus	pulchellus	Salvadori's Nightjar	\N
+53	Eurostopodus	macrotis	Great Eared Nightjar	\N
+53	Eurostopodus	temminckii	Malaysian Eared Nightjar	\N
 53	Eurostopodus	diabolicus	Satanic Nightjar	Species endemic to Sulawesi, Indonesia.
-53	Eurostopodus	argus	Spotted Nightjar	
-52	Batrachostomus	javensis	Javan Frogmouth	
-52	Batrachostomus	cornutus	Sunda Frogmouth	
-52	Batrachostomus	poliolophus	Short-tailed Frogmouth	
+53	Eurostopodus	argus	Spotted Nightjar	\N
+52	Batrachostomus	javensis	Javan Frogmouth	\N
+52	Batrachostomus	cornutus	Sunda Frogmouth	\N
+52	Batrachostomus	poliolophus	Short-tailed Frogmouth	\N
 52	Batrachostomus	harterti	Dulit Frogmouth	Species endemic to the mountains of northern and central Borneo.
-52	Batrachostomus	hodgsoni	Hodgson's Frogmouth	
+52	Batrachostomus	hodgsoni	Hodgson's Frogmouth	\N
 52	Batrachostomus	moniliger	Sri Lanka Frogmouth	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-52	Batrachostomus	stellatus	Gould's Frogmouth	
-52	Batrachostomus	auritus	Large Frogmouth	
-52	Batrachostomus	septimus	Philippine Frogmouth	
-49	Tyto	inexspectata	Minahassa Masked Owl	
-49	Phodilus	badius	Oriental Bay Owl	
+52	Batrachostomus	stellatus	Gould's Frogmouth	\N
+52	Batrachostomus	auritus	Large Frogmouth	\N
+52	Batrachostomus	septimus	Philippine Frogmouth	\N
+49	Tyto	inexspectata	Minahassa Masked Owl	\N
+49	Phodilus	badius	Oriental Bay Owl	\N
 49	Tyto	capensis	Grass Owl	Some authors consider as a separate species <i> Tyto longimembris</i>
 49	Tyto	alba	Barn Owl	Andaman Barn Owl <i>Tyto (alba) deroepstorffi</i> is treated as a separate species by some authors.
 49	Tyto	rosenbergii	Sulawesi Masked Owl	Species endemic to Indonesia with the subspecies:\n\n<br><i>pelengensis</i> from Peleng <br><i>rosenbergii</i> from Sulawesi and Sangihe
-49	Tyto	nigrobrunnea	Taliabu Masked Owl	
-49	Tyto	sororcula	Moluccan Masked Owl	
-50	Bubo	philippensis	Philippine Eagle Owl	
-50	Strix	seloputo	Spotted Wood Owl	
-50	Glaucidium	passerinum	Eurasian Pygmy Owl	
-50	Surnia	ulula	Northern Hawk Owl	
-50	Strix	nebulosa	Great Grey Owl	
-50	Strix	uralensis	Ural Owl	
-50	Strix	aluco	Tawny Owl	
+49	Tyto	nigrobrunnea	Taliabu Masked Owl	\N
+49	Tyto	sororcula	Moluccan Masked Owl	\N
+50	Bubo	philippensis	Philippine Eagle Owl	\N
+50	Strix	seloputo	Spotted Wood Owl	\N
+50	Glaucidium	passerinum	Eurasian Pygmy Owl	\N
+50	Surnia	ulula	Northern Hawk Owl	\N
+50	Strix	nebulosa	Great Grey Owl	\N
+50	Strix	uralensis	Ural Owl	\N
+50	Strix	aluco	Tawny Owl	\N
 50	Bubo	bubo	Eurasian Eagle Owl	The form <i>bengalensis</i> is sometimes treated as a full species under the name Rock Eagle Owl <i>Bubo (b.) bengalensis</i>.
 50	Strix	ocellata	Mottled Wood Owl	Species endemic to the Indian Subcontinent (India & marginally Pakistan).
 50	Glaucidium	castanopterum	Javan Owlet	Species endemic to Java and Bali, Indonesia.
-50	Nyctea	scandiaca	Snowy Owl	
-50	Ketupa	ketupu	Buffy Fish Owl	
-50	Ketupa	flavipes	Tawny Fish Owl	
-50	Ketupa	zeylonensis	Brown Fish Owl	
-50	Ketupa	blakistoni	Blakiston's Fish Owl	
-50	Bubo	coromandus	Dusky Eagle Owl	
-50	Bubo	nipalensis	Spot-bellied Eagle Owl	
-50	Strix	leptogrammica	Brown Wood Owl	
+50	Nyctea	scandiaca	Snowy Owl	\N
+50	Ketupa	ketupu	Buffy Fish Owl	\N
+50	Ketupa	flavipes	Tawny Fish Owl	\N
+50	Ketupa	zeylonensis	Brown Fish Owl	\N
+50	Ketupa	blakistoni	Blakiston's Fish Owl	\N
+50	Bubo	coromandus	Dusky Eagle Owl	\N
+50	Bubo	nipalensis	Spot-bellied Eagle Owl	\N
+50	Strix	leptogrammica	Brown Wood Owl	\N
 50	Ninox	rudolfi	Sumba Boobook	Species endemic to Sumba, Indonesia.
-50	Asio	flammeus	Short-eared Owl	
-50	Asio	otus	Long-eared Owl	
+50	Asio	flammeus	Short-eared Owl	\N
+50	Asio	otus	Long-eared Owl	\N
 50	Ninox	punctulata	Speckled Boobook	Species endemic to Sulawesi, Indonesia.
 50	Ninox	squamipila	Moluccan Boobook	Species endemic to Indonesia.
 50	Ninox	ochracea	Ochre-bellied Boobook	Species endemic to Sulawesi, Indonesia.
 50	Ninox	philippensis	Philippine Boobook	Species endemic to the Philippines.
 50	Ninox	affinis	Andaman Boobook	Species endemic to the Andaman & Nicobar Islands, India.
-50	Glaucidium	brodiei	Collared Owlet	
+50	Glaucidium	brodiei	Collared Owlet	\N
 50	Ninox	boobook	Southern Boobook	Split from <i>Ninox novaeseelandiae</i> in Schodde, R. & Mason, I.J. (1980)  Nocturnal birds of Australia: 1-136. Lansdowne, Melbourne.
-50	Glaucidium	cuculoides	Asian Barred Owlet	
-50	Ninox	connivens	Barking Boobook	
-50	Aegolius	funereus	Boreal Owl	
+50	Glaucidium	cuculoides	Asian Barred Owlet	\N
+50	Ninox	connivens	Barking Boobook	\N
+50	Aegolius	funereus	Boreal Owl	\N
 50	Heteroglaux	blewitti	Forest Owlet	Species endemic to India.
-50	Bubo	sumatranus	Barred Eagle Owl	
-50	Athene	noctua	Little Owl	
-50	Glaucidium	radiatum	Jungle Owlet	
+50	Bubo	sumatranus	Barred Eagle Owl	\N
+50	Athene	noctua	Little Owl	\N
+50	Glaucidium	radiatum	Jungle Owlet	\N
 50	Glaucidium	castanotum	Chestnut-backed Owlet	Species endemic to Sri Lanka.\n\n<p>Note correct spelling of <i>castanotum</i>.\n\n<br>Ref: Dickinson, E.C., Jones, C. & Normand, D. (2009) The correct spelling, date and citation for the Chestnut-backed Owlet of Sri Lanka. <i>Indian Birds</i> 5(2):52-53.\n\n\n\n
 50	Ninox	scutulata	Brown Boobook	<i>Ninox (s.) japonica</i> and <i>Ninox (s.) randi</i> are now treated as separate species following Ben King (2002) Species limits in the Brown Boobook <i>Ninox scutulata</i> complex. <i>Bulletin B.O.C.</i> 122, 4 : 250-257.\n\n\n\n
-50	Otus	collari	Sangihe Scops Owl	
-50	Athene	brama	Spotted Owlet	
-50	Mimizuku	gurneyi	Giant Scops Owl	
-50	Otus	sagittatus	White-fronted Scops Owl	
-50	Otus	rufescens	Reddish Scops Owl	
+50	Otus	collari	Sangihe Scops Owl	\N
+50	Athene	brama	Spotted Owlet	\N
+50	Mimizuku	gurneyi	Giant Scops Owl	\N
+50	Otus	sagittatus	White-fronted Scops Owl	\N
+50	Otus	rufescens	Reddish Scops Owl	\N
 50	Otus	balli	Andaman Scops Owl	Species endemic to the Andaman Islands, India.
-50	Otus	spilocephalus	Mountain Scops Owl	
+50	Otus	spilocephalus	Mountain Scops Owl	\N
 50	Otus	umbra	Simeulue Scops Owl	Species endemic to Pulau Simeulue
 50	Otus	alius	Nicobar Scops Owl	Species endemic to the Nicobar Islands, India.
-50	Otus	bakkamoena	Collared Scops Owl	
+50	Otus	bakkamoena	Collared Scops Owl	\N
 50	Otus	manadensis	Sulawesi Scops Owl	Species endemic to Sulawesi, Indonesia.
-50	Otus	longicornis	Luzon Scops Owl	
-50	Otus	mindorensis	Mindoro Scops Owl	
-50	Otus	brookii	Rajah Scops Owl	
+50	Otus	longicornis	Luzon Scops Owl	\N
+50	Otus	mindorensis	Mindoro Scops Owl	\N
+50	Otus	brookii	Rajah Scops Owl	\N
 50	Otus	silvicola	Wallace's Scops Owl	Species endemic to the islands of Flores and Sumbawa in Indonesia.
 50	Otus	megalotis	Philippine Scops Owl	Species endemic to the Philippines.
-50	Otus	angelinae	Javan Scops Owl	
-50	Otus	fuliginosus	Palawan Scops Owl	
-50	Otus	mirus	Mindanao Scops Owl	
-50	Otus	mentawi	Mentawai Scops Owl	
+50	Otus	angelinae	Javan Scops Owl	\N
+50	Otus	fuliginosus	Palawan Scops Owl	\N
+50	Otus	mirus	Mindanao Scops Owl	\N
+50	Otus	mentawi	Mentawai Scops Owl	\N
 50	Otus	alfredi	Flores Scops Owl	Species endemic to the island of Flores, Lesser Sundas, Indonesia.
-50	Otus	magicus	Moluccan Scops Owl	
-50	Otus	mantananensis	Mantanani Scops Owl	
-50	Otus	elegans	Elegant Scops Owl	
-50	Otus	sunia	Oriental Scops Owl	
-50	Otus	scops	Eurasian Scops Owl	
-50	Otus	brucei	Pallid Scops Owl	
-55	Gallicolumba	crinigera	Mindanao Bleeding-heart	
-55	Chalcophaps	stephani	Stephan's Dove	
-55	Macropygia	ruficeps	Little Cuckoo Dove	
-55	Reinwardtoena	reinwardtii	Great Cuckoo Dove	
-55	Turacoena	manadensis	White-faced Dove	
+50	Otus	magicus	Moluccan Scops Owl	\N
+50	Otus	mantananensis	Mantanani Scops Owl	\N
+50	Otus	elegans	Elegant Scops Owl	\N
+50	Otus	sunia	Oriental Scops Owl	\N
+50	Otus	scops	Eurasian Scops Owl	\N
+50	Otus	brucei	Pallid Scops Owl	\N
+55	Gallicolumba	crinigera	Mindanao Bleeding-heart	\N
+55	Chalcophaps	stephani	Stephan's Dove	\N
+55	Macropygia	ruficeps	Little Cuckoo Dove	\N
+55	Reinwardtoena	reinwardtii	Great Cuckoo Dove	\N
+55	Turacoena	manadensis	White-faced Dove	\N
 55	Turacoena	modesta	Black Dove	Species endemic to the islands of Timor and Wetar in Indonesia.
-55	Chalcophaps	indica	Emerald Dove	
-55	Macropygia	amboinensis	Brown Cuckoo Dove	
-55	Geopelia	striata	Peaceful Dove	
-55	Caloenas	nicobarica	Nicobar Pigeon	
-55	Gallicolumba	luzonica	Luzon Bleeding-heart	
+55	Chalcophaps	indica	Emerald Dove	\N
+55	Macropygia	amboinensis	Brown Cuckoo Dove	\N
+55	Geopelia	striata	Peaceful Dove	\N
+55	Caloenas	nicobarica	Nicobar Pigeon	\N
+55	Gallicolumba	luzonica	Luzon Bleeding-heart	\N
 55	Macropygia	rufipennis	Andaman Cuckoo Dove	Species endemic to the Andaman and Nicobar Islands, India.
-55	Gallicolumba	keayi	Negros Bleeding-heart	
-55	Streptopelia	chinensis	Spotted Dove	
-55	Gallicolumba	menagei	Sulu Bleeding-heart	
-55	Gallicolumba	tristigmata	Sulawesi Ground Dove	
+55	Gallicolumba	keayi	Negros Bleeding-heart	\N
+55	Streptopelia	chinensis	Spotted Dove	\N
+55	Gallicolumba	menagei	Sulu Bleeding-heart	\N
+55	Gallicolumba	tristigmata	Sulawesi Ground Dove	\N
 55	Gallicolumba	hoedtii	Wetar Ground Dove	Species endemic to the islands of Wetar and Timor in Indonesia.
 55	Phapitreron	leucotis	White-eared Brown Dove	Species endemic to the Philippines.
-55	Gallicolumba	platenae	Mindoro Bleeding-heart	
-55	Columba	janthina	Japanese Wood Pigeon	
-55	Columba	livia	Rock Pigeon	
-55	Columba	rupestris	Hill Pigeon	
-55	Columba	oenas	Stock Pigeon	
-55	Columba	palumbus	Common Wood Pigeon	
-55	Columba	hodgsonii	Speckled Wood Pigeon	
-55	Columba	pulchricollis	Ashy Wood Pigeon	
+55	Gallicolumba	platenae	Mindoro Bleeding-heart	\N
+55	Columba	janthina	Japanese Wood Pigeon	\N
+55	Columba	livia	Rock Pigeon	\N
+55	Columba	rupestris	Hill Pigeon	\N
+55	Columba	oenas	Stock Pigeon	\N
+55	Columba	palumbus	Common Wood Pigeon	\N
+55	Columba	hodgsonii	Speckled Wood Pigeon	\N
+55	Columba	pulchricollis	Ashy Wood Pigeon	\N
 55	Columba	elphinstonii	Nilgiri Wood Pigeon	Species endemic to SW India.
 55	Columba	torringtoniae	Sri Lanka Wood Pigeon	Species endemic to Sri Lanka.\n\n\n\n<p>Scientific name amended following Pittie, A. and Dickinson, E.C. (2006) The correct name of the Sri Lankan Woodpigeon and the citation for its original description. <i>Bull. B.O.C.</i> 126(3): 196-199.
-55	Columba	punicea	Pale-capped Pigeon	
-55	Streptopelia	decaocto	Eurasian Collared Dove	
+55	Columba	punicea	Pale-capped Pigeon	\N
+55	Streptopelia	decaocto	Eurasian Collared Dove	\N
 55	Columba	palumboides	Andaman Wood Pigeon	Species endemic to the Andaman and Nicobar Islands, India.
-55	Macropygia	unchall	Barred Cuckoo Dove	
-55	Columba	vitiensis	Metallic Pigeon	
-55	Columba	versicolor	Bonin Pigeon	
-55	Columba	jouyi	Ryukyu Pigeon	
-55	Streptopelia	picturata	Madagascar Turtle Dove	
-55	Streptopelia	turtur	European Turtle Dove	
-55	Streptopelia	orientalis	Oriental Turtle Dove	
-55	Streptopelia	senegalensis	Laughing Dove	
-55	Streptopelia	tranquebarica	Red Collared Dove	
-55	Streptopelia	bitorquata	Island Collared Dove	
-55	Columba	argentina	Silvery Pigeon	
+55	Macropygia	unchall	Barred Cuckoo Dove	\N
+55	Columba	vitiensis	Metallic Pigeon	\N
+55	Columba	versicolor	Bonin Pigeon	\N
+55	Columba	jouyi	Ryukyu Pigeon	\N
+55	Streptopelia	picturata	Madagascar Turtle Dove	\N
+55	Streptopelia	turtur	European Turtle Dove	\N
+55	Streptopelia	orientalis	Oriental Turtle Dove	\N
+55	Streptopelia	senegalensis	Laughing Dove	\N
+55	Streptopelia	tranquebarica	Red Collared Dove	\N
+55	Streptopelia	bitorquata	Island Collared Dove	\N
+55	Columba	argentina	Silvery Pigeon	\N
 55	Ptilinopus	melanospilus	Black-naped Fruit Dove	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
 55	Ptilinopus	superbus	Superb Fruit Dove	Species endemic to Indonesia.
-55	Ducula	carola	Spotted Imperial Pigeon	
+55	Ducula	carola	Spotted Imperial Pigeon	\N
 55	Ducula	radiata	Grey-headed Imperial Pigeon	Species endemic to the mountains of Sulawesi, Indonesia.
-55	Ducula	mindorensis	Mindoro Imperial Pigeon	
-55	Ducula	forsteni	White-bellied Imperial Pigeon	
+55	Ducula	mindorensis	Mindoro Imperial Pigeon	\N
+55	Ducula	forsteni	White-bellied Imperial Pigeon	\N
 55	Ducula	perspicillata	White-spectacled Imperial Pigeon	Species endemic to the Moluccas, Indonesia.
-55	Ptilinopus	arcanus	Negros Fruit Dove	
-55	Ducula	concinna	Blue-tailed Imperial Pigeon	
+55	Ptilinopus	arcanus	Negros Fruit Dove	\N
+55	Ducula	concinna	Blue-tailed Imperial Pigeon	\N
 55	Ptilinopus	granulifrons	Carunculated Fruit Dove	Species endemic to the island of Obi in the North Moluccas, Indonesia.
 55	Ptilinopus	hyogastrus	Grey-headed Fruit Dove	Species endemic to the north Moluccas of Indonesia.
-55	Ptilinopus	viridis	Claret-breasted Fruit Dove	
-55	Ptilinopus	rivoli	White-bibbed Fruit Dove	
-55	Ptilinopus	regina	Rose-crowned Fruit Dove	
-55	Treron	formosae	Whistling Green Pigeon	
+55	Ptilinopus	viridis	Claret-breasted Fruit Dove	\N
+55	Ptilinopus	rivoli	White-bibbed Fruit Dove	\N
+55	Ptilinopus	regina	Rose-crowned Fruit Dove	\N
+55	Treron	formosae	Whistling Green Pigeon	\N
 55	Ducula	poliocephala	Pink-bellied Imperial Pigeon	Species endemic to the Philippines.
-55	Ducula	lacernulata	Dark-backed Imperial Pigeon	
-55	Goura	cristata	Western Crowned Pigeon	
+55	Ducula	lacernulata	Dark-backed Imperial Pigeon	\N
+55	Goura	cristata	Western Crowned Pigeon	\N
 55	Gymnophaps	mada	Buru Mountain Pigeon	<i>G.mada</i> split into two species <i>G.mada</i> and <i>G.stalkeri</i> Seram Mountain Pigeon following Rheindt & Hutchinson (2007) A photoshoot odyssey through the confused avian taxonomy of Seram and Buru (southern Moluccas) <i>BirdingAsia</i> 7: 18-38.
-55	Gymnophaps	albertisii	Papuan Mountain Pigeon	
-55	Cryptophaps	poecilorrhoa	Sombre Pigeon	
-55	Ducula	luctuosa	Silver-tipped Imperial Pigeon	
-55	Ducula	aenea	Green Imperial Pigeon	
+55	Gymnophaps	albertisii	Papuan Mountain Pigeon	\N
+55	Cryptophaps	poecilorrhoa	Sombre Pigeon	\N
+55	Ducula	luctuosa	Silver-tipped Imperial Pigeon	\N
+55	Ducula	aenea	Green Imperial Pigeon	\N
 55	Ducula	cineracea	Timor Imperial Pigeon	Species endemic to the islands of Timor and Wetar in Indonesia.
-55	Ptilinopus	wallacii	Wallace's Fruit Dove	
-55	Ducula	badia	Mountain Imperial Pigeon	
+55	Ptilinopus	wallacii	Wallace's Fruit Dove	\N
+55	Ducula	badia	Mountain Imperial Pigeon	\N
 55	Ducula	basilica	Cinnamon-bellied Imperial Pigeon	Species endemic to the northern Moluccas, Indonesia.
-55	Ducula	pickeringii	Grey Imperial Pigeon	
-55	Ducula	rosacea	Pink-headed Imperial Pigeon	
-55	Ducula	whartoni	Christmas Island Imperial Pigeon	
-55	Ducula	myristicivora	Spice Imperial Pigeon	
-55	Ducula	bicolor	Pied Imperial Pigeon	
-55	Treron	curvirostra	Thick-billed Green Pigeon	
+55	Ducula	pickeringii	Grey Imperial Pigeon	\N
+55	Ducula	rosacea	Pink-headed Imperial Pigeon	\N
+55	Ducula	whartoni	Christmas Island Imperial Pigeon	\N
+55	Ducula	myristicivora	Spice Imperial Pigeon	\N
+55	Ducula	bicolor	Pied Imperial Pigeon	\N
+55	Treron	curvirostra	Thick-billed Green Pigeon	\N
 55	Ptilinopus	monacha	Blue-capped Fruit Dove	Species endemic to the north Moluccas of Indonesia.
-55	Treron	phoenicopterus	Yellow-footed Green Pigeon	
-55	Treron	capellei	Large Green Pigeon	
-55	Treron	psittaceus	Timor Green Pigeon	
-55	Treron	teysmannii	Sumba Green Pigeon	
-55	Treron	oxyurus	Sumatran Green Pigeon	
-55	Treron	griseicauda	Grey-cheeked Green Pigeon	
-55	Treron	seimundi	Yellow-vented Green Pigeon	
-55	Treron	pompadora	Pompadour Green Pigeon	
-55	Treron	bicinctus	Orange-breasted Green Pigeon	
-55	Treron	vernans	Pink-necked Green Pigeon	
-55	Treron	olax	Little Green Pigeon	
-55	Treron	fulvicollis	Cinnamon-headed Green Pigeon	
+55	Treron	phoenicopterus	Yellow-footed Green Pigeon	\N
+55	Treron	capellei	Large Green Pigeon	\N
+55	Treron	psittaceus	Timor Green Pigeon	\N
+55	Treron	teysmannii	Sumba Green Pigeon	\N
+55	Treron	oxyurus	Sumatran Green Pigeon	\N
+55	Treron	griseicauda	Grey-cheeked Green Pigeon	\N
+55	Treron	seimundi	Yellow-vented Green Pigeon	\N
+55	Treron	pompadora	Pompadour Green Pigeon	\N
+55	Treron	bicinctus	Orange-breasted Green Pigeon	\N
+55	Treron	vernans	Pink-necked Green Pigeon	\N
+55	Treron	olax	Little Green Pigeon	\N
+55	Treron	fulvicollis	Cinnamon-headed Green Pigeon	\N
 55	Phapitreron	cinereiceps	Tawitawi Brown Dove	Species endemic to Tawi Tawi, the Philippines.\n\n<br>Formerly considered conspecific with Mindanao Brown Dove <i>Phapitreron brunneiceps</i> under the name Dark-eared Brown Dove <i>Phapitreron cinereiceps</i> but split following Collar, N. J., N. Aldrin, D. Mallari, and B. R. Tabaranza, Jr. III. (1999) <i>Threatened birds of the Philippines</i>: the Haribon Foundation / BirdLife International Red Data Book. Bookmark, Inc. Makati City, Philippines.\n\n
-55	Treron	floris	Flores Green Pigeon	
+55	Treron	floris	Flores Green Pigeon	\N
 55	Ptilinopus	marchei	Flame-breasted Fruit Dove	Species endemic to Luzon in the Philippines.
 55	Ptilinopus	bernsteinii	Scarlet-breasted Fruit Dove	Species endemic to the north Moluccas of Indonesia.
-55	Ptilinopus	subgularis	Maroon-chinned Fruit Dove	
-55	Ptilinopus	leclancheri	Black-chinned Fruit Dove	
-55	Ptilinopus	jambu	Jambu Fruit Dove	
-55	Ptilinopus	fischeri	Red-eared Fruit Dove	
-55	Treron	apicauda	Pin-tailed Green Pigeon	
-55	Ptilinopus	merrilli	Cream-bellied Fruit Dove	
-55	Phapitreron	amethystinus	Amethyst Brown Dove	
-55	Ptilinopus	dohertyi	Red-naped Fruit Dove	
-55	Ptilinopus	cinctus	Banded Fruit Dove	
-55	Columba	leuconota	Snow Pigeon	
+55	Ptilinopus	subgularis	Maroon-chinned Fruit Dove	\N
+55	Ptilinopus	leclancheri	Black-chinned Fruit Dove	\N
+55	Ptilinopus	jambu	Jambu Fruit Dove	\N
+55	Ptilinopus	fischeri	Red-eared Fruit Dove	\N
+55	Treron	apicauda	Pin-tailed Green Pigeon	\N
+55	Ptilinopus	merrilli	Cream-bellied Fruit Dove	\N
+55	Phapitreron	amethystinus	Amethyst Brown Dove	\N
+55	Ptilinopus	dohertyi	Red-naped Fruit Dove	\N
+55	Ptilinopus	cinctus	Banded Fruit Dove	\N
+55	Columba	leuconota	Snow Pigeon	\N
 55	Ptilinopus	porphyreus	Pink-headed Fruit Dove	Species restricted to Sumatra, Java and Bali.
-55	Treron	sieboldii	White-bellied Green Pigeon	
-55	Treron	sphenurus	Wedge-tailed Green Pigeon	
-55	Ptilinopus	occipitalis	Yellow-breasted Fruit Dove	
-55	Columba	eversmanni	Yellow-eyed Pigeon	
-59	Rallus	pectoralis	Lewin's Rail	
-59	Amaurornis	phoenicurus	White-breasted Waterhen	
-59	Amaurornis	magnirostris	Talaud Bush-hen	
-59	Amaurornis	moluccanus	Rufous-tailed Bush-hen	
-59	Amaurornis	olivacea	Plain Bush-hen	
+55	Treron	sieboldii	White-bellied Green Pigeon	\N
+55	Treron	sphenurus	Wedge-tailed Green Pigeon	\N
+55	Ptilinopus	occipitalis	Yellow-breasted Fruit Dove	\N
+55	Columba	eversmanni	Yellow-eyed Pigeon	\N
+59	Rallus	pectoralis	Lewin's Rail	\N
+59	Amaurornis	phoenicurus	White-breasted Waterhen	\N
+59	Amaurornis	magnirostris	Talaud Bush-hen	\N
+59	Amaurornis	moluccanus	Rufous-tailed Bush-hen	\N
+59	Amaurornis	olivacea	Plain Bush-hen	\N
 59	Amaurornis	isabellina	Isabelline Bush-hen	Monotypic species endemic to Sulawesi, Indonesia.
-59	Amaurornis	akool	Brown Crake	
-59	Gymnocrex	talaudensis	Talaud Rail	
-59	Gymnocrex	plumbeiventris	Bare-eyed Rail	
-59	Gymnocrex	rosenbergii	Blue-faced Rail	
-59	Porzana	bicolor	Black-tailed Crake	
-59	Crex	crex	Corn Crake	
-59	Gallirallus	striatus	Slaty-breasted Rail	
-59	Rallus	mirificus	Brown-banded Rail	
-59	Rallus	aquaticus	Water Rail	
-59	Gallirallus	philippensis	Buff-banded Rail	
-59	Gallirallus	okinawae	Okinawa Rail	
-59	Rallina	eurizonoides	Slaty-legged Crake	
-59	Rallina	fasciata	Red-legged Crake	
+59	Amaurornis	akool	Brown Crake	\N
+59	Gymnocrex	talaudensis	Talaud Rail	\N
+59	Gymnocrex	plumbeiventris	Bare-eyed Rail	\N
+59	Gymnocrex	rosenbergii	Blue-faced Rail	\N
+59	Porzana	bicolor	Black-tailed Crake	\N
+59	Crex	crex	Corn Crake	\N
+59	Gallirallus	striatus	Slaty-breasted Rail	\N
+59	Rallus	mirificus	Brown-banded Rail	\N
+59	Rallus	aquaticus	Water Rail	\N
+59	Gallirallus	philippensis	Buff-banded Rail	\N
+59	Gallirallus	okinawae	Okinawa Rail	\N
+59	Rallina	eurizonoides	Slaty-legged Crake	\N
+59	Rallina	fasciata	Red-legged Crake	\N
 59	Rallina	canningi	Andaman Crake	Species endemic to the Andaman Islands, India.
-59	Rallina	tricolor	Red-necked Crake	
-59	Coturnicops	exquisitus	Swinhoe's Rail	
-59	Aramidopsis	plateni	Snoring Rail	
-59	Habroptila	wallacii	Invisible Rail	
-59	Fulica	atra	Common Coot	
-59	Porzana	parva	Little Crake	
-59	Gallinula	tenebrosa	Dusky Moorhen	
-59	Gallinula	chloropus	Common Moorhen	
-59	Gallirallus	torquatus	Barred Rail	
-59	Gallicrex	cinerea	Watercock	
-59	Porzana	cinerea	White-browed Crake	
-59	Porzana	tabuensis	Spotless Crake	
-59	Porzana	paykullii	Band-bellied Crake	
-59	Porzana	fusca	Ruddy-breasted Crake	
-59	Porzana	porzana	Spotted Crake	
-59	Porzana	pusilla	Baillon's Crake	
-59	Porphyrio	porphyrio	Purple Swamphen	
-58	Heliopais	personatus	Masked Finfoot	
-57	Grus	virgo	Demoiselle Crane	
-57	Grus	leucogeranus	Siberian Crane	
-57	Grus	monacha	Hooded Crane	
+59	Rallina	tricolor	Red-necked Crake	\N
+59	Coturnicops	exquisitus	Swinhoe's Rail	\N
+59	Aramidopsis	plateni	Snoring Rail	\N
+59	Habroptila	wallacii	Invisible Rail	\N
+59	Fulica	atra	Common Coot	\N
+59	Porzana	parva	Little Crake	\N
+59	Gallinula	tenebrosa	Dusky Moorhen	\N
+59	Gallinula	chloropus	Common Moorhen	\N
+59	Gallirallus	torquatus	Barred Rail	\N
+59	Gallicrex	cinerea	Watercock	\N
+59	Porzana	cinerea	White-browed Crake	\N
+59	Porzana	tabuensis	Spotless Crake	\N
+59	Porzana	paykullii	Band-bellied Crake	\N
+59	Porzana	fusca	Ruddy-breasted Crake	\N
+59	Porzana	porzana	Spotted Crake	\N
+59	Porzana	pusilla	Baillon's Crake	\N
+59	Porphyrio	porphyrio	Purple Swamphen	\N
+58	Heliopais	personatus	Masked Finfoot	\N
+57	Grus	virgo	Demoiselle Crane	\N
+57	Grus	leucogeranus	Siberian Crane	\N
+57	Grus	monacha	Hooded Crane	\N
 57	Grus	antigone	Sarus Crane	Now regarded as monotypic. <br>Ref:\n\nJones, K., Barzen, J and Ashley, M.V. (2005) Geographical partitioning of microsatellite variation in the sarus crane. <i>Animal Conservation</i> 8: 1-8.
-57	Grus	rubicunda	Brolga	
-57	Grus	vipio	White-naped Crane	
-57	Grus	canadensis	Sandhill Crane	
-57	Grus	nigricollis	Black-necked Crane	
-57	Grus	japonensis	Red-crowned Crane	
-57	Grus	grus	Common Crane	
-56	Houbaropsis	bengalensis	Bengal Florican	
-56	Chlamydotis	macqueenii	MacQueen's Bustard	
+57	Grus	rubicunda	Brolga	\N
+57	Grus	vipio	White-naped Crane	\N
+57	Grus	canadensis	Sandhill Crane	\N
+57	Grus	nigricollis	Black-necked Crane	\N
+57	Grus	japonensis	Red-crowned Crane	\N
+57	Grus	grus	Common Crane	\N
+56	Houbaropsis	bengalensis	Bengal Florican	\N
+56	Chlamydotis	macqueenii	MacQueen's Bustard	\N
 56	Ardeotis	nigriceps	Great Indian Bustard	Species endemic to the Indian Subcontinent (India & Pakistan).
-56	Otis	tarda	Great Bustard	
-56	Tetrax	tetrax	Little Bustard	
+56	Otis	tarda	Great Bustard	\N
+56	Tetrax	tetrax	Little Bustard	\N
 56	Sypheotides	indicus	Lesser Florican	Species endemic to the Indian Subcontinent (India, Nepal & Pakistan).
-83	Circus	aeruginosus	Eurasian Marsh Harrier	
-83	Aegypius	monachus	Cinereous Vulture	
-83	Sarcogyps	calvus	Red-headed Vulture	
-83	Circaetus	gallicus	Short-toed Snake Eagle	
-83	Spilornis	cheela	Crested Serpent Eagle	
+83	Circus	aeruginosus	Eurasian Marsh Harrier	\N
+83	Aegypius	monachus	Cinereous Vulture	\N
+83	Sarcogyps	calvus	Red-headed Vulture	\N
+83	Circaetus	gallicus	Short-toed Snake Eagle	\N
+83	Spilornis	cheela	Crested Serpent Eagle	\N
 83	Spilornis	minimus	Nicobar Serpent Eagle	Species endemic to the Nicobar Islands, India.
 83	Spilornis	kinabaluensis	Mountain Serpent Eagle	Species endemic to NE Borneo.
-83	Spilornis	rufipectus	Sulawesi Serpent Eagle	
+83	Spilornis	rufipectus	Sulawesi Serpent Eagle	\N
 83	Accipiter	butleri	Nicobar Sparrowhawk	Species endemic to the Nicobar Islands, India.
 83	Spilornis	elgini	Andaman Serpent Eagle	Species endemic to the Andaman Islands, India.
-83	Gyps	indicus	Long-billed Vulture	
-83	Circus	assimilis	Spotted Harrier	
-83	Circus	cyaneus	Hen Harrier	
-83	Circus	macrourus	Pallid Harrier	
-83	Circus	melanoleucos	Pied Harrier	
-83	Circus	pygargus	Montagu's Harrier	
-83	Accipiter	trivirgatus	Crested Goshawk	
-83	Accipiter	griseiceps	Sulawesi Goshawk	
-83	Accipiter	badius	Shikra	
+83	Gyps	indicus	Long-billed Vulture	\N
+83	Circus	assimilis	Spotted Harrier	\N
+83	Circus	cyaneus	Hen Harrier	\N
+83	Circus	macrourus	Pallid Harrier	\N
+83	Circus	melanoleucos	Pied Harrier	\N
+83	Circus	pygargus	Montagu's Harrier	\N
+83	Accipiter	trivirgatus	Crested Goshawk	\N
+83	Accipiter	griseiceps	Sulawesi Goshawk	\N
+83	Accipiter	badius	Shikra	\N
 83	Spilornis	holospilus	Philippine Serpent Eagle	Species endemic to the Philippines.
-83	Haliaeetus	albicilla	White-tailed Eagle	
-83	Aviceda	jerdoni	Jerdon's Baza	
-83	Aviceda	subcristata	Pacific Baza	
-83	Aviceda	leuphotes	Black Baza	
-83	Pernis	celebensis	Barred Honey-buzzard	
-83	Elanus	caeruleus	Black-shouldered Kite	
-83	Milvus	milvus	Red Kite	
+83	Haliaeetus	albicilla	White-tailed Eagle	\N
+83	Aviceda	jerdoni	Jerdon's Baza	\N
+83	Aviceda	subcristata	Pacific Baza	\N
+83	Aviceda	leuphotes	Black Baza	\N
+83	Pernis	celebensis	Barred Honey-buzzard	\N
+83	Elanus	caeruleus	Black-shouldered Kite	\N
+83	Milvus	milvus	Red Kite	\N
 83	Milvus	migrans	Black Kite	The subspecies <i>lineatus</i> is sometimes regarded as a separate species Black-eared Kite <i>Milvus (m.) lineatus</i>.
-83	Haliastur	indus	Brahminy Kite	
-83	Gyps	fulvus	Eurasian Griffon	
-83	Haliaeetus	leucoryphus	Pallas's Fish Eagle	
-83	Gyps	himalayensis	Himalayan Griffon	
-83	Haliaeetus	leucocephalus	Bald Eagle	
-83	Haliaeetus	pelagicus	Steller's Sea Eagle	
-83	Icthyophaga	humilis	Lesser Fish Eagle	
-83	Icthyophaga	ichthyaetus	Grey-headed Fish Eagle	
-83	Gypaetus	barbatus	Lammergeier	
-83	Neophron	percnopterus	Egyptian Vulture	
-83	Gyps	bengalensis	White-rumped Vulture	
-83	Macheiramphus	alcinus	Bat Hawk	
-83	Haliaeetus	leucogaster	White-bellied Sea Eagle	
-83	Hieraaetus	morphnoides	Little Eagle	
-83	Pithecophaga	jefferyi	Philippine Eagle	
-83	Ictinaetus	malayensis	Black Eagle	
-83	Aquila	clanga	Greater Spotted Eagle	
-83	Aquila	rapax	Tawny Eagle	
-83	Aquila	nipalensis	Steppe Eagle	
-83	Aquila	heliaca	Imperial Eagle	
-83	Aquila	gurneyi	Gurney's Eagle	
-83	Aquila	chrysaetos	Golden Eagle	
-83	Buteo	lagopus	Rough-legged Buzzard	
-83	Hieraaetus	pennatus	Booted Eagle	
+83	Haliastur	indus	Brahminy Kite	\N
+83	Gyps	fulvus	Eurasian Griffon	\N
+83	Haliaeetus	leucoryphus	Pallas's Fish Eagle	\N
+83	Gyps	himalayensis	Himalayan Griffon	\N
+83	Haliaeetus	leucocephalus	Bald Eagle	\N
+83	Haliaeetus	pelagicus	Steller's Sea Eagle	\N
+83	Icthyophaga	humilis	Lesser Fish Eagle	\N
+83	Icthyophaga	ichthyaetus	Grey-headed Fish Eagle	\N
+83	Gypaetus	barbatus	Lammergeier	\N
+83	Neophron	percnopterus	Egyptian Vulture	\N
+83	Gyps	bengalensis	White-rumped Vulture	\N
+83	Macheiramphus	alcinus	Bat Hawk	\N
+83	Haliaeetus	leucogaster	White-bellied Sea Eagle	\N
+83	Hieraaetus	morphnoides	Little Eagle	\N
+83	Pithecophaga	jefferyi	Philippine Eagle	\N
+83	Ictinaetus	malayensis	Black Eagle	\N
+83	Aquila	clanga	Greater Spotted Eagle	\N
+83	Aquila	rapax	Tawny Eagle	\N
+83	Aquila	nipalensis	Steppe Eagle	\N
+83	Aquila	heliaca	Imperial Eagle	\N
+83	Aquila	gurneyi	Gurney's Eagle	\N
+83	Aquila	chrysaetos	Golden Eagle	\N
+83	Buteo	lagopus	Rough-legged Buzzard	\N
+83	Hieraaetus	pennatus	Booted Eagle	\N
 83	Spizaetus	bartelsi	Javan Hawk Eagle	Species endemic to Java, Indonesia.
-83	Hieraaetus	kienerii	Rufous-bellied Eagle	
-83	Spizaetus	cirrhatus	Changeable Hawk Eagle	
-83	Spizaetus	nipalensis	Mountain Hawk Eagle	
-83	Spizaetus	alboniger	Blyth's Hawk Eagle	
-83	Spizaetus	lanceolatus	Sulawesi Hawk Eagle	
-83	Spizaetus	philippensis	Philippine Hawk Eagle	
-83	Spizaetus	nanus	Wallace's Hawk Eagle	
-83	Accipiter	soloensis	Chinese Sparrowhawk	
-83	Pernis	ptilorhyncus	Oriental Honey-buzzard	
-83	Hieraaetus	fasciatus	Bonelli's Eagle	
-83	Accipiter	nisus	Eurasian Sparrowhawk	
-83	Accipiter	fasciatus	Brown Goshawk	
-83	Accipiter	henicogrammus	Moluccan Goshawk	
-83	Buteo	hemilasius	Upland Buzzard	
-83	Accipiter	virgatus	Besra	
-83	Accipiter	nanus	Small Sparrowhawk	
-83	Accipiter	rhodogaster	Vinous-breasted Sparrowhawk	
-83	Accipiter	gularis	Japanese Sparrowhawk	
+83	Hieraaetus	kienerii	Rufous-bellied Eagle	\N
+83	Spizaetus	cirrhatus	Changeable Hawk Eagle	\N
+83	Spizaetus	nipalensis	Mountain Hawk Eagle	\N
+83	Spizaetus	alboniger	Blyth's Hawk Eagle	\N
+83	Spizaetus	lanceolatus	Sulawesi Hawk Eagle	\N
+83	Spizaetus	philippensis	Philippine Hawk Eagle	\N
+83	Spizaetus	nanus	Wallace's Hawk Eagle	\N
+83	Accipiter	soloensis	Chinese Sparrowhawk	\N
+83	Pernis	ptilorhyncus	Oriental Honey-buzzard	\N
+83	Hieraaetus	fasciatus	Bonelli's Eagle	\N
+83	Accipiter	nisus	Eurasian Sparrowhawk	\N
+83	Accipiter	fasciatus	Brown Goshawk	\N
+83	Accipiter	henicogrammus	Moluccan Goshawk	\N
+83	Buteo	hemilasius	Upland Buzzard	\N
+83	Accipiter	virgatus	Besra	\N
+83	Accipiter	nanus	Small Sparrowhawk	\N
+83	Accipiter	rhodogaster	Vinous-breasted Sparrowhawk	\N
+83	Accipiter	gularis	Japanese Sparrowhawk	\N
 83	Accipiter	trinotatus	Spot-tailed Sparrowhawk	Species endemic to Sulawesi, Muna and Buton in Indonesia.
-83	Butastur	liventer	Rufous-winged Buzzard	
+83	Butastur	liventer	Rufous-winged Buzzard	\N
 83	Accipiter	hiogaster	Variable Goshawk	Split from now extralimital <i>Accipiter novaeseelandiae</i> (of Australia) following Ferguson-Lees et al <i>Raptors</i> (2001) London: Christopher Helm.
-83	Accipiter	gentilis	Northern Goshawk	
-83	Accipiter	meyerianus	Meyer's Goshawk	
-83	Butastur	teesa	White-eyed Buzzard	
-83	Buteo	rufinus	Long-legged Buzzard	
-83	Buteo	buteo	Common Buzzard	
+83	Accipiter	gentilis	Northern Goshawk	\N
+83	Accipiter	meyerianus	Meyer's Goshawk	\N
+83	Butastur	teesa	White-eyed Buzzard	\N
+83	Buteo	rufinus	Long-legged Buzzard	\N
+83	Buteo	buteo	Common Buzzard	\N
 83	Accipiter	erythrauchen	Rufous-necked Sparrowhawk	Species endemic to the Moluccas, Indonesia.
-83	Butastur	indicus	Grey-faced Buzzard	
-100	Fregetta	grallaria	White-bellied Storm-petrel	
-100	Oceanites	oceanicus	Wilson's Storm-petrel	
-100	Fregetta	tropica	Black-bellied Storm-petrel	
-100	Oceanodroma	microsoma	Least Storm-petrel	
-100	Oceanodroma	castro	Band-rumped Storm-petrel	
-100	Oceanodroma	leucorhoa	Leach's Storm-petrel	
-100	Oceanodroma	monorhis	Swinhoe's Storm-petrel	
-100	Oceanodroma	tristrami	Tristram's Storm-petrel	
-100	Oceanodroma	matsudairae	Matsudaira's Storm-petrel	
-100	Oceanodroma	furcata	Fork-tailed Storm-petrel	
-100	Pelagodroma	marina	White-faced Storm-petrel	
-72	Dromas	ardeola	Crab-plover	
+83	Butastur	indicus	Grey-faced Buzzard	\N
+100	Fregetta	grallaria	White-bellied Storm-petrel	\N
+100	Oceanites	oceanicus	Wilson's Storm-petrel	\N
+100	Fregetta	tropica	Black-bellied Storm-petrel	\N
+100	Oceanodroma	microsoma	Least Storm-petrel	\N
+100	Oceanodroma	castro	Band-rumped Storm-petrel	\N
+100	Oceanodroma	leucorhoa	Leach's Storm-petrel	\N
+100	Oceanodroma	monorhis	Swinhoe's Storm-petrel	\N
+100	Oceanodroma	tristrami	Tristram's Storm-petrel	\N
+100	Oceanodroma	matsudairae	Matsudaira's Storm-petrel	\N
+100	Oceanodroma	furcata	Fork-tailed Storm-petrel	\N
+100	Pelagodroma	marina	White-faced Storm-petrel	\N
+72	Dromas	ardeola	Crab-plover	\N
 73	Rhinoptilus	bitorquatus	Jerdon's Courser	Species endemic to Andhra Pradesh in India.
-73	Cursorius	cursor	Cream-coloured Courser	
+73	Cursorius	cursor	Cream-coloured Courser	\N
 73	Cursorius	coromandelicus	Indian Courser	Species endemic to the Indian Subcontinent (India, Nepal & Pakistan).
-73	Glareola	pratincola	Collared Pratincole	
-73	Glareola	maldivarum	Oriental Pratincole	
-73	Glareola	lactea	Small Pratincole	
-73	Stiltia	isabella	Australian Pratincole	
-76	Stercorarius	pomarinus	Pomarine Jaeger	
-76	Stercorarius	parasiticus	Parasitic Jaeger	
-76	Catharacta	maccormicki	South-Polar Skua	
-76	Stercorarius	longicaudus	Long-tailed Jaeger	
-77	Rynchops	albicollis	Indian Skimmer	
-78	Larus	cachinnans	Caspian Gull	
-78	Larus	hyperboreus	Glaucous Gull	
-78	Xema	sabini	Sabine's Gull	
-78	Larus	schistisagus	Slaty-backed Gull	
-78	Larus	vegae	Vega Gull	
-78	Larus	glaucoides	Iceland Gull	
-78	Larus	ichthyaetus	Pallas's Gull	
-78	Larus	brunnicephalus	Brown-headed Gull	
-78	Larus	ridibundus	Black-headed Gull	
-78	Larus	glaucescens	Glaucous-winged Gull	
-78	Larus	canus	Mew Gull	
-78	Larus	hemprichii	Sooty Gull	
-78	Larus	relictus	Relict Gull	
-78	Larus	heuglini	Heuglin's Gull	
-78	Larus	leucophthalmus	White-eyed Gull	
-78	Rhodostethia	rosea	Ross's Gull	
-78	Pagophila	eburnea	Ivory Gull	
-78	Larus	minutus	Little Gull	
-78	Larus	pipixcan	Franklin's Gull	
-78	Rissa	brevirostris	Red-legged Kittiwake	
-78	Larus	saundersi	Saunders's Gull	
-78	Larus	genei	Slender-billed Gull	
-78	Larus	philadelphia	Bonaparte's Gull	
-78	Larus	crassirostris	Black-tailed Gull	
-78	Rissa	tridactyla	Black-legged Kittiwake	
-79	Sterna	bergii	Great Crested Tern	
-79	Sterna	acuticauda	Black-bellied Tern	
-79	Gelochelidon	nilotica	Gull-billed Tern	
-79	Sterna	caspia	Caspian Tern	
-79	Sterna	aurantia	River Tern	
-79	Sterna	bengalensis	Lesser Crested Tern	
-79	Sterna	bernsteini	Chinese Crested Tern	
-79	Sterna	dougallii	Roseate Tern	
-79	Sterna	sumatrana	Black-naped Tern	
-79	Sterna	hirundo	Common Tern	
-79	Sterna	paradisaea	Arctic Tern	
-79	Sterna	albifrons	Little Tern	
-79	Sterna	sandvicensis	Sandwich Tern	
-79	Sterna	repressa	White-cheeked Tern	
-79	Gygis	alba	White Tern	
-79	Sterna	aleutica	Aleutian Tern	
-79	Sterna	lunata	Grey-backed Tern	
-79	Sterna	anaethetus	Bridled Tern	
-79	Sterna	fuscata	Sooty Tern	
-79	Chlidonias	hybrida	Whiskered Tern	
-79	Chlidonias	leucopterus	White-winged Tern	
-79	Chlidonias	niger	Black Tern	
-79	Anous	stolidus	Brown Noddy	
-79	Anous	minutus	Black Noddy	
-79	Anous	tenuirostris	Lesser Noddy	
-79	Procelsterna	cerulea	Blue-grey Noddy	
-79	Sterna	saundersi	Saunders's Tern	
-80	Uria	aalge	Common Murre	
-80	Cepphus	carbo	Spectacled Guillemot	
-80	Fratercula	cirrhata	Tufted Puffin	
-80	Cepphus	grylle	Black Guillemot	
-80	Alle	alle	Little Auk	
-80	Cepphus	columba	Pigeon Guillemot	
-80	Brachyramphus	perdix	Long-billed Murrelet	
-80	Brachyramphus	brevirostris	Kittlitz's Murrelet	
-80	Ptychoramphus	aleuticus	Cassin's Auklet	
-80	Synthliboramphus	antiquus	Ancient Murrelet	
-80	Cyclorrhynchus	psittacula	Parakeet Auklet	
-80	Aethia	cristatella	Crested Auklet	
-80	Aethia	pygmaea	Whiskered Auklet	
-80	Fratercula	corniculata	Horned Puffin	
-80	Aethia	pusilla	Least Auklet	
-80	Synthliboramphus	wumizusume	Japanese Murrelet	
-80	Uria	lomvia	Thick-billed Murre	
-80	Cerorhinca	monocerata	Rhinoceros Auklet	
-99	Diomedea	exulans	Wandering Albatross	
-99	Diomedea	nigripes	Black-footed Albatross	
-99	Diomedea	melanophris	Black-browed Albatross	
-99	Diomedea	albatrus	Short-tailed Albatross	
-99	Diomedea	immutabilis	Laysan Albatross	
-82	Pandion	haliaetus	Osprey	
-71	Charadrius	placidus	Long-billed Plover	
-71	Charadrius	veredus	Oriental Plover	
-71	Charadrius	leschenaultii	Greater Sand Plover	
-71	Charadrius	mongolus	Lesser Sand Plover	
-71	Charadrius	javanicus	Javan Plover	
-71	Charadrius	peronii	Malaysian Plover	
-71	Charadrius	ruficapillus	Red-capped Plover	
-71	Charadrius	semipalmatus	Semipalmated Plover	
-71	Charadrius	dubius	Little Ringed Plover	
-71	Pluvialis	fulva	Pacific Golden Plover	
-71	Elseyornis	melanops	Black-fronted Dotterel	
-71	Pluvialis	apricaria	European Golden Plover	
-71	Charadrius	morinellus	Eurasian Dotterel	
-71	Charadrius	hiaticula	Common Ringed Plover	
-71	Pluvialis	squatarola	Grey Plover	
-71	Pluvialis	dominica	American Golden Plover	
-71	Charadrius	alexandrinus	Kentish Plover	
-71	Vanellus	cinereus	Grey-headed Lapwing	
-71	Vanellus	vanellus	Northern Lapwing	
-71	Vanellus	leucurus	White-tailed Lapwing	
-71	Charadrius	asiaticus	Caspian Plover	
-71	Vanellus	indicus	Red-wattled Lapwing	
-71	Vanellus	duvaucelii	River Lapwing	
-71	Vanellus	miles	Masked Lapwing	
-71	Vanellus	macropterus	Javan Lapwing	
+73	Glareola	pratincola	Collared Pratincole	\N
+73	Glareola	maldivarum	Oriental Pratincole	\N
+73	Glareola	lactea	Small Pratincole	\N
+73	Stiltia	isabella	Australian Pratincole	\N
+76	Stercorarius	pomarinus	Pomarine Jaeger	\N
+76	Stercorarius	parasiticus	Parasitic Jaeger	\N
+76	Catharacta	maccormicki	South-Polar Skua	\N
+76	Stercorarius	longicaudus	Long-tailed Jaeger	\N
+77	Rynchops	albicollis	Indian Skimmer	\N
+78	Larus	cachinnans	Caspian Gull	\N
+78	Larus	hyperboreus	Glaucous Gull	\N
+78	Xema	sabini	Sabine's Gull	\N
+78	Larus	schistisagus	Slaty-backed Gull	\N
+78	Larus	vegae	Vega Gull	\N
+78	Larus	glaucoides	Iceland Gull	\N
+78	Larus	ichthyaetus	Pallas's Gull	\N
+78	Larus	brunnicephalus	Brown-headed Gull	\N
+78	Larus	ridibundus	Black-headed Gull	\N
+78	Larus	glaucescens	Glaucous-winged Gull	\N
+78	Larus	canus	Mew Gull	\N
+78	Larus	hemprichii	Sooty Gull	\N
+78	Larus	relictus	Relict Gull	\N
+78	Larus	heuglini	Heuglin's Gull	\N
+78	Larus	leucophthalmus	White-eyed Gull	\N
+78	Rhodostethia	rosea	Ross's Gull	\N
+78	Pagophila	eburnea	Ivory Gull	\N
+78	Larus	minutus	Little Gull	\N
+78	Larus	pipixcan	Franklin's Gull	\N
+78	Rissa	brevirostris	Red-legged Kittiwake	\N
+78	Larus	saundersi	Saunders's Gull	\N
+78	Larus	genei	Slender-billed Gull	\N
+78	Larus	philadelphia	Bonaparte's Gull	\N
+78	Larus	crassirostris	Black-tailed Gull	\N
+78	Rissa	tridactyla	Black-legged Kittiwake	\N
+79	Sterna	bergii	Great Crested Tern	\N
+79	Sterna	acuticauda	Black-bellied Tern	\N
+79	Gelochelidon	nilotica	Gull-billed Tern	\N
+79	Sterna	caspia	Caspian Tern	\N
+79	Sterna	aurantia	River Tern	\N
+79	Sterna	bengalensis	Lesser Crested Tern	\N
+79	Sterna	bernsteini	Chinese Crested Tern	\N
+79	Sterna	dougallii	Roseate Tern	\N
+79	Sterna	sumatrana	Black-naped Tern	\N
+79	Sterna	hirundo	Common Tern	\N
+79	Sterna	paradisaea	Arctic Tern	\N
+79	Sterna	albifrons	Little Tern	\N
+79	Sterna	sandvicensis	Sandwich Tern	\N
+79	Sterna	repressa	White-cheeked Tern	\N
+79	Gygis	alba	White Tern	\N
+79	Sterna	aleutica	Aleutian Tern	\N
+79	Sterna	lunata	Grey-backed Tern	\N
+79	Sterna	anaethetus	Bridled Tern	\N
+79	Sterna	fuscata	Sooty Tern	\N
+79	Chlidonias	hybrida	Whiskered Tern	\N
+79	Chlidonias	leucopterus	White-winged Tern	\N
+79	Chlidonias	niger	Black Tern	\N
+79	Anous	stolidus	Brown Noddy	\N
+79	Anous	minutus	Black Noddy	\N
+79	Anous	tenuirostris	Lesser Noddy	\N
+79	Procelsterna	cerulea	Blue-grey Noddy	\N
+79	Sterna	saundersi	Saunders's Tern	\N
+80	Uria	aalge	Common Murre	\N
+80	Cepphus	carbo	Spectacled Guillemot	\N
+80	Fratercula	cirrhata	Tufted Puffin	\N
+80	Cepphus	grylle	Black Guillemot	\N
+80	Alle	alle	Little Auk	\N
+80	Cepphus	columba	Pigeon Guillemot	\N
+80	Brachyramphus	perdix	Long-billed Murrelet	\N
+80	Brachyramphus	brevirostris	Kittlitz's Murrelet	\N
+80	Ptychoramphus	aleuticus	Cassin's Auklet	\N
+80	Synthliboramphus	antiquus	Ancient Murrelet	\N
+80	Cyclorrhynchus	psittacula	Parakeet Auklet	\N
+80	Aethia	cristatella	Crested Auklet	\N
+80	Aethia	pygmaea	Whiskered Auklet	\N
+80	Fratercula	corniculata	Horned Puffin	\N
+80	Aethia	pusilla	Least Auklet	\N
+80	Synthliboramphus	wumizusume	Japanese Murrelet	\N
+80	Uria	lomvia	Thick-billed Murre	\N
+80	Cerorhinca	monocerata	Rhinoceros Auklet	\N
+99	Diomedea	exulans	Wandering Albatross	\N
+99	Diomedea	nigripes	Black-footed Albatross	\N
+99	Diomedea	melanophris	Black-browed Albatross	\N
+99	Diomedea	albatrus	Short-tailed Albatross	\N
+99	Diomedea	immutabilis	Laysan Albatross	\N
+82	Pandion	haliaetus	Osprey	\N
+71	Charadrius	placidus	Long-billed Plover	\N
+71	Charadrius	veredus	Oriental Plover	\N
+71	Charadrius	leschenaultii	Greater Sand Plover	\N
+71	Charadrius	mongolus	Lesser Sand Plover	\N
+71	Charadrius	javanicus	Javan Plover	\N
+71	Charadrius	peronii	Malaysian Plover	\N
+71	Charadrius	ruficapillus	Red-capped Plover	\N
+71	Charadrius	semipalmatus	Semipalmated Plover	\N
+71	Charadrius	dubius	Little Ringed Plover	\N
+71	Pluvialis	fulva	Pacific Golden Plover	\N
+71	Elseyornis	melanops	Black-fronted Dotterel	\N
+71	Pluvialis	apricaria	European Golden Plover	\N
+71	Charadrius	morinellus	Eurasian Dotterel	\N
+71	Charadrius	hiaticula	Common Ringed Plover	\N
+71	Pluvialis	squatarola	Grey Plover	\N
+71	Pluvialis	dominica	American Golden Plover	\N
+71	Charadrius	alexandrinus	Kentish Plover	\N
+71	Vanellus	cinereus	Grey-headed Lapwing	\N
+71	Vanellus	vanellus	Northern Lapwing	\N
+71	Vanellus	leucurus	White-tailed Lapwing	\N
+71	Charadrius	asiaticus	Caspian Plover	\N
+71	Vanellus	indicus	Red-wattled Lapwing	\N
+71	Vanellus	duvaucelii	River Lapwing	\N
+71	Vanellus	miles	Masked Lapwing	\N
+71	Vanellus	macropterus	Javan Lapwing	\N
 71	Vanellus	malabaricus	Yellow-wattled Lapwing	Species endemic to the Indian Subcontinent.
-71	Vanellus	gregarius	Sociable Lapwing	
+71	Vanellus	gregarius	Sociable Lapwing	\N
 84	Microhierax	latifrons	White-fronted Falconet	Species endemic to North Borneo.
-84	Falco	subbuteo	Eurasian Hobby	
-84	Polihierax	insignis	White-rumped Falcon	
-84	Falco	severus	Oriental Hobby	
-84	Microhierax	fringillarius	Black-thighed Falconet	
-84	Falco	chicquera	Red-necked Falcon	
-84	Microhierax	erythrogenys	Philippine Falconet	
-84	Microhierax	melanoleucos	Pied Falconet	
-84	Falco	naumanni	Lesser Kestrel	
-84	Falco	tinnunculus	Common Kestrel	
-84	Microhierax	caerulescens	Collared Falconet	
-84	Falco	peregrinus	Peregrine Falcon	
-84	Falco	cenchroides	Nankeen Kestrel	
-84	Falco	cherrug	Saker Falcon	
-84	Falco	moluccensis	Spotted Kestrel	
-84	Falco	vespertinus	Red-footed Falcon	
-84	Falco	rusticolus	Gyrfalcon	
-84	Falco	columbarius	Merlin	
-84	Falco	concolor	Sooty Falcon	
-84	Falco	amurensis	Amur Falcon	
-84	Falco	longipennis	Australian Hobby	
-84	Falco	jugger	Laggar Falcon	
-85	Podiceps	grisegena	Red-necked Grebe	
-85	Podiceps	cristatus	Great Crested Grebe	
-85	Podiceps	auritus	Horned Grebe	
-85	Podiceps	nigricollis	Black-necked Grebe	
-85	Tachybaptus	ruficollis	Little Grebe	
-85	Tachybaptus	novaehollandiae	Australasian Grebe	
-86	Phaethon	aethereus	Red-billed Tropicbird	
-86	Phaethon	rubricauda	Red-tailed Tropicbird	
-86	Phaethon	lepturus	White-tailed Tropicbird	
-87	Sula	leucogaster	Brown Booby	
-87	Sula	sula	Red-footed Booby	
-87	Sula	dactylatra	Masked Booby	
-87	Papasula	abbotti	Abbott's Booby	
-88	Anhinga	melanogaster	Darter	
-89	Phalacrocorax	fuscicollis	Indian Cormorant	
-89	Phalacrocorax	sulcirostris	Little Black Cormorant	
-89	Phalacrocorax	pelagicus	Pelagic Cormorant	
-89	Phalacrocorax	urile	Red-faced Cormorant	
-89	Phalacrocorax	capillatus	Japanese Cormorant	
-89	Phalacrocorax	carbo	Great Cormorant	
-89	Phalacrocorax	perspicillatus	Pallas's Cormorant	
-89	Phalacrocorax	melanoleucos	Little Pied Cormorant	
-89	Phalacrocorax	niger	Little Cormorant	
-89	Phalacrocorax	pygmeus	Pygmy Cormorant	
-90	Ardeola	speciosa	Javan Pond Heron	
-90	Dupetor	flavicollis	Black Bittern	
-90	Ixobrychus	eurhythmus	Von Schrenck's Bittern	
-90	Ixobrychus	sinensis	Yellow Bittern	
-90	Ixobrychus	minutus	Little Bittern	
-90	Gorsachius	melanolophus	Malayan Night Heron	
-90	Gorsachius	goisagi	Japanese Night Heron	
-90	Egretta	gularis	Western Reef Egret	
-90	Gorsachius	magnificus	White-eared Night Heron	
-90	Botaurus	stellaris	Great Bittern	
-90	Egretta	garzetta	Little Egret	
-90	Nycticorax	caledonicus	Rufous Night Heron	
-90	Ixobrychus	cinnamomeus	Cinnamon Bittern	
-90	Butorides	striata	Little Heron	
-90	Egretta	novaehollandiae	White-faced Heron	
-90	Ardeola	bacchus	Chinese Pond Heron	
-90	Ardeola	grayii	Indian Pond Heron	
-90	Bubulcus	ibis	Cattle Egret	
-90	Mesophoyx	intermedia	Intermediate Egret	
-90	Casmerodius	albus	Great Egret	
-90	Ardea	purpurea	Purple Heron	
-90	Ardea	sumatrana	Great-billed Heron	
-90	Ardea	insignis	White-bellied Heron	
-90	Ardea	goliath	Goliath Heron	
-90	Ardea	cinerea	Grey Heron	
-90	Egretta	picata	Pied Heron	
-90	Egretta	sacra	Pacific Reef Egret	
-90	Egretta	eulophotes	Chinese Egret	
-90	Nycticorax	nycticorax	Black-crowned Night Heron	
-91	Phoenicopterus	minor	Lesser Flamingo	
-91	Phoenicopterus	ruber	Greater Flamingo	
-92	Threskiornis	melanocephalus	Black-headed Ibis	
-92	Platalea	minor	Black-faced Spoonbill	
-92	Platalea	regia	Royal Spoonbill	
-92	Platalea	leucorodia	Eurasian Spoonbill	
-92	Nipponia	nippon	Crested Ibis	
-92	Pseudibis	gigantea	Giant Ibis	
-92	Plegadis	falcinellus	Glossy Ibis	
-92	Pseudibis	papillosa	Black Ibis	
-92	Threskiornis	molucca	Australian Ibis	
-60	Pterocles	senegallus	Spotted Sandgrouse	
+84	Falco	subbuteo	Eurasian Hobby	\N
+84	Polihierax	insignis	White-rumped Falcon	\N
+84	Falco	severus	Oriental Hobby	\N
+84	Microhierax	fringillarius	Black-thighed Falconet	\N
+84	Falco	chicquera	Red-necked Falcon	\N
+84	Microhierax	erythrogenys	Philippine Falconet	\N
+84	Microhierax	melanoleucos	Pied Falconet	\N
+84	Falco	naumanni	Lesser Kestrel	\N
+84	Falco	tinnunculus	Common Kestrel	\N
+84	Microhierax	caerulescens	Collared Falconet	\N
+84	Falco	peregrinus	Peregrine Falcon	\N
+84	Falco	cenchroides	Nankeen Kestrel	\N
+84	Falco	cherrug	Saker Falcon	\N
+84	Falco	moluccensis	Spotted Kestrel	\N
+84	Falco	vespertinus	Red-footed Falcon	\N
+84	Falco	rusticolus	Gyrfalcon	\N
+84	Falco	columbarius	Merlin	\N
+84	Falco	concolor	Sooty Falcon	\N
+84	Falco	amurensis	Amur Falcon	\N
+84	Falco	longipennis	Australian Hobby	\N
+84	Falco	jugger	Laggar Falcon	\N
+85	Podiceps	grisegena	Red-necked Grebe	\N
+85	Podiceps	cristatus	Great Crested Grebe	\N
+85	Podiceps	auritus	Horned Grebe	\N
+85	Podiceps	nigricollis	Black-necked Grebe	\N
+85	Tachybaptus	ruficollis	Little Grebe	\N
+85	Tachybaptus	novaehollandiae	Australasian Grebe	\N
+86	Phaethon	aethereus	Red-billed Tropicbird	\N
+86	Phaethon	rubricauda	Red-tailed Tropicbird	\N
+86	Phaethon	lepturus	White-tailed Tropicbird	\N
+87	Sula	leucogaster	Brown Booby	\N
+87	Sula	sula	Red-footed Booby	\N
+87	Sula	dactylatra	Masked Booby	\N
+87	Papasula	abbotti	Abbott's Booby	\N
+88	Anhinga	melanogaster	Darter	\N
+89	Phalacrocorax	fuscicollis	Indian Cormorant	\N
+89	Phalacrocorax	sulcirostris	Little Black Cormorant	\N
+89	Phalacrocorax	pelagicus	Pelagic Cormorant	\N
+89	Phalacrocorax	urile	Red-faced Cormorant	\N
+89	Phalacrocorax	capillatus	Japanese Cormorant	\N
+89	Phalacrocorax	carbo	Great Cormorant	\N
+89	Phalacrocorax	perspicillatus	Pallas's Cormorant	\N
+89	Phalacrocorax	melanoleucos	Little Pied Cormorant	\N
+89	Phalacrocorax	niger	Little Cormorant	\N
+89	Phalacrocorax	pygmeus	Pygmy Cormorant	\N
+90	Ardeola	speciosa	Javan Pond Heron	\N
+90	Dupetor	flavicollis	Black Bittern	\N
+90	Ixobrychus	eurhythmus	Von Schrenck's Bittern	\N
+90	Ixobrychus	sinensis	Yellow Bittern	\N
+90	Ixobrychus	minutus	Little Bittern	\N
+90	Gorsachius	melanolophus	Malayan Night Heron	\N
+90	Gorsachius	goisagi	Japanese Night Heron	\N
+90	Egretta	gularis	Western Reef Egret	\N
+90	Gorsachius	magnificus	White-eared Night Heron	\N
+90	Botaurus	stellaris	Great Bittern	\N
+90	Egretta	garzetta	Little Egret	\N
+90	Nycticorax	caledonicus	Rufous Night Heron	\N
+90	Ixobrychus	cinnamomeus	Cinnamon Bittern	\N
+90	Butorides	striata	Little Heron	\N
+90	Egretta	novaehollandiae	White-faced Heron	\N
+90	Ardeola	bacchus	Chinese Pond Heron	\N
+90	Ardeola	grayii	Indian Pond Heron	\N
+90	Bubulcus	ibis	Cattle Egret	\N
+90	Mesophoyx	intermedia	Intermediate Egret	\N
+90	Casmerodius	albus	Great Egret	\N
+90	Ardea	purpurea	Purple Heron	\N
+90	Ardea	sumatrana	Great-billed Heron	\N
+90	Ardea	insignis	White-bellied Heron	\N
+90	Ardea	goliath	Goliath Heron	\N
+90	Ardea	cinerea	Grey Heron	\N
+90	Egretta	picata	Pied Heron	\N
+90	Egretta	sacra	Pacific Reef Egret	\N
+90	Egretta	eulophotes	Chinese Egret	\N
+90	Nycticorax	nycticorax	Black-crowned Night Heron	\N
+91	Phoenicopterus	minor	Lesser Flamingo	\N
+91	Phoenicopterus	ruber	Greater Flamingo	\N
+92	Threskiornis	melanocephalus	Black-headed Ibis	\N
+92	Platalea	minor	Black-faced Spoonbill	\N
+92	Platalea	regia	Royal Spoonbill	\N
+92	Platalea	leucorodia	Eurasian Spoonbill	\N
+92	Nipponia	nippon	Crested Ibis	\N
+92	Pseudibis	gigantea	Giant Ibis	\N
+92	Plegadis	falcinellus	Glossy Ibis	\N
+92	Pseudibis	papillosa	Black Ibis	\N
+92	Threskiornis	molucca	Australian Ibis	\N
+60	Pterocles	senegallus	Spotted Sandgrouse	\N
 60	Pterocles	indicus	Painted Sandgrouse	Species endemic to the Indian Subcontinent (India & Pakistan).
-60	Pterocles	orientalis	Black-bellied Sandgrouse	
-60	Pterocles	exustus	Chestnut-bellied Sandgrouse	
-60	Pterocles	alchata	Pin-tailed Sandgrouse	
-60	Pterocles	lichtensteinii	Lichtenstein's Sandgrouse	
-60	Syrrhaptes	tibetanus	Tibetan Sandgrouse	
-60	Syrrhaptes	paradoxus	Pallas's Sandgrouse	
-60	Pterocles	coronatus	Crowned Sandgrouse	
-98	Puffinus	tenuirostris	Short-tailed Shearwater	
-98	Pterodroma	hypoleuca	Bonin Petrel	
-98	Pterodroma	inexpectata	Mottled Petrel	
-98	Pterodroma	cervicalis	White-necked Petrel	
-98	Pterodroma	nigripennis	Black-winged Petrel	
-98	Pterodroma	rostrata	Tahiti Petrel	
-98	Daption	capense	Cape Petrel	
-98	Fulmarus	glacialis	Northern Fulmar	
-98	Pterodroma	leucoptera	Gould's Petrel	
-98	Puffinus	griseus	Sooty Shearwater	
-98	Pterodroma	heraldica	Herald Petrel	
-98	Puffinus	nativitatis	Kiritimati Shearwater	
-98	Puffinus	lherminieri	Audubon's Shearwater	
-98	Puffinus	persicus	Persian Shearwater	
-98	Puffinus	carneipes	Flesh-footed Shearwater	
-98	Bulweria	bulwerii	Bulwer's Petrel	
-98	Puffinus	bulleri	Buller's Shearwater	
-98	Pterodroma	pycrofti	Pycroft's Petrel	
-98	Bulweria	fallax	Jouanin's Petrel	
-98	Puffinus	pacificus	Wedge-tailed Shearwater	
-98	Pachyptila	desolata	Antarctic Prion	
-98	Pterodroma	solandri	Providence Petrel	
-98	Pterodroma	baraui	Barau's Petrel	
-98	Pterodroma	externa	Juan Fernandez Petrel	
-98	Pterodroma	neglecta	Kermadec Petrel	
-98	Pterodroma	sandwichensis	Hawaiian Petrel	
-98	Pterodroma	longirostris	Stejneger's Petrel	
-98	Calonectris	leucomelas	Streaked Shearwater	
-96	Gavia	immer	Great Northern Loon	
-96	Gavia	stellata	Red-throated Loon	
-96	Gavia	arctica	Black-throated Loon	
-96	Gavia	adamsii	Yellow-billed Loon	
-96	Gavia	pacifica	Pacific Loon	
-95	Fregata	minor	Great Frigatebird	
-95	Fregata	ariel	Lesser Frigatebird	
-95	Fregata	andrewsi	Christmas Island Frigatebird	
-93	Pelecanus	conspicillatus	Australian Pelican	
-93	Pelecanus	onocrotalus	Great White Pelican	
-93	Pelecanus	crispus	Dalmatian Pelican	
-93	Pelecanus	philippensis	Spot-billed Pelican	
-62	Gallinago	hardwickii	Latham's Snipe	
-62	Scolopax	celebensis	Sulawesi Woodcock	
-62	Scolopax	saturata	Dusky Woodcock	
-62	Scolopax	mira	Amami Woodcock	
-62	Scolopax	rusticola	Eurasian Woodcock	
-62	Gallinago	solitaria	Solitary Snipe	
-62	Gallinago	gallinago	Common Snipe	
-62	Gallinago	nemoricola	Wood Snipe	
+60	Pterocles	orientalis	Black-bellied Sandgrouse	\N
+60	Pterocles	exustus	Chestnut-bellied Sandgrouse	\N
+60	Pterocles	alchata	Pin-tailed Sandgrouse	\N
+60	Pterocles	lichtensteinii	Lichtenstein's Sandgrouse	\N
+60	Syrrhaptes	tibetanus	Tibetan Sandgrouse	\N
+60	Syrrhaptes	paradoxus	Pallas's Sandgrouse	\N
+60	Pterocles	coronatus	Crowned Sandgrouse	\N
+98	Puffinus	tenuirostris	Short-tailed Shearwater	\N
+98	Pterodroma	hypoleuca	Bonin Petrel	\N
+98	Pterodroma	inexpectata	Mottled Petrel	\N
+98	Pterodroma	cervicalis	White-necked Petrel	\N
+98	Pterodroma	nigripennis	Black-winged Petrel	\N
+98	Pterodroma	rostrata	Tahiti Petrel	\N
+98	Daption	capense	Cape Petrel	\N
+98	Fulmarus	glacialis	Northern Fulmar	\N
+98	Pterodroma	leucoptera	Gould's Petrel	\N
+98	Puffinus	griseus	Sooty Shearwater	\N
+98	Pterodroma	heraldica	Herald Petrel	\N
+98	Puffinus	nativitatis	Kiritimati Shearwater	\N
+98	Puffinus	lherminieri	Audubon's Shearwater	\N
+98	Puffinus	persicus	Persian Shearwater	\N
+98	Puffinus	carneipes	Flesh-footed Shearwater	\N
+98	Bulweria	bulwerii	Bulwer's Petrel	\N
+98	Puffinus	bulleri	Buller's Shearwater	\N
+98	Pterodroma	pycrofti	Pycroft's Petrel	\N
+98	Bulweria	fallax	Jouanin's Petrel	\N
+98	Puffinus	pacificus	Wedge-tailed Shearwater	\N
+98	Pachyptila	desolata	Antarctic Prion	\N
+98	Pterodroma	solandri	Providence Petrel	\N
+98	Pterodroma	baraui	Barau's Petrel	\N
+98	Pterodroma	externa	Juan Fernandez Petrel	\N
+98	Pterodroma	neglecta	Kermadec Petrel	\N
+98	Pterodroma	sandwichensis	Hawaiian Petrel	\N
+98	Pterodroma	longirostris	Stejneger's Petrel	\N
+98	Calonectris	leucomelas	Streaked Shearwater	\N
+96	Gavia	immer	Great Northern Loon	\N
+96	Gavia	stellata	Red-throated Loon	\N
+96	Gavia	arctica	Black-throated Loon	\N
+96	Gavia	adamsii	Yellow-billed Loon	\N
+96	Gavia	pacifica	Pacific Loon	\N
+95	Fregata	minor	Great Frigatebird	\N
+95	Fregata	ariel	Lesser Frigatebird	\N
+95	Fregata	andrewsi	Christmas Island Frigatebird	\N
+93	Pelecanus	conspicillatus	Australian Pelican	\N
+93	Pelecanus	onocrotalus	Great White Pelican	\N
+93	Pelecanus	crispus	Dalmatian Pelican	\N
+93	Pelecanus	philippensis	Spot-billed Pelican	\N
+62	Gallinago	hardwickii	Latham's Snipe	\N
+62	Scolopax	celebensis	Sulawesi Woodcock	\N
+62	Scolopax	saturata	Dusky Woodcock	\N
+62	Scolopax	mira	Amami Woodcock	\N
+62	Scolopax	rusticola	Eurasian Woodcock	\N
+62	Gallinago	solitaria	Solitary Snipe	\N
+62	Gallinago	gallinago	Common Snipe	\N
+62	Gallinago	nemoricola	Wood Snipe	\N
 62	Gallinago	stenura	Pintail Snipe	Positive field separation of this species compared with Swinhoe's Snipe <i>Gallinago megala</i> is currently regarded as impossible, unless the spread tail is seen well or photographed, due to considerable overlap of field characters. Images of these two species posted here are therefore tentative, reflecting the opinion of the photographer and do not imply endorsement by the editors. They are, however, considered useful for reference in case future research determines better ways of separating the two species.\n\n<br>Ref: Leader. P.J. and Carey, G.J. (2003). Identification of Pintail Snipe and Swinhoe''s Snipe, <i>British Birds</i> 96, No. 4, Pages 178  198.
-62	Scolopax	rochussenii	Moluccan Woodcock	
-62	Lymnocryptes	minimus	Jack Snipe	
+62	Scolopax	rochussenii	Moluccan Woodcock	\N
+62	Lymnocryptes	minimus	Jack Snipe	\N
 62	Gallinago	megala	Swinhoe's Snipe	Positive field separation of this species compared with Pintail Snipe <i>Gallinago stenura</i> is currently regarded as impossible, unless the spread tail is seen well or photographed, due to considerable overlap of field characters. Images of these two species posted here are therefore tentative, reflecting the opinion of the photographer and do not imply endorsement by the editors. They are, however, considered useful for reference in case future research determines better ways of separating the two species.\n\n<br>Ref: Leader. P.J. and Carey, G.J. (2003). Identification of Pintail Snipe and Swinhoe''s Snipe, <i>British Birds</i> 96, No. 4, Pages 178  198.
-62	Gallinago	media	Great Snipe	
-70	Himantopus	himantopus	Black-winged Stilt	
-70	Ibidorhyncha	struthersii	Ibisbill	
-70	Recurvirostra	avosetta	Pied Avocet	
-64	Rostratula	benghalensis	Greater Painted-snipe	
-65	Irediparra	gallinacea	Comb-crested Jacana	
-65	Metopidius	indicus	Bronze-winged Jacana	
-65	Hydrophasianus	chirurgus	Pheasant-tailed Jacana	
-66	Esacus	neglectus	Beach Thick-knee	
-66	Burhinus	oedicnemus	Eurasian Thick-knee	
-66	Esacus	recurvirostris	Great Thick-knee	
-69	Haematopus	ostralegus	Eurasian Oystercatcher	
-69	Haematopus	bachmani	Black Oystercatcher	
-69	Haematopus	longirostris	Pied Oystercatcher	
-69	Haematopus	fuliginosus	Sooty Oystercatcher	
-63	Phalaropus	lobatus	Red-necked Phalarope	
-63	Tringa	melanoleuca	Greater Yellowlegs	
-63	Steganopus	tricolor	Wilson's Phalarope	
-63	Philomachus	pugnax	Ruff	
-63	Actitis	hypoleucos	Common Sandpiper	
-63	Limicola	falcinellus	Broad-billed Sandpiper	
-63	Xenus	cinereus	Terek Sandpiper	
-63	Tringa	glareola	Wood Sandpiper	
-63	Phalaropus	fulicarius	Red Phalarope	
-63	Tringa	flavipes	Lesser Yellowlegs	
+62	Gallinago	media	Great Snipe	\N
+70	Himantopus	himantopus	Black-winged Stilt	\N
+70	Ibidorhyncha	struthersii	Ibisbill	\N
+70	Recurvirostra	avosetta	Pied Avocet	\N
+64	Rostratula	benghalensis	Greater Painted-snipe	\N
+65	Irediparra	gallinacea	Comb-crested Jacana	\N
+65	Metopidius	indicus	Bronze-winged Jacana	\N
+65	Hydrophasianus	chirurgus	Pheasant-tailed Jacana	\N
+66	Esacus	neglectus	Beach Thick-knee	\N
+66	Burhinus	oedicnemus	Eurasian Thick-knee	\N
+66	Esacus	recurvirostris	Great Thick-knee	\N
+69	Haematopus	ostralegus	Eurasian Oystercatcher	\N
+69	Haematopus	bachmani	Black Oystercatcher	\N
+69	Haematopus	longirostris	Pied Oystercatcher	\N
+69	Haematopus	fuliginosus	Sooty Oystercatcher	\N
+63	Phalaropus	lobatus	Red-necked Phalarope	\N
+63	Tringa	melanoleuca	Greater Yellowlegs	\N
+63	Steganopus	tricolor	Wilson's Phalarope	\N
+63	Philomachus	pugnax	Ruff	\N
+63	Actitis	hypoleucos	Common Sandpiper	\N
+63	Limicola	falcinellus	Broad-billed Sandpiper	\N
+63	Xenus	cinereus	Terek Sandpiper	\N
+63	Tringa	glareola	Wood Sandpiper	\N
+63	Phalaropus	fulicarius	Red Phalarope	\N
+63	Tringa	flavipes	Lesser Yellowlegs	\N
 63	Actitis	macularius	Spotted Sandpiper	For gender agreement see: David, N. & Gosselin, M. (2002) Gender agreement of avian species names. <i>Bull. Brit. Orn. Cl.</i> 122: 257-282
-63	Tringa	guttifer	Nordmann's Greenshank	
-63	Tringa	nebularia	Common Greenshank	
-63	Tringa	stagnatilis	Marsh Sandpiper	
-63	Tringa	totanus	Common Redshank	
-63	Tringa	erythropus	Spotted Redshank	
-63	Numenius	madagascariensis	Eastern Curlew	
-63	Numenius	arquata	Eurasian Curlew	
-63	Numenius	tenuirostris	Slender-billed Curlew	
-63	Numenius	tahitiensis	Bristle-thighed Curlew	
-63	Tringa	ochropus	Green Sandpiper	
-63	Calidris	temminckii	Temminck's Stint	
-63	Arenaria	interpres	Ruddy Turnstone	
-63	Arenaria	melanocephala	Black Turnstone	
-63	Limnodromus	griseus	Short-billed Dowitcher	
-63	Limnodromus	scolopaceus	Long-billed Dowitcher	
-63	Limnodromus	semipalmatus	Asian Dowitcher	
-63	Calidris	tenuirostris	Great Knot	
-63	Numenius	minutus	Little Curlew	
-63	Calidris	canutus	Red Knot	
-63	Calidris	alba	Sanderling	
-63	Calidris	mauri	Western Sandpiper	
-63	Eurynorhynchus	pygmeus	Spoon-billed Sandpiper	
-63	Tryngites	subruficollis	Buff-breasted Sandpiper	
-63	Calidris	ruficollis	Red-necked Stint	
-63	Micropalama	himantopus	Stilt Sandpiper	
-63	Calidris	subminuta	Long-toed Stint	
-63	Calidris	minutilla	Least Sandpiper	
-63	Calidris	fuscicollis	White-rumped Sandpiper	
-63	Calidris	bairdii	Baird's Sandpiper	
-63	Calidris	melanotos	Pectoral Sandpiper	
-63	Calidris	acuminata	Sharp-tailed Sandpiper	
-63	Calidris	ptilocnemis	Rock Sandpiper	
-63	Calidris	alpina	Dunlin	
-63	Heteroscelus	brevipes	Grey-tailed Tattler	
-63	Calidris	ferruginea	Curlew Sandpiper	
-63	Heteroscelus	incanus	Wandering Tattler	
-63	Calidris	minuta	Little Stint	
-63	Limosa	lapponica	Bar-tailed Godwit	
-63	Limosa	limosa	Black-tailed Godwit	
-63	Numenius	phaeopus	Whimbrel	
-63	Numenius	borealis	Eskimo Curlew	
-94	Leptoptilos	javanicus	Lesser Adjutant	
-94	Mycteria	leucocephala	Painted Stork	
-94	Mycteria	cinerea	Milky Stork	
-94	Anastomus	oscitans	Asian Openbill	
-94	Ciconia	nigra	Black Stork	
-94	Ciconia	episcopus	Woolly-necked Stork	
-94	Ciconia	stormi	Storm's Stork	
-94	Ciconia	ciconia	White Stork	
-94	Ephippiorhynchus	asiaticus	Black-necked Stork	
-94	Leptoptilos	dubius	Greater Adjutant	
-94	Ciconia	boyciana	Oriental Stork	
-104	Gerygone	sulphurea	Golden-bellied Gerygone	
-104	Gerygone	inornata	Plain Gerygone	
-104	Gerygone	dorsalis	Rufous-sided Gerygone	
+63	Tringa	guttifer	Nordmann's Greenshank	\N
+63	Tringa	nebularia	Common Greenshank	\N
+63	Tringa	stagnatilis	Marsh Sandpiper	\N
+63	Tringa	totanus	Common Redshank	\N
+63	Tringa	erythropus	Spotted Redshank	\N
+63	Numenius	madagascariensis	Eastern Curlew	\N
+63	Numenius	arquata	Eurasian Curlew	\N
+63	Numenius	tenuirostris	Slender-billed Curlew	\N
+63	Numenius	tahitiensis	Bristle-thighed Curlew	\N
+63	Tringa	ochropus	Green Sandpiper	\N
+63	Calidris	temminckii	Temminck's Stint	\N
+63	Arenaria	interpres	Ruddy Turnstone	\N
+63	Arenaria	melanocephala	Black Turnstone	\N
+63	Limnodromus	griseus	Short-billed Dowitcher	\N
+63	Limnodromus	scolopaceus	Long-billed Dowitcher	\N
+63	Limnodromus	semipalmatus	Asian Dowitcher	\N
+63	Calidris	tenuirostris	Great Knot	\N
+63	Numenius	minutus	Little Curlew	\N
+63	Calidris	canutus	Red Knot	\N
+63	Calidris	alba	Sanderling	\N
+63	Calidris	mauri	Western Sandpiper	\N
+63	Eurynorhynchus	pygmeus	Spoon-billed Sandpiper	\N
+63	Tryngites	subruficollis	Buff-breasted Sandpiper	\N
+63	Calidris	ruficollis	Red-necked Stint	\N
+63	Micropalama	himantopus	Stilt Sandpiper	\N
+63	Calidris	subminuta	Long-toed Stint	\N
+63	Calidris	minutilla	Least Sandpiper	\N
+63	Calidris	fuscicollis	White-rumped Sandpiper	\N
+63	Calidris	bairdii	Baird's Sandpiper	\N
+63	Calidris	melanotos	Pectoral Sandpiper	\N
+63	Calidris	acuminata	Sharp-tailed Sandpiper	\N
+63	Calidris	ptilocnemis	Rock Sandpiper	\N
+63	Calidris	alpina	Dunlin	\N
+63	Heteroscelus	brevipes	Grey-tailed Tattler	\N
+63	Calidris	ferruginea	Curlew Sandpiper	\N
+63	Heteroscelus	incanus	Wandering Tattler	\N
+63	Calidris	minuta	Little Stint	\N
+63	Limosa	lapponica	Bar-tailed Godwit	\N
+63	Limosa	limosa	Black-tailed Godwit	\N
+63	Numenius	phaeopus	Whimbrel	\N
+63	Numenius	borealis	Eskimo Curlew	\N
+94	Leptoptilos	javanicus	Lesser Adjutant	\N
+94	Mycteria	leucocephala	Painted Stork	\N
+94	Mycteria	cinerea	Milky Stork	\N
+94	Anastomus	oscitans	Asian Openbill	\N
+94	Ciconia	nigra	Black Stork	\N
+94	Ciconia	episcopus	Woolly-necked Stork	\N
+94	Ciconia	stormi	Storm's Stork	\N
+94	Ciconia	ciconia	White Stork	\N
+94	Ephippiorhynchus	asiaticus	Black-necked Stork	\N
+94	Leptoptilos	dubius	Greater Adjutant	\N
+94	Ciconia	boyciana	Oriental Stork	\N
+104	Gerygone	sulphurea	Golden-bellied Gerygone	\N
+104	Gerygone	inornata	Plain Gerygone	\N
+104	Gerygone	dorsalis	Rufous-sided Gerygone	\N
 141	Parus	nuchalis	White-naped Tit	Species endemic to India.
 141	Parus	montanus	Willow Tit	The subspecies <i>songarus, weigoldicus, affinis</i> and <i>stoetzneri</i> are together treated by some authors as a separate species under the name Songar Tit <i>Parus songarus</i>.
 141	Parus	superciliosus	White-browed Tit	Species endemic to China.
-141	Parus	davidi	Père David's Tit	
-141	Parus	cinctus	Siberian Tit	
-141	Parus	rubidiventris	Rufous-vented Tit	
-141	Parus	ater	Coal Tit	
-141	Parus	venustulus	Yellow-bellied Tit	
-141	Parus	elegans	Elegant Tit	
-141	Parus	amabilis	Palawan Tit	
-141	Parus	dichrous	Grey-crested Tit	
-141	Melanochlora	sultanea	Sultan Tit	
-141	Parus	monticolus	Green-backed Tit	
-141	Parus	holsti	Yellow Tit	
+141	Parus	davidi	Père David's Tit	\N
+141	Parus	cinctus	Siberian Tit	\N
+141	Parus	rubidiventris	Rufous-vented Tit	\N
+141	Parus	ater	Coal Tit	\N
+141	Parus	venustulus	Yellow-bellied Tit	\N
+141	Parus	elegans	Elegant Tit	\N
+141	Parus	amabilis	Palawan Tit	\N
+141	Parus	dichrous	Grey-crested Tit	\N
+141	Melanochlora	sultanea	Sultan Tit	\N
+141	Parus	monticolus	Green-backed Tit	\N
+141	Parus	holsti	Yellow Tit	\N
 141	Parus	xanthogenys	Black-lored Tit	Species endemic to the Indian Subcontinent (India, Nepal & Pakistan).
-141	Parus	spilonotus	Yellow-cheeked Tit	
-141	Parus	bokharensis	Turkestan Tit	
-141	Sylviparus	modestus	Yellow-browed Tit	
-141	Parus	semilarvatus	White-fronted Tit	
-141	Parus	varius	Varied Tit	
-141	Parus	flavipectus	Yellow-breasted Tit	
-141	Parus	palustris	Marsh Tit	
-141	Parus	cyanus	Azure Tit	
-141	Parus	rufonuchalis	Rufous-naped Tit	
-141	Parus	major	Great Tit	
-141	Parus	melanolophus	Spot-winged Tit	
-101	Pitta	cyanea	Blue Pitta	
-101	Pitta	nipalensis	Blue-naped Pitta	
-101	Pitta	oatesi	Rusty-naped Pitta	
-101	Pitta	caerulea	Giant Pitta	
-101	Pitta	soror	Blue-rumped Pitta	
+141	Parus	spilonotus	Yellow-cheeked Tit	\N
+141	Parus	bokharensis	Turkestan Tit	\N
+141	Sylviparus	modestus	Yellow-browed Tit	\N
+141	Parus	semilarvatus	White-fronted Tit	\N
+141	Parus	varius	Varied Tit	\N
+141	Parus	flavipectus	Yellow-breasted Tit	\N
+141	Parus	palustris	Marsh Tit	\N
+141	Parus	cyanus	Azure Tit	\N
+141	Parus	rufonuchalis	Rufous-naped Tit	\N
+141	Parus	major	Great Tit	\N
+141	Parus	melanolophus	Spot-winged Tit	\N
+101	Pitta	cyanea	Blue Pitta	\N
+101	Pitta	nipalensis	Blue-naped Pitta	\N
+101	Pitta	oatesi	Rusty-naped Pitta	\N
+101	Pitta	caerulea	Giant Pitta	\N
+101	Pitta	soror	Blue-rumped Pitta	\N
 101	Pitta	guajana	Banded Pitta	Rheindt, F.E., Eaton, J.A. (2010): Biological species limits in the Banded Pitta <i>Pitta guajana</i>. Forktail  Journal of Asian Ornithology 26: 86-91. propose a split into 3 monotypic species - Bornean Banded Pitta <i>P.schwaneri</i>, Malayan Banded Pitta <i>P.irena</i> (to include <i> P.g. ripleyi</i>), Javan Banded Pitta <i>P.guajana</i> (to include <i>P.g.affinis</i>).
-101	Pitta	elliotii	Bar-bellied Pitta	
+101	Pitta	elliotii	Bar-bellied Pitta	\N
 101	Pitta	schneideri	Schneider's Pitta	Species endemic to Sumatra.
 101	Pitta	venusta	Graceful Pitta	Species endemic to Sumatra.
-101	Pitta	moluccensis	Blue-winged Pitta	
-101	Pitta	gurneyi	Gurney's Pitta	
-101	Pitta	phayrei	Eared Pitta	
-101	Pitta	elegans	Elegant Pitta	
-101	Pitta	nympha	Fairy Pitta	
+101	Pitta	moluccensis	Blue-winged Pitta	\N
+101	Pitta	gurneyi	Gurney's Pitta	\N
+101	Pitta	phayrei	Eared Pitta	\N
+101	Pitta	elegans	Elegant Pitta	\N
+101	Pitta	nympha	Fairy Pitta	\N
 101	Pitta	brachyura	Indian Pitta	Species endemic to the Indian Subcontinent.
-101	Pitta	megarhyncha	Mangrove Pitta	
+101	Pitta	megarhyncha	Mangrove Pitta	\N
 101	Pitta	ussheri	Black-crowned Pitta	Species endemic to Borneo.\n\n<p>Formerly considered conspecific with Garnet Pitta <i>Pitta granatina</i>.
-101	Pitta	granatina	Garnet Pitta	
+101	Pitta	granatina	Garnet Pitta	\N
 101	Pitta	arquata	Blue-banded Pitta	Species endemic to Borneo.
 101	Pitta	dohertyi	Sula Pitta	Species endemic to the Banggai and Sula Islands of Indonesia.\n\n<p>Formerly treated as a subspecies of Red-bellied Pitta <i>Pitta erythrogaster</i>.
-101	Pitta	erythrogaster	Red-bellied Pitta	
-101	Pitta	kochi	Whiskered Pitta	
-101	Pitta	steerii	Azure-breasted Pitta	
-101	Pitta	maxima	Ivory-breasted Pitta	
-101	Pitta	sordida	Hooded Pitta	
+101	Pitta	erythrogaster	Red-bellied Pitta	\N
+101	Pitta	kochi	Whiskered Pitta	\N
+101	Pitta	steerii	Azure-breasted Pitta	\N
+101	Pitta	maxima	Ivory-breasted Pitta	\N
+101	Pitta	sordida	Hooded Pitta	\N
 101	Pitta	baudii	Blue-headed Pitta	Species endemic to Borneo.
-102	Corydon	sumatranus	Dusky Broadbill	
+102	Corydon	sumatranus	Dusky Broadbill	\N
 102	Calyptomena	hosii	Hose's Broadbill	Species endemic to Borneo.
-102	Calyptomena	viridis	Green Broadbill	
+102	Calyptomena	viridis	Green Broadbill	\N
 102	Calyptomena	whiteheadi	Whitehead's Broadbill	Species endemic to Borneo.
-102	Psarisomus	dalhousiae	Long-tailed Broadbill	
-102	Cymbirhynchus	macrorhynchos	Black-and-red Broadbill	
-102	Eurylaimus	javanicus	Banded Broadbill	
-102	Eurylaimus	ochromalus	Black-and-yellow Broadbill	
+102	Psarisomus	dalhousiae	Long-tailed Broadbill	\N
+102	Cymbirhynchus	macrorhynchos	Black-and-red Broadbill	\N
+102	Eurylaimus	javanicus	Banded Broadbill	\N
+102	Eurylaimus	ochromalus	Black-and-yellow Broadbill	\N
 102	Eurylaimus	steerii	Mindanao Wattled Broadbill	Species endemic to the Philippines.
-102	Eurylaimus	samarensis	Visayan Wattled Broadbill	
-102	Serilophus	lunatus	Silver-breasted Broadbill	
-103	Lichmera	lombokia	Scaly-crowned Honeyeater	
-103	Lichmera	argentauris	Olive Honeyeater	
-103	Lichmera	monticola	Seram Honeyeater	
-103	Lichmera	deningeri	Buru Honeyeater	
+102	Eurylaimus	samarensis	Visayan Wattled Broadbill	\N
+102	Serilophus	lunatus	Silver-breasted Broadbill	\N
+103	Lichmera	lombokia	Scaly-crowned Honeyeater	\N
+103	Lichmera	argentauris	Olive Honeyeater	\N
+103	Lichmera	monticola	Seram Honeyeater	\N
+103	Lichmera	deningeri	Buru Honeyeater	\N
 103	Lichmera	indistincta	Brown Honeyeater	This race is sometimes treated as a full species under the name Indonesian Honeyeater <i>Lichmera limbata</i>.
-103	Myzomela	blasii	Drab Myzomela	
-103	Myzomela	obscura	Dusky Myzomela	
+103	Myzomela	blasii	Drab Myzomela	\N
+103	Myzomela	obscura	Dusky Myzomela	\N
 103	Myzomela	kuehni	Crimson-hooded Myzomela	Species endemic to Wetar.
-103	Myzomela	erythrocephala	Red-headed Myzomela	
-103	Myzomela	vulnerata	Black-breasted Myzomela	
+103	Myzomela	erythrocephala	Red-headed Myzomela	\N
+103	Myzomela	vulnerata	Black-breasted Myzomela	\N
 103	Lichmera	squamata	White-tufted Honeyeater	Species endemic to Indonesia.
 103	Myza	sarasinorum	White-eared Myza	Species endemic to the mountains of Sulawesi, Indonesia.
-103	Philemon	inornatus	Timor Friarbird	
-103	Lichmera	flavicans	Yellow-eared Honeyeater	
+103	Philemon	inornatus	Timor Friarbird	\N
+103	Lichmera	flavicans	Yellow-eared Honeyeater	\N
 103	Lichmera	notabilis	Black-necklaced Honeyeater	Species endemic to Wetar.
 103	Melitograis	gilolensis	White-streaked Friarbird	Species endemic to the North Moluccas, Indonesia
-103	Myza	celebensis	Dark-eared Myza	
-103	Philemon	citreogularis	Little Friarbird	
-103	Philemon	fuscicapillus	Dusky Friarbird	
-103	Philemon	moluccensis	Black-faced Friarbird	
+103	Myza	celebensis	Dark-eared Myza	\N
+103	Philemon	citreogularis	Little Friarbird	\N
+103	Philemon	fuscicapillus	Dusky Friarbird	\N
+103	Philemon	moluccensis	Black-faced Friarbird	\N
 103	Philemon	subcorniculatus	Grey-necked Friarbird	Species endemic to Seram, Indonesia.
-103	Philemon	buceroides	Helmeted Friarbird	
-103	Meliphaga	reticulata	Streak-breasted Honeyeater	
-150	Zosterops	natalis	Christmas White-eye	
-150	Heleia	crassirostris	Thick-billed White-eye	
+103	Philemon	buceroides	Helmeted Friarbird	\N
+103	Meliphaga	reticulata	Streak-breasted Honeyeater	\N
+150	Zosterops	natalis	Christmas White-eye	\N
+150	Heleia	crassirostris	Thick-billed White-eye	\N
 150	Zosterops	nigrorum	Yellowish White-eye	Species endemic to the Philippines.
-150	Madanga	ruficollis	Rufous-throated White-eye	
-150	Lophozosterops	javanicus	Grey-throated Ibon	
-150	Lophozosterops	squamiceps	Streak-headed Ibon	
+150	Madanga	ruficollis	Rufous-throated White-eye	\N
+150	Lophozosterops	javanicus	Grey-throated Ibon	\N
+150	Lophozosterops	squamiceps	Streak-headed Ibon	\N
 150	Lophozosterops	goodfellowi	Mindanao Ibon	Species endemic to the mountains of Mindanao, the Philippines.
-150	Lophozosterops	superciliaris	Cream-browed Ibon	
-150	Lophozosterops	pinaiae	Grey-hooded Ibon	
-150	Apalopteron	familiare	Bonin White-eye	
+150	Lophozosterops	superciliaris	Cream-browed Ibon	\N
+150	Lophozosterops	pinaiae	Grey-hooded Ibon	\N
+150	Apalopteron	familiare	Bonin White-eye	\N
 150	Oculocincta	squamifrons	Pygmy Ibon	Species endemic to Borneo.
-150	Zosterops	kuehni	Ambon White-eye	
-150	Heleia	muelleri	Spot-breasted White-eye	
+150	Zosterops	kuehni	Ambon White-eye	\N
+150	Heleia	muelleri	Spot-breasted White-eye	\N
 150	Chlorocharis	emiliae	Mountain Black-eye	Species endemic to Borneo.
-150	Hypocryptadius	cinnamomeus	Cinnamon Ibon	
-150	Zosterops	palpebrosus	Oriental White-eye	
-150	Zosterops	erythropleurus	Chestnut-flanked White-eye	
+150	Hypocryptadius	cinnamomeus	Cinnamon Ibon	\N
+150	Zosterops	palpebrosus	Oriental White-eye	\N
+150	Zosterops	erythropleurus	Chestnut-flanked White-eye	\N
 150	Zosterops	ceylonensis	Sri Lanka White-eye	Species endemic to Sri Lanka.\n\n
-150	Zosterops	japonicus	Japanese White-eye	
-150	Lophozosterops	dohertyi	Crested Ibon	
-150	Zosterops	consobrinorum	Pale-bellied White-eye	
-150	Zosterops	salvadorii	Enggano White-eye	
-150	Zosterops	atricapilla	Black-capped White-eye	
-150	Zosterops	everetti	Everett's White-eye	
-150	Zosterops	montanus	Mountain White-eye	
-150	Zosterops	flavus	Javan White-eye	
+150	Zosterops	japonicus	Japanese White-eye	\N
+150	Lophozosterops	dohertyi	Crested Ibon	\N
+150	Zosterops	consobrinorum	Pale-bellied White-eye	\N
+150	Zosterops	salvadorii	Enggano White-eye	\N
+150	Zosterops	atricapilla	Black-capped White-eye	\N
+150	Zosterops	everetti	Everett's White-eye	\N
+150	Zosterops	montanus	Mountain White-eye	\N
+150	Zosterops	flavus	Javan White-eye	\N
 150	Zosterops	chloris	Lemon-bellied White-eye	Species endemic to Indonesia.
 150	Zosterops	citrinella	Ashy-bellied White-eye	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-150	Tephrozosterops	stalkeri	Rufescent Dark-eye	
-150	Zosterops	uropygialis	Golden-bellied White-eye	
-150	Zosterops	meyeni	Lowland White-eye	
+150	Tephrozosterops	stalkeri	Rufescent Dark-eye	\N
+150	Zosterops	uropygialis	Golden-bellied White-eye	\N
+150	Zosterops	meyeni	Lowland White-eye	\N
 150	Zosterops	anomalus	Black-ringed White-eye	Species endemic to South Sulawesi, Indonesia.
-150	Zosterops	wallacei	Yellow-ringed White-eye	
-150	Zosterops	atrifrons	Black-crowned White-eye	
+150	Zosterops	wallacei	Yellow-ringed White-eye	\N
+150	Zosterops	atrifrons	Black-crowned White-eye	\N
 150	Zosterops	stalkeri	Seram White-eye	Species endemic to Seram in the South Moluccas, Indonesia.
 150	Zosterops	nehrkorni	Sangihe White-eye	Species endemic to the Sangihe Islands of Indonesia.
-150	Zosterops	atriceps	Cream-throated White-eye	
-150	Zosterops	buruensis	Buru White-eye	
+150	Zosterops	atriceps	Cream-throated White-eye	\N
+150	Zosterops	buruensis	Buru White-eye	\N
 150	Zosterops	grayi	Pearl-bellied White-eye	Species endemic to Kai Besar (Great Kai Island) in the Banda Sea, Indonesia.
-142	Aegithalos	iouschistos	Rufous-fronted Tit	
-142	Psaltria	exilis	Pygmy Tit	
+142	Aegithalos	iouschistos	Rufous-fronted Tit	\N
+142	Psaltria	exilis	Pygmy Tit	\N
 142	Aegithalos	bonvaloti	Black-browed Tit	Sometimes considered a subspecies of Rufous-fronted Tit <i>Aegithalos iouschistos</i>.\n\n\n\nSometimes the subspecies <i>A. b. sharpei</i> of western Burma is also treated as a species.
-142	Aegithalos	concinnus	Black-throated Tit	
-142	Aegithalos	leucogenys	White-cheeked Tit	
-142	Aegithalos	caudatus	Long-tailed Tit	
+142	Aegithalos	concinnus	Black-throated Tit	\N
+142	Aegithalos	leucogenys	White-cheeked Tit	\N
+142	Aegithalos	caudatus	Long-tailed Tit	\N
 142	Aegithalos	niveogularis	White-throated Tit	Species endemic to the Himalaya from N Pakistan to WC Nepal.
-142	Aegithalos	fuliginosus	Sooty Tit	
-157	Sylvia	borin	Garden Warbler	
-157	Sylvia	atricapilla	Blackcap	
-157	Sylvia	communis	Common Whitethroat	
-157	Sylvia	curruca	Lesser Whitethroat	
-157	Sylvia	nana	Desert Warbler	
-157	Sylvia	nisoria	Barred Warbler	
-157	Sylvia	hortensis	Orphean Warbler	
-157	Sylvia	mystacea	Ménétries's Warbler	
-156	Pellorneum	albiventre	Spot-throated Babbler	
-156	Malacopteron	affine	Sooty-capped Babbler	
-156	Malacopteron	magnirostre	Moustached Babbler	
-156	Malacopteron	magnum	Rufous-crowned Babbler	
-156	Pellorneum	capistratum	Black-capped Babbler	
+142	Aegithalos	fuliginosus	Sooty Tit	\N
+157	Sylvia	borin	Garden Warbler	\N
+157	Sylvia	atricapilla	Blackcap	\N
+157	Sylvia	communis	Common Whitethroat	\N
+157	Sylvia	curruca	Lesser Whitethroat	\N
+157	Sylvia	nana	Desert Warbler	\N
+157	Sylvia	nisoria	Barred Warbler	\N
+157	Sylvia	hortensis	Orphean Warbler	\N
+157	Sylvia	mystacea	Ménétries's Warbler	\N
+156	Pellorneum	albiventre	Spot-throated Babbler	\N
+156	Malacopteron	affine	Sooty-capped Babbler	\N
+156	Malacopteron	magnirostre	Moustached Babbler	\N
+156	Malacopteron	magnum	Rufous-crowned Babbler	\N
+156	Pellorneum	capistratum	Black-capped Babbler	\N
 156	Pellorneum	fuscocapillus	Brown-capped Babbler	Species endemic to Sri Lanka.\n\n\n\n<p>Gender agreement follows:\n\n<br>David, N. & Gosselin, M. (2002) Gender agreement of avian species names. - <i>Bull. Brit. Orn. Cl.</i>, 122: 14-49.\n\n<br>David, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - <i>Bull. Brit. Orn. Cl.</i>, 122: 257-282.
-156	Pellorneum	ruficeps	Puff-throated Babbler	
+156	Pellorneum	ruficeps	Puff-throated Babbler	\N
 156	Pellorneum	palustre	Marsh Babbler	Species endemic to the Indian Subcontinent (Bangladesh & NE India).
-156	Malacopteron	cinereum	Scaly-crowned Babbler	
-156	Pellorneum	pyrrogenys	Temminck's Babbler	
+156	Malacopteron	cinereum	Scaly-crowned Babbler	\N
+156	Pellorneum	pyrrogenys	Temminck's Babbler	\N
 156	Pellorneum	tickelli	Buff-breasted Babbler	Note that the form <i>buettikoferi</i> is now treated as a separste species under the name Sumatran Babbler <i>Pellorneum buettikoferi</i> following Wells <i>et al</i> (2001) Systematic notes on Asian birds 21. Babbler jungle: a re-evaluation of the <i>'pyrrogenys'</i> group of Asian pellorneines (timaliidae). - <i>Zool. Verhand., Leiden,</i> 335:235-252.
 156	Malacocincla	cinereiceps	Ashy-headed Babbler	Monotypic species endemic to Balabac and Palawan in the Philippines.
-156	Leonardina	woodi	Bagobo Babbler	
+156	Leonardina	woodi	Bagobo Babbler	\N
 156	Malacocincla	perspicillata	Black-browed Babbler	Presumed extinct Bornean endemic.\n\n<br>Only known from the type specimen, which is held at Naturalis, the Netherlands National Museum of Natural History.\n\n
 156	Malacocincla	sepiaria	Horsfield's Babbler	For gender agreement see: David, N. & Gosselin, M. (2002) Gender agreement of avian species names. <i>Bull. Brit. Orn. Cl.</i> 122: 257-282
-156	Malacocincla	abbotti	Abbott's Babbler	
-156	Malacopteron	palawanense	Melodious Babbler	
+156	Malacocincla	abbotti	Abbott's Babbler	\N
+156	Malacopteron	palawanense	Melodious Babbler	\N
 156	Alcippe	pyrrhoptera	Javan Fulvetta	Species endemic to Java.
-156	Malacocincla	malaccensis	Short-tailed Babbler	
-156	Alcippe	peracensis	Mountain Fulvetta	
-156	Alcippe	striaticollis	Chinese Fulvetta	
+156	Malacocincla	malaccensis	Short-tailed Babbler	\N
+156	Alcippe	peracensis	Mountain Fulvetta	\N
+156	Alcippe	striaticollis	Chinese Fulvetta	\N
 156	Alcippe	ruficapilla	Spectacled Fulvetta	Species endemic to China.\n\n<br>The forms <i>danisi</i> (Laos) and <i>bidoupensis</i> (Vietnam) are now treated as subspecies of Indochinese Fulvetta <i>Alcippe danisi</i> following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
 156	Alcippe	cinereiceps	Grey-hooded Fulvetta	Split following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.\n\n<br><i>A. cinereiceps</i> is renamed Grey-hooded Fulvetta and is a Chinese endemic with subspecies:\n\n<br><i>cinereiceps</i> W Hubei to SW Sichuan and Guizhou\n\n<br><i>guttaticollis</i> Fujian and N Guangdong\n\n<br><i>fucata</i> C Hubei to Hunan\n\n<br><i>fessa</i> Gansu, S Shaanxi to NE Qinghai\n\n\n\n<p><i>A. (c.) formosana</i> becomes Taiwan Fulvetta\n\n<p><i>A. (c.) manipurensis</i> retains the name Streak-throated Fulvetta with two subspecies:\n\n<br><i>manipurensis</i> NE India S of the Brahmaputra\n\n<br><i>tonkinensis</i> N Myanmar & W Yunnan
-156	Alcippe	ludlowi	Ludlow's Fulvetta	
-156	Alcippe	rufogularis	Rufous-throated Fulvetta	
-156	Alcippe	brunnea	Dusky Fulvetta	
-156	Alcippe	dubia	Rusty-capped Fulvetta	
-156	Alcippe	brunneicauda	Brown Fulvetta	
-156	Alcippe	morrisonia	Grey-cheeked Fulvetta	
-156	Yuhina	humilis	Burmese Yuhina	
-156	Malacopteron	albogulare	Grey-breasted Babbler	
-156	Trichastoma	bicolor	Ferruginous Babbler	
-156	Alcippe	nipalensis	Nepal Fulvetta	
-156	Crocias	langbianis	Grey-crowned Crocias	
-156	Crocias	albonotatus	Spotted Crocias	
-156	Heterophasia	annectans	Rufous-backed Sibia	
-156	Heterophasia	capistrata	Rufous Sibia	
+156	Alcippe	ludlowi	Ludlow's Fulvetta	\N
+156	Alcippe	rufogularis	Rufous-throated Fulvetta	\N
+156	Alcippe	brunnea	Dusky Fulvetta	\N
+156	Alcippe	dubia	Rusty-capped Fulvetta	\N
+156	Alcippe	brunneicauda	Brown Fulvetta	\N
+156	Alcippe	morrisonia	Grey-cheeked Fulvetta	\N
+156	Yuhina	humilis	Burmese Yuhina	\N
+156	Malacopteron	albogulare	Grey-breasted Babbler	\N
+156	Trichastoma	bicolor	Ferruginous Babbler	\N
+156	Alcippe	nipalensis	Nepal Fulvetta	\N
+156	Crocias	langbianis	Grey-crowned Crocias	\N
+156	Crocias	albonotatus	Spotted Crocias	\N
+156	Heterophasia	annectans	Rufous-backed Sibia	\N
+156	Heterophasia	capistrata	Rufous Sibia	\N
 156	Pomatorhinus	erythrogenys	Rusty-cheeked Scimitar Babbler	Subspecies:\n\n<br><i>P. e. erythrogenys</i> - NW Himalaya\n\n<br><i>P. e. ferrugilatus</i> - C Himalaya (Nepal to Bhutan)\n\n<br><i>P. e. imberbis</i> - Karenni (E Myanmar)\n\n<br><i>P. e. celatus</i> - Shan States (E Myanmar), NW Thailand
 156	Pomatorhinus	erythrocnemis	Black-necklaced Scimitar Babbler	Monotypic species endemic to Taiwan.\n\n<br>Following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112\n\n<br>Spot-breasted Scimitar Babbler <i>Pomatorhinus  (e.) mcclellandi</i>, Black-streaked Scimitar Babbler <i>Pomatorhinus  (e.) gravivox</i>,  Grey-sided Scimitar Babbler <i>Pomatorhinus  (e.) swinhoei</i> are now treated as separate species.
-156	Pomatorhinus	hypoleucos	Large Scimitar Babbler	
-156	Alcippe	poioicephala	Brown-cheeked Fulvetta	
-156	Paradoxornis	nipalensis	Black-throated Parrotbill	
-156	Paradoxornis	gularis	Grey-headed Parrotbill	
-156	Paradoxornis	flavirostris	Black-breasted Parrotbill	
-156	Paradoxornis	guttaticollis	Spot-breasted Parrotbill	
-156	Paradoxornis	conspicillatus	Spectacled Parrotbill	
-156	Paradoxornis	webbianus	Vinous-throated Parrotbill	
-156	Paradoxornis	brunneus	Brown-winged Parrotbill	
-156	Paradoxornis	alphonsianus	Ashy-throated Parrotbill	
-156	Paradoxornis	zappeyi	Grey-hooded Parrotbill	
-156	Yuhina	bakeri	White-naped Yuhina	
-156	Paradoxornis	fulvifrons	Fulvous Parrotbill	
-156	Conostoma	aemodium	Great Parrotbill	
-156	Paradoxornis	verreauxi	Golden Parrotbill	
-156	Paradoxornis	davidianus	Short-tailed Parrotbill	
-156	Paradoxornis	atrosuperciliaris	Lesser Rufous-headed Parrotbill	
-156	Paradoxornis	ruficeps	Greater Rufous-headed Parrotbill	
-156	Paradoxornis	heudei	Reed Parrotbill	
+156	Pomatorhinus	hypoleucos	Large Scimitar Babbler	\N
+156	Alcippe	poioicephala	Brown-cheeked Fulvetta	\N
+156	Paradoxornis	nipalensis	Black-throated Parrotbill	\N
+156	Paradoxornis	gularis	Grey-headed Parrotbill	\N
+156	Paradoxornis	flavirostris	Black-breasted Parrotbill	\N
+156	Paradoxornis	guttaticollis	Spot-breasted Parrotbill	\N
+156	Paradoxornis	conspicillatus	Spectacled Parrotbill	\N
+156	Paradoxornis	webbianus	Vinous-throated Parrotbill	\N
+156	Paradoxornis	brunneus	Brown-winged Parrotbill	\N
+156	Paradoxornis	alphonsianus	Ashy-throated Parrotbill	\N
+156	Paradoxornis	zappeyi	Grey-hooded Parrotbill	\N
+156	Yuhina	bakeri	White-naped Yuhina	\N
+156	Paradoxornis	fulvifrons	Fulvous Parrotbill	\N
+156	Conostoma	aemodium	Great Parrotbill	\N
+156	Paradoxornis	verreauxi	Golden Parrotbill	\N
+156	Paradoxornis	davidianus	Short-tailed Parrotbill	\N
+156	Paradoxornis	atrosuperciliaris	Lesser Rufous-headed Parrotbill	\N
+156	Paradoxornis	ruficeps	Greater Rufous-headed Parrotbill	\N
+156	Paradoxornis	heudei	Reed Parrotbill	\N
 156	Rhabdornis	mystacalis	Stripe-headed Rhabdornis	Species endemic to the Philippines.
 156	Rhabdornis	grandis	Long-billed Rhabdornis	Species endemic to Luzon in the Philippines.
 156	Rhabdornis	inornatus	Stripe-breasted Rhabdornis	Species endemic to the Philippines.
-156	Paradoxornis	przewalskii	Przevalski's Parrotbill	
-156	Heterophasia	auricularis	White-eared Sibia	
-156	Trichastoma	rostratum	White-chested Babbler	
-156	Heterophasia	gracilis	Grey Sibia	
-156	Heterophasia	melanoleuca	Dark-backed Sibia	
+156	Paradoxornis	przewalskii	Przevalski's Parrotbill	\N
+156	Heterophasia	auricularis	White-eared Sibia	\N
+156	Trichastoma	rostratum	White-chested Babbler	\N
+156	Heterophasia	gracilis	Grey Sibia	\N
+156	Heterophasia	melanoleuca	Dark-backed Sibia	\N
 156	Pomatorhinus	horsfieldii	Indian Scimitar Babbler	Species endemic to India. \n\n<br>The Sri Lankan form <i>P. (h.) melanurus</i> is now considered a separate species Sri Lanka Scimitar Babbler following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Heterophasia	pulchella	Beautiful Sibia	
-156	Heterophasia	picaoides	Long-tailed Sibia	
-156	Yuhina	castaniceps	Striated Yuhina	
+156	Heterophasia	pulchella	Beautiful Sibia	\N
+156	Heterophasia	picaoides	Long-tailed Sibia	\N
+156	Yuhina	castaniceps	Striated Yuhina	\N
 156	Yuhina	everetti	Chestnut-crested Yuhina	Species endemic to north Borneo. <br>Formerly considered a subspecies of Striated Yuhina <i>Yuhina castaniceps</i>.
-156	Paradoxornis	unicolor	Brown Parrotbill	
-156	Yuhina	flavicollis	Whiskered Yuhina	
-156	Paradoxornis	paradoxus	Three-toed Parrotbill	
-156	Yuhina	gularis	Stripe-throated Yuhina	
-156	Yuhina	diademata	White-collared Yuhina	
-156	Yuhina	occipitalis	Rufous-vented Yuhina	
-156	Yuhina	brunneiceps	Taiwan Yuhina	
-156	Yuhina	nigrimenta	Black-chinned Yuhina	
-156	Yuhina	zantholeuca	White-bellied Yuhina	
-156	Myzornis	pyrrhoura	Fire-tailed Myzornis	
-156	Panurus	biarmicus	Bearded Reedling	
-156	Trichastoma	celebense	Sulawesi Babbler	
-156	Alcippe	vinipectus	White-browed Fulvetta	
-156	Stachyris	erythroptera	Chestnut-winged Babbler	
-156	Pomatorhinus	ferruginosus	Coral-billed Scimitar Babbler	
-156	Stachyris	latistriata	Panay Striped Babbler	
+156	Paradoxornis	unicolor	Brown Parrotbill	\N
+156	Yuhina	flavicollis	Whiskered Yuhina	\N
+156	Paradoxornis	paradoxus	Three-toed Parrotbill	\N
+156	Yuhina	gularis	Stripe-throated Yuhina	\N
+156	Yuhina	diademata	White-collared Yuhina	\N
+156	Yuhina	occipitalis	Rufous-vented Yuhina	\N
+156	Yuhina	brunneiceps	Taiwan Yuhina	\N
+156	Yuhina	nigrimenta	Black-chinned Yuhina	\N
+156	Yuhina	zantholeuca	White-bellied Yuhina	\N
+156	Myzornis	pyrrhoura	Fire-tailed Myzornis	\N
+156	Panurus	biarmicus	Bearded Reedling	\N
+156	Trichastoma	celebense	Sulawesi Babbler	\N
+156	Alcippe	vinipectus	White-browed Fulvetta	\N
+156	Stachyris	erythroptera	Chestnut-winged Babbler	\N
+156	Pomatorhinus	ferruginosus	Coral-billed Scimitar Babbler	\N
+156	Stachyris	latistriata	Panay Striped Babbler	\N
 156	Stachyris	nigrorum	Negros Striped Babbler	Species endemic to the island of Negros in The Philippines.
-156	Stachyris	hypogrammica	Palawan Striped Babbler	
-156	Stachyris	grammiceps	White-breasted Babbler	
-156	Stachyris	herberti	Sooty Babbler	
-156	Stachyris	nigriceps	Grey-throated Babbler	
-156	Stachyris	poliocephala	Grey-headed Babbler	
-156	Stachyris	oglei	Snowy-throated Babbler	
-156	Stachyris	strialata	Spot-necked Babbler	
-156	Stachyris	leucotis	White-necked Babbler	
-156	Stachyris	nigricollis	Black-throated Babbler	
-156	Stachyris	whiteheadi	Chestnut-faced Babbler	
-156	Stachyris	maculata	Chestnut-rumped Babbler	
-156	Stachyris	speciosa	Flame-templed Babbler	
-156	Stachyris	melanothorax	Crescent-chested Babbler	
+156	Stachyris	hypogrammica	Palawan Striped Babbler	\N
+156	Stachyris	grammiceps	White-breasted Babbler	\N
+156	Stachyris	herberti	Sooty Babbler	\N
+156	Stachyris	nigriceps	Grey-throated Babbler	\N
+156	Stachyris	poliocephala	Grey-headed Babbler	\N
+156	Stachyris	oglei	Snowy-throated Babbler	\N
+156	Stachyris	strialata	Spot-necked Babbler	\N
+156	Stachyris	leucotis	White-necked Babbler	\N
+156	Stachyris	nigricollis	Black-throated Babbler	\N
+156	Stachyris	whiteheadi	Chestnut-faced Babbler	\N
+156	Stachyris	maculata	Chestnut-rumped Babbler	\N
+156	Stachyris	speciosa	Flame-templed Babbler	\N
+156	Stachyris	melanothorax	Crescent-chested Babbler	\N
 156	Dumetia	hyperythra	Tawny-bellied Babbler	Species endemic to the Indian Subcontinent (India, Nepal & Sri Lanka).
 156	Rhopocichla	atriceps	Dark-fronted Babbler	Species endemic to the Indian Subcontinent (SW India & Sri Lanka).
 156	Macronus	gularis	Pin-striped Tit Babbler	This species has been separated into two. <i>Macronus gularis</i> as now recognised consists of the subspecies <i>rubicapilla, ticehursti, sulphureus, lutescens, kinneari, versuricola, saraburiensis, connectens, inveteratus, condorensis, archipelagicus, chersonesophilus, gularis, woodi</i>. Remaining subspecies of what was formerly known as Striped Tit Babbler are now considered part of Bold-striped Tit Babbler <i>Macronus bornensis</i>.\n\n<br>Ref:\n\n<br>Collar, N. J. (2006) A partial revision of\n\nthe Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Macronus	flavicollis	Grey-cheeked Tit Babbler	
-156	Kenopia	striata	Striped Wren Babbler	
+156	Macronus	flavicollis	Grey-cheeked Tit Babbler	\N
+156	Kenopia	striata	Striped Wren Babbler	\N
 156	Ptilocichla	falcata	Falcated Wren Babbler	Species endemic to Balabac and Palawan in the Philippines.
-156	Ptilocichla	mindanensis	Striated Wren Babbler	
+156	Ptilocichla	mindanensis	Striated Wren Babbler	\N
 156	Ptilocichla	leucogrammica	Bornean Wren Babbler	Species endemic to Borneo.
 156	Rimator	malacoptilus	Long-billed Wren Babbler	Monotypic. Formerly considered conspecific with <i>Rimator (m.) pasquieri</i> and <i>Rimator (m.) albostriatus</i> but these are now treated as separate species following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Jabouilleia	danjoui	Short-tailed Scimitar Babbler	
-156	Xiphirhynchus	superciliaris	Slender-billed Scimitar Babbler	
-156	Stachyris	thoracica	White-bibbed Babbler	
-156	Spelaeornis	formosus	Spotted Wren Babbler	
-156	Napothera	macrodactyla	Large Wren Babbler	
+156	Jabouilleia	danjoui	Short-tailed Scimitar Babbler	\N
+156	Xiphirhynchus	superciliaris	Slender-billed Scimitar Babbler	\N
+156	Stachyris	thoracica	White-bibbed Babbler	\N
+156	Spelaeornis	formosus	Spotted Wren Babbler	\N
+156	Napothera	macrodactyla	Large Wren Babbler	\N
 156	Alcippe	castaneceps	Rufous-winged Fulvetta	Note that the form <i>klossi</i> is now considered a separate species Black-crowned Fulvetta <i>Alcippe (c.) klossi</i> following <br>Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Napothera	rufipectus	Rusty-breasted Wren Babbler	
+156	Napothera	rufipectus	Rusty-breasted Wren Babbler	\N
 156	Napothera	atrigularis	Black-throated Wren Babbler	Species endemic to Borneo.
-156	Napothera	marmorata	Marbled Wren Babbler	
-156	Napothera	crispifrons	Limestone Wren Babbler	
-156	Napothera	brevicaudata	Streaked Wren Babbler	
+156	Napothera	marmorata	Marbled Wren Babbler	\N
+156	Napothera	crispifrons	Limestone Wren Babbler	\N
+156	Napothera	brevicaudata	Streaked Wren Babbler	\N
 156	Napothera	crassa	Mountain Wren Babbler	Species endemic to Borneo.
-156	Napothera	rabori	Rabor's Babbler	
-156	Napothera	epilepidota	Eyebrowed Wren Babbler	
+156	Napothera	rabori	Rabor's Babbler	\N
+156	Napothera	epilepidota	Eyebrowed Wren Babbler	\N
 156	Pnoepyga	albiventer	Scaly-breasted Wren Babbler	<i>Pnoepyga (a.) formosana</i> is now considered a separate species under the name Taiwan Wren Babbler following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Pnoepyga	pusilla	Pygmy Wren Babbler	
-156	Stachyris	striata	Luzon Striped Babbler	
-156	Spelaeornis	troglodytoides	Bar-winged Wren Babbler	
+156	Pnoepyga	pusilla	Pygmy Wren Babbler	\N
+156	Stachyris	striata	Luzon Striped Babbler	\N
+156	Spelaeornis	troglodytoides	Bar-winged Wren Babbler	\N
 156	Spelaeornis	badeigularis	Rusty-throated Wren Babbler	Species endemic to Arunachal Pradesh in NE India.
 156	Spelaeornis	chocolatinus	Long-tailed Wren Babbler	Monotypic species endemic to NE India.\n\n<br><i>Spelaeornis (c.) reptatus, S. (c.) oatesi</i> and <i>S. (c.) kinneari</i> have been separated as full species following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
 156	Spelaeornis	longicaudatus	Tawny-breasted Wren Babbler	Species endemic to India. (Mistakenly listed for Nepal in some of the literature.)
 156	Sphenocichla	humei	Blackish-breasted Babbler	Monotypic species endemic to the eastern Himalaya (India & Bhutan).\n\n<br>The form <i>Sphenocichla (h.) roberti</i> is now considered a separate species under the name Chevron-breasted Babbler.\n\n<br>Refs:\n\n<br>Collar, N. J. (2006) A partial revision of\n\nthe Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.\n\n<br>Rasmussen, P., Anderton, J. (2005) <i>Birds of South Asia: The Ripley Guide</i>. Barcelona: Lynx Edicions.\n\n
-156	Stachyris	rodolphei	Deignan's Babbler	
-156	Stachyris	rufifrons	Rufous-fronted Babbler	
-156	Stachyris	ruficeps	Rufous-capped Babbler	
+156	Stachyris	rodolphei	Deignan's Babbler	\N
+156	Stachyris	rufifrons	Rufous-fronted Babbler	\N
+156	Stachyris	ruficeps	Rufous-capped Babbler	\N
 156	Stachyris	pyrrhops	Black-chinned Babbler	Species endemic to the Himalaya (Pakistan, India & Nepal).
-156	Stachyris	chrysaea	Golden Babbler	
+156	Stachyris	chrysaea	Golden Babbler	\N
 156	Stachyris	plateni	Mindanao Pygmy Babbler	Monotypic species endemic to Mindanao in the Philippines.\n\n<br>The form <i>Stachyris (p.) pygmaea</i> is now considered a full separate species.\n\n<br>Ref:\n\n<br>Collar, N. J. (2006) A partial revision of\n\nthe Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Stachyris	dennistouni	Golden-crowned Babbler	
-156	Stachyris	nigrocapitata	Black-crowned Babbler	
-156	Stachyris	capitalis	Rusty-crowned Babbler	
+156	Stachyris	dennistouni	Golden-crowned Babbler	\N
+156	Stachyris	nigrocapitata	Black-crowned Babbler	\N
+156	Stachyris	capitalis	Rusty-crowned Babbler	\N
 156	Spelaeornis	caudatus	Rufous-throated Wren Babbler	Species endemic to the Indian Subcontinent (Bhutan, India & Nepal).
 156	Turdoides	subrufa	Rufous Babbler	Species endemic to SW India.
 156	Cutia	nipalensis	Himalayan Cutia	The form <i>legalleni</i> formerly considered a subspecies of <i>Cutia nipalensis</i> is now treated as a separate species Vietnamese Cutia <i>Cutia (n.) legalleni</i> following \n\n<br>Collar, N. J. (2006) A partial revision of\n\nthe Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Leiothrix	lutea	Red-billed Leiothrix	
-156	Leiothrix	argentauris	Silver-eared Mesia	
-156	Babax	koslowi	Tibetan Babax	
-156	Babax	waddelli	Giant Babax	
-156	Babax	lanceolatus	Chinese Babax	
+156	Leiothrix	lutea	Red-billed Leiothrix	\N
+156	Leiothrix	argentauris	Silver-eared Mesia	\N
+156	Babax	koslowi	Tibetan Babax	\N
+156	Babax	waddelli	Giant Babax	\N
+156	Babax	lanceolatus	Chinese Babax	\N
 156	Turdoides	affinis	Yellow-billed Babbler	Species endemic to the Indian Subcontinent (S India & Sri Lanka).
-156	Chrysomma	altirostre	Jerdon's Babbler	
+156	Chrysomma	altirostre	Jerdon's Babbler	\N
 156	Pnoepyga	immaculata	Nepal Wren Babbler	Species endemic to the Indian Subcontinent (India & Nepal).
-156	Pteruthius	xanthochlorus	Green Shrike Babbler	
-156	Turdoides	longirostris	Slender-billed Babbler	
+156	Pteruthius	xanthochlorus	Green Shrike Babbler	\N
+156	Turdoides	longirostris	Slender-billed Babbler	\N
 156	Turdoides	gularis	White-throated Babbler	Species endemic to Myanmar.
-156	Turdoides	earlei	Striated Babbler	
-156	Turdoides	caudata	Common Babbler	
+156	Turdoides	earlei	Striated Babbler	\N
+156	Turdoides	caudata	Common Babbler	\N
 156	Turdoides	nipalensis	Spiny Babbler	Endemic to Nepal with unverified(?) reports from India.
-156	Pomatorhinus	schisticeps	White-browed Scimitar Babbler	
-156	Chrysomma	poecilotis	Rufous-tailed Babbler	
+156	Pomatorhinus	schisticeps	White-browed Scimitar Babbler	\N
+156	Chrysomma	poecilotis	Rufous-tailed Babbler	\N
 156	Turdoides	rufescens	Orange-billed Babbler	Species endemic to Sri Lanka.\n\n
-156	Actinodura	waldeni	Streak-throated Barwing	
-156	Macronus	kelleyi	Grey-faced Tit Babbler	
-156	Alcippe	cinerea	Yellow-throated Fulvetta	
-156	Alcippe	variegaticeps	Golden-fronted Fulvetta	
-156	Alcippe	chrysotis	Golden-breasted Fulvetta	
-156	Minla	ignotincta	Red-tailed Minla	
-156	Minla	strigula	Chestnut-tailed Minla	
-156	Minla	cyanouroptera	Blue-winged Minla	
-156	Pteruthius	rufiventer	Black-headed Shrike Babbler	
-156	Actinodura	souliei	Streaked Barwing	
-156	Pteruthius	flaviscapis	White-browed Shrike Babbler	
-156	Actinodura	nipalensis	Hoary-throated Barwing	
+156	Actinodura	waldeni	Streak-throated Barwing	\N
+156	Macronus	kelleyi	Grey-faced Tit Babbler	\N
+156	Alcippe	cinerea	Yellow-throated Fulvetta	\N
+156	Alcippe	variegaticeps	Golden-fronted Fulvetta	\N
+156	Alcippe	chrysotis	Golden-breasted Fulvetta	\N
+156	Minla	ignotincta	Red-tailed Minla	\N
+156	Minla	strigula	Chestnut-tailed Minla	\N
+156	Minla	cyanouroptera	Blue-winged Minla	\N
+156	Pteruthius	rufiventer	Black-headed Shrike Babbler	\N
+156	Actinodura	souliei	Streaked Barwing	\N
+156	Pteruthius	flaviscapis	White-browed Shrike Babbler	\N
+156	Actinodura	nipalensis	Hoary-throated Barwing	\N
 156	Actinodura	sodangorum	Black-crowned Barwing	Species restricted to western central Vietnam and Laos.
-156	Actinodura	ramsayi	Spectacled Barwing	
-156	Actinodura	egertoni	Rusty-fronted Barwing	
+156	Actinodura	ramsayi	Spectacled Barwing	\N
+156	Actinodura	egertoni	Rusty-fronted Barwing	\N
 156	Gampsorhynchus	torquatus	Collared Babbler	Split from White-hooded Babbler <i>Gampsorhynchus rufulus</i> following <br>Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.\n\n<p>Polytypic with the following subspecies: \n\n<br><i>torquatus</i> - C & SE Myanmar east of the Irawaddy River, SE Yunnan and Thailand\n\n<br><i>luciae</i> - N Indochina\n\n<br><i>saturatior</i> - Extreme S Thailand and Peninsular Malaysia
-156	Pteruthius	aenobarbus	Chestnut-fronted Shrike Babbler	
-156	Pteruthius	melanotis	Black-eared Shrike Babbler	
+156	Pteruthius	aenobarbus	Chestnut-fronted Shrike Babbler	\N
+156	Pteruthius	melanotis	Black-eared Shrike Babbler	\N
 156	Turdoides	malcolmi	Large Grey Babbler	Species endemic to the Indian Subcontinent (India & marginally Pakistan).
-156	Actinodura	morrisoniana	Taiwan Barwing	
-156	Pomatorhinus	ruficollis	Streak-breasted Scimitar Babbler	
+156	Actinodura	morrisoniana	Taiwan Barwing	\N
+156	Pomatorhinus	ruficollis	Streak-breasted Scimitar Babbler	\N
 156	Turdoides	striata	Jungle Babbler	Species endemic to the Indian Subcontinent (Bangladesh, Bhutan, India, Nepal & Pakistan).
 156	Micromacronus	leytensis	Visayan Miniature Babbler	Monotypic. The forms <i>M. (l.) leytensis</i> and <i>M. (l.) sordidus</i> were formerly treated as conspecific under the English name Miniature Tit Babbler. Mindanao Miniature Babbler <i>M. (l.) sordidus</i> now regarded as a separate species following \n\n<br>Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-156	Timalia	pileata	Chestnut-capped Babbler	
-156	Pomatorhinus	montanus	Chestnut-backed Scimitar Babbler	
-156	Pomatorhinus	ochraceiceps	Red-billed Scimitar Babbler	
-156	Macronous	ptilosus	Fluffy-backed Tit Babbler	
-156	Macronus	striaticeps	Brown Tit Babbler	
-156	Chrysomma	sinense	Yellow-eyed Babbler	
-154	Garrulax	milleti	Black-hooded Laughingthrush	
+156	Timalia	pileata	Chestnut-capped Babbler	\N
+156	Pomatorhinus	montanus	Chestnut-backed Scimitar Babbler	\N
+156	Pomatorhinus	ochraceiceps	Red-billed Scimitar Babbler	\N
+156	Macronous	ptilosus	Fluffy-backed Tit Babbler	\N
+156	Macronus	striaticeps	Brown Tit Babbler	\N
+156	Chrysomma	sinense	Yellow-eyed Babbler	\N
+154	Garrulax	milleti	Black-hooded Laughingthrush	\N
 154	Garrulax	strepitans	White-necked Laughingthrush	Monotypic. The Cambodian form <i>ferrarius</i>, formerly treated as a subspecies of White-necked Laughingthrush, is now considered a separate species Cambodian Laughingthrush <i>Garrulax ferrarius</i> following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.\n\n<br>and Robson, C. (2000) <i>A field guide to the birds of South-East Asia.</i> London: New Holland.
-154	Garrulax	ruficollis	Rufous-necked Laughingthrush	
-154	Garrulax	maesi	Grey Laughingthrush	
-154	Garrulax	milnei	Red-tailed Laughingthrush	
-154	Garrulax	davidi	Plain Laughingthrush	
-154	Garrulax	gularis	Rufous-vented Laughingthrush	
+154	Garrulax	ruficollis	Rufous-necked Laughingthrush	\N
+154	Garrulax	maesi	Grey Laughingthrush	\N
+154	Garrulax	milnei	Red-tailed Laughingthrush	\N
+154	Garrulax	davidi	Plain Laughingthrush	\N
+154	Garrulax	gularis	Rufous-vented Laughingthrush	\N
 154	Garrulax	delesserti	Wynaad Laughingthrush	Species endemic to SW India.
 154	Garrulax	albogularis	White-throated Laughingthrush	The Taiwanese form <i>ruficeps</i>, formerly treated as a subspecies of White-throated Laughingthrush, is now considered a separate species Rufous-crowned Laughingthrush <i>Garrulax ruficeps</i>  following \n\n<br>Collar, N. J. (2006) A partial revision of\n\nthe Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-154	Garrulax	perspicillatus	Masked Laughingthrush	
-154	Garrulax	rufifrons	Rufous-fronted Laughingthrush	
-154	Garrulax	monileger	Lesser Necklaced Laughingthrush	
+154	Garrulax	perspicillatus	Masked Laughingthrush	\N
+154	Garrulax	rufifrons	Rufous-fronted Laughingthrush	\N
+154	Garrulax	monileger	Lesser Necklaced Laughingthrush	\N
 154	Garrulax	cinereifrons	Ashy-headed Laughingthrush	Species endemic to Sri Lanka.\n\n
-154	Garrulax	nuchalis	Chestnut-backed Laughingthrush	
+154	Garrulax	nuchalis	Chestnut-backed Laughingthrush	\N
 154	Garrulax	leucolophus	White-crested Laughingthrush	The Sumatran taxon <i>bicolor</i>, formerly considered a subspecies of White-crested Laughingthrush, is now treated as a full species Sumatran Laughingthrush <i>Garrulax bicolor</i> following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-154	Garrulax	cineraceus	Moustached Laughingthrush	
-154	Garrulax	vassali	White-cheeked Laughingthrush	
+154	Garrulax	cineraceus	Moustached Laughingthrush	\N
+154	Garrulax	vassali	White-cheeked Laughingthrush	\N
 154	Garrulax	galbanus	Yellow-throated Laughingthrush	The subspecies <i>courtoisi</i> is sometimes treated as a distinct species Blue-crowned Laughingthrush <i>Garrulax (g.) courtoisi</i>, currently listed as Critically Endangered by the IUCN.
-154	Garrulax	pectoralis	Greater Necklaced Laughingthrush	
-154	Garrulax	chinensis	Black-throated Laughingthrush	
-154	Garrulax	palliatus	Sunda Laughingthrush	
+154	Garrulax	pectoralis	Greater Necklaced Laughingthrush	\N
+154	Garrulax	chinensis	Black-throated Laughingthrush	\N
+154	Garrulax	palliatus	Sunda Laughingthrush	\N
 154	Garrulax	cachinnans	Nilgiri Laughingthrush	Species endemic to SW India.
 154	Garrulax	merulinus	Spot-breasted Laughingthrush	<br><i>Garrulax (m.) annamensis</i> has been split off as a separate species Orange-breasted Laughingthrush following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112. <br>and Robson, C. (2000) <i>A field guide to the birds of South-East Asia.</i> London: New Holland.
 154	Garrulax	canorus	Hwamei	<br><i>Garrulax (c.) tawanus</i> has been split off as a separate species Taiwan Hwamei following LI, SHOU-HSIEN, LI, JING-WEN, HAN, LIAN-XIAN, YAO, CHENG-TE, SHI, HAITAO, LEI, FU-MIN & YEN, CHUNGWEI (2006) Species delimitation in the Hwamei <i>Garrulax canorus</i>.\n\n<i>Ibis</i> 148 (4), 698-706.\n\n<br>and Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-154	Garrulax	sannio	White-browed Laughingthrush	
-154	Garrulax	konkakinhensis	Chestnut-eared Laughingthrush	
-154	Garrulax	affinis	Black-faced Laughingthrush	
-154	Garrulax	sukatschewi	Snowy-cheeked Laughingthrush	
-154	Garrulax	elliotii	Elliot's Laughingthrush	
+154	Garrulax	sannio	White-browed Laughingthrush	\N
+154	Garrulax	konkakinhensis	Chestnut-eared Laughingthrush	\N
+154	Garrulax	affinis	Black-faced Laughingthrush	\N
+154	Garrulax	sukatschewi	Snowy-cheeked Laughingthrush	\N
+154	Garrulax	elliotii	Elliot's Laughingthrush	\N
 154	Garrulax	variegatus	Variegated Laughingthrush	Species endemic to the Himalaya (India, Nepal & Pakistan).
-154	Garrulax	caerulatus	Grey-sided Laughingthrush	
+154	Garrulax	caerulatus	Grey-sided Laughingthrush	\N
 154	Garrulax	jerdoni	Grey-breasted Laughingthrush	Species endemic to SW India.\n\n<p>Sometimes considered a subspecies of Nilgiri Laughingthrush <i>Garrulax cachinnans</i>.
 154	Garrulax	lineatus	Streaked Laughingthrush	<br><i>Garrulax (l.) imbricatus</i> is now considered a separate species Bhutan Laughingthrush following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-154	Garrulax	virgatus	Striped Laughingthrush	
-154	Garrulax	austeni	Brown-capped Laughingthrush	
-154	Garrulax	squamatus	Blue-winged Laughingthrush	
-154	Garrulax	subunicolor	Scaly Laughingthrush	
-154	Garrulax	henrici	Brown-cheeked Laughingthrush	
+154	Garrulax	virgatus	Striped Laughingthrush	\N
+154	Garrulax	austeni	Brown-capped Laughingthrush	\N
+154	Garrulax	squamatus	Blue-winged Laughingthrush	\N
+154	Garrulax	subunicolor	Scaly Laughingthrush	\N
+154	Garrulax	henrici	Brown-cheeked Laughingthrush	\N
 154	Garrulax	lugubris	Black Laughingthrush	The Bornean form <i>calvus</i>, formerly treated as a subspecies of Black Laughingthrush, is now considered a separate species Bare-headed Laughingthrush <i>Garrulax calvus</i> following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-154	Liocichla	phoenicea	Red-faced Liocichla	
-154	Liocichla	steerii	Steere's Liocichla	
-154	Garrulax	yersini	Collared Laughingthrush	
+154	Liocichla	phoenicea	Red-faced Liocichla	\N
+154	Liocichla	steerii	Steere's Liocichla	\N
+154	Garrulax	yersini	Collared Laughingthrush	\N
 154	Garrulax	ngoclinhensis	Golden-winged Laughingthrush	Species endemic to Vietnam. <br>First described in Eames, J.C.,  Le Tong Trai & Nguyen Cu (1999) A new species of Laughingthrush (Passeriformes: Garrulinacinae) from the Western Highlands of Vietnam. <i>Bulletin Brit. Orn. Club</i> 119, 1 : 4-15.
 154	Garrulax	erythrocephalus	Chestnut-crowned Laughingthrush	Following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112\n\n<br>Assam Laughingthrush <i>Garrulax  (e.) chrysopterus</i>, Silver-eared Laughingthrush <i>Garrulax (e.) melanostigma</i>, Golden-winged Laughingthrush <i>Garrulax (e.) ngoclinhensis</i> and Malayan Laughingthrush <i>Garrulax (e.) peninsulae</i> are treated as separate species leaving Chestnut-crowned Laughingthrush with the following subspecies:\n\n<br><i>G. e. erythrocephalus</i> - NW Himalaya\n\n<br><i>G. e. kali</i> - C Himalaya (W & C Nepal)\n\n<br><i>G. e. nigrimentum</i> - E Himalaya (E Nepal to N & E Assam)\n\n<br><i>G. e. woodi</i> - N & NE Myanmar, W Yunnan
-154	Garrulax	morrisonianus	White-whiskered Laughingthrush	
-154	Garrulax	mitratus	Chestnut-capped Laughingthrush	
-154	Garrulax	formosus	Red-winged Laughingthrush	
+154	Garrulax	morrisonianus	White-whiskered Laughingthrush	\N
+154	Garrulax	mitratus	Chestnut-capped Laughingthrush	\N
+154	Garrulax	formosus	Red-winged Laughingthrush	\N
 154	Garrulax	poecilorhynchus	Rusty Laughingthrush	Species endemic to Taiwan. Monotypic.\n\n<br><i>Garrulax (p.) berthemyi</i> has been split off as a separate species Buffy Laughingthrush following \n\n<br>Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
-154	Garrulax	rufogularis	Rufous-chinned Laughingthrush	
-154	Garrulax	striatus	Striated Laughingthrush	
-154	Garrulax	lunulatus	Barred Laughingthrush	
-154	Garrulax	bieti	White-speckled Laughingthrush	
-154	Garrulax	maximus	Giant Laughingthrush	
-154	Garrulax	ocellatus	Spotted Laughingthrush	
-154	Liocichla	omeiensis	Emei Shan Liocichla	
-153	Megalurus	timoriensis	Tawny Grassbird	
-153	Megalurus	palustris	Striated Grassbird	
-153	Buettikoferella	bivittata	Buff-banded Thicketbird	
+154	Garrulax	rufogularis	Rufous-chinned Laughingthrush	\N
+154	Garrulax	striatus	Striated Laughingthrush	\N
+154	Garrulax	lunulatus	Barred Laughingthrush	\N
+154	Garrulax	bieti	White-speckled Laughingthrush	\N
+154	Garrulax	maximus	Giant Laughingthrush	\N
+154	Garrulax	ocellatus	Spotted Laughingthrush	\N
+154	Liocichla	omeiensis	Emei Shan Liocichla	\N
+153	Megalurus	timoriensis	Tawny Grassbird	\N
+153	Megalurus	palustris	Striated Grassbird	\N
+153	Buettikoferella	bivittata	Buff-banded Thicketbird	\N
 153	Chaetornis	striata	Bristled Grassbird	Species endemic to the Indian Subcontinent (Bangladesh, India, S Nepal & NE Pakistan).\n\n<p>Specific name altered following David, N. & Gosselin, M. (2002) Gender agreement of avian species names. <i>Bull. Brit. Orn. Cl.</i> 122: 257-282
 153	Schoenicola	platyura	Broad-tailed Grassbird	Species endemic to SW India.
-153	Graminicola	bengalensis	Rufous-rumped Grassbird	
-105	Microeca	hemixantha	Golden-bellied Flyrobin	
-148	Hypocolius	ampelinus	Hypocolius	
+153	Graminicola	bengalensis	Rufous-rumped Grassbird	\N
+105	Microeca	hemixantha	Golden-bellied Flyrobin	\N
+148	Hypocolius	ampelinus	Hypocolius	\N
 147	Pycnonotus	atriceps	Black-headed Bulbul	Some of the forms currently considered as subspecies may merit full species status.
-147	Pycnonotus	striatus	Striated Bulbul	
-147	Hypsipetes	borbonicus	Reunion Bulbul	
+147	Pycnonotus	striatus	Striated Bulbul	\N
+147	Hypsipetes	borbonicus	Reunion Bulbul	\N
 147	Pycnonotus	leucogrammicus	Cream-striped Bulbul	Species endemic to western Sumatra.
-147	Hemixos	castanonotus	Chestnut Bulbul	
+147	Hemixos	castanonotus	Chestnut Bulbul	\N
 147	Pycnonotus	tympanistrigus	Spot-necked Bulbul	Species endemic to western Sumatra.
 147	Pycnonotus	priocephalus	Grey-headed Bulbul	Species endemic to SW India.
-147	Spizixos	canifrons	Crested Finchbill	
-147	Pycnonotus	melanicterus	Black-crested Bulbul	
-147	Pycnonotus	squamatus	Scaly-breasted Bulbul	
-147	Pycnonotus	cyaniventris	Grey-bellied Bulbul	
-147	Pycnonotus	jocosus	Red-whiskered Bulbul	
-147	Pycnonotus	xanthorrhous	Brown-breasted Bulbul	
-147	Pycnonotus	sinensis	Light-vented Bulbul	
-147	Pycnonotus	melanoleucos	Black-and-white Bulbul	
-147	Ixos	everetti	Yellowish Bulbul	
-147	Ixos	mcclellandii	Mountain Bulbul	
-147	Pycnonotus	goiavier	Yellow-vented Bulbul	
+147	Spizixos	canifrons	Crested Finchbill	\N
+147	Pycnonotus	melanicterus	Black-crested Bulbul	\N
+147	Pycnonotus	squamatus	Scaly-breasted Bulbul	\N
+147	Pycnonotus	cyaniventris	Grey-bellied Bulbul	\N
+147	Pycnonotus	jocosus	Red-whiskered Bulbul	\N
+147	Pycnonotus	xanthorrhous	Brown-breasted Bulbul	\N
+147	Pycnonotus	sinensis	Light-vented Bulbul	\N
+147	Pycnonotus	melanoleucos	Black-and-white Bulbul	\N
+147	Ixos	everetti	Yellowish Bulbul	\N
+147	Ixos	mcclellandii	Mountain Bulbul	\N
+147	Pycnonotus	goiavier	Yellow-vented Bulbul	\N
 147	Ixos	virescens	Sunda Bulbul	Species restricted to Java and West Sumatra.
 147	Pycnonotus	taivanus	Styan's Bulbul	Species endemic to Taiwan.
-147	Hemixos	flavala	Ashy Bulbul	
-147	Pycnonotus	zeylanicus	Straw-headed Bulbul	
-147	Ixos	malaccensis	Streaked Bulbul	
-147	Spizixos	semitorques	Collared Finchbill	
-147	Ixos	amaurotis	Brown-eared Bulbul	
-147	Ixos	siquijorensis	Streak-breasted Bulbul	
-147	Ixos	rufigularis	Zamboanga Bulbul	
-147	Ixos	philippinus	Philippine Bulbul	
-147	Ixos	palawanensis	Sulphur-bellied Bulbul	
+147	Hemixos	flavala	Ashy Bulbul	\N
+147	Pycnonotus	zeylanicus	Straw-headed Bulbul	\N
+147	Ixos	malaccensis	Streaked Bulbul	\N
+147	Spizixos	semitorques	Collared Finchbill	\N
+147	Ixos	amaurotis	Brown-eared Bulbul	\N
+147	Ixos	siquijorensis	Streak-breasted Bulbul	\N
+147	Ixos	rufigularis	Zamboanga Bulbul	\N
+147	Ixos	philippinus	Philippine Bulbul	\N
+147	Ixos	palawanensis	Sulphur-bellied Bulbul	\N
 147	Iole	indica	Yellow-browed Bulbul	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-147	Hypsipetes	thompsoni	White-headed Bulbul	
-147	Alophoixus	phaeocephalus	Yellow-bellied Bulbul	
-147	Iole	olivacea	Buff-vented Bulbul	
-147	Iole	propinqua	Grey-eyed Bulbul	
-147	Iole	virescens	Olive Bulbul	
-147	Tricholestes	criniger	Hairy-backed Bulbul	
-147	Setornis	criniger	Hook-billed Bulbul	
-147	Pycnonotus	flavescens	Flavescent Bulbul	
+147	Hypsipetes	thompsoni	White-headed Bulbul	\N
+147	Alophoixus	phaeocephalus	Yellow-bellied Bulbul	\N
+147	Iole	olivacea	Buff-vented Bulbul	\N
+147	Iole	propinqua	Grey-eyed Bulbul	\N
+147	Iole	virescens	Olive Bulbul	\N
+147	Tricholestes	criniger	Hairy-backed Bulbul	\N
+147	Setornis	criniger	Hook-billed Bulbul	\N
+147	Pycnonotus	flavescens	Flavescent Bulbul	\N
 147	Malia	grata	Malia	Species endemic to Sulawesi, Indonesia.
-147	Pycnonotus	brunneus	Red-eyed Bulbul	
-147	Hypsipetes	leucocephalus	Black Bulbul	
-147	Alophoixus	bres	Grey-cheeked Bulbul	
+147	Pycnonotus	brunneus	Red-eyed Bulbul	\N
+147	Hypsipetes	leucocephalus	Black Bulbul	\N
+147	Alophoixus	bres	Grey-cheeked Bulbul	\N
 147	Hypsipetes	nicobariensis	Nicobar Bulbul	Species endemic to the Nicobar Islands, India.
-147	Alophoixus	ochraceus	Ochraceous Bulbul	
-147	Alophoixus	pallidus	Puff-throated Bulbul	
-147	Alophoixus	flaveolus	White-throated Bulbul	
+147	Alophoixus	ochraceus	Ochraceous Bulbul	\N
+147	Alophoixus	pallidus	Puff-throated Bulbul	\N
+147	Alophoixus	flaveolus	White-throated Bulbul	\N
 147	Alophoixus	affinis	Golden Bulbul	Species endemic to Indonesia.\n\n<p>Preliminary comparisons of sound-recordings made during various visits \n\nto northern Wallacea suggest that  <i>T. longirostris</i> might comprise several species, given \n\nconsistent differences in their plumage and vocals. - FER\n\n<br>Ref: Rheindt, F.E. (2010): New biogeographic records for the avifauna of Taliabu (Sula Islands, Indonesia), with the preliminary documentation of two previously undiscovered taxa. <i>Bull. Brit. Orn. Cl.</i> 130 (1): 33-51
 147	Pycnonotus	xantholaemus	Yellow-throated Bulbul	Species endemic to southern India.
-147	Pycnonotus	leucogenys	Himalayan Bulbul	
-147	Pycnonotus	cafer	Red-vented Bulbul	
-147	Pycnonotus	aurigaster	Sooty-headed Bulbul	
-147	Pycnonotus	eutilotus	Puff-backed Bulbul	
-147	Pycnonotus	nieuwenhuisii	Blue-wattled Bulbul	
-147	Pycnonotus	urostictus	Yellow-wattled Bulbul	
-147	Alophoixus	finschii	Finsch's Bulbul	
-147	Pycnonotus	finlaysoni	Stripe-throated Bulbul	
-147	Pycnonotus	erythropthalmos	Spectacled Bulbul	
+147	Pycnonotus	leucogenys	Himalayan Bulbul	\N
+147	Pycnonotus	cafer	Red-vented Bulbul	\N
+147	Pycnonotus	aurigaster	Sooty-headed Bulbul	\N
+147	Pycnonotus	eutilotus	Puff-backed Bulbul	\N
+147	Pycnonotus	nieuwenhuisii	Blue-wattled Bulbul	\N
+147	Pycnonotus	urostictus	Yellow-wattled Bulbul	\N
+147	Alophoixus	finschii	Finsch's Bulbul	\N
+147	Pycnonotus	finlaysoni	Stripe-throated Bulbul	\N
+147	Pycnonotus	erythropthalmos	Spectacled Bulbul	\N
 147	Pycnonotus	penicillatus	Yellow-eared Bulbul	Species endemic to Sri Lanka.\n\n
 147	Pycnonotus	luteolus	White-browed Bulbul	Species endemic to the Indian Subcontinent (India & Sri Lanka).
-147	Pycnonotus	plumosus	Olive-winged Bulbul	
-147	Pycnonotus	blanfordi	Streak-eared Bulbul	
-147	Pycnonotus	simplex	Cream-vented Bulbul	
+147	Pycnonotus	plumosus	Olive-winged Bulbul	\N
+147	Pycnonotus	blanfordi	Streak-eared Bulbul	\N
+147	Pycnonotus	simplex	Cream-vented Bulbul	\N
 147	Pycnonotus	leucotis	White-eared Bulbul	Formerly considered a subspecies of <i>Pycnonotus leucogenys</i>.
-147	Pycnonotus	bimaculatus	Orange-spotted Bulbul	
-146	Regulus	regulus	Goldcrest	
+147	Pycnonotus	bimaculatus	Orange-spotted Bulbul	\N
+146	Regulus	regulus	Goldcrest	\N
 146	Regulus	goodfellowi	Flamecrest	Species endemic to Taiwan.
-146	Regulus	calendula	Ruby-crowned Kinglet	
-145	Riparia	riparia	Sand Martin	
-145	Tachycineta	bicolor	Tree Swallow	
-145	Hirundo	daurica	Red-rumped Swallow	
-145	Hirundo	smithii	Wire-tailed Swallow	
-145	Delichon	nipalense	Nepal House Martin	
-145	Delichon	dasypus	Asian House Martin	
-145	Delichon	urbicum	Common House Martin	
-145	Hirundo	ariel	Fairy Martin	
-145	Hirundo	pyrrhonota	American Cliff Swallow	
-145	Hirundo	nigricans	Tree Martin	
+146	Regulus	calendula	Ruby-crowned Kinglet	\N
+145	Riparia	riparia	Sand Martin	\N
+145	Tachycineta	bicolor	Tree Swallow	\N
+145	Hirundo	daurica	Red-rumped Swallow	\N
+145	Hirundo	smithii	Wire-tailed Swallow	\N
+145	Delichon	nipalense	Nepal House Martin	\N
+145	Delichon	dasypus	Asian House Martin	\N
+145	Delichon	urbicum	Common House Martin	\N
+145	Hirundo	ariel	Fairy Martin	\N
+145	Hirundo	pyrrhonota	American Cliff Swallow	\N
+145	Hirundo	nigricans	Tree Martin	\N
 145	Riparia	diluta	Pale Martin	Formerly considered a subspecies of Sand Martin <i>Riparia riparia</i>.
-145	Hirundo	tahitica	Pacific Swallow	
-145	Hirundo	rustica	Barn Swallow	
-145	Hirundo	concolor	Dusky Crag Martin	
-145	Hirundo	fuligula	Rock Martin	
-145	Hirundo	rupestris	Eurasian Crag Martin	
-145	Riparia	paludicola	Plain Martin	
-145	Hirundo	fluvicola	Streak-throated Swallow	
+145	Hirundo	tahitica	Pacific Swallow	\N
+145	Hirundo	rustica	Barn Swallow	\N
+145	Hirundo	concolor	Dusky Crag Martin	\N
+145	Hirundo	fuligula	Rock Martin	\N
+145	Hirundo	rupestris	Eurasian Crag Martin	\N
+145	Riparia	paludicola	Plain Martin	\N
+145	Hirundo	fluvicola	Streak-throated Swallow	\N
 145	Hirundo	striolata	Striated Swallow	Sometimes considered a subspecies of Red-rumped Swallow <i>Hirundo daurica</i>.
-144	Pseudochelidon	sirintarae	White-eyed River-Martin	
-152	Hippolais	pallida	Olivaceous Warbler	
-152	Hippolais	caligata	Booted Warbler	
-152	Acrocephalus	aedon	Thick-billed Warbler	
-152	Acrocephalus	orientalis	Oriental Reed Warbler	
-152	Acrocephalus	dumetorum	Blyth's Reed Warbler	
-152	Hippolais	languida	Upcher's Warbler	
-152	Acrocephalus	arundinaceus	Great Reed Warbler	
-152	Acrocephalus	stentoreus	Clamorous Reed Warbler	
-152	Orthotomus	cuculatus	Mountain Tailorbird	
-152	Orthotomus	sutorius	Common Tailorbird	
-152	Orthotomus	atrogularis	Dark-necked Tailorbird	
-152	Acrocephalus	scirpaceus	Eurasian Reed Warbler	
-152	Orthotomus	derbianus	Grey-backed Tailorbird	
-152	Locustella	fasciolata	Gray's Warbler	
-152	Orthotomus	sericeus	Rufous-tailed Tailorbird	
-152	Orthotomus	ruficeps	Ashy Tailorbird	
-152	Orthotomus	sepium	Olive-backed Tailorbird	
+144	Pseudochelidon	sirintarae	White-eyed River-Martin	\N
+152	Hippolais	pallida	Olivaceous Warbler	\N
+152	Hippolais	caligata	Booted Warbler	\N
+152	Acrocephalus	aedon	Thick-billed Warbler	\N
+152	Acrocephalus	orientalis	Oriental Reed Warbler	\N
+152	Acrocephalus	dumetorum	Blyth's Reed Warbler	\N
+152	Hippolais	languida	Upcher's Warbler	\N
+152	Acrocephalus	arundinaceus	Great Reed Warbler	\N
+152	Acrocephalus	stentoreus	Clamorous Reed Warbler	\N
+152	Orthotomus	cuculatus	Mountain Tailorbird	\N
+152	Orthotomus	sutorius	Common Tailorbird	\N
+152	Orthotomus	atrogularis	Dark-necked Tailorbird	\N
+152	Acrocephalus	scirpaceus	Eurasian Reed Warbler	\N
+152	Orthotomus	derbianus	Grey-backed Tailorbird	\N
+152	Locustella	fasciolata	Gray's Warbler	\N
+152	Orthotomus	sericeus	Rufous-tailed Tailorbird	\N
+152	Orthotomus	ruficeps	Ashy Tailorbird	\N
+152	Orthotomus	sepium	Olive-backed Tailorbird	\N
 152	Orthotomus	samarensis	Yellow-breasted Tailorbird	Species endemic to Bohol, Leyte and Samar in the Philippines.
-152	Orthotomus	nigriceps	Black-headed Tailorbird	
-152	Orthotomus	castaneiceps	Philippine Tailorbird	
-152	Locustella	ochotensis	Middendorff's Warbler	
-152	Bradypterus	caudatus	Long-tailed Bush Warbler	
+152	Orthotomus	nigriceps	Black-headed Tailorbird	\N
+152	Orthotomus	castaneiceps	Philippine Tailorbird	\N
+152	Locustella	ochotensis	Middendorff's Warbler	\N
+152	Bradypterus	caudatus	Long-tailed Bush Warbler	\N
 152	Bradypterus	palliseri	Sri Lanka Bush Warbler	Species endemic to Sri Lanka.\n\n
-152	Bradypterus	alishanensis	Taiwan Bush Warbler	
+152	Bradypterus	alishanensis	Taiwan Bush Warbler	\N
 152	Bradypterus	seebohmi	Benguet Bush Warbler	The subspecies <i>timorensis</i> is sometimes treated as a distinct species Timor Bush Warbler  <i>Bradypterus (s.) timorensis</i>, currently regarded as Near Threatened by the IUCN.
-152	Phylloscopus	humei	Hume's Leaf Warbler	
-152	Orthotomus	cinereiceps	White-eared Tailorbird	
-152	Bradypterus	castaneus	Chestnut-backed Bush Warbler	
-152	Locustella	lanceolata	Lanceolated Warbler	
-152	Acrocephalus	melanopogon	Moustached Warbler	
-152	Locustella	certhiola	Rusty-rumped Warbler	
-152	Acrocephalus	concinens	Blunt-winged Warbler	
-152	Locustella	pleskei	Pleske's Warbler	
-152	Locustella	luscinioides	Savi's Warbler	
-152	Locustella	pryeri	Japanese Swamp Warbler	
+152	Phylloscopus	humei	Hume's Leaf Warbler	\N
+152	Orthotomus	cinereiceps	White-eared Tailorbird	\N
+152	Bradypterus	castaneus	Chestnut-backed Bush Warbler	\N
+152	Locustella	lanceolata	Lanceolated Warbler	\N
+152	Acrocephalus	melanopogon	Moustached Warbler	\N
+152	Locustella	certhiola	Rusty-rumped Warbler	\N
+152	Acrocephalus	concinens	Blunt-winged Warbler	\N
+152	Locustella	pleskei	Pleske's Warbler	\N
+152	Locustella	luscinioides	Savi's Warbler	\N
+152	Locustella	pryeri	Japanese Swamp Warbler	\N
 152	Bradypterus	accentor	Friendly Bush Warbler	Species endemic to Borneo.
-152	Acrocephalus	schoenobaenus	Sedge Warbler	
-152	Acrocephalus	sorghophilus	Streaked Reed Warbler	
-152	Acrocephalus	bistrigiceps	Black-browed Reed Warbler	
-152	Acrocephalus	agricola	Paddyfield Warbler	
-152	Acrocephalus	tangorum	Manchurian Reed Warbler	
-152	Locustella	naevia	Grasshopper Warbler	
-152	Phylloscopus	cantator	Yellow-vented Warbler	
-152	Phylloscopus	borealoides	Sakhalin Leaf Warbler	
-152	Phylloscopus	magnirostris	Large-billed Leaf Warbler	
+152	Acrocephalus	schoenobaenus	Sedge Warbler	\N
+152	Acrocephalus	sorghophilus	Streaked Reed Warbler	\N
+152	Acrocephalus	bistrigiceps	Black-browed Reed Warbler	\N
+152	Acrocephalus	agricola	Paddyfield Warbler	\N
+152	Acrocephalus	tangorum	Manchurian Reed Warbler	\N
+152	Locustella	naevia	Grasshopper Warbler	\N
+152	Phylloscopus	cantator	Yellow-vented Warbler	\N
+152	Phylloscopus	borealoides	Sakhalin Leaf Warbler	\N
+152	Phylloscopus	magnirostris	Large-billed Leaf Warbler	\N
 152	Phylloscopus	tytleri	Tytler's Leaf Warbler	Species endemic to the Indian Subcontinent (Afghanistan, India, Nepal & Pakistan).
-152	Phylloscopus	occipitalis	Western Crowned Warbler	
-152	Phylloscopus	coronatus	Eastern Crowned Warbler	
-152	Phylloscopus	ijimae	Ijima's Leaf Warbler	
-152	Phylloscopus	emeiensis	Emei Leaf Warbler	
-152	Phylloscopus	reguloides	Blyth's Leaf Warbler	
-152	Phylloscopus	subviridis	Brooks's Leaf Warbler	
-152	Phylloscopus	hainanus	Hainan Leaf Warbler	
-152	Phylloscopus	borealis	Arctic Warbler	
-152	Phylloscopus	ricketti	Sulphur-breasted Warbler	
-152	Phylloscopus	presbytes	Timor Leaf Warbler	
-152	Bradypterus	mandelli	Russet Bush Warbler	
-152	Cettia	brunnifrons	Grey-sided Bush Warbler	
-152	Phylloscopus	olivaceus	Philippine Leaf Warbler	
-152	Phylloscopus	cebuensis	Lemon-throated Leaf Warbler	
-152	Phylloscopus	trivirgatus	Mountain Leaf Warbler	
+152	Phylloscopus	occipitalis	Western Crowned Warbler	\N
+152	Phylloscopus	coronatus	Eastern Crowned Warbler	\N
+152	Phylloscopus	ijimae	Ijima's Leaf Warbler	\N
+152	Phylloscopus	emeiensis	Emei Leaf Warbler	\N
+152	Phylloscopus	reguloides	Blyth's Leaf Warbler	\N
+152	Phylloscopus	subviridis	Brooks's Leaf Warbler	\N
+152	Phylloscopus	hainanus	Hainan Leaf Warbler	\N
+152	Phylloscopus	borealis	Arctic Warbler	\N
+152	Phylloscopus	ricketti	Sulphur-breasted Warbler	\N
+152	Phylloscopus	presbytes	Timor Leaf Warbler	\N
+152	Bradypterus	mandelli	Russet Bush Warbler	\N
+152	Cettia	brunnifrons	Grey-sided Bush Warbler	\N
+152	Phylloscopus	olivaceus	Philippine Leaf Warbler	\N
+152	Phylloscopus	cebuensis	Lemon-throated Leaf Warbler	\N
+152	Phylloscopus	trivirgatus	Mountain Leaf Warbler	\N
 152	Phylloscopus	sarasinorum	Sulawesi Leaf Warbler	Species endemic to the mountains of Sulawesi.
-152	Phylloscopus	davisoni	White-tailed Leaf Warbler	
-152	Phylloscopus	griseolus	Sulphur-bellied Warbler	
-152	Leptopoecile	elegans	Crested Tit Warbler	
-152	Phylloscopus	trochilus	Willow Warbler	
-152	Phylloscopus	collybita	Common Chiffchaff	
-152	Phylloscopus	sindianus	Mountain Chiffchaff	
-152	Phylloscopus	neglectus	Plain Leaf Warbler	
-152	Phylloscopus	sibilatrix	Wood Warbler	
-152	Phylloscopus	fuscatus	Dusky Warbler	
-152	Phylloscopus	fuligiventer	Smoky Warbler	
-152	Phylloscopus	tenellipes	Pale-legged Leaf Warbler	
-152	Phylloscopus	subaffinis	Buff-throated Warbler	
-152	Phylloscopus	trochiloides	Greenish Warbler	
-152	Phylloscopus	armandii	Yellow-streaked Warbler	
-152	Phylloscopus	schwarzi	Radde's Warbler	
-152	Phylloscopus	pulcher	Buff-barred Warbler	
-152	Phylloscopus	maculipennis	Ashy-throated Warbler	
-152	Phylloscopus	proregulus	Pallas's Leaf Warbler	
-152	Phylloscopus	chloronotus	Lemon-rumped Warbler	
-152	Phylloscopus	yunnanensis	Chinese Leaf Warbler	
-152	Phylloscopus	inornatus	Yellow-browed Warbler	
-152	Leptopoecile	sophiae	White-browed Tit Warbler	
+152	Phylloscopus	davisoni	White-tailed Leaf Warbler	\N
+152	Phylloscopus	griseolus	Sulphur-bellied Warbler	\N
+152	Leptopoecile	elegans	Crested Tit Warbler	\N
+152	Phylloscopus	trochilus	Willow Warbler	\N
+152	Phylloscopus	collybita	Common Chiffchaff	\N
+152	Phylloscopus	sindianus	Mountain Chiffchaff	\N
+152	Phylloscopus	neglectus	Plain Leaf Warbler	\N
+152	Phylloscopus	sibilatrix	Wood Warbler	\N
+152	Phylloscopus	fuscatus	Dusky Warbler	\N
+152	Phylloscopus	fuligiventer	Smoky Warbler	\N
+152	Phylloscopus	tenellipes	Pale-legged Leaf Warbler	\N
+152	Phylloscopus	subaffinis	Buff-throated Warbler	\N
+152	Phylloscopus	trochiloides	Greenish Warbler	\N
+152	Phylloscopus	armandii	Yellow-streaked Warbler	\N
+152	Phylloscopus	schwarzi	Radde's Warbler	\N
+152	Phylloscopus	pulcher	Buff-barred Warbler	\N
+152	Phylloscopus	maculipennis	Ashy-throated Warbler	\N
+152	Phylloscopus	proregulus	Pallas's Leaf Warbler	\N
+152	Phylloscopus	chloronotus	Lemon-rumped Warbler	\N
+152	Phylloscopus	yunnanensis	Chinese Leaf Warbler	\N
+152	Phylloscopus	inornatus	Yellow-browed Warbler	\N
+152	Leptopoecile	sophiae	White-browed Tit Warbler	\N
 152	Phylloscopus	affinis	Tickell's Leaf Warbler	Martens <i>et al</i> in 2008 showed that the population breeding in Qinghai, Gansu and Sichuan is better treated as a separate species Alpine Leaf Warbler <i>Phylloscopus occisinensis</i>. This treatment is followed here but no attempt has been made (so far) to identify the birds here which were photographed on their wintering grounds as to whether they should be moved to <i>P. occisinensis</i> or remain here.\n\n<br>Ref: Martens, J.; Sun, Y-H. & Päckert, M. 2008. "Intraspecific differentiation of Sino-Himalayan bush-dwelling Phylloscopus leaf warblers, with description of two new taxa (P. fuscatus, P. fuligiventer, P. affinis, P. armandii, P. subaffinis)". Vertebrate Zoology 58 (3): 233-265.
-152	Seicercus	valentini	Bianchi's Warbler	
-152	Cettia	pallidipes	Pale-footed Bush Warbler	
-152	Urosphena	squameiceps	Asian Stubtail	
+152	Seicercus	valentini	Bianchi's Warbler	\N
+152	Cettia	pallidipes	Pale-footed Bush Warbler	\N
+152	Urosphena	squameiceps	Asian Stubtail	\N
 152	Urosphena	whiteheadi	Bornean Stubtail	Species endemic to Borneo.
-152	Phylloscopus	poliocephalus	Island Leaf Warbler	
-152	Seicercus	burkii	Green-crowned Warbler	
-152	Seicercus	whistleri	Whistler's Warbler	
-152	Urosphena	subulata	Timor Stubtail	
+152	Phylloscopus	poliocephalus	Island Leaf Warbler	\N
+152	Seicercus	burkii	Green-crowned Warbler	\N
+152	Seicercus	whistleri	Whistler's Warbler	\N
+152	Urosphena	subulata	Timor Stubtail	\N
 152	Tesia	everetti	Russet-capped Tesia	Species endemic to the islands of Flores and Sumbawa in Indonesia.
 152	Tesia	superciliaris	Javan Tesia	Species endemic to Java.
-152	Tesia	cyaniventer	Grey-bellied Tesia	
-152	Tesia	olivea	Slaty-bellied Tesia	
-152	Cettia	diphone	Oriental Bush Warbler	
-152	Seicercus	tephrocephalus	Grey-crowned Warbler	
-152	Seicercus	omeiensis	Martens''s Warbler	
-152	Seicercus	soror	Plain-tailed Warbler	
-152	Seicercus	xanthoschistos	Grey-hooded Warbler	
-152	Seicercus	poliogenys	Grey-cheeked Warbler	
-152	Seicercus	castaniceps	Chestnut-crowned Warbler	
-152	Seicercus	montis	Yellow-breasted Warbler	
-152	Seicercus	grammiceps	Sunda Warbler	
-152	Tickellia	hodgsoni	Broad-billed Warbler	
-152	Abroscopus	albogularis	Rufous-faced Warbler	
-152	Abroscopus	schisticeps	Black-faced Warbler	
-152	Abroscopus	superciliaris	Yellow-bellied Warbler	
-152	Bradypterus	luteoventris	Brown Bush Warbler	
+152	Tesia	cyaniventer	Grey-bellied Tesia	\N
+152	Tesia	olivea	Slaty-bellied Tesia	\N
+152	Cettia	diphone	Oriental Bush Warbler	\N
+152	Seicercus	tephrocephalus	Grey-crowned Warbler	\N
+152	Seicercus	omeiensis	Martens''s Warbler	\N
+152	Seicercus	soror	Plain-tailed Warbler	\N
+152	Seicercus	xanthoschistos	Grey-hooded Warbler	\N
+152	Seicercus	poliogenys	Grey-cheeked Warbler	\N
+152	Seicercus	castaniceps	Chestnut-crowned Warbler	\N
+152	Seicercus	montis	Yellow-breasted Warbler	\N
+152	Seicercus	grammiceps	Sunda Warbler	\N
+152	Tickellia	hodgsoni	Broad-billed Warbler	\N
+152	Abroscopus	albogularis	Rufous-faced Warbler	\N
+152	Abroscopus	schisticeps	Black-faced Warbler	\N
+152	Abroscopus	superciliaris	Yellow-bellied Warbler	\N
+152	Bradypterus	luteoventris	Brown Bush Warbler	\N
 152	Bradypterus	thoracicus	Spotted Bush Warbler	The taxa <i>davidi</i> and <i>kashmirensis</i> may be best treated as a separate species.\n\n<br>Ref: Alström, P, Rasmussen, P.C., Olsson, U., & Sundberg, P. (2008) Species delimitation based\n\non multiple criteria: the Spotted Bush Warbler <i>Bradypterus thoracicus</i> complex (Aves, Megaluridae). <i>Zoological Journal of the Linnean Society</i> 154: 291307.
-152	Tesia	castaneocoronata	Chestnut-headed Tesia	
-152	Cettia	fortipes	Brown-flanked Bush Warbler	
-152	Cettia	vulcania	Sunda Bush Warbler	
-152	Cettia	carolinae	Tanimbar Bush Warbler	
-152	Cettia	major	Chestnut-crowned Bush Warbler	
-152	Seicercus	affinis	White-spectacled Warbler	
-152	Cettia	flavolivacea	Aberrant Bush Warbler	
-152	Cettia	acanthizoides	Yellow-bellied Bush Warbler	
-152	Bradypterus	major	Long-billed Bush Warbler	
-152	Bradypterus	tacsanowskius	Chinese Bush Warbler	
+152	Tesia	castaneocoronata	Chestnut-headed Tesia	\N
+152	Cettia	fortipes	Brown-flanked Bush Warbler	\N
+152	Cettia	vulcania	Sunda Bush Warbler	\N
+152	Cettia	carolinae	Tanimbar Bush Warbler	\N
+152	Cettia	major	Chestnut-crowned Bush Warbler	\N
+152	Seicercus	affinis	White-spectacled Warbler	\N
+152	Cettia	flavolivacea	Aberrant Bush Warbler	\N
+152	Cettia	acanthizoides	Yellow-bellied Bush Warbler	\N
+152	Bradypterus	major	Long-billed Bush Warbler	\N
+152	Bradypterus	tacsanowskius	Chinese Bush Warbler	\N
 152	Cettia	seebohmi	Philippine Bush Warbler	Species endemic to northern Luzon, the Philippines.
-152	Cettia	cetti	Cetti's Warbler	
+152	Cettia	cetti	Cetti's Warbler	\N
 168	Erythrura	tricolor	Tricoloured Parrotfinch	Species endemic to the eastern Lesser Sundas (Timor to Tanimbar), Indonesia.
-168	Erythrura	viridifacies	Green-faced Parrotfinch	
-168	Erythrura	prasina	Pin-tailed Parrotfinch	
-168	Erythrura	hyperythra	Tawny-breasted Parrotfinch	
-168	Erythrura	trichroa	Blue-faced Parrotfinch	
+168	Erythrura	viridifacies	Green-faced Parrotfinch	\N
+168	Erythrura	prasina	Pin-tailed Parrotfinch	\N
+168	Erythrura	hyperythra	Tawny-breasted Parrotfinch	\N
+168	Erythrura	trichroa	Blue-faced Parrotfinch	\N
 168	Amandava	formosa	Green Avadavat	Species endemic to India.
-168	Lonchura	punctulata	Scaly-breasted Munia	
-168	Amandava	amandava	Red Avadavat	
-168	Taeniopygia	guttata	Zebra Finch	
-168	Erythrura	coloria	Red-eared Parrotfinch	
-168	Lonchura	quinticolor	Five-coloured Munia	
-168	Lonchura	leucogastra	White-bellied Munia	
+168	Lonchura	punctulata	Scaly-breasted Munia	\N
+168	Amandava	amandava	Red Avadavat	\N
+168	Taeniopygia	guttata	Zebra Finch	\N
+168	Erythrura	coloria	Red-eared Parrotfinch	\N
+168	Lonchura	quinticolor	Five-coloured Munia	\N
+168	Lonchura	leucogastra	White-bellied Munia	\N
 168	Lonchura	kelaarti	Black-throated Munia	Species endemic to the Indian Subcontinent (India & Sri Lanka).
 168	Lonchura	molucca	Black-faced Munia	Species endemic to Indonesia.
 168	Lonchura	fuscans	Dusky Munia	Species endemic to Borneo.
-168	Lonchura	malabarica	Indian Silverbill	
-168	Lonchura	striata	White-rumped Munia	
-168	Lonchura	leucogastroides	Javan Munia	
+168	Lonchura	malabarica	Indian Silverbill	\N
+168	Lonchura	striata	White-rumped Munia	\N
+168	Lonchura	leucogastroides	Javan Munia	\N
 168	Lonchura	malacca	Black-headed Munia	<i>Lonchura malacca ferruginosa</i> is treated by some authors as a separate species White-capped Munia <i>Lonchura ferruginosa</i>.\n\n<p><i>Lonchura malacca atricapilla</i> is treated by some authors as a separate species Chestnut Munia <i>Lonchura atricapilla</i>.
-168	Lonchura	maja	White-headed Munia	
-168	Lonchura	fuscata	Timor Sparrow	
-168	Lonchura	oryzivora	Java Sparrow	
-168	Lonchura	pallida	Pale-headed Munia	
-176	Euphagus	carolinus	Rusty Blackbird	
-175	Wilsonia	pusilla	Wilson's Warbler	
-175	Seiurus	noveboracensis	Northern Waterthrush	
-175	Dendroica	coronata	Yellow-rumped Warbler	
-175	Vermivora	celata	Orange-crowned Warbler	
-174	Melophus	lathami	Crested Bunting	
-174	Emberiza	citrinella	Yellowhammer	
-174	Emberiza	leucocephalos	Pine Bunting	
-174	Pipilo	crissalis	California Towhee	
-174	Spizella	arborea	American Tree Sparrow	
-174	Plectrophenax	hyperboreus	McKay's Bunting	
-174	Passerella	iliaca	Fox Sparrow	
-174	Latoucheornis	siemsseni	Slaty Bunting	
-174	Passerculus	sandwichensis	Savannah Sparrow	
-174	Emberiza	melanocephala	Black-headed Bunting	
-174	Junco	hyemalis	Dark-eyed Junco	
-174	Plectrophenax	nivalis	Snow Bunting	
-174	Zonotrichia	leucophrys	White-crowned Sparrow	
-174	Zonotrichia	atricapilla	Golden-crowned Sparrow	
-174	Emberiza	cia	Rock Bunting	
-174	Emberiza	rutila	Chestnut Bunting	
-174	Emberiza	elegans	Yellow-throated Bunting	
-174	Emberiza	striolata	House Bunting	
-174	Emberiza	chrysophrys	Yellow-browed Bunting	
-174	Emberiza	pusilla	Little Bunting	
-174	Emberiza	fucata	Chestnut-eared Bunting	
-174	Emberiza	bruniceps	Red-headed Bunting	
-174	Emberiza	koslowi	Tibetan Bunting	
-174	Emberiza	aureola	Yellow-breasted Bunting	
-174	Emberiza	godlewskii	Godlewski's Bunting	
-174	Emberiza	cioides	Meadow Bunting	
-174	Emberiza	jankowskii	Jankowski's Bunting	
-174	Emberiza	buchanani	Grey-necked Bunting	
-174	Emberiza	hortulana	Ortolan Bunting	
-174	Emberiza	stewarti	White-capped Bunting	
-174	Emberiza	tristrami	Tristram's Bunting	
-174	Calcarius	lapponicus	Lapland Longspur	
-174	Emberiza	yessoensis	Japanese Reed Bunting	
-174	Emberiza	spodocephala	Black-faced Bunting	
-174	Miliaria	calandra	Corn Bunting	
-174	Emberiza	variabilis	Grey Bunting	
-174	Emberiza	rustica	Rustic Bunting	
-174	Emberiza	pallasi	Pallas's Reed Bunting	
-174	Emberiza	schoeniclus	Reed Bunting	
-174	Emberiza	sulphurata	Yellow Bunting	
-172	Eophona	migratoria	Yellow-billed Grosbeak	
-172	Coccothraustes	coccothraustes	Hawfinch	
-172	Carduelis	chloris	European Greenfinch	
-172	Mycerobas	affinis	Collared Grosbeak	
-172	Pyrrhula	erythaca	Grey-headed Bullfinch	
-172	Pyrrhula	pyrrhula	Eurasian Bullfinch	
-172	Carpodacus	eos	Stresemann's Rosefinch	
-172	Pyrrhula	erythrocephala	Red-headed Bullfinch	
-172	Mycerobas	icterioides	Black-and-yellow Grosbeak	
-172	Mycerobas	melanozanthos	Spot-winged Grosbeak	
-172	Mycerobas	carnipes	White-winged Grosbeak	
-172	Pyrrhoplectes	epauletta	Gold-naped Finch	
-172	Serinus	estherae	Mountain Serin	
-172	Serinus	pusillus	Red-fronted Serin	
-172	Eophona	personata	Japanese Grosbeak	
-172	Carduelis	cannabina	Eurasian Linnet	
-172	Carpodacus	rubescens	Blanford's Rosefinch	
-172	Uragus	sibiricus	Long-tailed Rosefinch	
-172	Rhodospiza	obsoleta	Desert Finch	
+168	Lonchura	maja	White-headed Munia	\N
+168	Lonchura	fuscata	Timor Sparrow	\N
+168	Lonchura	oryzivora	Java Sparrow	\N
+168	Lonchura	pallida	Pale-headed Munia	\N
+176	Euphagus	carolinus	Rusty Blackbird	\N
+175	Wilsonia	pusilla	Wilson's Warbler	\N
+175	Seiurus	noveboracensis	Northern Waterthrush	\N
+175	Dendroica	coronata	Yellow-rumped Warbler	\N
+175	Vermivora	celata	Orange-crowned Warbler	\N
+174	Melophus	lathami	Crested Bunting	\N
+174	Emberiza	citrinella	Yellowhammer	\N
+174	Emberiza	leucocephalos	Pine Bunting	\N
+174	Pipilo	crissalis	California Towhee	\N
+174	Spizella	arborea	American Tree Sparrow	\N
+174	Plectrophenax	hyperboreus	McKay's Bunting	\N
+174	Passerella	iliaca	Fox Sparrow	\N
+174	Latoucheornis	siemsseni	Slaty Bunting	\N
+174	Passerculus	sandwichensis	Savannah Sparrow	\N
+174	Emberiza	melanocephala	Black-headed Bunting	\N
+174	Junco	hyemalis	Dark-eyed Junco	\N
+174	Plectrophenax	nivalis	Snow Bunting	\N
+174	Zonotrichia	leucophrys	White-crowned Sparrow	\N
+174	Zonotrichia	atricapilla	Golden-crowned Sparrow	\N
+174	Emberiza	cia	Rock Bunting	\N
+174	Emberiza	rutila	Chestnut Bunting	\N
+174	Emberiza	elegans	Yellow-throated Bunting	\N
+174	Emberiza	striolata	House Bunting	\N
+174	Emberiza	chrysophrys	Yellow-browed Bunting	\N
+174	Emberiza	pusilla	Little Bunting	\N
+174	Emberiza	fucata	Chestnut-eared Bunting	\N
+174	Emberiza	bruniceps	Red-headed Bunting	\N
+174	Emberiza	koslowi	Tibetan Bunting	\N
+174	Emberiza	aureola	Yellow-breasted Bunting	\N
+174	Emberiza	godlewskii	Godlewski's Bunting	\N
+174	Emberiza	cioides	Meadow Bunting	\N
+174	Emberiza	jankowskii	Jankowski's Bunting	\N
+174	Emberiza	buchanani	Grey-necked Bunting	\N
+174	Emberiza	hortulana	Ortolan Bunting	\N
+174	Emberiza	stewarti	White-capped Bunting	\N
+174	Emberiza	tristrami	Tristram's Bunting	\N
+174	Calcarius	lapponicus	Lapland Longspur	\N
+174	Emberiza	yessoensis	Japanese Reed Bunting	\N
+174	Emberiza	spodocephala	Black-faced Bunting	\N
+174	Miliaria	calandra	Corn Bunting	\N
+174	Emberiza	variabilis	Grey Bunting	\N
+174	Emberiza	rustica	Rustic Bunting	\N
+174	Emberiza	pallasi	Pallas's Reed Bunting	\N
+174	Emberiza	schoeniclus	Reed Bunting	\N
+174	Emberiza	sulphurata	Yellow Bunting	\N
+172	Eophona	migratoria	Yellow-billed Grosbeak	\N
+172	Coccothraustes	coccothraustes	Hawfinch	\N
+172	Carduelis	chloris	European Greenfinch	\N
+172	Mycerobas	affinis	Collared Grosbeak	\N
+172	Pyrrhula	erythaca	Grey-headed Bullfinch	\N
+172	Pyrrhula	pyrrhula	Eurasian Bullfinch	\N
+172	Carpodacus	eos	Stresemann's Rosefinch	\N
+172	Pyrrhula	erythrocephala	Red-headed Bullfinch	\N
+172	Mycerobas	icterioides	Black-and-yellow Grosbeak	\N
+172	Mycerobas	melanozanthos	Spot-winged Grosbeak	\N
+172	Mycerobas	carnipes	White-winged Grosbeak	\N
+172	Pyrrhoplectes	epauletta	Gold-naped Finch	\N
+172	Serinus	estherae	Mountain Serin	\N
+172	Serinus	pusillus	Red-fronted Serin	\N
+172	Eophona	personata	Japanese Grosbeak	\N
+172	Carduelis	cannabina	Eurasian Linnet	\N
+172	Carpodacus	rubescens	Blanford's Rosefinch	\N
+172	Uragus	sibiricus	Long-tailed Rosefinch	\N
+172	Rhodospiza	obsoleta	Desert Finch	\N
 172	Pyrrhula	aurantiaca	Orange Bullfinch	Species endemic to the western Himalaya.
-172	Bucanetes	githagineus	Trumpeter Finch	
-172	Carpodacus	vinaceus	Vinaceous Rosefinch	
+172	Bucanetes	githagineus	Trumpeter Finch	\N
+172	Carpodacus	vinaceus	Vinaceous Rosefinch	\N
 172	Callacanthis	burtoni	Spectacled Finch	Species endemic to the Indian Subcontinent (India, Nepal & Pakistan).
-172	Leucosticte	arctoa	Asian Rosy Finch	
+172	Leucosticte	arctoa	Asian Rosy Finch	\N
 172	Leucosticte	sillemi	Sillem's Mountain Finch	Only known from two specimens - an adult male and a juvenile male. Described as a new species in Roselaar, C.S., (1992) <i>Leucosticte sillemi nov. spec.</i>, a new species of mountain finch from western Tibet. <i>Bull. Brit. Orn. Club</i> 112: 225-231.
-172	Carpodacus	nipalensis	Dark-breasted Rosefinch	
-172	Leucosticte	nemoricola	Plain Mountain Finch	
-172	Bucanetes	mongolicus	Mongolian Finch	
-172	Carduelis	flavirostris	Twite	
-172	Carduelis	flammea	Common Redpoll	
-172	Carduelis	hornemanni	Arctic Redpoll	
-172	Carduelis	carduelis	European Goldfinch	
-172	Carduelis	thibetana	Tibetan Siskin	
-172	Carduelis	spinus	Eurasian Siskin	
+172	Carpodacus	nipalensis	Dark-breasted Rosefinch	\N
+172	Leucosticte	nemoricola	Plain Mountain Finch	\N
+172	Bucanetes	mongolicus	Mongolian Finch	\N
+172	Carduelis	flavirostris	Twite	\N
+172	Carduelis	flammea	Common Redpoll	\N
+172	Carduelis	hornemanni	Arctic Redpoll	\N
+172	Carduelis	carduelis	European Goldfinch	\N
+172	Carduelis	thibetana	Tibetan Siskin	\N
+172	Carduelis	spinus	Eurasian Siskin	\N
 172	Carduelis	monguilloti	Vietnamese Greenfinch	Species endemic to southern central Vietnam.
-172	Carduelis	ambigua	Black-headed Greenfinch	
-172	Carduelis	spinoides	Yellow-breasted Greenfinch	
-172	Carduelis	sinica	Grey-capped Greenfinch	
-172	Leucosticte	brandti	Brandt's Mountain Finch	
-172	Pinicola	enucleator	Pine Grosbeak	
-172	Pyrrhula	leucogenis	White-cheeked Bullfinch	
-172	Pyrrhula	nipalensis	Brown Bullfinch	
-172	Loxia	leucoptera	Two-barred Crossbill	
-172	Loxia	curvirostra	Red Crossbill	
+172	Carduelis	ambigua	Black-headed Greenfinch	\N
+172	Carduelis	spinoides	Yellow-breasted Greenfinch	\N
+172	Carduelis	sinica	Grey-capped Greenfinch	\N
+172	Leucosticte	brandti	Brandt's Mountain Finch	\N
+172	Pinicola	enucleator	Pine Grosbeak	\N
+172	Pyrrhula	leucogenis	White-cheeked Bullfinch	\N
+172	Pyrrhula	nipalensis	Brown Bullfinch	\N
+172	Loxia	leucoptera	Two-barred Crossbill	\N
+172	Loxia	curvirostra	Red Crossbill	\N
 172	Rhodopechys	sanguineus	Crimson-winged Finch	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-172	Propyrrhula	subhimachala	Crimson-browed Finch	
-172	Carpodacus	erythrinus	Common Rosefinch	
-172	Chaunoproctus	ferreorostris	Bonin Grosbeak	
-172	Carpodacus	roborowskii	Tibetan Rosefinch	
-172	Carpodacus	puniceus	Red-fronted Rosefinch	
-172	Carpodacus	rubicilla	Great Rosefinch	
+172	Propyrrhula	subhimachala	Crimson-browed Finch	\N
+172	Carpodacus	erythrinus	Common Rosefinch	\N
+172	Chaunoproctus	ferreorostris	Bonin Grosbeak	\N
+172	Carpodacus	roborowskii	Tibetan Rosefinch	\N
+172	Carpodacus	puniceus	Red-fronted Rosefinch	\N
+172	Carpodacus	rubicilla	Great Rosefinch	\N
 172	Carpodacus	rodochroa	Pink-browed Rosefinch	Scientific name amended for gender following David & Gosselin (2002).
-172	Carpodacus	rhodochlamys	Red-mantled Rosefinch	
-172	Carpodacus	thura	White-browed Rosefinch	
-172	Carpodacus	rodopeplus	Spot-winged Rosefinch	
-172	Carpodacus	trifasciatus	Three-banded Rosefinch	
-172	Carpodacus	roseus	Pallas's Rosefinch	
-172	Carpodacus	synoicus	Sinai Rosefinch	
-172	Carpodacus	edwardsii	Dark-rumped Rosefinch	
-172	Carpodacus	pulcherrimus	Beautiful Rosefinch	
-172	Haematospiza	sipahi	Scarlet Finch	
-172	Carpodacus	rubicilloides	Streaked Rosefinch	
-171	Fringilla	coelebs	Chaffinch	
-171	Fringilla	montifringilla	Brambling	
-158	Calandrella	rufescens	Lesser Short-toed Lark	
-158	Alauda	arvensis	Eurasian Skylark	
-158	Calandrella	acutirostris	Hume's Short-toed Lark	
+172	Carpodacus	rhodochlamys	Red-mantled Rosefinch	\N
+172	Carpodacus	thura	White-browed Rosefinch	\N
+172	Carpodacus	rodopeplus	Spot-winged Rosefinch	\N
+172	Carpodacus	trifasciatus	Three-banded Rosefinch	\N
+172	Carpodacus	roseus	Pallas's Rosefinch	\N
+172	Carpodacus	synoicus	Sinai Rosefinch	\N
+172	Carpodacus	edwardsii	Dark-rumped Rosefinch	\N
+172	Carpodacus	pulcherrimus	Beautiful Rosefinch	\N
+172	Haematospiza	sipahi	Scarlet Finch	\N
+172	Carpodacus	rubicilloides	Streaked Rosefinch	\N
+171	Fringilla	coelebs	Chaffinch	\N
+171	Fringilla	montifringilla	Brambling	\N
+158	Calandrella	rufescens	Lesser Short-toed Lark	\N
+158	Alauda	arvensis	Eurasian Skylark	\N
+158	Calandrella	acutirostris	Hume's Short-toed Lark	\N
 158	Galerida	deva	Sykes's Lark	Species endemic to India.
 158	Galerida	malabarica	Malabar Lark	Species endemic to western peninsular India.
-158	Galerida	cristata	Crested Lark	
-158	Calandrella	cheleensis	Asian Short-toed Lark	
-158	Calandrella	brachydactyla	Greater Short-toed Lark	
-158	Calandrella	raytal	Sand Lark	
-158	Eremopterix	nigriceps	Black-crowned Sparrow Lark	
-158	Melanocorypha	yeltoniensis	Black Lark	
-158	Melanocorypha	leucoptera	White-winged Lark	
-158	Melanocorypha	mongolica	Mongolian Lark	
-158	Melanocorypha	maxima	Tibetan Lark	
-158	Melanocorypha	bimaculata	Bimaculated Lark	
-158	Alaemon	alaudipes	Greater Hoopoe Lark	
-158	Ammomanes	deserti	Desert Lark	
+158	Galerida	cristata	Crested Lark	\N
+158	Calandrella	cheleensis	Asian Short-toed Lark	\N
+158	Calandrella	brachydactyla	Greater Short-toed Lark	\N
+158	Calandrella	raytal	Sand Lark	\N
+158	Eremopterix	nigriceps	Black-crowned Sparrow Lark	\N
+158	Melanocorypha	yeltoniensis	Black Lark	\N
+158	Melanocorypha	leucoptera	White-winged Lark	\N
+158	Melanocorypha	mongolica	Mongolian Lark	\N
+158	Melanocorypha	maxima	Tibetan Lark	\N
+158	Melanocorypha	bimaculata	Bimaculated Lark	\N
+158	Alaemon	alaudipes	Greater Hoopoe Lark	\N
+158	Ammomanes	deserti	Desert Lark	\N
 158	Ammomanes	phoenicura	Rufous-tailed Lark	Species endemic to the Indian Subcontinent (India & marginally Pakistan).
-158	Mirafra	cantillans	Singing Bushlark	
+158	Mirafra	cantillans	Singing Bushlark	\N
 158	Eremopterix	griseus	Ashy-crowned Sparrow Lark	Species endemic to the Indian Subcontinent.
-158	Alauda	gulgula	Oriental Skylark	
-158	Mirafra	erythrocephala	Indochinese Bushlark	
-158	Mirafra	microptera	Burmese Bushlark	
-158	Mirafra	assamica	Bengal Bushlark	
+158	Alauda	gulgula	Oriental Skylark	\N
+158	Mirafra	erythrocephala	Indochinese Bushlark	\N
+158	Mirafra	microptera	Burmese Bushlark	\N
+158	Mirafra	assamica	Bengal Bushlark	\N
 158	Mirafra	affinis	Jerdon's Bushlark	Species endemic to the Indian Subcontinent (India & Sri Lanka).
 158	Mirafra	erythroptera	Indian Bushlark	Species endemic to the Indian Subcontinent (India & Pakistan).
-158	Mirafra	javanica	Horsfield's Bushlark	
-158	Eremophila	alpestris	Horned Lark	
-158	Ammomanes	cinctura	Bar-tailed Lark	
-149	Prinia	inornata	Plain Prinia	
-149	Cisticola	juncidis	Zitting Cisticola	
-149	Cisticola	exilis	Golden-headed Cisticola	
-149	Scotocerca	inquieta	Scrub Warbler	
+158	Mirafra	javanica	Horsfield's Bushlark	\N
+158	Eremophila	alpestris	Horned Lark	\N
+158	Ammomanes	cinctura	Bar-tailed Lark	\N
+149	Prinia	inornata	Plain Prinia	\N
+149	Cisticola	juncidis	Zitting Cisticola	\N
+149	Cisticola	exilis	Golden-headed Cisticola	\N
+149	Scotocerca	inquieta	Scrub Warbler	\N
 149	Rhopophilus	pekinensis	Chinese Hill Warbler	Species endemic to China.
-149	Prinia	polychroa	Brown Prinia	
-149	Prinia	gracilis	Graceful Prinia	
+149	Prinia	polychroa	Brown Prinia	\N
+149	Prinia	gracilis	Graceful Prinia	\N
 149	Prinia	crinigera	Striated Prinia	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-149	Prinia	sylvatica	Jungle Prinia	
+149	Prinia	sylvatica	Jungle Prinia	\N
 149	Prinia	burnesii	Rufous-vented Prinia	Species endemic to the Indian Subcontinent (Bangladesh, India & Pakistan).\n\n<i>P.b.cinerascens</i> considered a separate species under the name Swamp Prinia <i>(Prinia cinerascens)</i> by some authors.
-149	Prinia	familiaris	Bar-winged Prinia	
-149	Prinia	flaviventris	Yellow-bellied Prinia	
+149	Prinia	familiaris	Bar-winged Prinia	\N
+149	Prinia	flaviventris	Yellow-bellied Prinia	\N
 149	Prinia	socialis	Ashy Prinia	Species endemic to the Indian Subcontinent.
-149	Prinia	hodgsonii	Grey-breasted Prinia	
-149	Prinia	rufescens	Rufescent Prinia	
+149	Prinia	hodgsonii	Grey-breasted Prinia	\N
+149	Prinia	rufescens	Rufescent Prinia	\N
 149	Prinia	buchanani	Rufous-fronted Prinia	Species endemic to the Indian Subcontinent (India & Pakistan).
 149	Prinia	cinereocapilla	Grey-crowned Prinia	Species endemic to the Indian Subcontinent (Bhutan, India, Nepal & Pakistan).
-149	Prinia	atrogularis	Hill Prinia	
-167	Foudia	madagascariensis	Red Fody	
+149	Prinia	atrogularis	Hill Prinia	\N
+167	Foudia	madagascariensis	Red Fody	\N
 167	Ploceus	megarhynchus	Finn's Weaver	Species endemic to the Indian Subcontinent (India & Nepal).
-167	Ploceus	hypoxanthus	Asian Golden Weaver	
-167	Ploceus	philippinus	Baya Weaver	
-167	Ploceus	manyar	Streaked Weaver	
+167	Ploceus	hypoxanthus	Asian Golden Weaver	\N
+167	Ploceus	philippinus	Baya Weaver	\N
+167	Ploceus	manyar	Streaked Weaver	\N
 167	Ploceus	benghalensis	Black-breasted Weaver	Species endemic to the Indian Subcontinent (Bangladesh, India, Nepal & Pakistan).
-166	Prunella	himalayana	Altai Accentor	
-166	Prunella	rubeculoides	Robin Accentor	
-166	Prunella	strophiata	Rufous-breasted Accentor	
-166	Prunella	fulvescens	Brown Accentor	
-166	Prunella	montanella	Siberian Accentor	
-166	Prunella	ocularis	Radde's Accentor	
-166	Prunella	atrogularis	Black-throated Accentor	
-166	Prunella	koslowi	Kozlov's Accentor	
-166	Prunella	rubida	Japanese Accentor	
-166	Prunella	immaculata	Maroon-backed Accentor	
-166	Prunella	collaris	Alpine Accentor	
-165	Anthus	richardi	Richard's Pipit	
-165	Anthus	pratensis	Meadow Pipit	
-165	Anthus	gustavi	Pechora Pipit	
-165	Anthus	hodgsoni	Olive-backed Pipit	
-165	Anthus	trivialis	Tree Pipit	
-165	Anthus	cervinus	Red-throated Pipit	
-165	Motacilla	cinerea	Grey Wagtail	
-165	Anthus	similis	Long-billed Pipit	
-165	Anthus	rufulus	Paddyfield Pipit	
-165	Motacilla	alba	White Wagtail	
-165	Motacilla	flava	Yellow Wagtail	
+166	Prunella	himalayana	Altai Accentor	\N
+166	Prunella	rubeculoides	Robin Accentor	\N
+166	Prunella	strophiata	Rufous-breasted Accentor	\N
+166	Prunella	fulvescens	Brown Accentor	\N
+166	Prunella	montanella	Siberian Accentor	\N
+166	Prunella	ocularis	Radde's Accentor	\N
+166	Prunella	atrogularis	Black-throated Accentor	\N
+166	Prunella	koslowi	Kozlov's Accentor	\N
+166	Prunella	rubida	Japanese Accentor	\N
+166	Prunella	immaculata	Maroon-backed Accentor	\N
+166	Prunella	collaris	Alpine Accentor	\N
+165	Anthus	richardi	Richard's Pipit	\N
+165	Anthus	pratensis	Meadow Pipit	\N
+165	Anthus	gustavi	Pechora Pipit	\N
+165	Anthus	hodgsoni	Olive-backed Pipit	\N
+165	Anthus	trivialis	Tree Pipit	\N
+165	Anthus	cervinus	Red-throated Pipit	\N
+165	Motacilla	cinerea	Grey Wagtail	\N
+165	Anthus	similis	Long-billed Pipit	\N
+165	Anthus	rufulus	Paddyfield Pipit	\N
+165	Motacilla	alba	White Wagtail	\N
+165	Motacilla	flava	Yellow Wagtail	\N
 165	Motacilla	maderaspatensis	White-browed Wagtail	Species endemic to the Indian Subcontinent.
-165	Anthus	campestris	Tawny Pipit	
-165	Motacilla	grandis	Japanese Wagtail	
-165	Dendronanthus	indicus	Forest Wagtail	
-165	Anthus	godlewskii	Blyth's Pipit	
-165	Anthus	spinoletta	Water Pipit	
-165	Anthus	rubescens	Buff-bellied Pipit	
-165	Anthus	sylvanus	Upland Pipit	
+165	Anthus	campestris	Tawny Pipit	\N
+165	Motacilla	grandis	Japanese Wagtail	\N
+165	Dendronanthus	indicus	Forest Wagtail	\N
+165	Anthus	godlewskii	Blyth's Pipit	\N
+165	Anthus	spinoletta	Water Pipit	\N
+165	Anthus	rubescens	Buff-bellied Pipit	\N
+165	Anthus	sylvanus	Upland Pipit	\N
 165	Anthus	nilghiriensis	Nilgiri Pipit	Species endemic to SW India.
-165	Anthus	roseatus	Rosy Pipit	
-165	Motacilla	citreola	Citrine Wagtail	
-164	Petronia	petronia	Rock Sparrow	
-164	Petronia	xanthocollis	Chestnut-shouldered Petronia	
-164	Passer	montanus	Eurasian Tree Sparrow	
-164	Passer	moabiticus	Dead Sea Sparrow	
-164	Montifringilla	adamsi	Tibetan Snowfinch	
-164	Passer	rutilans	Russet Sparrow	
-164	Pyrgilauda	taczanowskii	White-rumped Snowfinch	
-164	Passer	pyrrhonotus	Sind Sparrow	
-164	Passer	hispaniolensis	Spanish Sparrow	
-164	Passer	domesticus	House Sparrow	
-164	Passer	ammodendri	Saxaul Sparrow	
-164	Passer	flaveolus	Plain-backed Sparrow	
-164	Pyrgilauda	davidiana	Père David's Snowfinch	
-164	Pyrgilauda	ruficollis	Rufous-necked Snowfinch	
-164	Pyrgilauda	blanfordi	Blanford's Snowfinch	
-164	Montifringilla	nivalis	White-winged Snowfinch	
-162	Anthreptes	simplex	Plain Sunbird	
-162	Nectarinia	calcostetha	Copper-throated Sunbird	
-162	Nectarinia	aspasia	Black Sunbird	
-162	Nectarinia	sperata	Purple-throated Sunbird	
+165	Anthus	roseatus	Rosy Pipit	\N
+165	Motacilla	citreola	Citrine Wagtail	\N
+164	Petronia	petronia	Rock Sparrow	\N
+164	Petronia	xanthocollis	Chestnut-shouldered Petronia	\N
+164	Passer	montanus	Eurasian Tree Sparrow	\N
+164	Passer	moabiticus	Dead Sea Sparrow	\N
+164	Montifringilla	adamsi	Tibetan Snowfinch	\N
+164	Passer	rutilans	Russet Sparrow	\N
+164	Pyrgilauda	taczanowskii	White-rumped Snowfinch	\N
+164	Passer	pyrrhonotus	Sind Sparrow	\N
+164	Passer	hispaniolensis	Spanish Sparrow	\N
+164	Passer	domesticus	House Sparrow	\N
+164	Passer	ammodendri	Saxaul Sparrow	\N
+164	Passer	flaveolus	Plain-backed Sparrow	\N
+164	Pyrgilauda	davidiana	Père David's Snowfinch	\N
+164	Pyrgilauda	ruficollis	Rufous-necked Snowfinch	\N
+164	Pyrgilauda	blanfordi	Blanford's Snowfinch	\N
+164	Montifringilla	nivalis	White-winged Snowfinch	\N
+162	Anthreptes	simplex	Plain Sunbird	\N
+162	Nectarinia	calcostetha	Copper-throated Sunbird	\N
+162	Nectarinia	aspasia	Black Sunbird	\N
+162	Nectarinia	sperata	Purple-throated Sunbird	\N
 162	Nectarinia	minima	Crimson-backed Sunbird	Species endemic to SW India.
-162	Hypogramma	hypogrammicum	Purple-naped Sunbird	
-162	Nectarinia	zeylonica	Purple-rumped Sunbird	
-162	Anthreptes	malacensis	Brown-throated Sunbird	
-162	Cinnyris	jugularis	Olive-backed Sunbird	
-162	Anthreptes	rhodolaemus	Red-throated Sunbird	
-162	Aethopyga	flagrans	Flaming Sunbird	
-162	Aethopyga	siparaja	Crimson Sunbird	
-162	Aethopyga	saturata	Black-throated Sunbird	
-162	Aethopyga	christinae	Fork-tailed Sunbird	
+162	Hypogramma	hypogrammicum	Purple-naped Sunbird	\N
+162	Nectarinia	zeylonica	Purple-rumped Sunbird	\N
+162	Anthreptes	malacensis	Brown-throated Sunbird	\N
+162	Cinnyris	jugularis	Olive-backed Sunbird	\N
+162	Anthreptes	rhodolaemus	Red-throated Sunbird	\N
+162	Aethopyga	flagrans	Flaming Sunbird	\N
+162	Aethopyga	siparaja	Crimson Sunbird	\N
+162	Aethopyga	saturata	Black-throated Sunbird	\N
+162	Aethopyga	christinae	Fork-tailed Sunbird	\N
 162	Aethopyga	eximia	White-flanked Sunbird	Species endemic to the mountains of Java.
-162	Aethopyga	nipalensis	Green-tailed Sunbird	
-162	Aethopyga	gouldiae	Mrs Gould's Sunbird	
+162	Aethopyga	nipalensis	Green-tailed Sunbird	\N
+162	Aethopyga	gouldiae	Mrs Gould's Sunbird	\N
 162	Aethopyga	mystacalis	Javan Sunbird	Species endemic to Java.
-162	Anthreptes	singalensis	Ruby-cheeked Sunbird	
-162	Aethopyga	shelleyi	Lovely Sunbird	
-162	Aethopyga	linaraborae	Lina's Sunbird	
-162	Aethopyga	boltoni	Apo Sunbird	
+162	Anthreptes	singalensis	Ruby-cheeked Sunbird	\N
+162	Aethopyga	shelleyi	Lovely Sunbird	\N
+162	Aethopyga	linaraborae	Lina's Sunbird	\N
+162	Aethopyga	boltoni	Apo Sunbird	\N
 162	Aethopyga	primigenia	Grey-hooded Sunbird	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-162	Cynnyris	buettikoferi	Apricot-breasted Sunbird	
-162	Cinnyris	solaris	Flame-breasted Sunbird	
-162	Cinnyris	asiaticus	Purple Sunbird	
+162	Cynnyris	buettikoferi	Apricot-breasted Sunbird	\N
+162	Cinnyris	solaris	Flame-breasted Sunbird	\N
+162	Cinnyris	asiaticus	Purple Sunbird	\N
 162	Cinnyris	lotenius	Loten's Sunbird	Species endemic to the Indian Subcontinent (S India & Sri Lanka).
-162	Aethopyga	duyvenbodei	Elegant Sunbird	
+162	Aethopyga	duyvenbodei	Elegant Sunbird	\N
 162	Aethopyga	pulcherrima	Metallic-winged Sunbird	Species endemic to the Philippines.
-162	Aethopyga	temminckii	Temminck's Sunbird	
+162	Aethopyga	temminckii	Temminck's Sunbird	\N
 162	Arachnothera	magna	Streaked Spiderhunter	Subspecific identity of the taxon occurring in Peninsular Malaysia is not <i>magna</i> ...probably <i>musarum</i> but further research needed. - (pers. comm. David Wells)
 162	Arachnothera	affinis	Streaky-breasted Spiderhunter	Arachnothera modesta split from Arachnothera affinis following Davison, G. W. H., 2000. Notes on the taxonomy of some Bornean Birds. - Sarawak Mus. J.,  (75): 289-299 (1999).
-162	Arachnothera	clarae	Naked-faced Spiderhunter	
-162	Arachnothera	chrysogenys	Yellow-eared Spiderhunter	
-162	Arachnothera	flavigaster	Spectacled Spiderhunter	
-162	Arachnothera	robusta	Long-billed Spiderhunter	
-162	Arachnothera	crassirostris	Thick-billed Spiderhunter	
-162	Aethopyga	ignicauda	Fire-tailed Sunbird	
-162	Arachnothera	longirostra	Little Spiderhunter	
+162	Arachnothera	clarae	Naked-faced Spiderhunter	\N
+162	Arachnothera	chrysogenys	Yellow-eared Spiderhunter	\N
+162	Arachnothera	flavigaster	Spectacled Spiderhunter	\N
+162	Arachnothera	robusta	Long-billed Spiderhunter	\N
+162	Arachnothera	crassirostris	Thick-billed Spiderhunter	\N
+162	Aethopyga	ignicauda	Fire-tailed Sunbird	\N
+162	Arachnothera	longirostra	Little Spiderhunter	\N
 162	Arachnothera	juliae	Whitehead's Spiderhunter	Species endemic to Borneo.
-161	Dicaeum	nehrkorni	Crimson-crowned Flowerpecker	
-161	Prionochilus	percussus	Crimson-breasted Flowerpecker	
-161	Prionochilus	plateni	Palawan Flowerpecker	
-161	Prionochilus	xanthopygius	Yellow-rumped Flowerpecker	
-161	Prionochilus	thoracicus	Scarlet-breasted Flowerpecker	
+161	Dicaeum	nehrkorni	Crimson-crowned Flowerpecker	\N
+161	Prionochilus	percussus	Crimson-breasted Flowerpecker	\N
+161	Prionochilus	plateni	Palawan Flowerpecker	\N
+161	Prionochilus	xanthopygius	Yellow-rumped Flowerpecker	\N
+161	Prionochilus	thoracicus	Scarlet-breasted Flowerpecker	\N
 161	Dicaeum	annae	Golden-rumped Flowerpecker	Species endemic to Flores and Sumbawa in Indonesia.
-161	Dicaeum	aeruginosum	Striped Flowerpecker	
-161	Dicaeum	everetti	Brown-backed Flowerpecker	
+161	Dicaeum	aeruginosum	Striped Flowerpecker	\N
+161	Dicaeum	everetti	Brown-backed Flowerpecker	\N
 161	Dicaeum	proprium	Whiskered Flowerpecker	Species endemic to the mountains of Mindanao, the Philippines.
-161	Dicaeum	erythrorynchos	Pale-billed Flowerpecker	
-161	Prionochilus	maculatus	Yellow-breasted Flowerpecker	
-161	Dicaeum	pygmaeum	Pygmy Flowerpecker	
-161	Dicaeum	agile	Thick-billed Flowerpecker	
-161	Dicaeum	erythrothorax	Flame-breasted Flowerpecker	
-161	Dicaeum	vulneratum	Ashy Flowerpecker	
-161	Dicaeum	igniferum	Black-fronted Flowerpecker	
-161	Dicaeum	maugei	Blue-cheeked Flowerpecker	
-161	Dicaeum	ignipectus	Fire-breasted Flowerpecker	
+161	Dicaeum	erythrorynchos	Pale-billed Flowerpecker	\N
+161	Prionochilus	maculatus	Yellow-breasted Flowerpecker	\N
+161	Dicaeum	pygmaeum	Pygmy Flowerpecker	\N
+161	Dicaeum	agile	Thick-billed Flowerpecker	\N
+161	Dicaeum	erythrothorax	Flame-breasted Flowerpecker	\N
+161	Dicaeum	vulneratum	Ashy Flowerpecker	\N
+161	Dicaeum	igniferum	Black-fronted Flowerpecker	\N
+161	Dicaeum	maugei	Blue-cheeked Flowerpecker	\N
+161	Dicaeum	ignipectus	Fire-breasted Flowerpecker	\N
 161	Dicaeum	monticolum	Black-sided Flowerpecker	Species endemic to Borneo.
-161	Dicaeum	celebicum	Grey-sided Flowerpecker	
-161	Dicaeum	sanguinolentum	Blood-breasted Flowerpecker	
-161	Dicaeum	hirundinaceum	Mistletoebird	
-161	Dicaeum	cruentatum	Scarlet-backed Flowerpecker	
-161	Dicaeum	trochileum	Scarlet-headed Flowerpecker	
-161	Dicaeum	concolor	Plain Flowerpecker	
+161	Dicaeum	celebicum	Grey-sided Flowerpecker	\N
+161	Dicaeum	sanguinolentum	Blood-breasted Flowerpecker	\N
+161	Dicaeum	hirundinaceum	Mistletoebird	\N
+161	Dicaeum	cruentatum	Scarlet-backed Flowerpecker	\N
+161	Dicaeum	trochileum	Scarlet-headed Flowerpecker	\N
+161	Dicaeum	concolor	Plain Flowerpecker	\N
 161	Dicaeum	australe	Red-striped Flowerpecker	Species endemic to The Philippines.
-161	Dicaeum	hypoleucum	Buzzing Flowerpecker	
-161	Dicaeum	trigonostigma	Orange-bellied Flowerpecker	
-161	Prionochilus	olivaceus	Olive-backed Flowerpecker	
+161	Dicaeum	hypoleucum	Buzzing Flowerpecker	\N
+161	Dicaeum	trigonostigma	Orange-bellied Flowerpecker	\N
+161	Prionochilus	olivaceus	Olive-backed Flowerpecker	\N
 161	Dicaeum	retrocinctum	Scarlet-collared Flowerpecker	Species endemic to Mindoro.
-161	Dicaeum	quadricolor	Cebu Flowerpecker	
+161	Dicaeum	quadricolor	Cebu Flowerpecker	\N
 161	Dicaeum	bicolor	Bicolored Flowerpecker	Species endemic to the Philippines.
-161	Dicaeum	nigrilore	Olive-capped Flowerpecker	
-161	Dicaeum	aureolimbatum	Yellow-sided Flowerpecker	
-161	Dicaeum	chrysorrheum	Yellow-vented Flowerpecker	
-161	Dicaeum	melanoxanthum	Yellow-bellied Flowerpecker	
+161	Dicaeum	nigrilore	Olive-capped Flowerpecker	\N
+161	Dicaeum	aureolimbatum	Yellow-sided Flowerpecker	\N
+161	Dicaeum	chrysorrheum	Yellow-vented Flowerpecker	\N
+161	Dicaeum	melanoxanthum	Yellow-bellied Flowerpecker	\N
 161	Dicaeum	vincens	Legge's Flowerpecker	Species endemic to Sri Lanka.\n\n
 161	Dicaeum	anthonyi	Flame-crowned Flowerpecker	Species endemic to northern Luzon and Mindanao in the Philippines.
-114	Artamus	cinereus	Black-faced Woodswallow	
+114	Artamus	cinereus	Black-faced Woodswallow	\N
 114	Artamus	monachus	Ivory-backed Woodswallow	Species endemic to the Sulawesi, Banggai and Sula islands of Indonesia.
-114	Artamus	fuscus	Ashy Woodswallow	
-114	Artamus	leucorynchus	White-breasted Woodswallow	
+114	Artamus	fuscus	Ashy Woodswallow	\N
+114	Artamus	leucorynchus	White-breasted Woodswallow	\N
 140	Remiz	coronatus	White-crowned Penduline Tit	Formerly considered a subspecies of Penduline Tit <i>Remiz pendulinus</i>.
-140	Cephalopyrus	flammiceps	Fire-capped Tit	
+140	Cephalopyrus	flammiceps	Fire-capped Tit	\N
 140	Remiz	consobrinus	Chinese Penduline Tit	Formerly considered a subspecies of Penduline Tit <i>Remiz pendulinus</i>.
 120	Aegithina	nigrolutea	Marshall's Iora	Species endemic to the Indian Subcontinent (India and Sri Lanka).
-120	Aegithina	lafresnayei	Great Iora	
-120	Aegithina	tiphia	Common Iora	
-120	Aegithina	viridissima	Green Iora	
-119	Myiagra	alecto	Shining Monarch	
-119	Monarcha	trivirgatus	Spectacled Monarch	
+120	Aegithina	lafresnayei	Great Iora	\N
+120	Aegithina	tiphia	Common Iora	\N
+120	Aegithina	viridissima	Green Iora	\N
+119	Myiagra	alecto	Shining Monarch	\N
+119	Monarcha	trivirgatus	Spectacled Monarch	\N
 119	Monarcha	sacerdotum	Flores Monarch	Species endemic to the island of Flores, Lesser Sundas, Indonesia.
-119	Monarcha	everetti	White-tipped Monarch	
-119	Monarcha	loricatus	Black-tipped Monarch	
+119	Monarcha	everetti	White-tipped Monarch	\N
+119	Monarcha	loricatus	Black-tipped Monarch	\N
 119	Monarcha	boanensis	Black-chinned Monarch	Species endemic to Pulau Boano
-119	Monarcha	leucurus	White-tailed Monarch	
-119	Monarcha	mundus	Black-bibbed Monarch	
-119	Myiagra	ruficollis	Broad-billed Monarch	
-119	Grallina	cyanoleuca	Magpie-lark	
+119	Monarcha	leucurus	White-tailed Monarch	\N
+119	Monarcha	mundus	Black-bibbed Monarch	\N
+119	Myiagra	ruficollis	Broad-billed Monarch	\N
+119	Grallina	cyanoleuca	Magpie-lark	\N
 119	Eutrichomyias	rowleyi	Cerulean Paradise-flycatcher	Species endemic to Sangihe.
 119	Myiagra	galeata	Slaty Monarch	Species endemic to the Moluccas, Indonesia.
 119	Terpsiphone	cyanescens	Blue Paradise-flycatcher	Species endemic to the Philippines.
-119	Hypothymis	helenae	Short-crested Monarch	
-119	Hypothymis	coelestis	Celestial Monarch	
-119	Hypothymis	azurea	Black-naped Monarch	
-119	Terpsiphone	paradisi	Asian Paradise-flycatcher	
-119	Terpsiphone	atrocaudata	Japanese Paradise-flycatcher	
-119	Terpsiphone	cinnamomea	Rufous Paradise-flycatcher	
-119	Monarcha	cinerascens	Island Monarch	
-119	Monarcha	pileatus	White-naped Monarch	
-118	Dicrurus	balicassius	Balicassiao	
-118	Dicrurus	macrocercus	Black Drongo	
-118	Dicrurus	aeneus	Bronzed Drongo	
-118	Dicrurus	annectans	Crow-billed Drongo	
+119	Hypothymis	helenae	Short-crested Monarch	\N
+119	Hypothymis	coelestis	Celestial Monarch	\N
+119	Hypothymis	azurea	Black-naped Monarch	\N
+119	Terpsiphone	paradisi	Asian Paradise-flycatcher	\N
+119	Terpsiphone	atrocaudata	Japanese Paradise-flycatcher	\N
+119	Terpsiphone	cinnamomea	Rufous Paradise-flycatcher	\N
+119	Monarcha	cinerascens	Island Monarch	\N
+119	Monarcha	pileatus	White-naped Monarch	\N
+118	Dicrurus	balicassius	Balicassiao	\N
+118	Dicrurus	macrocercus	Black Drongo	\N
+118	Dicrurus	aeneus	Bronzed Drongo	\N
+118	Dicrurus	annectans	Crow-billed Drongo	\N
 118	Dicrurus	caerulescens	White-bellied Drongo	Species endemic to the Indian Subcontinent (India, Nepal & Sri Lanka).
-118	Dicrurus	paradiseus	Greater Racket-tailed Drongo	
-118	Dicrurus	montanus	Sulawesi Drongo	
+118	Dicrurus	paradiseus	Greater Racket-tailed Drongo	\N
+118	Dicrurus	montanus	Sulawesi Drongo	\N
 118	Dicrurus	andamanensis	Andaman Drongo	Species endemic to the Andaman and Coco Islands.
-118	Dicrurus	remifer	Lesser Racket-tailed Drongo	
-118	Dicrurus	hottentottus	Spangled Drongo	
-118	Dicrurus	leucophaeus	Ashy Drongo	
-117	Rhipidura	aureola	White-browed Fantail	
+118	Dicrurus	remifer	Lesser Racket-tailed Drongo	\N
+118	Dicrurus	hottentottus	Spangled Drongo	\N
+118	Dicrurus	leucophaeus	Ashy Drongo	\N
+117	Rhipidura	aureola	White-browed Fantail	\N
 117	Rhipidura	euryura	White-bellied Fantail	Species endemic to Java.
-117	Rhipidura	albicollis	White-throated Fantail	
-117	Rhipidura	nigrocinnamomea	Black-and-cinnamon Fantail	
+117	Rhipidura	albicollis	White-throated Fantail	\N
+117	Rhipidura	nigrocinnamomea	Black-and-cinnamon Fantail	\N
 117	Rhipidura	phoenicura	Rufous-tailed Fantail	Species endemic to Java, Indonesia.
-117	Rhipidura	cyaniceps	Blue-headed Fantail	
-117	Rhipidura	superciliaris	Blue Fantail	
-117	Rhipidura	rufiventris	Northern Fantail	
-117	Rhipidura	fuscorufa	Cinnamon-tailed Fantail	
-117	Rhipidura	teysmanni	Rusty-bellied Fantail	
-117	Rhipidura	superflua	Tawny-backed Fantail	
+117	Rhipidura	cyaniceps	Blue-headed Fantail	\N
+117	Rhipidura	superciliaris	Blue Fantail	\N
+117	Rhipidura	rufiventris	Northern Fantail	\N
+117	Rhipidura	fuscorufa	Cinnamon-tailed Fantail	\N
+117	Rhipidura	teysmanni	Rusty-bellied Fantail	\N
+117	Rhipidura	superflua	Tawny-backed Fantail	\N
 117	Rhipidura	dedemi	Streak-breasted Fantail	Species endemic to the mountains of Seram, Indonesia.
-117	Rhipidura	opistherythra	Long-tailed Fantail	
-117	Rhipidura	diluta	Brown-capped Fantail	
-117	Rhipidura	javanica	Pied Fantail	
-117	Rhipidura	hypoxantha	Yellow-bellied Fantail	
-117	Rhipidura	rufifrons	Rufous Fantail	
-117	Rhipidura	perlata	Spotted Fantail	
-117	Rhipidura	leucophrys	Willie-wagtail	
-123	Bombycilla	garrulus	Bohemian Waxwing	
-123	Bombycilla	japonica	Japanese Waxwing	
-115	Coracina	macei	Large Cuckooshrike	
-115	Oriolus	phaeochromus	Dusky-brown Oriole	
+117	Rhipidura	opistherythra	Long-tailed Fantail	\N
+117	Rhipidura	diluta	Brown-capped Fantail	\N
+117	Rhipidura	javanica	Pied Fantail	\N
+117	Rhipidura	hypoxantha	Yellow-bellied Fantail	\N
+117	Rhipidura	rufifrons	Rufous Fantail	\N
+117	Rhipidura	perlata	Spotted Fantail	\N
+117	Rhipidura	leucophrys	Willie-wagtail	\N
+123	Bombycilla	garrulus	Bohemian Waxwing	\N
+123	Bombycilla	japonica	Japanese Waxwing	\N
+115	Coracina	macei	Large Cuckooshrike	\N
+115	Oriolus	phaeochromus	Dusky-brown Oriole	\N
 115	Oriolus	forsteni	Grey-collared Oriole	Species endemic to Seram, Indonesia.
 115	Oriolus	bouroensis	Black-eared Oriole	Species endemic to Buru and the Tanimbar Islands, Indonesia.
-115	Oriolus	melanotis	Olive-brown Oriole	
-115	Coracina	larvata	Sunda Cuckooshrike	
+115	Oriolus	melanotis	Olive-brown Oriole	\N
+115	Coracina	larvata	Sunda Cuckooshrike	\N
 115	Coracina	personata	Wallacean Cuckooshrike	Species endemic to Indonesia.
-115	Coracina	javensis	Javan Cuckooshrike	
+115	Coracina	javensis	Javan Cuckooshrike	\N
 115	Sphecotheres	viridis	Timor Figbird	Species endemic to Timor and Roti Islands of Indonesia.
-115	Oriolus	chinensis	Black-naped Oriole	
+115	Oriolus	chinensis	Black-naped Oriole	\N
 115	Coracina	schistacea	Slaty Cuckooshrike	Species endemic to the Banggai and Sula Islands, Indonesia.
-115	Sphecotheres	vieilloti	Australasian Figbird	
+115	Sphecotheres	vieilloti	Australasian Figbird	\N
 115	Sphecotheres	hypoleucus	Wetar Figbird	Species endemic to Wetar.
-115	Oriolus	mellianus	Silver Oriole	
-115	Oriolus	traillii	Maroon Oriole	
-115	Oriolus	cruentus	Black-and-crimson Oriole	
+115	Oriolus	mellianus	Silver Oriole	\N
+115	Oriolus	traillii	Maroon Oriole	\N
+115	Oriolus	cruentus	Black-and-crimson Oriole	\N
 115	Oriolus	hosii	Black Oriole	Species endemic to Borneo (primarily Sarawak).
-115	Oriolus	tenuirostris	Slender-billed Oriole	
-115	Oriolus	oriolus	Eurasian Golden Oriole	
-115	Oriolus	isabellae	Isabela Oriole	
-115	Oriolus	sagittatus	Olive-backed Oriole	
-115	Oriolus	flavocinctus	Green Oriole	
-115	Coracina	novaehollandiae	Black-faced Cuckooshrike	
-115	Oriolus	xanthonotus	Dark-throated Oriole	
-115	Oriolus	xanthornus	Black-hooded Oriole	
-115	Pericrocotus	roseus	Rosy Minivet	
+115	Oriolus	tenuirostris	Slender-billed Oriole	\N
+115	Oriolus	oriolus	Eurasian Golden Oriole	\N
+115	Oriolus	isabellae	Isabela Oriole	\N
+115	Oriolus	sagittatus	Olive-backed Oriole	\N
+115	Oriolus	flavocinctus	Green Oriole	\N
+115	Coracina	novaehollandiae	Black-faced Cuckooshrike	\N
+115	Oriolus	xanthonotus	Dark-throated Oriole	\N
+115	Oriolus	xanthornus	Black-hooded Oriole	\N
+115	Pericrocotus	roseus	Rosy Minivet	\N
 115	Coracina	atriceps	Moluccan Cuckooshrike	Species endemic to the Moluccas, Indonesia (Seram, Bacan, Ternate, Halmahera).
-115	Pericrocotus	miniatus	Sunda Minivet	
-115	Pericrocotus	brevirostris	Short-billed Minivet	
-115	Pericrocotus	ethologus	Long-tailed Minivet	
-115	Pericrocotus	solaris	Grey-chinned Minivet	
-115	Pericrocotus	erythropygius	White-bellied Minivet	
-115	Pericrocotus	lansbergei	Little Minivet	
-115	Pericrocotus	igneus	Fiery Minivet	
-115	Pericrocotus	cinnamomeus	Small Minivet	
-115	Pericrocotus	tegimae	Ryukyu Minivet	
-115	Hemipus	picatus	Bar-winged Flycatcher-shrike	
-115	Pericrocotus	cantonensis	Swinhoe's Minivet	
-115	Hemipus	hirundinaceus	Black-winged Flycatcher-shrike	
-115	Coracina	polioptera	Indochinese Cuckooshrike	
-115	Coracina	melaschistos	Black-winged Cuckooshrike	
-115	Coracina	fimbriata	Lesser Cuckooshrike	
-115	Coracina	melanoptera	Black-headed Cuckooshrike	
-115	Lalage	melanoleuca	Black-and-white Triller	
-115	Lalage	nigra	Pied Triller	
-115	Lalage	sueurii	White-shouldered Triller	
+115	Pericrocotus	miniatus	Sunda Minivet	\N
+115	Pericrocotus	brevirostris	Short-billed Minivet	\N
+115	Pericrocotus	ethologus	Long-tailed Minivet	\N
+115	Pericrocotus	solaris	Grey-chinned Minivet	\N
+115	Pericrocotus	erythropygius	White-bellied Minivet	\N
+115	Pericrocotus	lansbergei	Little Minivet	\N
+115	Pericrocotus	igneus	Fiery Minivet	\N
+115	Pericrocotus	cinnamomeus	Small Minivet	\N
+115	Pericrocotus	tegimae	Ryukyu Minivet	\N
+115	Hemipus	picatus	Bar-winged Flycatcher-shrike	\N
+115	Pericrocotus	cantonensis	Swinhoe's Minivet	\N
+115	Hemipus	hirundinaceus	Black-winged Flycatcher-shrike	\N
+115	Coracina	polioptera	Indochinese Cuckooshrike	\N
+115	Coracina	melaschistos	Black-winged Cuckooshrike	\N
+115	Coracina	fimbriata	Lesser Cuckooshrike	\N
+115	Coracina	melanoptera	Black-headed Cuckooshrike	\N
+115	Lalage	melanoleuca	Black-and-white Triller	\N
+115	Lalage	nigra	Pied Triller	\N
+115	Lalage	sueurii	White-shouldered Triller	\N
 115	Lalage	leucopygialis	White-rumped Triller	Species endemic to Sulawesi and the Sula Islands of Indonesia.\n\n<p>Formerly considered conspecific with <i>Lalage nigra</i>.
 115	Lalage	aurea	Rufous-bellied Triller	Species endemic to the North Moluccas, Indonesia.
-115	Lalage	atrovirens	Black-browed Triller	
-115	Pericrocotus	divaricatus	Ashy Minivet	
-115	Lalage	leucomela	Varied Triller	
-115	Coracina	parvula	Halmahera Cuckooshrike	
-115	Coracina	abbotti	Pygmy Cuckooshrike	
-115	Coracina	coerulescens	Blackish Cuckooshrike	
-115	Pericrocotus	flammeus	Scarlet Minivet	
+115	Lalage	atrovirens	Black-browed Triller	\N
+115	Pericrocotus	divaricatus	Ashy Minivet	\N
+115	Lalage	leucomela	Varied Triller	\N
+115	Coracina	parvula	Halmahera Cuckooshrike	\N
+115	Coracina	abbotti	Pygmy Cuckooshrike	\N
+115	Coracina	coerulescens	Blackish Cuckooshrike	\N
+115	Pericrocotus	flammeus	Scarlet Minivet	\N
 115	Coracina	leucopygia	White-rumped Cuckooshrike	Species endemic to Sulawesi and nearby islands.
-115	Coracina	fortis	Buru Cuckooshrike	
-115	Coracina	bicolor	Pied Cuckooshrike	
-115	Coracina	papuensis	White-bellied Cuckooshrike	
+115	Coracina	fortis	Buru Cuckooshrike	\N
+115	Coracina	bicolor	Pied Cuckooshrike	\N
+115	Coracina	papuensis	White-bellied Cuckooshrike	\N
 115	Coracina	temminckii	Cerulean Cuckooshrike	Species endemic to Sulawesi, Indonesia.
-115	Coracina	tenuirostris	Slender-billed Cicadabird	
-115	Coracina	dohertyi	Sumba Cicadabird	
-115	Coracina	sula	Sula Cicadabird	
+115	Coracina	tenuirostris	Slender-billed Cicadabird	\N
+115	Coracina	dohertyi	Sumba Cicadabird	\N
+115	Coracina	sula	Sula Cicadabird	\N
 115	Coracina	dispar	Kai Cicadabird	Species endemic to Indonesia.
 115	Coracina	morio	Sulawesi Cicadabird	Species endemic to Sulawesi, Sangihe and Talaud Islands of Indonesia.
-115	Coracina	mindanensis	Black-bibbed Cicadabird	
+115	Coracina	mindanensis	Black-bibbed Cicadabird	\N
 115	Coracina	ceramensis	Pale Cicadabird	Species endemic to the Moluccas, Indonesia (Seram, Buru, Boano, Obi).
-115	Coracina	mcgregori	McGregor's Cuckooshrike	
-115	Coracina	ostenta	White-winged Cuckooshrike	
-115	Coracina	striata	Bar-bellied Cuckooshrike	
+115	Coracina	mcgregori	McGregor's Cuckooshrike	\N
+115	Coracina	ostenta	White-winged Cuckooshrike	\N
+115	Coracina	striata	Bar-bellied Cuckooshrike	\N
 122	Philentoma	pyrhoptera	Rufous-winged Philentoma	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-122	Tephrodornis	pondicerianus	Common Woodshrike	
-122	Tephrodornis	virgatus	Large Woodshrike	
+122	Tephrodornis	pondicerianus	Common Woodshrike	\N
+122	Tephrodornis	virgatus	Large Woodshrike	\N
 122	Philentoma	velata	Maroon-breasted Philentoma	Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-113	Semioptera	wallacii	Standardwing	
+113	Semioptera	wallacii	Standardwing	\N
 113	Lycocorax	pyrrhopterus	Paradise-crow	Species endemic to the North and Central Moluccas, Indonesia.
 112	Dendrocitta	leucogastra	White-bellied Treepie	Species endemic to SW India.
 112	Dendrocitta	cinerascens	Bornean Treepie	Species endemic to Borneo.
 112	Dendrocitta	occipitalis	Sumatran Treepie	Species endemic to Sumatra.
 112	Corvus	validus	Long-billed Crow	Species endemic to the Northern and Central Moluccas, Indonesia.
 112	Dendrocitta	bayleii	Andaman Treepie	Species endemic to the Andaman Islands, India.
-112	Crypsirina	cucullata	Hooded Treepie	
-112	Pica	pica	Eurasian Magpie	
-112	Podoces	hendersoni	Henderson's Ground Jay	
-112	Podoces	biddulphi	Biddulph's Ground Jay	
-112	Corvus	florensis	Flores Crow	
-112	Dendrocitta	frontalis	Collared Treepie	
-112	Nucifraga	caryocatactes	Spotted Nutcracker	
-112	Dendrocitta	formosae	Grey Treepie	
-112	Pyrrhocorax	graculus	Alpine Chough	
-112	Crypsirina	temia	Racket-tailed Treepie	
-112	Corvus	frugilegus	Rook	
-112	Corvus	corone	Carrion Crow	
-112	Corvus	macrorhynchos	Large-billed Crow	
-112	Corvus	corax	Northern Raven	
-112	Corvus	ruficollis	Brown-necked Raven	
-112	Corvus	pectoralis	Collared Crow	
-112	Corvus	orru	Torresian Crow	
-112	Pyrrhocorax	pyrrhocorax	Red-billed Chough	
-112	Garrulus	lanceolatus	Black-headed Jay	
-112	Platylophus	galericulatus	Crested Jay	
-112	Corvus	monedula	Eurasian Jackdaw	
-112	Corvus	dauuricus	Daurian Jackdaw	
-112	Platysmurus	leucopterus	Black Magpie	
-112	Temnurus	temnurus	Ratchet-tailed Treepie	
-112	Garrulus	glandarius	Eurasian Jay	
-112	Dendrocitta	vagabunda	Rufous Treepie	
-112	Garrulus	lidthi	Lidth's Jay	
-112	Perisoreus	infaustus	Siberian Jay	
-112	Perisoreus	internigrans	Sichuan Jay	
+112	Crypsirina	cucullata	Hooded Treepie	\N
+112	Pica	pica	Eurasian Magpie	\N
+112	Podoces	hendersoni	Henderson's Ground Jay	\N
+112	Podoces	biddulphi	Biddulph's Ground Jay	\N
+112	Corvus	florensis	Flores Crow	\N
+112	Dendrocitta	frontalis	Collared Treepie	\N
+112	Nucifraga	caryocatactes	Spotted Nutcracker	\N
+112	Dendrocitta	formosae	Grey Treepie	\N
+112	Pyrrhocorax	graculus	Alpine Chough	\N
+112	Crypsirina	temia	Racket-tailed Treepie	\N
+112	Corvus	frugilegus	Rook	\N
+112	Corvus	corone	Carrion Crow	\N
+112	Corvus	macrorhynchos	Large-billed Crow	\N
+112	Corvus	corax	Northern Raven	\N
+112	Corvus	ruficollis	Brown-necked Raven	\N
+112	Corvus	pectoralis	Collared Crow	\N
+112	Corvus	orru	Torresian Crow	\N
+112	Pyrrhocorax	pyrrhocorax	Red-billed Chough	\N
+112	Garrulus	lanceolatus	Black-headed Jay	\N
+112	Platylophus	galericulatus	Crested Jay	\N
+112	Corvus	monedula	Eurasian Jackdaw	\N
+112	Corvus	dauuricus	Daurian Jackdaw	\N
+112	Platysmurus	leucopterus	Black Magpie	\N
+112	Temnurus	temnurus	Ratchet-tailed Treepie	\N
+112	Garrulus	glandarius	Eurasian Jay	\N
+112	Dendrocitta	vagabunda	Rufous Treepie	\N
+112	Garrulus	lidthi	Lidth's Jay	\N
+112	Perisoreus	infaustus	Siberian Jay	\N
+112	Perisoreus	internigrans	Sichuan Jay	\N
 112	Urocissa	ornata	Sri Lanka Blue Magpie	Species endemic to Sri Lanka.\n\n
-112	Urocissa	caerulea	Taiwan Blue Magpie	
-112	Corvus	splendens	House Crow	
-112	Urocissa	erythrorhyncha	Red-billed Blue Magpie	
-112	Urocissa	whiteheadi	White-winged Magpie	
-112	Cissa	chinensis	Common Green Magpie	
+112	Urocissa	caerulea	Taiwan Blue Magpie	\N
+112	Corvus	splendens	House Crow	\N
+112	Urocissa	erythrorhyncha	Red-billed Blue Magpie	\N
+112	Urocissa	whiteheadi	White-winged Magpie	\N
+112	Cissa	chinensis	Common Green Magpie	\N
 112	Corvus	unicolor	Banggai Crow	The Banggai Crow was only known to science from two specimens collected in 1900 until Indonesian biologists Mochamad Indrawan and Yunus Masala secured two more specimens in 2007. The identity of the crows has been confirmed by Pamela Rasmussen, assistant professor of zoology at Michigan State University, who has also confirmed the validity of the species.\n\n<a href="http://news.msu.edu/story/6958/">Press Release</a>\n\n
-112	Corvus	typicus	Piping Crow	
-112	Cissa	hypoleuca	Indochinese Green Magpie	
-112	Corvus	enca	Slender-billed Crow	
-112	Cissa	thalassina	Short-tailed Green Magpie	
-112	Cyanopica	cyanus	Azure-winged Magpie	
-112	Urocissa	flavirostris	Yellow-billed Blue Magpie	
-110	Pachycephala	philippinensis	Yellow-bellied Whistler	
-110	Pachycephala	orpheus	Fawn-breasted Whistler	
+112	Corvus	typicus	Piping Crow	\N
+112	Cissa	hypoleuca	Indochinese Green Magpie	\N
+112	Corvus	enca	Slender-billed Crow	\N
+112	Cissa	thalassina	Short-tailed Green Magpie	\N
+112	Cyanopica	cyanus	Azure-winged Magpie	\N
+112	Urocissa	flavirostris	Yellow-billed Blue Magpie	\N
+110	Pachycephala	philippinensis	Yellow-bellied Whistler	\N
+110	Pachycephala	orpheus	Fawn-breasted Whistler	\N
 110	Coracornis	raveni	Maroon-backed Whistler	Species endemic to the mountains of central and southeast Sulawesi, Indonesia.
-110	Pachycephala	cinerea	Mangrove Whistler	
-110	Pachycephala	albiventris	Green-backed Whistler	
-110	Pachycephala	homeyeri	White-vented Whistler	
-110	Pachycephala	phaionota	Island Whistler	
-110	Pachycephala	simplex	Grey Whistler	
-110	Pachycephala	pectoralis	Golden Whistler	
-110	Pachycephala	nudigula	Bare-throated Whistler	
-110	Pachycephala	griseonota	Drab Whistler	
-110	Pachycephala	leucogastra	White-bellied Whistler	
+110	Pachycephala	cinerea	Mangrove Whistler	\N
+110	Pachycephala	albiventris	Green-backed Whistler	\N
+110	Pachycephala	homeyeri	White-vented Whistler	\N
+110	Pachycephala	phaionota	Island Whistler	\N
+110	Pachycephala	simplex	Grey Whistler	\N
+110	Pachycephala	pectoralis	Golden Whistler	\N
+110	Pachycephala	nudigula	Bare-throated Whistler	\N
+110	Pachycephala	griseonota	Drab Whistler	\N
+110	Pachycephala	leucogastra	White-bellied Whistler	\N
 110	Pachycephala	hypoxantha	Bornean Whistler	Species endemic to Borneo.
-110	Pachycephala	sulfuriventer	Sulphur-bellied Whistler	
-109	Eupetes	macrocerus	Rail-babbler	
-107	Lanius	collurio	Red-backed Shrike	
-107	Lanius	isabellinus	Isabelline Shrike	
-107	Lanius	cristatus	Brown Shrike	
-107	Lanius	collurioides	Burmese Shrike	
-107	Lanius	tephronotus	Grey-backed Shrike	
-107	Lanius	schach	Long-tailed Shrike	
-107	Lanius	validirostris	Mountain Shrike	
-107	Lanius	minor	Lesser Grey Shrike	
-107	Lanius	excubitor	Great Grey Shrike	
-107	Lanius	meridionalis	Southern Grey Shrike	
-107	Lanius	sphenocercus	Chinese Grey Shrike	
-107	Lanius	tigrinus	Tiger Shrike	
-107	Lanius	bucephalus	Bull-headed Shrike	
-107	Lanius	vittatus	Bay-backed Shrike	
-106	Chloropsis	cyanopogon	Lesser Green Leafbird	
+110	Pachycephala	sulfuriventer	Sulphur-bellied Whistler	\N
+109	Eupetes	macrocerus	Rail-babbler	\N
+107	Lanius	collurio	Red-backed Shrike	\N
+107	Lanius	isabellinus	Isabelline Shrike	\N
+107	Lanius	cristatus	Brown Shrike	\N
+107	Lanius	collurioides	Burmese Shrike	\N
+107	Lanius	tephronotus	Grey-backed Shrike	\N
+107	Lanius	schach	Long-tailed Shrike	\N
+107	Lanius	validirostris	Mountain Shrike	\N
+107	Lanius	minor	Lesser Grey Shrike	\N
+107	Lanius	excubitor	Great Grey Shrike	\N
+107	Lanius	meridionalis	Southern Grey Shrike	\N
+107	Lanius	sphenocercus	Chinese Grey Shrike	\N
+107	Lanius	tigrinus	Tiger Shrike	\N
+107	Lanius	bucephalus	Bull-headed Shrike	\N
+107	Lanius	vittatus	Bay-backed Shrike	\N
+106	Chloropsis	cyanopogon	Lesser Green Leafbird	\N
 106	Chloropsis	venusta	Blue-masked Leafbird	Species endemic to Sumatra.
 106	Irena	cyanogastra	Philippine Fairy Bluebird	For gender agreement see: David, N. & Gosselin, M. (2002) Gender agreement of avian species names. <i>Bull. Brit. Orn. Cl.</i> 122: 257-282
 106	Chloropsis	flavipennis	Philippine Leafbird	Species endemic to Cebu and Mindanao in the Philippines.
 106	Chloropsis	palawanensis	Yellow-throated Leafbird	Species endemic to Palawan in the Philippines.
-106	Chloropsis	sonnerati	Greater Green Leafbird	
-106	Chloropsis	cochinchinensis	Blue-winged Leafbird	
+106	Chloropsis	sonnerati	Greater Green Leafbird	\N
+106	Chloropsis	cochinchinensis	Blue-winged Leafbird	\N
 106	Chloropsis	aurifrons	Golden-fronted Leafbird	The subspecies <i>media</i> is treated by some authors as a separate species under the name Sumatran Leafbird <i>Chloropsis media</i>.
-106	Chloropsis	hardwickii	Orange-bellied Leafbird	
-106	Irena	puella	Asian Fairy Bluebird	
-126	Turdus	iliacus	Redwing	
-126	Turdus	rubrocanus	Chestnut Thrush	
-126	Turdus	kessleri	Kessler's Thrush	
-126	Turdus	feae	Grey-sided Thrush	
-126	Turdus	obscurus	Eyebrowed Thrush	
-126	Turdus	pallidus	Pale Thrush	
-126	Turdus	chrysolaus	Brown-headed Thrush	
-126	Turdus	celaenops	Izu Thrush	
-126	Turdus	ruficollis	Dark-throated Thrush	
-126	Turdus	poliocephalus	Island Thrush	
-126	Turdus	pilaris	Fieldfare	
-126	Turdus	albocinctus	White-collared Blackbird	
-126	Turdus	philomelos	Song Thrush	
-126	Turdus	mupinensis	Chinese Thrush	
-126	Turdus	viscivorus	Mistle Thrush	
+106	Chloropsis	hardwickii	Orange-bellied Leafbird	\N
+106	Irena	puella	Asian Fairy Bluebird	\N
+126	Turdus	iliacus	Redwing	\N
+126	Turdus	rubrocanus	Chestnut Thrush	\N
+126	Turdus	kessleri	Kessler's Thrush	\N
+126	Turdus	feae	Grey-sided Thrush	\N
+126	Turdus	obscurus	Eyebrowed Thrush	\N
+126	Turdus	pallidus	Pale Thrush	\N
+126	Turdus	chrysolaus	Brown-headed Thrush	\N
+126	Turdus	celaenops	Izu Thrush	\N
+126	Turdus	ruficollis	Dark-throated Thrush	\N
+126	Turdus	poliocephalus	Island Thrush	\N
+126	Turdus	pilaris	Fieldfare	\N
+126	Turdus	albocinctus	White-collared Blackbird	\N
+126	Turdus	philomelos	Song Thrush	\N
+126	Turdus	mupinensis	Chinese Thrush	\N
+126	Turdus	viscivorus	Mistle Thrush	\N
 126	Chlamydochaera	jefferyi	Fruithunter	Species endemic to Borneo.
-126	Brachypteryx	stellata	Gould's Shortwing	
-126	Brachypteryx	hyperythra	Rusty-bellied Shortwing	
+126	Brachypteryx	stellata	Gould's Shortwing	\N
+126	Brachypteryx	hyperythra	Rusty-bellied Shortwing	\N
 126	Brachypteryx	major	Rufous-bellied Shortwing	Species endemic to SW India. Monotypic.\n\n<br>Formerly considered conspecific with <i>Brachypteryx (m.) albiventris</i>. Separated following:\n\nRobin, V. V., Sinha, A. and Ramakrishnan, U. (2010) Ancient Geographical Gaps and Paleo-Climate Shape the Phylogeography of an Endemic Bird in the Sky Islands of Southern India. <i>PLoS One</i> 5(10)
-126	Turdus	naumanni	Dusky Thrush	
-126	Zoothera	marginata	Dark-sided Thrush	
+126	Turdus	naumanni	Dusky Thrush	\N
+126	Zoothera	marginata	Dark-sided Thrush	\N
 126	Zoothera	everetti	Everett's Thrush	Species endemic to Borneo.
-126	Zoothera	sibirica	Siberian Thrush	
-126	Zoothera	naevia	Varied Thrush	
+126	Zoothera	sibirica	Siberian Thrush	\N
+126	Zoothera	naevia	Varied Thrush	\N
 126	Zoothera	spiloptera	Spot-winged Thrush	Species endemic to Sri Lanka.\n\n
-126	Zoothera	andromedae	Sunda Thrush	
-126	Zoothera	mollissima	Plain-backed Thrush	
-126	Zoothera	dixoni	Long-tailed Thrush	
+126	Zoothera	andromedae	Sunda Thrush	\N
+126	Zoothera	mollissima	Plain-backed Thrush	\N
+126	Zoothera	dixoni	Long-tailed Thrush	\N
 126	Zoothera	dauma	Scaly Thrush	The subspecies <i>imbricata</i> is sometimes treated as a distinct species Ceylon Scaly Thrush <i>Zoothera (d.) imbricata</i>, currently regarded as Near Threatened by the IUCN.
-126	Zoothera	major	Amami Thrush	
-126	Turdus	merula	Eurasian Blackbird	
-126	Zoothera	monticola	Long-billed Thrush	
-126	Brachypteryx	leucophris	Lesser Shortwing	
+126	Zoothera	major	Amami Thrush	\N
+126	Turdus	merula	Eurasian Blackbird	\N
+126	Zoothera	monticola	Long-billed Thrush	\N
+126	Brachypteryx	leucophris	Lesser Shortwing	\N
 126	Zoothera	terrestris	Bonin Thrush	Endemic to the Ogasawara (Bonin) Islands, Japan. Presumed extinct.
-126	Cataponera	turdoides	Sulawesi Thrush	
-126	Catharus	minimus	Grey-cheeked Thrush	
-126	Catharus	ustulatus	Swainson's Thrush	
-126	Turdus	hortulorum	Grey-backed Thrush	
+126	Cataponera	turdoides	Sulawesi Thrush	\N
+126	Catharus	minimus	Grey-cheeked Thrush	\N
+126	Catharus	ustulatus	Swainson's Thrush	\N
+126	Turdus	hortulorum	Grey-backed Thrush	\N
 126	Turdus	unicolor	Tickell's Thrush	Species endemic to the Indian Subcontinent (Bangladesh, Bhutan, India, Nepal & Pakistan).
-126	Turdus	dissimilis	Black-breasted Thrush	
-126	Turdus	cardis	Japanese Thrush	
-126	Turdus	boulboul	Grey-winged Blackbird	
-126	Zoothera	machiki	Fawn-breasted Thrush	
+126	Turdus	dissimilis	Black-breasted Thrush	\N
+126	Turdus	cardis	Japanese Thrush	\N
+126	Turdus	boulboul	Grey-winged Blackbird	\N
+126	Zoothera	machiki	Fawn-breasted Thrush	\N
 126	Myophonus	melanurus	Shiny Whistling Thrush	Species endemic to Sumatra.
-126	Zoothera	interpres	Chestnut-capped Thrush	
+126	Zoothera	interpres	Chestnut-capped Thrush	\N
 126	Zoothera	dohertyi	Chestnut-backed Thrush	Species endemic to Indonesia.
-126	Brachypteryx	montana	White-browed Shortwing	
+126	Brachypteryx	montana	White-browed Shortwing	\N
 126	Zoothera	dumasi	Buru Thrush	The original Moluccan Thrush <i>Zoothera dumasi</i> is separated into two species: Buru Thrush <i>Zoothera dumasi</i> and Seram Thrush <i>Zoothera joiceyi</i>  following Collar, N.J.  (2004) Species limits in some Indonesian thrushes. <i>Forktail</i> 20:71-87.
 126	Zoothera	schistacea	Slaty-backed Thrush	Species endemic to the Tanimbar Islands of Indonesia.
-126	Geomalia	heinrichi	Geomalia	
-126	Myophonus	caeruleus	Blue Whistling Thrush	
-126	Myophonus	insularis	Taiwan Whistling Thrush	
-126	Zoothera	citrina	Orange-headed Thrush	
+126	Geomalia	heinrichi	Geomalia	\N
+126	Myophonus	caeruleus	Blue Whistling Thrush	\N
+126	Myophonus	insularis	Taiwan Whistling Thrush	\N
+126	Zoothera	citrina	Orange-headed Thrush	\N
 126	Myophonus	horsfieldii	Malabar Whistling Thrush	Species endemic to India.
 126	Zoothera	erythronota	Red-backed Thrush	Species endemic to Sulawesi and Peleng, Indonesia.
 126	Myophonus	glaucinus	Javan Whistling Thrush	The original Sunda Whistling Thrush was split into three species in N.J. COLLAR (2004) Species limits in some Indonesian thrushes. Forktail 20:71-87.
 126	Myophonus	blighi	Sri Lanka Whistling Thrush	Species endemic to Sri Lanka.\n\n
-126	Monticola	solitarius	Blue Rock Thrush	
-126	Monticola	rufiventris	Chestnut-bellied Rock Thrush	
-126	Monticola	gularis	White-throated Rock Thrush	
-126	Monticola	cinclorhynchus	Blue-capped Rock Thrush	
-126	Monticola	saxatilis	Rufous-tailed Rock Thrush	
+126	Monticola	solitarius	Blue Rock Thrush	\N
+126	Monticola	rufiventris	Chestnut-bellied Rock Thrush	\N
+126	Monticola	gularis	White-throated Rock Thrush	\N
+126	Monticola	cinclorhynchus	Blue-capped Rock Thrush	\N
+126	Monticola	saxatilis	Rufous-tailed Rock Thrush	\N
 126	Zoothera	wardii	Pied Thrush	Species endemic to the Indian Subcontinent (India, Nepal & Sri Lanka).
 126	Zoothera	cinerea	Ashy Thrush	Species endemic to Luzon and Mindoro in the Philippines.
 126	Zoothera	peronii	Orange-sided Thrush	Species endemic to the islands of Timor, Wetar and Babar in Indonesia.
 126	Heinrichia	calligyna	Great Shortwing	Species endemic to Sulawesi, Indonesia.
-126	Myophonus	robinsoni	Malayan Whistling Thrush	
-139	Troglodytes	troglodytes	Winter Wren	
-137	Certhia	familiaris	Eurasian Treecreeper	
-137	Certhia	discolor	Brown-throated Treecreeper	
-137	Certhia	nipalensis	Rusty-flanked Treecreeper	
-137	Certhia	himalayana	Bar-tailed Treecreeper	
-131	Acridotheres	cristatellus	Crested Myna	
-131	Gracula	religiosa	Common Hill Myna	
-131	Sarcops	calvus	Coleto	
-131	Streptocitta	albertinae	Bare-eyed Myna	
+126	Myophonus	robinsoni	Malayan Whistling Thrush	\N
+139	Troglodytes	troglodytes	Winter Wren	\N
+137	Certhia	familiaris	Eurasian Treecreeper	\N
+137	Certhia	discolor	Brown-throated Treecreeper	\N
+137	Certhia	nipalensis	Rusty-flanked Treecreeper	\N
+137	Certhia	himalayana	Bar-tailed Treecreeper	\N
+131	Acridotheres	cristatellus	Crested Myna	\N
+131	Gracula	religiosa	Common Hill Myna	\N
+131	Sarcops	calvus	Coleto	\N
+131	Streptocitta	albertinae	Bare-eyed Myna	\N
 131	Streptocitta	albicollis	White-necked Myna	Species endemic to Sulawesi, Lembeh, Muna, Butung and the Togian Islands of Indonesia.
 131	Basilornis	mirandus	Apo Myna	Species endemic to Mindanao.\n\n<p>Gender agreement follows:\n\nDavid, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
 131	Basilornis	corythaix	Long-crested Myna	Species endemic to Seram.
 131	Scissirostrum	dubium	Grosbeak Starling	Species endemic to Sulawesi, Bangka, Lembeh, Butung, Banggai and Togian Islands of Indonesia.
-131	Sturnus	vulgaris	Common Starling	
-131	Aplonis	crassa	Tanimbar Starling	
-131	Aplonis	mysolensis	Moluccan Starling	
-131	Aplonis	minor	Short-tailed Starling	
-131	Aplonis	panayensis	Asian Glossy Starling	
-131	Aplonis	metallica	Metallic Starling	
-131	Saroglossa	spiloptera	Spot-winged Starling	
+131	Sturnus	vulgaris	Common Starling	\N
+131	Aplonis	crassa	Tanimbar Starling	\N
+131	Aplonis	mysolensis	Moluccan Starling	\N
+131	Aplonis	minor	Short-tailed Starling	\N
+131	Aplonis	panayensis	Asian Glossy Starling	\N
+131	Aplonis	metallica	Metallic Starling	\N
+131	Saroglossa	spiloptera	Spot-winged Starling	\N
 131	Sturnus	albofrontatus	White-faced Starling	Species endemic to Sri Lanka.\n\n
-131	Sturnus	malabaricus	Chestnut-tailed Starling	
+131	Sturnus	malabaricus	Chestnut-tailed Starling	\N
 131	Sturnus	erythropygius	White-headed Starling	Species endemic to the Andaman and Nicobar Islands, India.
-131	Sturnus	pagodarum	Brahminy Starling	
-131	Sturnus	sericeus	Red-billed Starling	
-131	Sturnus	sturninus	Daurian Starling	
-131	Sturnus	philippensis	Chestnut-cheeked Starling	
-131	Basilornis	celebensis	Sulawesi Myna	
-131	Leucopsar	rothschildi	Bali Myna	
-131	Ampeliceps	coronatus	Golden-crested Myna	
+131	Sturnus	pagodarum	Brahminy Starling	\N
+131	Sturnus	sericeus	Red-billed Starling	\N
+131	Sturnus	sturninus	Daurian Starling	\N
+131	Sturnus	philippensis	Chestnut-cheeked Starling	\N
+131	Basilornis	celebensis	Sulawesi Myna	\N
+131	Leucopsar	rothschildi	Bali Myna	\N
+131	Ampeliceps	coronatus	Golden-crested Myna	\N
 131	Enodes	erythrophris	Fiery-browed Starling	Species endemic to the mountains of Sulawesi.
-131	Acridotheres	albocinctus	Collared Myna	
-131	Acridotheres	grandis	White-vented Myna	
-131	Acridotheres	fuscus	Jungle Myna	
-131	Sturnus	sinensis	White-shouldered Starling	
-131	Acridotheres	tristis	Common Myna	
-131	Sturnus	roseus	Rosy Starling	
-131	Sturnus	melanopterus	Black-winged Starling	
-131	Sturnus	burmannicus	Vinous-breasted Starling	
-131	Sturnus	nigricollis	Black-collared Starling	
-131	Sturnus	contra	Asian Pied Starling	
-131	Sturnus	cineraceus	White-cheeked Starling	
+131	Acridotheres	albocinctus	Collared Myna	\N
+131	Acridotheres	grandis	White-vented Myna	\N
+131	Acridotheres	fuscus	Jungle Myna	\N
+131	Sturnus	sinensis	White-shouldered Starling	\N
+131	Acridotheres	tristis	Common Myna	\N
+131	Sturnus	roseus	Rosy Starling	\N
+131	Sturnus	melanopterus	Black-winged Starling	\N
+131	Sturnus	burmannicus	Vinous-breasted Starling	\N
+131	Sturnus	nigricollis	Black-collared Starling	\N
+131	Sturnus	contra	Asian Pied Starling	\N
+131	Sturnus	cineraceus	White-cheeked Starling	\N
 131	Basilornis	galeatus	Helmeted Myna	Species endemic to the Banggai (Peleng, Banggai) and Sula Islands (Taliabu, Seho and Mangole) of Indonesia.
 131	Acridotheres	ginginianus	Bank Myna	Species endemic to the Indian Subcontinent (Bangladesh, India, Nepal & Pakistan).
 131	Gracula	ptilogenys	Sri Lanka Hill Myna	Species endemic to Sri Lanka.\n\n
 129	Saxicola	leucurus	White-tailed Stonechat	For change in specific name  see David, N. & Gosselin, M. (2002) Gender agreement of avian species names. - Bull. Brit. Orn. Cl., 122: 14-49.\n\nDavid, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - Bull. Brit. Orn. Cl., 122: 257-282.
-129	Saxicola	caprata	Pied Bushchat	
-129	Luscinia	calliope	Siberian Rubythroat	
+129	Saxicola	caprata	Pied Bushchat	\N
+129	Luscinia	calliope	Siberian Rubythroat	\N
 129	Saxicola	maurus	Siberian Stonechat	Formerly treated as a subspecies of Common/African Stonechat <i>Saxicola torquatus</i>. Now considered a full species with subspecies <i>maurus, stejnegeri, variegatus, armenicus, indicus, przewalskii</i>\n\n<br>Refs:\n\n<br>Wittmann, U., Heidrich, P., Wink, M. & Gwinner, E., (1995) Speciation in the Stonechat <i>Saxicola torquata</i> inferred from nucleotide sequences of the cytochrome-b gene. <i>Journal of Zoological Systematics & Evolutionary Research</i> 33, 3 (1995): 116-122.\n\n<br>Urquhart, E. (2002) <i>Stonechats: A Guide to the Genus "Saxicola". </i> London: Christopher Helm.
-129	Saxicola	insignis	Hodgson's Bushchat	
+129	Saxicola	insignis	Hodgson's Bushchat	\N
 129	Saxicola	macrorhynchus	Stoliczka's Bushchat	Species endemic to the Indian Subcontinent (S Afghanistan, NW India and Pakistan)\n\n<p>For change in specific name from <i>macrorhyncha</i> to <i>macrorhynchus</i> see <br>David, N. & Gosselin, M. (2002) Gender agreement of avian species names. - <i>Bull. Brit. Orn. Cl.</i>, 122: 14-49.\n\n<br>David, N. & Gosselin, M. (2002) The grammatical gender of avian genera. - <i>Bull. Brit. Orn. Cl.</i>, 122: 257-282.
-129	Cochoa	azurea	Javan Cochoa	
-129	Cochoa	viridis	Green Cochoa	
-129	Cochoa	purpurea	Purple Cochoa	
-129	Enicurus	maculatus	Spotted Forktail	
-129	Enicurus	leschenaulti	White-crowned Forktail	
-129	Enicurus	schistaceus	Slaty-backed Forktail	
-129	Enicurus	immaculatus	Black-backed Forktail	
-129	Saxicola	ferreus	Grey Bushchat	
-129	Saxicola	gutturalis	White-bellied Bushchat	
-129	Cochoa	beccarii	Sumatran Cochoa	
-129	Saxicola	jerdoni	Jerdon's Bushchat	
-129	Phoenicurus	alaschanicus	Przevalski's Redstart	
+129	Cochoa	azurea	Javan Cochoa	\N
+129	Cochoa	viridis	Green Cochoa	\N
+129	Cochoa	purpurea	Purple Cochoa	\N
+129	Enicurus	maculatus	Spotted Forktail	\N
+129	Enicurus	leschenaulti	White-crowned Forktail	\N
+129	Enicurus	schistaceus	Slaty-backed Forktail	\N
+129	Enicurus	immaculatus	Black-backed Forktail	\N
+129	Saxicola	ferreus	Grey Bushchat	\N
+129	Saxicola	gutturalis	White-bellied Bushchat	\N
+129	Cochoa	beccarii	Sumatran Cochoa	\N
+129	Saxicola	jerdoni	Jerdon's Bushchat	\N
+129	Phoenicurus	alaschanicus	Przevalski's Redstart	\N
 129	Saxicoloides	fulicatus	Indian Robin	Species endemic to the Indian Subcontinent.
 129	Trichixos	pyrropygus	Rufous-tailed Shama	Spelling of scientific name corrected following David, N. & Gosselin, M. (2002) Gender agreement of avian species names. <i>Bull. Brit. Orn. Cl.</i> 122: 257-282
 129	Copsychus	cebuensis	Black Shama	Species endemic to the island of Cebu in The Philippines.
 129	Copsychus	niger	White-vented Shama	Species endemic to Balabac, Palawan and Calamianes in the Philippines.
-129	Copsychus	luzoniensis	White-browed Shama	
-129	Copsychus	malabaricus	White-rumped Shama	
-129	Copsychus	saularis	Oriental Magpie Robin	
-129	Cercotrichas	galactotes	Rufous-tailed Scrub Robin	
+129	Copsychus	luzoniensis	White-browed Shama	\N
+129	Copsychus	malabaricus	White-rumped Shama	\N
+129	Copsychus	saularis	Oriental Magpie Robin	\N
+129	Cercotrichas	galactotes	Rufous-tailed Scrub Robin	\N
 129	Tarsiger	johnstoniae	Collared Bush Robin	Species endemic to Taiwan.
-129	Tarsiger	hyperythrus	Rufous-breasted Bush Robin	
-129	Phoenicurus	erythronotus	Eversmann's Redstart	
-129	Tarsiger	chrysaeus	Golden Bush Robin	
-129	Tarsiger	indicus	White-browed Bush Robin	
-129	Luscinia	cyane	Siberian Blue Robin	
-129	Luscinia	brunnea	Indian Blue Robin	
-129	Erithacus	rubecula	Eurasian Robin	
-129	Erithacus	akahige	Japanese Robin	
-129	Erithacus	komadori	Ryukyu Robin	
-129	Luscinia	sibilans	Rufous-tailed Robin	
+129	Tarsiger	hyperythrus	Rufous-breasted Bush Robin	\N
+129	Phoenicurus	erythronotus	Eversmann's Redstart	\N
+129	Tarsiger	chrysaeus	Golden Bush Robin	\N
+129	Tarsiger	indicus	White-browed Bush Robin	\N
+129	Luscinia	cyane	Siberian Blue Robin	\N
+129	Luscinia	brunnea	Indian Blue Robin	\N
+129	Erithacus	rubecula	Eurasian Robin	\N
+129	Erithacus	akahige	Japanese Robin	\N
+129	Erithacus	komadori	Ryukyu Robin	\N
+129	Luscinia	sibilans	Rufous-tailed Robin	\N
 129	Luscinia	megarhynchos	Common Nightingale	<i>golzii</i> = <i>hafizi</i>\n\n<br>Ref: DICKINSON, E. C. (2008) The name of the easternmost population of Common Nightingale <i>Luscinia megarhynchos</i>. <i>B.B.O.C.</i> 128: 141.
-129	Luscinia	pectoralis	White-tailed Rubythroat	
-129	Luscinia	svecica	Bluethroat	
-129	Luscinia	ruficeps	Rufous-headed Robin	
-129	Luscinia	obscura	Blackthroat	
-129	Luscinia	pectardens	Firethroat	
-129	Oenanthe	monacha	Hooded Wheatear	
-129	Oenanthe	isabellina	Isabelline Wheatear	
-129	Oenanthe	albonigra	Hume's Wheatear	
-129	Oenanthe	oenanthe	Northern Wheatear	
-129	Oenanthe	finschii	Finsch's Wheatear	
-129	Oenanthe	picata	Variable Wheatear	
-129	Oenanthe	pleschanka	Pied Wheatear	
-129	Tarsiger	cyanurus	Orange-flanked Bush Robin	
-129	Oenanthe	deserti	Desert Wheatear	
-129	Phoenicurus	coeruleocephala	Blue-capped Redstart	
+129	Luscinia	pectoralis	White-tailed Rubythroat	\N
+129	Luscinia	svecica	Bluethroat	\N
+129	Luscinia	ruficeps	Rufous-headed Robin	\N
+129	Luscinia	obscura	Blackthroat	\N
+129	Luscinia	pectardens	Firethroat	\N
+129	Oenanthe	monacha	Hooded Wheatear	\N
+129	Oenanthe	isabellina	Isabelline Wheatear	\N
+129	Oenanthe	albonigra	Hume's Wheatear	\N
+129	Oenanthe	oenanthe	Northern Wheatear	\N
+129	Oenanthe	finschii	Finsch's Wheatear	\N
+129	Oenanthe	picata	Variable Wheatear	\N
+129	Oenanthe	pleschanka	Pied Wheatear	\N
+129	Tarsiger	cyanurus	Orange-flanked Bush Robin	\N
+129	Oenanthe	deserti	Desert Wheatear	\N
+129	Phoenicurus	coeruleocephala	Blue-capped Redstart	\N
 129	Cercomela	fusca	Brown Rock-chat	Species endemic to the Indian Subcontinent (India, Pakistan and rare in Nepal).
-129	Enicurus	ruficapillus	Chestnut-naped Forktail	
-129	Enicurus	velatus	Sunda Forktail	
-129	Enicurus	scouleri	Little Forktail	
-129	Grandala	coelicolor	Grandala	
-129	Phoenicurus	frontalis	Blue-fronted Redstart	
-129	Phoenicurus	ochruros	Black Redstart	
-129	Phoenicurus	phoenicurus	Common Redstart	
-129	Phoenicurus	hodgsoni	Hodgson's Redstart	
+129	Enicurus	ruficapillus	Chestnut-naped Forktail	\N
+129	Enicurus	velatus	Sunda Forktail	\N
+129	Enicurus	scouleri	Little Forktail	\N
+129	Grandala	coelicolor	Grandala	\N
+129	Phoenicurus	frontalis	Blue-fronted Redstart	\N
+129	Phoenicurus	ochruros	Black Redstart	\N
+129	Phoenicurus	phoenicurus	Common Redstart	\N
+129	Phoenicurus	hodgsoni	Hodgson's Redstart	\N
 129	Oenanthe	chrysopygia	Red-tailed Wheatear	Separated from Rufous-tailed Wheatear <i>Oenanthe xanthoprymna</i>.
-129	Cinclidium	frontale	Blue-fronted Robin	
+129	Cinclidium	frontale	Blue-fronted Robin	\N
 129	Phoenicurus	erythrogastrus	Güldenstädt's Redstart	Spelling corrected following David & Gosselin (2002).
-129	Phoenicurus	schisticeps	White-throated Redstart	
-129	Chaimarrornis	leucocephalus	White-capped Redstart	
-129	Rhyacornis	fuliginosa	Plumbeous Water Redstart	
-129	Myiomela	diana	Sunda Robin	
-129	Myiomela	leucura	White-tailed Robin	
-129	Hodgsonius	phoenicuroides	White-bellied Redstart	
+129	Phoenicurus	schisticeps	White-throated Redstart	\N
+129	Chaimarrornis	leucocephalus	White-capped Redstart	\N
+129	Rhyacornis	fuliginosa	Plumbeous Water Redstart	\N
+129	Myiomela	diana	Sunda Robin	\N
+129	Myiomela	leucura	White-tailed Robin	\N
+129	Hodgsonius	phoenicuroides	White-bellied Redstart	\N
 129	Rhyacornis	bicolor	Luzon Water Redstart	Species endemic to northern Luzon and Mindoro in the Philippines.
-129	Phoenicurus	auroreus	Daurian Redstart	
-124	Cinclus	pallasii	Brown Dipper	
-124	Cinclus	cinclus	White-throated Dipper	
-138	Salpornis	spilonotus	Spotted Creeper	
-133	Sitta	magna	Giant Nuthatch	
-133	Sitta	formosa	Beautiful Nuthatch	
-133	Sitta	oenochlamys	Sulphur-billed Nuthatch	
-133	Sitta	azurea	Blue Nuthatch	
-133	Sitta	solangiae	Yellow-billed Nuthatch	
-133	Sitta	frontalis	Velvet-fronted Nuthatch	
-133	Sitta	tephronota	Eastern Rock Nuthatch	
-133	Sitta	leucopsis	White-cheeked Nuthatch	
-133	Sitta	yunnanensis	Yunnan Nuthatch	
-133	Sitta	villosa	Chinese Nuthatch	
-133	Sitta	victoriae	White-browed Nuthatch	
-133	Sitta	himalayensis	White-tailed Nuthatch	
-133	Sitta	castanea	Chestnut-bellied Nuthatch	
-133	Sitta	cashmirensis	Kashmir Nuthatch	
-133	Sitta	nagaensis	Chestnut-vented Nuthatch	
-133	Sitta	europaea	Eurasian Nuthatch	
-134	Tichodroma	muraria	Wallcreeper	
-128	Cyornis	unicolor	Pale Blue Flycatcher	
+129	Phoenicurus	auroreus	Daurian Redstart	\N
+124	Cinclus	pallasii	Brown Dipper	\N
+124	Cinclus	cinclus	White-throated Dipper	\N
+138	Salpornis	spilonotus	Spotted Creeper	\N
+133	Sitta	magna	Giant Nuthatch	\N
+133	Sitta	formosa	Beautiful Nuthatch	\N
+133	Sitta	oenochlamys	Sulphur-billed Nuthatch	\N
+133	Sitta	azurea	Blue Nuthatch	\N
+133	Sitta	solangiae	Yellow-billed Nuthatch	\N
+133	Sitta	frontalis	Velvet-fronted Nuthatch	\N
+133	Sitta	tephronota	Eastern Rock Nuthatch	\N
+133	Sitta	leucopsis	White-cheeked Nuthatch	\N
+133	Sitta	yunnanensis	Yunnan Nuthatch	\N
+133	Sitta	villosa	Chinese Nuthatch	\N
+133	Sitta	victoriae	White-browed Nuthatch	\N
+133	Sitta	himalayensis	White-tailed Nuthatch	\N
+133	Sitta	castanea	Chestnut-bellied Nuthatch	\N
+133	Sitta	cashmirensis	Kashmir Nuthatch	\N
+133	Sitta	nagaensis	Chestnut-vented Nuthatch	\N
+133	Sitta	europaea	Eurasian Nuthatch	\N
+134	Tichodroma	muraria	Wallcreeper	\N
+128	Cyornis	unicolor	Pale Blue Flycatcher	\N
 128	Eumyias	albicaudatus	Nilgiri Flycatcher	Species endemic to SW India.
-128	Culicicapa	helianthea	Citrine Canary Flycatcher	
-128	Culicicapa	ceylonensis	Grey-headed Canary Flycatcher	
-128	Muscicapella	hodgsoni	Pygmy Blue Flycatcher	
-128	Cyornis	rufigastra	Mangrove Blue Flycatcher	
-128	Cyornis	tickelliae	Tickell's Blue Flycatcher	
-128	Cyornis	turcosus	Malaysian Blue Flycatcher	
-128	Cyornis	caerulatus	Sunda Blue Flycatcher	
+128	Culicicapa	helianthea	Citrine Canary Flycatcher	\N
+128	Culicicapa	ceylonensis	Grey-headed Canary Flycatcher	\N
+128	Muscicapella	hodgsoni	Pygmy Blue Flycatcher	\N
+128	Cyornis	rufigastra	Mangrove Blue Flycatcher	\N
+128	Cyornis	tickelliae	Tickell's Blue Flycatcher	\N
+128	Cyornis	turcosus	Malaysian Blue Flycatcher	\N
+128	Cyornis	caerulatus	Sunda Blue Flycatcher	\N
 128	Cyornis	superbus	Bornean Blue Flycatcher	Species endemic to Borneo.
 128	Cyornis	lemprieri	Palawan Blue Flycatcher	Sometimes considered a subspecies of Hill Blue Flycatcher <i>Cyornis banyumas</i>.
-128	Eumyias	panayensis	Turquoise Flycatcher	
+128	Eumyias	panayensis	Turquoise Flycatcher	\N
 128	Cyornis	rubeculoides	Blue-throated Blue Flycatcher	The race <i>glaucicomans</i> is sometimes regarded as a separate species: Chinese Blue Flycatcher <i>Cyornis (r.) glaucicomans</i>.
 128	Ficedula	nigrorufa	Black-and-orange Flycatcher	Species endemic to SW India.
-128	Cyornis	poliogenys	Pale-chinned Flycatcher	
+128	Cyornis	poliogenys	Pale-chinned Flycatcher	\N
 128	Cyornis	pallipes	White-bellied Blue Flycatcher	Species endemic to SW India.
-128	Cyornis	hainanus	Hainan Blue Flycatcher	
-128	Rhinomyias	additus	Streak-breasted Jungle Flycatcher	
+128	Cyornis	hainanus	Hainan Blue Flycatcher	\N
+128	Rhinomyias	additus	Streak-breasted Jungle Flycatcher	\N
 128	Cyornis	banyumas	Hill Blue Flycatcher	Note that <i>Cyornis [b.] magnirostris</i> is now considered a full species. \n\n<p>Ref: Renner, S.C., Rasmussen, P. C. and Rappole, J. J., Thein Aung and Myeint \n\nAung. 2009.Discovery of the Large Blue Flycatcher <i>Cyornis [banyumas] magnirostris</i> breeding in northern Kachin State (Burma/Myanmar) and \n\ntaxonomic implications for the <i>Cyornis</i>-group. <i>J. Ornithol</i>. 150 (3): \n\n671-683.\n\n\n\n
-128	Ficedula	bonthaina	Lompobattang Flycatcher	
-128	Ficedula	dumetoria	Rufous-chested Flycatcher	
+128	Ficedula	bonthaina	Lompobattang Flycatcher	\N
+128	Ficedula	dumetoria	Rufous-chested Flycatcher	\N
 128	Ficedula	rufigula	Rufous-throated Flycatcher	Species endemic to Sulawesi, Indonesia.
-128	Ficedula	buruensis	Cinnamon-chested Flycatcher	
-128	Ficedula	basilanica	Little Slaty Flycatcher	
-128	Ficedula	henrici	Damar Flycatcher	
-128	Ficedula	harterti	Sumba Flycatcher	
-128	Ficedula	platenae	Palawan Flycatcher	
-128	Cyanoptila	cyanomelana	Blue-and-white Flycatcher	
-128	Ficedula	disposita	Furtive Flycatcher	
+128	Ficedula	buruensis	Cinnamon-chested Flycatcher	\N
+128	Ficedula	basilanica	Little Slaty Flycatcher	\N
+128	Ficedula	henrici	Damar Flycatcher	\N
+128	Ficedula	harterti	Sumba Flycatcher	\N
+128	Ficedula	platenae	Palawan Flycatcher	\N
+128	Cyanoptila	cyanomelana	Blue-and-white Flycatcher	\N
+128	Ficedula	disposita	Furtive Flycatcher	\N
 128	Eumyias	sordidus	Dull-blue Flycatcher	Species endemic to Sri Lanka.\n\n
-128	Ficedula	westermanni	Little Pied Flycatcher	
-128	Ficedula	superciliaris	Ultramarine Flycatcher	
-128	Ficedula	tricolor	Slaty-blue Flycatcher	
-128	Ficedula	sapphira	Sapphire Flycatcher	
-128	Rhinomyias	oscillans	Russet-backed Jungle Flycatcher	
-128	Ficedula	timorensis	Black-banded Flycatcher	
-128	Rhinomyias	brunneatus	Brown-chested Jungle Flycatcher	
-128	Eumyias	thalassinus	Verditer Flycatcher	
-128	Ficedula	crypta	Cryptic Flycatcher	
-128	Niltava	sundara	Rufous-bellied Niltava	
-128	Niltava	davidi	Fujian Niltava	
-128	Rhinomyias	olivaceus	Fulvous-chested Jungle Flycatcher	
-128	Niltava	grandis	Large Niltava	
-128	Cyornis	herioti	Blue-breasted Blue Flycatcher	
-128	Muscicapa	ruficauda	Rusty-tailed Flycatcher	
-128	Muscicapa	muttui	Brown-breasted Flycatcher	
-128	Muscicapa	ferruginea	Ferruginous Flycatcher	
-128	Niltava	sumatrana	Rufous-vented Niltava	
+128	Ficedula	westermanni	Little Pied Flycatcher	\N
+128	Ficedula	superciliaris	Ultramarine Flycatcher	\N
+128	Ficedula	tricolor	Slaty-blue Flycatcher	\N
+128	Ficedula	sapphira	Sapphire Flycatcher	\N
+128	Rhinomyias	oscillans	Russet-backed Jungle Flycatcher	\N
+128	Ficedula	timorensis	Black-banded Flycatcher	\N
+128	Rhinomyias	brunneatus	Brown-chested Jungle Flycatcher	\N
+128	Eumyias	thalassinus	Verditer Flycatcher	\N
+128	Ficedula	crypta	Cryptic Flycatcher	\N
+128	Niltava	sundara	Rufous-bellied Niltava	\N
+128	Niltava	davidi	Fujian Niltava	\N
+128	Rhinomyias	olivaceus	Fulvous-chested Jungle Flycatcher	\N
+128	Niltava	grandis	Large Niltava	\N
+128	Cyornis	herioti	Blue-breasted Blue Flycatcher	\N
+128	Muscicapa	ruficauda	Rusty-tailed Flycatcher	\N
+128	Muscicapa	muttui	Brown-breasted Flycatcher	\N
+128	Muscicapa	ferruginea	Ferruginous Flycatcher	\N
+128	Niltava	sumatrana	Rufous-vented Niltava	\N
 128	Ficedula	narcissina	Narcissus Flycatcher	The subspecies <i>elisae</i> is sometimes treated as a separate species Green-backed Flycatcher <i>Ficedula elisae</i>. However, a recent study recommends retaining it as a subspecies of <i>F. narcissina</i>: <br>Töpfer, T. Systematic notes on Asian birds. 60. Remarks on the systematic position of <i>Ficedula elisae</i> (Weigold, 1922).\n\n<br>Zool. Med. Leiden 80-5 (12), 21.xii.2006. 203-212. ISSN 0024-0672.\n\n<p>Note that "<i>Ficedula beijingnica</i>", which was at one time regarded as a separate species called Beijing (or Peking) Flycatcher, is now considered to be the first-summer male of <i>F. (n.) elisae</i> and no longer a valid independent taxon.
-128	Niltava	macgrigoriae	Small Niltava	
-128	Ficedula	mugimaki	Mugimaki Flycatcher	
-128	Ficedula	hodgsonii	Slaty-backed Flycatcher	
-128	Eumyias	indigo	Indigo Flycatcher	
-128	Ficedula	hyperythra	Snowy-browed Flycatcher	
+128	Niltava	macgrigoriae	Small Niltava	\N
+128	Ficedula	mugimaki	Mugimaki Flycatcher	\N
+128	Ficedula	hodgsonii	Slaty-backed Flycatcher	\N
+128	Eumyias	indigo	Indigo Flycatcher	\N
+128	Ficedula	hyperythra	Snowy-browed Flycatcher	\N
 128	Ficedula	subrubra	Kashmir Flycatcher	Species endemic to the Indian Subcontinent.
-128	Ficedula	solitaris	Rufous-browed Flycatcher	
-128	Ficedula	monileger	White-gorgetted Flycatcher	
-128	Ficedula	strophiata	Rufous-gorgetted Flycatcher	
-128	Ficedula	parva	Red-breasted Flycatcher	
-128	Ficedula	zanthopygia	Yellow-rumped Flycatcher	
+128	Ficedula	solitaris	Rufous-browed Flycatcher	\N
+128	Ficedula	monileger	White-gorgetted Flycatcher	\N
+128	Ficedula	strophiata	Rufous-gorgetted Flycatcher	\N
+128	Ficedula	parva	Red-breasted Flycatcher	\N
+128	Ficedula	zanthopygia	Yellow-rumped Flycatcher	\N
 128	Rhinomyias	insignis	White-browed Jungle Flycatcher	Species endemic to northern Luzon, the Philippines.
-128	Rhinomyias	umbratilis	Grey-chested Jungle Flycatcher	
-128	Rhinomyias	ruficauda	Rufous-tailed Jungle Flycatcher	
-128	Muscicapa	segregata	Sumba Brown Flycatcher	
+128	Rhinomyias	umbratilis	Grey-chested Jungle Flycatcher	\N
+128	Rhinomyias	ruficauda	Rufous-tailed Jungle Flycatcher	\N
+128	Muscicapa	segregata	Sumba Brown Flycatcher	\N
 128	Rhinomyias	gularis	Eyebrowed Jungle Flycatcher	Species endemic to the mountains of Borneo.
-128	Niltava	vivida	Vivid Niltava	
+128	Niltava	vivida	Vivid Niltava	\N
 128	Rhinomyias	albigularis	White-throated Jungle Flycatcher	Species endemic to Guimaras, Negros and Panay in the Philippines.
-128	Rhinomyias	goodfellowi	Slaty-backed Jungle Flycatcher	
-128	Muscicapa	striata	Spotted Flycatcher	
-128	Muscicapa	griseisticta	Grey-streaked Flycatcher	
-128	Muscicapa	dauurica	Asian Brown Flycatcher	
+128	Rhinomyias	goodfellowi	Slaty-backed Jungle Flycatcher	\N
+128	Muscicapa	striata	Spotted Flycatcher	\N
+128	Muscicapa	griseisticta	Grey-streaked Flycatcher	\N
+128	Muscicapa	dauurica	Asian Brown Flycatcher	\N
 128	Muscicapa	williamsoni	Brown-streaked Flycatcher	Formerly considered a subspecies of Asian Brown Flycatcher <i>Muscicapa dauurica</i>.
 128	Muscicapa	randi	Ashy-breasted Flycatcher	Monotypic species endemic to Luzon and Negros. Some authors have regarded this as a subspecies of Asian Brown Flycatcher <i>Muscicapa dauurica</i>.
-128	Cyornis	ruckii	Rück's Blue Flycatcher	
-128	Cyornis	concretus	White-tailed Flycatcher	
+128	Cyornis	ruckii	Rück's Blue Flycatcher	\N
+128	Cyornis	concretus	White-tailed Flycatcher	\N
 128	Cyornis	hyacinthinus	Timor Blue Flycatcher	Species endemic to the islands of Semau, Wetar and Timor in Indonesia.
 128	Cyornis	hoevelli	Blue-fronted Blue Flycatcher	Species endemic to Sulawesi, Indonesia.
-128	Muscicapa	sibirica	Dark-sided Flycatcher	
-128	Rhinomyias	colonus	Henna-tailed Jungle Flycatcher	
-128	Cyornis	sanfordi	Matinan Blue Flycatcher	
+128	Muscicapa	sibirica	Dark-sided Flycatcher	\N
+128	Rhinomyias	colonus	Henna-tailed Jungle Flycatcher	\N
+128	Cyornis	sanfordi	Matinan Blue Flycatcher	\N
 78	Larus	delawarensis	Ring-billed Gull	First for Japan - Hasaki, Ibaragi 02 Mar 2002
 78	Larus	atricilla	Laughing Gull	The 4th record for Japan.
-78	Larus	thayeri	Thayer's Gull	
+78	Larus	thayeri	Thayer's Gull	\N
 50	Ninox	sumbaensis	Little Sumba Boobook	Species endemic to the island of Sumba, Indonesia. <p>Although known since the late 1980s, the species was only formally described in 2002: Olsen, Jerry ; Wink, Michael; Sauer-Gürth, Hedi & Trost, Susan. (2002). "A new Ninox owl from Sumba, Indonesia". <i>EMU</i> vol. 102:223-231, CSIRO for the RAOU.
-83	Aquila	hastata	Indian Spotted Eagle	
-137	Certhia	tianquanensis	Sichuan Treecreeper	
+83	Aquila	hastata	Indian Spotted Eagle	\N
+137	Certhia	tianquanensis	Sichuan Treecreeper	\N
 145	Hirundo	domicola	Hill Swallow	Species endemic to the Indian Subcontinent (SW India & Sri Lanka).
-152	Phylloscopus	kansuensis	Gansu Leaf Warbler	
-152	Hippolais	rama	Sykes's Warbler	
-165	Motacilla	samveasnae	Mekong Wagtail	
-92	Pseudibis	davisoni	White-shouldered Ibis	
-126	Brachypteryx	sp.	'Mindanao' Shortwing	
-83	Gyps	tenuirostris	Slender-billed Vulture	
-131	Gracula	indica	Southern Hill Myna	
-131	Acridotheres	javanicus	Javan Myna	
-55	Geopelia	maugei	Barred Dove	
+152	Phylloscopus	kansuensis	Gansu Leaf Warbler	\N
+152	Hippolais	rama	Sykes's Warbler	\N
+165	Motacilla	samveasnae	Mekong Wagtail	\N
+92	Pseudibis	davisoni	White-shouldered Ibis	\N
+126	Brachypteryx	sp.	'Mindanao' Shortwing	\N
+83	Gyps	tenuirostris	Slender-billed Vulture	\N
+131	Gracula	indica	Southern Hill Myna	\N
+131	Acridotheres	javanicus	Javan Myna	\N
+55	Geopelia	maugei	Barred Dove	\N
 50	Otus	thilohoffmanni	Serendib Scops Owl	Species endemic to Sri Lanka.\n\n
-162	Aethopyga	bella	Handsome Sunbird	
-55	Phapitreron	brunneiceps	Mindanao Brown Dove	
-118	Dicrurus	densus	Wallacean Drongo	
-70	Himantopus	leucocephalus	White-headed Stilt	
-126	Turdus	ruficollis ssp?	"Black-headed" Thrush	
+162	Aethopyga	bella	Handsome Sunbird	\N
+55	Phapitreron	brunneiceps	Mindanao Brown Dove	\N
+118	Dicrurus	densus	Wallacean Drongo	\N
+70	Himantopus	leucocephalus	White-headed Stilt	\N
+126	Turdus	ruficollis ssp?	"Black-headed" Thrush	\N
 161	Dicaeum	haematostictum	Visayan Flowerpecker	Species endemic to the Philippines (Guimaras, Panay and Negros).\n\n<p>Formerly considered a subspecies of <i>Dicaeum australe</i>.
 50	Ninox	ios	Cinnabar Boobook	Species endemic to northern Sulawesi, Indonesia.
-50	Otus	siaoensis	Siau Scops Owl	
-43	Surniculus	velutinus	Philippine Drongo Cuckoo	
+50	Otus	siaoensis	Siau Scops Owl	\N
+43	Surniculus	velutinus	Philippine Drongo Cuckoo	\N
 45	Prioniturus	flavicans	Yellow-breasted Racquet-tail	Species endemic to Sulawesi, Indonesia.
 52	Batrachostomus	mixtus	Bornean Frogmouth	Species endemic to Borneo.
-118	Dicrurus	sumatranus	Sumatran Drongo	
-50	Otus	enganensis	Enggano Scops Owl	
+118	Dicrurus	sumatranus	Sumatran Drongo	\N
+50	Otus	enganensis	Enggano Scops Owl	\N
 152	Acrocephalus	orinus	Hume's Reed Warbler	Originally described from a single specimen collected in the Sutlej Valley near Rampoor, Himachal Pradesh, India in 1867, this species was long the subject of various theories as to whether it was a separate species or simply a hybrid or variant of some other species. However, a thorough investigation of the only known specimen carried out in 2002 proved that it was indeed a separate species based on its morphology and mitochondrial DNA.\n\n<br>Since then the first ever live specimen has been trapped in March 2006 in Thailand, and another specimen (collected in October 1869 at Mussourie, Uttarakhand, India)  has been discovered among the collection of Blyth's Reed Warbler <i>Acrocephalus dumetorum</i> skins at the Natural History Museum at Tring in the UK.\n\n<br>Refs:\n\n<br>Bensch, S. and Pearson, D. (2002) The Large-billed Reed Warbler Acrocephalus orinus revisited. <i>Ibis</i> 144: 259-267.\n\n<br>Philip D. Round, Bengt Hansson, David J. Pearson, Peter R. Kennerley, Staffan Bensch. (2007) Lost and found: the enigmatic large-billed reed warbler <i>Acrocephalus orinus</i> rediscovered after 139 years. <i>Journal of Avian Biology</i> 38:2 133
 59	Gallirallus	sharpei	Sharpe's Rail	Presumed extinct. <br>Known from only one specimen of uncertain provenance, which is held at Naturalis, the Netherlands National Museum of Natural History. The specimen may have originated from one of the larger Sunda Islands: Java, Sumatra or Borneo.\n\n<br>Recent evidence suggests that it may just be a colour morph of Buff-banded Rail <i>Gallirallus philippensis</i>.
-59	Gallirallus	calayanensis	Calayan Rail	
-84	Falco	pelegrinoides	Barbary Falcon	
+59	Gallirallus	calayanensis	Calayan Rail	\N
+84	Falco	pelegrinoides	Barbary Falcon	\N
 50	Ninox	burhani	Togian Boobook	Species newly described in Indrawan, M. and S. Somadikarta (2004) A new hawk-owl from the Togian Islands, Gulf of Tomini, central Sulawesi, Indonesia <i>Bulletin of the British Ornithologists' Club</i> 124:160-171.\n\n<p>The species was discovered on 25 December 1999. The scientific name honours a local Indonesian conservationist named Burhan.\n\n<p>Distribution: Currently known only from three islands in the Togian group, an archipelago in the Gulf of Tomini, off the coast of Sulawesi, Indonesia.
-76	Catharacta	antarctica	Brown Skua	
-141	Parus	hypermelaenus	Black-bibbed Tit	
+76	Catharacta	antarctica	Brown Skua	\N
+141	Parus	hypermelaenus	Black-bibbed Tit	\N
 43	Hierococcyx	pectoralis	Philippine Hawk Cuckoo	Hodgson''s Hawk-Cuckoo <i>Cuculus (Hierococcyx) fugax</i> is split into four species:\n\nHodgson''s Hawk-Cuckoo <i>Cuculus nisicolor</i>, Northern Hawk-Cuckoo <i>Cuculus hyperythrus</i>, Philippine Hawk-Cuckoo <i>Cuculus pectoralis</i> and Malaysian Hawk-Cuckoo <i>Cuculus fugax</i>.  \n\nKing, Ben F. 2002. The <i>Hierococcyx fugax</i>, Hodgson''s Hawk Cuckoo, complex. <i>Bull. B. O. C.</i> 122 (1): 74-80.
 50	Ninox	japonica	Northern Boobook	Split from Brown Hawk Owl <i>Ninox scutulata</i> following\n\nBen King (2002) Species limits in the Brown Boobook <i>Ninox scutulata</i> complex. <i>Bulletin B.O.C.</i> 122, 4: 250-257.\n\n<p> Three subspecies recognised here: <i>florensis</i>, <i>totogo</i> and <i>japonica</i>.\n\n
 50	Ninox	randi	Chocolate Boobook	Monotypic. Split from Brown Boobook <i>Ninox scutulata</i> following Ben King (2002) Species limits in the Brown Boobook <i>Ninox scutulata</i> complex. <i>Bulletin B.O.C.</i> 122, 4 : 250-257.\n\n<p>Distribution: All Philippine Islands (except the Palawan group) and Talaud Island, Indonesia.\n\n
@@ -2909,7 +2909,7 @@ copy species (parent, genus, species, common_name, taxonomic_notes) from stdin;
 43	Hierococcyx	hyperythrus	Northern Hawk Cuckoo	Hodgson''s Hawk-Cuckoo <i>Cuculus (Hierococcyx) fugax</i> is split into four species:\n\nHodgson''s Hawk-Cuckoo <i>Cuculus nisicolor</i>, Northern Hawk-Cuckoo <i>Cuculus hyperythrus</i>, Philippine Hawk-Cuckoo <i>Cuculus pectoralis</i> and Malaysian Hawk-Cuckoo <i>Cuculus fugax</i>.  \n\nKing, Ben F. 2002. The <i>Hierococcyx fugax</i>, Hodgson''s Hawk Cuckoo, complex. <i>Bull. B. O. C.</i> 122 (1): 74-80.
 23	Arborophila	chloropus	Scaly-breasted Partridge	Split from <i>Arborophila charltonii</i> following Robson 2000; H&M3 etc.
 128	Muscicapa	sp. nov.	'Sulawesi' Flycatcher	New species as yet to be formally described.
-78	Larus	smithsonianus	American Herring Gull	
+78	Larus	smithsonianus	American Herring Gull	\N
 154	Garrulax	ferrarius	Cambodian Laughingthrush	Monotypic. Formerly considered a subspecies of White-necked Laughingthrush <i>Garrulax strepitans</i> but separated following Collar, N. J. (2006) A partial revision of\n\nthe Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.\n\n<br>and Robson, C. (2000) <i>A field guide to the birds of South-East Asia.</i> London: New Holland.
 126	Myophonus	castaneus	Chestnut-winged Whistling Thrush	Split from <i>Myophonus glaucinus</i> following Collar, N.J. (2004) Species limits in some Indonesian thrushes. <i>Forktail</i> 20:71-87.
 126	Myophonus	borneensis	Bornean Whistling Thrush	Species endemic to Borneo.\n\n<br>Split from <i>Myophonus glaucinus</i> in N.J. Collar (2004) Species limits in some Indonesian thrushes. <i>Forktail</i> 20:71-87.
@@ -2987,50 +2987,50 @@ copy species (parent, genus, species, common_name, taxonomic_notes) from stdin;
 137	Certhia	hodgsoni	Hodgson's Treecreeper	Split from Eurasian Treecreeper <i>Certhia familiaris</i>.\n\n<br>Subspecies:\n\n<br><i>hodgsoni</i> N Pakistan to Kashmir & Ladakh\n\n<br><i>mandelli</i> NW, Central and Eastern Himalaya\n\n<br><i>khamensis</i> N Burma, SW & W China (SE & E Xizang, N Yunnan, W & C Sichuan)\n\n<br>Ref:\n\n<br>Tietze, Dieter Thomas; Martens, Jochen & Sun, Yue-Hua (2006): Molecular phylogeny of treecreepers (<i>Certhia</i>) detects hidden diversity. <i>Ibis</i> 148(3): 477-488
 161	Dicaeum	sp	Spectacled Flowerpecker	New species as yet without a scientific name or scientific description - discovered by Richard Webster and David Edwards at Danum Valley, Sabah, Borneo, Malaysia on 18 June 2009. For more details see <a href="http://www.orientalbirdclub.org/news/Flowerpecker.txt">New bird species found in Heart of Borneo.</a>\n\n<br>Photos are included here to encourage more birders to look out for the species, so that more can be learnt about the bird, its habitat requirements and distribution in order to be able to ensure its conservation.
 179	Colluricincla	sanghirensis	Sangihe Shrike-thrush	Species endemic to Sangihe in Indonesia.\n\n<br>Separated from Little Shrike-thrush <i>Colluricincla megarhyncha</i> following Rozendaal, F.G. & Lambert, F.R. (1999) The taxonomic and conservation status of <i>Pinarolestes sanghirensis</i> Oustalet 1881. <i>Forktail </i>15: 1-13.
-145	Progne	subis	Purple Martin	
-174	Melospiza	melodia	Song Sparrow	
-174	Spizella	passerina	Chipping Sparrow	
-174	Paroaria	coronata	Red-crested Cardinal	
-172	Serinus	mozambicus	Yellow-fronted Canary	
+145	Progne	subis	Purple Martin	\N
+174	Melospiza	melodia	Song Sparrow	\N
+174	Spizella	passerina	Chipping Sparrow	\N
+174	Paroaria	coronata	Red-crested Cardinal	\N
+172	Serinus	mozambicus	Yellow-fronted Canary	\N
 172	Leucosticte	tephrocotis	Grey-crowned Rosy Finch	Separated from Asian Rosy Finch <i>Leucosticte arctoa</i>.
-167	Euplectes	franciscanus	Northern Red Bishop	
-27	Cygnus	buccinator	Trumpeter Swan	
-30	Lophodytes	cucullatus	Hooded Merganser	
+167	Euplectes	franciscanus	Northern Red Bishop	\N
+27	Cygnus	buccinator	Trumpeter Swan	\N
+30	Lophodytes	cucullatus	Hooded Merganser	\N
 129	Copsychus	stricklandii	White-crowned Shama	Formerly considered conspecific with White-rumped Shama <i>Copsychus malabaricus</i>.
-99	Diomedea	chlororhynchos	Yellow-nosed Albatross	
-92	Threskiornis	aethiopicus	Sacred Ibis	
-90	Ardea	herodias	Great Blue Heron	
-89	Phalacrocorax	auritus	Double-crested Cormorant	
-30	Anas	discors	Blue-winged Teal	
-71	Charadrius	vociferus	Killdeer	
-63	Tringa	solitaria	Solitary Sandpiper	
-63	Calidris	pusilla	Semipalmated Sandpiper	
-63	Calidris	maritima	Purple Sandpiper	
-78	Larus	californicus	California Gull	
-78	Larus	fuscus	Lesser Black-backed Gull	
-76	Catharacta	skua	Great Skua	
-107	Lanius	senator	Woodchat Shrike	
-152	Hippolais	icterina	Icterine Warbler	
+99	Diomedea	chlororhynchos	Yellow-nosed Albatross	\N
+92	Threskiornis	aethiopicus	Sacred Ibis	\N
+90	Ardea	herodias	Great Blue Heron	\N
+89	Phalacrocorax	auritus	Double-crested Cormorant	\N
+30	Anas	discors	Blue-winged Teal	\N
+71	Charadrius	vociferus	Killdeer	\N
+63	Tringa	solitaria	Solitary Sandpiper	\N
+63	Calidris	pusilla	Semipalmated Sandpiper	\N
+63	Calidris	maritima	Purple Sandpiper	\N
+78	Larus	californicus	California Gull	\N
+78	Larus	fuscus	Lesser Black-backed Gull	\N
+76	Catharacta	skua	Great Skua	\N
+107	Lanius	senator	Woodchat Shrike	\N
+152	Hippolais	icterina	Icterine Warbler	\N
 152	Phylloscopus	occisinensis	Alpine Leaf Warbler	Separated from Tickell's Leaf Warbler <i>Phylloscopus affinis</i> following Martens, J.; Sun, Y-H. & Päckert, M. 2008. "Intraspecific differentiation of Sino-Himalayan bush-dwelling Phylloscopus leaf warblers, with description of two new taxa (P. fuscatus, P. fuligiventer, P. affinis, P. armandii, P. subaffinis)". <i>Vertebrate Zoology</i> 58 (3): 233-265.
 131	Acridotheres	cinereus	Pale-bellied Myna	Species endemic to southern Sulawesi.\n\n<p>Formerly regarded as conspecific with <i>Acridotheres javanicus</i> and <i>Acridotheres grandsis</i>. All of them were previously treated as subspecies of <i>Acridotheres fuscus</i>.
-126	Catharus	guttatus	Hermit Thrush	
-129	Luscinia	luscinia	Thrush Nightingale	
-129	Saxicola	rubetra	Whinchat	
-128	Ficedula	hypoleuca	European Pied Flycatcher	
+126	Catharus	guttatus	Hermit Thrush	\N
+129	Luscinia	luscinia	Thrush Nightingale	\N
+129	Saxicola	rubetra	Whinchat	\N
+128	Ficedula	hypoleuca	European Pied Flycatcher	\N
 162	Arachnothera	everetti	Bornean Spiderhunter	Split from <i>Arachnothera affinis</i>.
 167	Ploceus	intermedius	Lesser Masked Weaver	Feral population in Japan.\n\n<br>Ref:\n\n<br>Ornithological Society of Japan, (2000) <i>Checklist of Japanese \n\nBirds</i>, 6th\n\n edition. Ornithological Society  of Japan, Obihiro, \n\n345 p.
 168	Estrilda	melpoda	Orange-cheeked Waxbill	Feral in Japan.\n\n<br>Ref: Ornithological Society of Japan, (2000) <i>Checklist of Japanese \n\nBirds</i>, 6th\n\n edition. Ornithological Society  of Japan, Obihiro, 345 p.
 168	Estrilda	troglodytes	Black-rumped Waxbill	Feral in Japan.\n\n<br>Ref: Ornithological Society of Japan, (2000) <i>Checklist of Japanese \n\nBirds</i>, 6th\n\n edition. Ornithological Society  of Japan, Obihiro, 345 p.
-168	Estrilda	astrild	Common Waxbill	
-180	Vidua	paradisaea	Long-tailed Paradise Whydah	
-176	Sturnella	neglecta	Western Meadowlark	
+168	Estrilda	astrild	Common Waxbill	\N
+180	Vidua	paradisaea	Long-tailed Paradise Whydah	\N
+176	Sturnella	neglecta	Western Meadowlark	\N
 54	Caprimulgus	andamanicus	Andaman Nightjar	Formerly considered a subspecies of Large-tailed Nightjar <i>Caprimulgus macrurus</i>. Split following Sangster, G. and Rozendaal, F. G. (2004) Systematics of Asian birds, 41. Territorial songs and species-level taxonomy of nightjars of the Caprimulgus macrurus complex, with description of a new species. <i>Zool. Verh.</i> 350: 7-45.
 156	Paradoxornis	margaritae	Black-headed Parrotbill	Separated from Grey-headed Parrotbill <i>Paradoxornis gularis</i> following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.
 156	Heterophasia	desgodinsi	Black-headed Sibia	Separated from <i>Heterophasia melanoleuca</i> which then takes the English name Dark-backed Sibia. Following Collar, N. J. (2006) A partial revision of the Asian babblers (Timaliidae). <i>Forktail</i> 22: 85-112.\n\n<br>Subspecies:\n\n<i>desgodinsi</i>\n\n<br><i>engelbachi</i>\n\n<br><i>robinsoni</i>\n\n<br><i>tonkinensis</i>\n\n<br><i>kingi</i>
 126	Brachypteryx	albiventris	White-bellied Shortwing	Species endemic to SW India. Monotypic.\n\n<br>Formerly considered a subspecies of <i>Brachypteryx major</i>. Separated following:\n\nRobin, V. V., Sinha, A. and Ramakrishnan, U. (2010) Ancient Geographical Gaps and Paleo-Climate Shape the Phylogeography of an Endemic Bird in the Sky Islands of Southern India. <i>PLoS One</i> 5(10)
-78	Larus	novaehollandiae	Silver Gull	
+78	Larus	novaehollandiae	Silver Gull	\N
 128	Cyornis	magnirostris	Large Blue Flycatcher	Large-billed Blue Flycatcher has been separated from Hill Blue Flycatcher <i>Cyornis banyumas</i>  as a full species. The most significant field characters appear to be larger hook-tipped bill, longer primary projection, paler throat than breast, the colour of the legs: pale flesh in <i>magnirostris</i>; darker, purplish-flesh in <i>banyumas</i>.\n\n<p>Ref: Renner, S.C., Rasmussen, P. C. and Rappole, J. J., Thein Aung and Myeint \n\nAung. 2009.Discovery of the Large Blue Flycatcher <i>Cyornis [banyumas] magnirostris</i> breeding in northern Kachin State (Burma/Myanmar) and \n\ntaxonomic implications for the <i>Cyornis</i>-group. <i>J. Ornithol</i>. 150 (3): \n\n671-683.\n\n<br>Rasmussen PC, Anderton JC (2005) <i>Birds of South Asia: the Ripley\n\nGuide</i>, 2 vols. Lynx Edicions, Barcelona.
-164	Carpospiza	brachydactyla	Pale Rock Sparrow	
+164	Carpospiza	brachydactyla	Pale Rock Sparrow	\N
 \.
 
 copy alternative_names (species_id, language_id, alt_name) from stdin;
@@ -3768,16 +3768,12 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 155	2	Andaman Teal (<i>albogularis</i>)
 155	2	Gray Teal
 155	2	Australian Gray Teal
-155	2	
 155	2	Australasian Gray Teal
 155	2	Australian Grey Teal
-155	2	
 155	2	Australasian Grey Teal
 155	2	Australian Gray-Teal
-155	2	
 155	2	Australasian Gray-Teal
 155	2	Australian Grey-Teal
-155	2	
 155	2	Australasian Grey-Teal
 156	2	Sunda Grey Teal
 156	2	Sunda Gray Teal
@@ -7683,7 +7679,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 1004	2	Black-bellied Plover
 1004	2	Bullhead
 1004	2	Silver Plover
-1004	2	
 1004	2	Beetle-Head
 1004	2	Black-Breast
 1004	2	Bottle-Head
@@ -7849,7 +7844,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 1033	2	Grey Gyrfalcon
 1033	2	Gray Gyrfalcon
 1033	2	Iceland Falcon
-1033	2	
 1033	2	Asiatic Gyrfalcon
 1033	2	Black Gyrfalcon
 1033	2	Greenland Falcon
@@ -10005,7 +9999,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 1515	2	Naga Wren Babbler
 1516	2	Tawny breasted Wren Babbler
 1516	2	Tawny-breasted Wren-Babbler
-1516	2	
 1516	2	Assam Wren-Babbler
 1516	2	Long-tailed Wren Babbler
 1516	2	Long-tailed Wren-Babbler
@@ -10721,7 +10714,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 1724	1	Cecropis striolata
 1724	2	Cliff Swallow
 1724	2	Rufous-bellied Swallow  (<i>badia</i>)
-1724	2	
 1724	2	Greater Striated Swallow
 1724	2	Oriental Mosque Swallow
 1724	2	Mosque Swallow
@@ -11037,7 +11029,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 1842	2	Large Bush-Warbler
 1844	2	Aberrant Bush-Warbler
 1845	2	Yellowish-bellied Bush Warbler
-1845	2	
 1845	2	Hume's Bush Warbler
 1845	2	Hume's Bush-Warbler
 1845	2	Verreaux's Bush Warbler
@@ -11849,7 +11840,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 2027	2	Hodgson's Wren-Warbler
 2027	2	Yellow-breasted Prinia
 2028	2	Black-throated Prinia
-2028	2	
 2028	2	Hill Prina (<i>superciliaris</i>)
 2029	2	Madagascar Red Fody
 2029	2	Madagascan Red Fody
@@ -12508,7 +12498,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 2248	2	White-vented Cuckooshrike
 2249	2	Black-throated Oriole
 2249	2	White-lored Oriole (<i>albiloris</i>)
-2249	2	
 2249	2	Black-headed Oriole
 2249	2	Malaysian Oriole
 2250	2	Asian Black-headed Oriole
@@ -13234,7 +13223,6 @@ copy alternative_names (species_id, language_id, alt_name) from stdin;
 2416	2	Spot-winged Thrush
 2416	2	Horsfield's Thrush
 2416	2	Nilgiri Thrush (<i>neilgherriensis</i>)Ceylon Scaly Thrush (<i>imbricata</i>)
-2416	2	
 2416	2	Ceylon Scaly Thrush (<i>imbricata</i>)
 2416	2	Eurasian Scaly Thrush
 2417	2	Scaly Thrush
