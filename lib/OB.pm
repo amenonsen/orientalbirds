@@ -18,6 +18,8 @@ sub startup {
 
     my $r = $app->routes;
 
+    $r->get('/')->to(template => 'index');
+
     $r->any(
         '/' => sub {
             shift->render_text("Hello world!", format => 'txt')
