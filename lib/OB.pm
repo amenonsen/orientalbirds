@@ -20,6 +20,9 @@ sub startup {
 
     $r->get('/')->to(template => 'index');
 
+    $r->get('/upload')->to('upload#index');
+    $r->post('/upload')->to('upload#upload');
+
     $r->any(
         '/' => sub {
             shift->render_text("Hello world!", format => 'txt')
