@@ -1,3 +1,5 @@
+-- This file is the output of utils/dump-obi-taxonomy
+
 insert into taxa (taxon_id, rank, parent, taxon_name, taxon_description) values
     (1, 'Class', NULL, 'Aves', 'Birds'),
     (2, 'Order', 1, 'Struthioniformes', 'Cassowaries'),
@@ -179,3 +181,4 @@ insert into taxa (taxon_id, rank, parent, taxon_name, taxon_description) values
     (178, 'Family', 20, 'Hylocitreinae', ''),
     (179, 'Family', 20, 'Colluricinclidae', 'Shrike-thrushes and relatives'),
     (180, 'Family', 20, 'Viduidae', 'Whydahs and indigobirds');
+alter sequence taxa_taxon_id_seq start with 181;

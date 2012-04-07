@@ -9,7 +9,7 @@ create type rank as
 -- stored here).
 
 create table taxa (
-    taxon_id integer primary key,
+    taxon_id serial primary key,
     rank rank not null,
     parent integer references taxa(taxon_id),
     taxon_name text not null unique,
