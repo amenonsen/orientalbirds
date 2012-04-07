@@ -1,0 +1,65 @@
+#!/usr/bin/env perl
+
+use DBI;
+
+my $m = DBI->connect("dbi:mysql:database=obi", "", "")
+    or die $DBI::errstr;
+
+# The obc_birdgroup and obc_birdfamily tables define orders, families,
+# subfamilies, and tribes. These data go into our taxa table. Finally,
+# obc_birdinfo defines species, which go into our species table.
+
+my @taxa = (
+    [qw/1 Class NULL Aves Birds/]
+);
+
+my $orders = $m->selectall_arrayref(<<"SQL") or die $m->errstr;
+    select bird_group_id, bird_group_name, bird_group_cname
+        from obc_birdgroup
+        order by bird_group_sortid
+SQL
+
+my $i = 2;
+my %orders;
+foreach my $o (@$orders) {
+    $orders{$o->[0]} = $i;
+    push @taxa, [
+        $i, 'Order', 1, ucfirst lc $o->[1], $o->[2]
+    ];
+    $i++;
+}
+
+my $families = $m->selectall_arrayref(<<"SQL") or die $m->errstr;
+    select bird_family_id, bird_family_name, bird_family_desc,
+            bird_group_id, bird_sub_level, bird_sub_parent
+        from obc_birdfamily
+        order by bird_family_sortid
+SQL
+
+my %families;
+foreach my $f (@$families) {
+    $families{$f->[0]} = $i;
+
+    my $level = $f->[4] - 1;
+    my $rank = ('Family', 'Subfamily', 'Tribe')[$level];
+
+    my $parent;
+    if ($level == 0) {
+        $parent = $orders{$f->[3]};
+    }
+    else {
+        $parent = $families{$f->[5]};
+    }
+
+    push @taxa, [
+        $i, $rank, $parent, $f->[1], $f->[2]
+    ];
+
+    $i++;
+}
+
+print "insert into taxa (taxon_id, rank, parent, taxon_name, taxon_description) values\n";
+print join(
+    ",\n",
+    map { "    ($_->[0], '$_->[1]', $_->[2], '$_->[3]', '$_->[4]')" } @taxa
+), ";\n";
