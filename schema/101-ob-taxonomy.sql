@@ -22,10 +22,11 @@ grant select on taxa to :user;
 
 create table species (
     species_id serial primary key,
-    family integer not null references taxa(taxon_id),
+    parent integer not null references taxa(taxon_id),
     genus text not null,
     species text not null,
     common_name text not null,
+    taxonomic_notes text,
     unique (genus, species)
 );
 grant select, insert, update on species to :user;
