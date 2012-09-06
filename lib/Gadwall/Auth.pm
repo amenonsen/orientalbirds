@@ -58,8 +58,7 @@ sub allow_users {
     my $source = $self->req->url;
     if ($source eq $self->url_for('logout')) {
         $self->flash(errmsg => $self->message('loggedout'));
-        $self->render_plaintext("Redirecting to /");
-        $self->redirect_to("/");
+        $self->redirect("/");
         return;
     }
 
@@ -68,8 +67,7 @@ sub allow_users {
     $self->render(
         status => 403,
         template => "auth/login", login => "",
-        errmsg => $self->flash('errmsg') || undef,
-        template_class => __PACKAGE__
+        errmsg => $self->flash('errmsg') || undef
     );
 
     return 0;
@@ -173,8 +171,7 @@ sub login {
                     $delay => sub {
                         $self->render(
                             login => $login,
-                            errmsg => $self->message('badlogin'),
-                            template_class => __PACKAGE__
+                            errmsg => $self->message('badlogin')
                         );
                     }
                 );
@@ -186,8 +183,7 @@ sub login {
 
     $self->render(
         login => $login,
-        errmsg => $self->message('badlogin'),
-        template_class => __PACKAGE__
+        errmsg => $self->message('badlogin')
     );
 }
 
@@ -200,8 +196,7 @@ sub after_login {
     my $self = shift;
 
     my ($source) = @_;
-    $self->render_plaintext("Redirecting to $source");
-    $self->redirect_to($source);
+    $self->redirect($source);
 
     return;
 }
@@ -238,8 +233,7 @@ sub su {
         $self->flash(errmsg => $self->message('badsu'));
     }
 
-    $self->render_plaintext("Redirecting to /");
-    $self->redirect_to('/');
+    $self->redirect('/');
 }
 
 # This function revokes the cookie issued by login.
@@ -256,8 +250,7 @@ sub logout {
             delete $self->session->{$_} unless $_ eq "token";
         }
         $self->session(user => $suser);
-        $self->render_plaintext("Redirecting to /");
-        $self->redirect_to('/');
+        $self->redirect('/');
         return;
     }
 
@@ -271,8 +264,7 @@ sub logout {
     delete $self->session->{$_} foreach keys %{$self->session};
     $self->session(token => Gadwall::Util->csrf_token());
     $self->flash(errmsg => $self->message('loggedout'));
-    $self->render_plaintext("Redirecting to /");
-    $self->redirect_to('/');
+    $self->redirect('/');
 }
 
 sub messages {
