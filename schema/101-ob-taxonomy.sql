@@ -58,6 +58,6 @@ grant select on checklists to :user;
 create table checklist_species (
     checklist_id integer not null references checklists,
     species_id integer not null references species,
-    serial integer not null
+    slno integer not null
 );
 grant select on checklist_species to :user;
