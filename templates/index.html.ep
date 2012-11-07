@@ -1,6 +1,5 @@
-<!doctype html>
-
-<title>OrientalBirds.org</title>
+% layout 'default';
+% title 'Oriental Birds';
 
 <p>
-Hello world.
+Hello world. There's nothing here… yet!
