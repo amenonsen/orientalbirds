@@ -69,7 +69,7 @@ sub startup {
             );
             $dbh->do(
                 "insert into users (login,email,password,roles) values ".
-                q{('bar', 'ams@toroid.org', '$2a$08$Xk7taVTzcF/jXEXwX0fnYuc/ZRr9jDQSTpGKzJKDU2UsSE7emt3gC', }.
+                q{('bar', 'bar@example.org', '$2a$08$Xk7taVTzcF/jXEXwX0fnYuc/ZRr9jDQSTpGKzJKDU2UsSE7emt3gC', }.
                 q{B'0000000000000000000000001011000'::bit(31))}
             );
             $dbh->commit;
@@ -86,7 +86,8 @@ sub startup {
 
     $r->route('/sprockets/:sprocket_id/:action')->to(controller => 'sprockets', action => 'update');
 
-    my $auth = $app->plugin('login', reset_passwords => 1);
+    my $auth = $app->plugin('login');
+    $app->plugin('user');
     $auth->route('/my-token')->to(cb => sub {
         my $self = shift;
         $self->render_plaintext($self->session('token'));
@@ -108,14 +109,20 @@ sub startup {
         my $u = $self->stash('user');
         $self->render_plaintext(join(":",$u->roles()));
     });
+    $auth->get('/my-email-confirm-token' => sub {
+        my $self = shift;
+        my $rv = $self->app->db->selectrow_hashref(
+            "select token from confirmation_tokens where path='/confirm-email' ".
+            "and user_id=\$1", {}, 1
+        );
+        return $self->render_plaintext($rv->{token});
+    });
 
     my $never = $auth->bridge->to('auth#allow_if', cond => sub {0});
     $never->get('/never' => sub { shift->render_plaintext("Sometimes") });
 
     $auth->route('/users/list')->via('get')->to('users#list');
     $auth->route('/users/create')->via('post')->to('users#create');
-    $auth->route('/users/:user_id/password')->via('post')->to('users#password');
-    $auth->route('/users/:user_id/email')->via('post')->to('users#email');
 
     $auth->get('/p1' => sub {
         my $self = shift;

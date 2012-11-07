@@ -59,7 +59,6 @@ $t->get_ok('/users-only', {"X-Bypass-Security" => 1})
 $loc = $t->tx->res->headers->location();
 ok $loc =~ /^https:\/\//, 'redirected to ' . $loc;
 
-$t = Test::Mojo->new("Wigeon");
 $t->ua->app_url('https');
 
 $t->get_ok('/die')
@@ -101,7 +100,7 @@ $t->get_ok('/users-only')
 $t->get_ok('/my-email')
     ->status_is(200)
     ->content_type_is("text/plain")
-    ->content_is('ams@toroid.org');
+    ->content_is('bar@example.org');
 
 $t->get_ok('/my-roles')
     ->status_is(200)
@@ -165,7 +164,7 @@ $t->post_form_ok('/logout', {__token => $token})
 $t->get_ok('/my-email')
     ->status_is(200)
     ->content_type_is("text/plain")
-    ->content_is('ams@toroid.org');
+    ->content_is('bar@example.org');
 
 $t->get_ok('/my-roles')
     ->status_is(200)
@@ -189,6 +188,46 @@ $t->post_form_ok('/users/1/password', {
     ->status_is(200)
     ->content_type_is("application/json")
     ->json_content_is({status => "ok", message => "Password changed"});
+
+$t->post_form_ok('/users/2/password', {
+        password => "s3kr1t", pass1 => "secret", pass2 => "secret",
+        __token => $token
+    })
+    ->status_is(403)
+    ->content_type_is('text/plain')
+    ->content_is("Permission denied");
+
+$t->post_form_ok('/users/1/email', {
+        password => "secret", email => q{new@example.org},
+        __token => $token
+    })
+    ->status_is(200)
+    ->content_type_is("application/json")
+    ->json_content_is({status => "ok", message => "Confirmation link sent to new address"});
+
+$t->get_ok('/confirm-email')
+    ->status_is(403)
+    ->content_type_is('text/plain')
+    ->content_is("Permission denied");
+
+$t->get_ok('/my-email-confirm-token')
+    ->status_is(200)
+    ->content_type_is("text/plain");
+
+my $etoken = $t->tx->res->body;
+$etoken .= ":".Mojo::Util::hmac_md5_sum($etoken, $t->app->secret);
+my $cnf = Mojo::URL->new('/confirm-email');
+$cnf->query->param(t => $etoken);
+
+$t->get_ok($cnf)
+    ->status_is(200)
+    ->content_type_like(qr#text/html#)
+    ->element_exists('p.msg');
+
+$t->get_ok('/my-email')
+    ->status_is(200)
+    ->content_type_is("text/plain")
+    ->content_is('new@example.org');
 
 $t->post_form_ok('/logout', {__token => $token})
     ->status_is(302)
@@ -344,6 +383,18 @@ $t->get_ok('/widgets/sprocket_redness?sprocket_id=2')
     ->status_is(200)
     ->content_type_is('text/plain')
     ->content_is("not red");
+
+$t->get_ok('/p1')
+    ->status_is(200)
+    ->content_type_like(qr#text/html#)
+    ->element_exists('form')
+    ->element_exists('form input[name=__token]');
+
+$t->get_ok('/forgot-password')
+    ->status_is(200)
+    ->content_type_like(qr#text/html#)
+    ->element_exists('form')
+    ->element_exists('form input[name=email]');
 
 $t->post_form_ok('/logout', {__token => $token})
     ->status_is(302)
