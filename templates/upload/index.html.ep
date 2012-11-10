@@ -1,0 +1,11 @@
+% layout 'default';
+% title 'Oriental Birds :: Upload an exhibit';
+
+<%= post_form '/upload' => begin %>
+<label for=species>Species:</label>
+<%= text_field species => "" %>
+<label for=location>Location:</label>
+<%= text_field location => "" %>
+<label for=file>Attach a file:</label>
+<input type=file name=f1>
+<% end %>
