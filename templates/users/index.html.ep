@@ -1,0 +1,17 @@
+% layout 'default';
+% title 'OrientalBirds :: Users';
+% heading 'Users';
+
+<table class=table>
+<thead>
+ <tr>
+  <th>Email <th>Name <th>Login <th>Actions
+<tbody>
+% foreach my $u (@$users) {
+ <tr>
+  <td><%= $u->{email} %>
+  <td><%= $u->{name} %>
+  <td><%= $u->{login} %>
+  <td><a href="/users/form?user_id=<%= $u->{user_id} %>">Edit</a>
+% }
+</table>

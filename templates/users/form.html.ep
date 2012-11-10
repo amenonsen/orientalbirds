@@ -1,0 +1,21 @@
+% layout 'default';
+% title 'OrientalBirds :: Users';
+% heading 'Edit a user';
+
+<%= post_form '/users/save' => begin %>
+<label>Email:</label>
+<%= text_field email => $u->{email} %>
+<label>Name:</label>
+<%= text_field name => $u->{name} %>
+<label>Login:</label>
+<%= text_field login => $u->{login} %>
+<label class=checkbox>
+ <input type=checkbox name=is_active> Active?
+</label>
+<label class=checkbox>
+ <input type=checkbox name=is_superuser> Superuser?
+</label>
+<div class=form-actions>
+<button type=submit class="btn btn-primary">Save</button>
+</div>
+<% end %>
