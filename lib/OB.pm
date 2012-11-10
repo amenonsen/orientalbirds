@@ -42,4 +42,12 @@ sub startup {
     $admin->post('/users/save')->to('users#save');
 }
 
+sub production_mode {
+    shift->log->path("logs/ob.log");
+}
+
+sub development_mode {
+    shift->log->path("logs/ob.log");
+}
+
 1;
