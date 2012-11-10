@@ -7,6 +7,14 @@ use Mojo::ByteStream 'b';
 sub register {
     my ($self, $app) = @_;
 
+    $app->helper(heading => sub {
+        my $self  = shift;
+        my $stash = $self->stash;
+        $stash->{heading} = shift if @_;
+        $self->stash(@_) if @_;
+        return $stash->{heading};
+    });
+
     # widget is like "include", but it allows the included template to
     # be wrapped around provided begin/end block of content. It also
     # localises stash values for convenience.

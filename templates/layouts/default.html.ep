@@ -53,7 +53,7 @@ body {
         </div>
 
         <div class="span10">
-            <h1>Oriental Birds</h1>
+            <h1><%= heading || "Oriental Birds" %></h1>
           <div class="row-fluid">
             <div class="span10">
               <%= content %>
