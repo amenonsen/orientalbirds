@@ -1,0 +1,5 @@
+% if (stash('user')) {
+            <p class="navbar-text pull-right">
+              <%= stash('user')->{name} %>
+            </p>
+% }

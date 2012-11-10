@@ -1,0 +1,6 @@
+% unless (stash('user')) {
+<li><a href="/login">Login</a>
+% } else {
+% my $u = stash('user');
+<li><a href="/change-password">Change password</a></li>
+% }
