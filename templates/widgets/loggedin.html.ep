@@ -1,5 +1,6 @@
 % if (stash('user')) {
-            <p class="navbar-text pull-right">
-              <%= stash('user')->{name} %>
-            </p>
+            <div class="navbar-text pull-right">
+              <%= stash('user')->{name} %> |
+              <%= post_form '/logout' => (id => 'logout', style => "display: inline") => begin %> <a href="#" onclick="document.getElementById('logout').submit();">Logout</a> <% end %>
+            </div>
 % }

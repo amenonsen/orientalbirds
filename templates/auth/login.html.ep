@@ -35,6 +35,22 @@
         margin-bottom: 15px;
         padding: 7px 9px;
       }
+#msg {
+position: fixed;
+    width: 600px;
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+    background: #ccff99;
+    border: 1px solid #0eb978;
+    z-index: 9999;
+}
+
+#msg.error {
+    background: pink;
+    border: 1px solid red;
+}
+#msg { margin-top: 50px; width: 400px; position: relative; }
     </style>
   </head>
 
@@ -42,14 +58,55 @@
 
     <div class="container">
 
-      <form class="form-signin">
+      <%= post_form '/login' => (id => "login", style => "display: none", class => "form-signin", onsubmit => "getElementById('loginsubmit').disabled='disabled';") => begin %>
         <h2 class="form-signin-heading">Login</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
-        <button class="btn btn-large btn-primary" type="submit">Login</button>
-      </form>
+        <input type="text" name=__login class="input-block-level"
+        placeholder="Email or login name" tabindex=1>
+        <input type="password" name=__passwd class="input-block-level"
+        placeholder="Password" tabindex=2>
+        <div style="margin-bottom: 10px"><a href="/passwords/forgot"
+        tabindex=4>Forgot password?</a></div>
+        <button id=loginsubmit class="btn btn-large btn-primary"
+        type="submit" tabindex=3>Login</button>
+      <% end %>
 
     </div>
 
-    <script src="/js/jquery.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
+<p id=msg class=error>
+ % if (stash 'errmsg') {
+  <%= stash 'errmsg' %>
+ % } else {
+  You need Javascript enabled to use this site
+ % }
+</p>
+
+<p id=ver class=error style="display: none">
+ You are using an outdated version of Internet Explorer!
+ <br>Due to serious security problems, this version is not supported.
+ <br>Please upgrade to <a href="http://getfirefox.com">Mozilla Firefox</a>
+ or <a href="http://google.com/chrome">Google Chrome</a> (or IE9).
+</p>
+
+<script>
+function hideJsWarning() {
+    var msg = document.getElementById('msg');
+
+    % if (stash 'errmsg') {
+        setTimeout(function () {msg.style.display = 'none'}, 5000);
+    % } else {
+        msg.style.display = 'none';
+    % }
+
+    var msie = /(msie) ([\w.]+)/i;
+    var match = msie.exec(navigator.userAgent);
+    if (match && match[2] < 8) {
+        document.getElementById('ver').style.display = '';
+    }
+    else {
+        document.getElementById('login').style.display = '';
+    }
+
+    setTimeout(function () {window.location.reload(true)}, 53*60*1000);
+}
+hideJsWarning(); window.onload = 'hideJsWarning';
+</script>

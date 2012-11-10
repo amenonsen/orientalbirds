@@ -18,21 +18,22 @@ sub startup {
 
     my $r = $app->routes;
 
-    $r->get('/')->to(template => 'index');
-
     my $auth = $app->plugin('login');
     my $secure = $r->find('secure');
 
     $secure->get('/login')->to(template => 'auth/login');
 
-    $r->get('/upload')->to('upload#index');
-    $r->post('/upload')->to('upload#upload');
+    my $p = $r->bridge->to('auth#detect_users');
+
+    $p->get('/')->to(template => 'index');
+    $p->get('/upload')->to('upload#index');
+    $p->post('/upload')->to('upload#upload');
 
     my $id = qr/[1-9][0-9]*/;
-    $r->get('/contributors')->to('contributors#index');
-    $r->get('/contributors/form')->to('contributors#form');
-    $r->post('/contributors/save')->to('contributors#save');
-    $r->route('/contributors/:contributor_id', contributor_id => $id)
+    $p->get('/contributors')->to('contributors#index');
+    $p->get('/contributors/form')->to('contributors#form');
+    $p->post('/contributors/save')->to('contributors#save');
+    $p->route('/contributors/:contributor_id', contributor_id => $id)
         ->via('get')->to('contributors#profile');
 
     my $admin = $auth->allow_roles('admin');

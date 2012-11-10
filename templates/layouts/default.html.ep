@@ -13,6 +13,7 @@ body {
   padding: 9px 0;
 }
 </style>
+<%= css %>
 
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
@@ -44,7 +45,7 @@ body {
               <li><a href="#">Species</a></li>
               <li><a href="#">Exhibits</a></li>
               <li class="nav-header">Contribute</li>
-              <li><a href="#">Upload an exhibit</a></li>
+              <li><a href="/upload">Upload an exhibit</a></li>
               <li class="nav-header">Registered users</li>
               <%= widget 'usermenu' %>
             </ul>
@@ -65,3 +66,4 @@ body {
 
     <script src="/js/jquery.js"></script>
     <script src="/js/bootstrap.min.js"></script>
+    <%= js %>
