@@ -2,6 +2,13 @@
 % title 'OrientalBirds :: Users';
 % heading 'Users';
 
+<form class=form-search>
+ <div class=input-append>
+  <input type=text class="span8 search-query">
+  <button type=submit class=btn>Search</button>
+ </div>
+</form>
+
 <table class=table>
 <thead>
  <tr>
