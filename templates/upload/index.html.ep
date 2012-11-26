@@ -2,6 +2,9 @@
 % title 'Oriental Birds :: Upload an exhibit';
 % heading 'Upload an exhibit';
 
+% requires 'jquery-ui';
+% requires 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
+
 <div style="height: 10px"></div>
 
 <%= post_form '/upload' => begin %>
@@ -100,4 +103,49 @@ $('#addfile').click(function () {
     n++;
     return false;
 });
+
+(function ($) {
+    $.fn.completer = function (url, id) {
+        var term = this;
+        var hid = $('<input type=hidden name='+id+'>');
+        term.after(hid);
+        term.change(function () {
+            hid.val(term.data('matched') == term.val() ? term.data('value') : 0);
+        });
+        term.bind(
+            'paste', function () {
+                setTimeout(function () {
+                    term.autocomplete('search', term.val());
+                }, 0);
+            }
+        );
+        term.autocomplete({
+            source: function (rq, rp) {
+                $.getJSON(
+                    url, {term: rq.term}, function (res) { rp(res.matches) }
+                );
+            },
+            select: function (e, ui) {
+                term.data('matched', ui.item.label);
+                term.data('value', ui.item.value);
+                term.val(ui.item.label);
+                hid.val(ui.item.value);
+                return false;
+            },
+            focus: function (e, ui) {
+                term.val(ui.item.label);
+                return false;
+            }
+        });
+    };
+})(jQuery);
+
+$('input[name=species]').completer('/data/species', 'species_id');
+$('input[name=location]').completer('/data/locations', 'location_id');
+
+$('#submit').click(function () {
+    window.alert('Temporarily disabled');
+    return false;
+});
+
 <% end %>

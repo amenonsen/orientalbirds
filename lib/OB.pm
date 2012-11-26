@@ -29,6 +29,9 @@ sub startup {
     $p->get('/upload')->to('upload#index');
     $p->post('/upload')->to('upload#upload');
 
+    $r->get('/data/species')->to('data#species');
+    $r->get('/data/locations')->to('data#locations');
+
     my $id = qr/[1-9][0-9]*/;
     $p->get('/contributors')->to('contributors#index');
     $p->get('/contributors/form')->to('contributors#form');
