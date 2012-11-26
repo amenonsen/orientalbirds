@@ -20,8 +20,8 @@ sub species {
     );
 
     my @matches = grep {
-        $_->{common_name} =~ /$term/i ||
-        $_->{genus}." ".$_->{species} =~ /$term/i
+        ($_->{common_name} =~ /$term/i) ||
+        ($_->{genus}." ".$_->{species} =~ /$term/i)
     } @species;
 
     $self->render(json => {
