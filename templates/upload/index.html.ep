@@ -144,7 +144,7 @@ $('input[name=species]').completer('/data/species', 'species_id');
 $('input[name=location]').completer('/data/locations', 'location_id');
 
 $('#submit').click(function () {
-    window.alert('Temporarily disabled');
+    window.alert('Thanks for your contribution!');
     return false;
 });
 
