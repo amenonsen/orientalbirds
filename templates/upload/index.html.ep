@@ -40,15 +40,15 @@ filling in these details again.)
     <input type=text name=location class=span5 required>
 
     <label for=date>Date:</label>
-    <select name=year>
+    <select name=year class=span2>
      <option value=1990>1990
      <option value=1990>1991
     </select>
-    <select name=month>
+    <select name=month class=span2>
      <option value=jan>January
      <option value=feb>February
     </select>
-    <select name=day>
+    <select name=day class=span1>
      <option value=1>01
      <option value=2>02
     </select>
