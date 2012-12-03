@@ -86,8 +86,7 @@ sub register {
                     qq{<link rel=stylesheet type="text/css" href="$url">};
             }
             elsif ($type eq 'js') {
-                push @{$stash->{_g_scripts}},
-                    qq{<script type="text/javascript" src="$url"></script>};
+                push @{$stash->{_g_scripts}}, $url;
             }
             $stash->{_g_deps_seen}{$url}++;
         }
@@ -148,13 +147,17 @@ sub register {
 
         my @scripts;
         if ($stash->{_g_scripts}) {
-            push @scripts, @{$stash->{_g_scripts}};
+            my $srcs = join ", ", map { "'$_'" } @{$stash->{_g_scripts}};
+            push @scripts,
+                qq{<script type="text/javascript">\n}.
+                qq{head.js($srcs);\n}.
+                qq{</script>};
         }
         if ($stash->{_g_js} || $stash->{_g_js_ready}) {
             if ($stash->{_g_js_ready}) {
                 $stash->{_g_js} ||= "\n";
                 $stash->{_g_js} .=
-                    q#$(document).ready(function () {#.
+                    q#head.ready(function () {#.
                         $stash->{_g_js_ready}.
                     qq#});\n#
             }
