@@ -31,6 +31,7 @@ sub startup {
 
     $r->get('/data/species')->to('data#species');
     $r->get('/data/locations')->to('data#locations');
+    $r->get('/data/tags')->to('data#tags');
 
     my $id = qr/[1-9][0-9]*/;
     $p->get('/contributors')->to('contributors#index');

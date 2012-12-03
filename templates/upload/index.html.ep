@@ -6,7 +6,9 @@
 % requires '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
 % requires '/js/bootstrap.min.js';
 % requires '/js/bootstrap-datepicker.js';
+% requires '/js/bootstrap-tagmanager.js';
 % requires '/css/datepicker.css';
+% requires '/css/bootstrap-tagmanager.css';
 
 <div style="height: 10px"></div>
 
@@ -138,6 +140,13 @@ $('#addfile').click(function () {
 $('input[name=species]').completer('/data/species', 'species_id');
 $('input[name=location]').completer('/data/locations', 'location_id');
 $('input[name=date]').datepicker({format:'yyyy-mm-dd',viewMode:2});
+$('input[name=tags]').tagsManager({
+    typeahead: true,
+    typeaheadAjaxSource: '/data/tags',
+    typeaheadAjaxPolling: true,
+    preventSubmitOnEnter: true,
+    backspace: []
+});
 
 $('#submit').click(function () {
     window.alert('Thanks for your contribution!');
