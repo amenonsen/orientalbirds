@@ -92,6 +92,14 @@ filling in these details again.)
 
 <% end %>
 
+<% css begin %>
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+<% end %>
+
 <% ready begin %>
 var n = 2;
 var t = $('#files');
