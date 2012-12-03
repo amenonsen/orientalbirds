@@ -3,7 +3,10 @@
 % heading 'Upload an exhibit';
 
 % requires 'jquery-ui';
-% requires 'http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
+% requires '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
+% requires '/js/bootstrap.min.js';
+% requires '/js/bootstrap-datepicker.js';
+% requires '/css/datepicker.css';
 
 <div style="height: 10px"></div>
 
@@ -43,18 +46,10 @@ filling in these details again.)
     <input type=text name=location class=span5 required>
 
     <label for=date>Date:</label>
-    <select name=year class=span2>
-     <option value=1990>1990
-     <option value=1990>1991
-    </select>
-    <select name=month class=span2>
-     <option value=jan>January
-     <option value=feb>February
-    </select>
-    <select name=day class=span1>
-     <option value=1>01
-     <option value=2>02
-    </select>
+    <input type=text name=date class=span5 required>
+
+    <label for=tags>Tags (please select as many as applicable):</label>
+    <input id=tags type=text name=tags class=span5>
 
     <label for=habitat>Habitat (optional):</label>
     <input type=text name=habitat class=span5>
@@ -142,6 +137,7 @@ $('#addfile').click(function () {
 
 $('input[name=species]').completer('/data/species', 'species_id');
 $('input[name=location]').completer('/data/locations', 'location_id');
+$('input[name=date]').datepicker({format:'yyyy-mm-dd',viewMode:2});
 
 $('#submit').click(function () {
     window.alert('Thanks for your contribution!');
