@@ -64,11 +64,11 @@ sub register {
             elsif ($_ =~ /^jquery(-ui)?$/) {
                 push @deps, {
                     type => 'js',
-                    url => "https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+                    url => "//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"
                 };
                 push @deps, {
                     type => 'js',
-                    url => "https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.13/jquery-ui.min.js"
+                    url => "//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"
                 } if /-ui/;
             }
             elsif (/\.(js|css)$/) {
