@@ -114,9 +114,7 @@ sub register {
             return;
         }
 
-        my @styles = (
-            qq{<link rel=stylesheet type="text/css" href="/default.css">}
-        );
+        my @styles = ();
         if ($stash->{_g_stylesheets}) {
             push @styles, @{$stash->{_g_stylesheets}};
         }
