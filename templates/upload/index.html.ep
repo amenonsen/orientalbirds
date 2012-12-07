@@ -5,10 +5,6 @@
 % requires 'jquery-ui';
 % requires '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
 % requires '/js/bootstrap.min.js';
-% requires '/js/bootstrap-datepicker.js';
-% requires '/js/bootstrap-tagmanager.js';
-% requires '/css/datepicker.css';
-% requires '/css/bootstrap-tagmanager.css';
 
 <div style="height: 10px"></div>
 
@@ -17,7 +13,7 @@
 % unless (stash('user')) {
 
 <fieldset>
-<legend>About you</legend>
+<legend>About the contributor</legend>
 
 <p>
 Tell us about yourself, and we'll create an account for you.
@@ -39,29 +35,462 @@ filling in these details again.)
 % }
 
 <fieldset>
-<legend>About your contribution</legend>
+<legend>About the contribution</legend>
 
-    <label for=species>Species:</label>
+    <label for=species>Species (not sure? enter your best guess):</label>
     <input type=text name=species class=span5 required>
+
+    <label for=subspecies>Subspecies (optional):</label>
+    <input type=text name=subspecies class=span5>
+
+    <label for=notes>Notes (optional):</label>
+    <textarea rows=4 name=notes class=span5></textarea>
+</fieldset>
+
+<fieldset>
+<legend>When and where?</legend>
+
+    <label for=date>Date:</label>
+    <div class=row-fluid>
+    <div class=span5 style="clear: both">
+     <select style="width: 33%" name=year required>
+      <option value="">
+      <option value=2012>2012
+      <option value=2011>2011
+      <option value=2010>2010
+      <option value=2009>2009
+      <option value=2008>2008
+      <option value=2007>2007
+      <option value=2006>2006
+      <option value=2005>2005
+      <option value=2004>2004
+      <option value=2003>2003
+      <option value=2002>2002
+      <option value=2001>2001
+      <option value=2000>2000
+      <option value=1999>1999
+      <option value=1998>1998
+      <option value=1997>1997
+      <option value=1996>1996
+      <option value=1995>1995
+      <option value=1994>1994
+      <option value=1993>1993
+      <option value=1992>1992
+      <option value=1991>1991
+      <option value=1990>1990
+     </select>
+     <select style="width: 33%" name=month required>
+      <option value="">
+      <option value=1>January
+      <option value=2>February
+      <option value=3>March
+      <option value=4>April
+      <option value=5>May
+      <option value=6>June
+      <option value=7>July
+      <option value=8>August
+      <option value=9>September
+      <option value=10>October
+      <option value=11>November
+      <option value=12>December
+     </select>
+     <select style="width: 31%" name=day required>
+      <option value="">
+      <option value=01>01
+      <option value=02>02
+      <option value=03>03
+      <option value=04>04
+      <option value=05>05
+      <option value=06>06
+      <option value=07>07
+      <option value=08>08
+      <option value=09>09
+      <option value=10>10
+      <option value=11>11
+      <option value=12>12
+      <option value=13>13
+      <option value=14>14
+      <option value=15>15
+      <option value=16>16
+      <option value=17>17
+      <option value=18>18
+      <option value=19>19
+      <option value=20>20
+      <option value=21>21
+      <option value=22>22
+      <option value=23>23
+      <option value=24>24
+      <option value=25>25
+      <option value=26>26
+      <option value=27>27
+      <option value=28>28
+      <option value=29>29
+      <option value=30>30
+      <option value=31>31
+     </select>
+    </div></div>
+
+    <label for=country>Country:</label>
+    <select name=country class=span5 required>
+     <option value="">
+     <option value=BD>Bangladesh
+     <option value=BT>Bhutan
+     <option value=BN>Brunei
+     <option value=KH>Cambodia
+     <option value=BIOT>Chagos Archipelago
+     <option value=CN>China
+     <option value=HK>Hong Kong
+     <option value=IN>India
+     <option value=ID>Indonesia (excluding Papua)
+     <option value=JP>Japan
+     <option value=KP>Korea, North
+     <option value=KR>Korea, South
+     <option value=LA>Laos
+     <option value=MY>Malaysia
+     <option value=MV>Maldives
+     <option value=MN>Mongolia
+     <option value=MM>Myanmar (Burma)
+     <option value=NP>Nepal
+     <option value=PK>Pakistan
+     <option value=PH>Philippines
+     <option value=RU>Russia (east of 90°)
+     <option value=SG>Singapore
+     <option value=SL>Sri Lanka
+     <option value=TW>Taiwan
+     <option value=TH>Thailand
+     <option value=TI>Tibet
+     <option value=TL>Timor-Leste (East Timor)
+     <option value=VN>Vietnam
+    </select>
+
+    <label for=province>Province:</label>
+    <input type=text name=province class=span5 required>
 
     <label for=location>Location:</label>
     <input type=text name=location class=span5 required>
-
-    <label for=date>Date:</label>
-    <input type=text name=date class=span5 required>
-
-    <label for=tags>Tags (please select as many as applicable):</label>
-    <input id=tags type=text name=tags class=span5>
 
     <label for=habitat>Habitat (optional):</label>
     <input type=text name=habitat class=span5>
 
     <label for=altitude>Altitude (optional):</label>
     <input type=text name=altitude class=span5>
+</fieldset>
 
-    <label for=notes>Notes (optional):</label>
-    <textarea rows=4 name=notes class=span5></textarea>
+<fieldset>
+<legend>Categories</legend>
 
+    <label for=basic>The photo shows a bird…</label>
+    <select class=span4 name=basic required>
+    <option value="">
+    <option value="perched">perched
+    <optgroup label="In flight">
+    <option value="in flight">in flight
+    <option value="from above">from above
+    <option value="from below">from below
+    <option value="banking">banking
+    <option value="diving">diving
+    <option value="flapping flight">flapping flight
+    <option value="gliding">gliding
+    <option value="hovering">hovering
+    <option value="hunting">hunting
+    <option value="in chase">in chase
+    <option value="landing">landing
+    <option value="skimming">skimming
+    <option value="soaring">soaring
+    <option value="in song flight">song flight
+    <option value="stooping">stooping
+    <option value="taking off">taking off
+    </optgroup>
+    <option value="in the hand">in the hand
+    <option value="comparison">comparison
+    <option value="corpse">corpse
+    <option value="habitat">habitat
+    <option value="nesting">nesting
+    <option value="specimen">specimen
+    <option value="tracks">tracks
+    </select>
+
+    <label for=behaviour>Behaviour/pose:</label>
+    <select class=span4 name=behaviour>
+    <option value="">
+    <option value="aerial interaction">aerial interaction
+    <option value="agitated">agitated
+    <option value="allopreening">allopreening
+    <option value="anting">anting
+    <option value="asleep">asleep
+    <optgroup label="bathing">
+    <option value="bathing">bathing
+    <option value="dust bathing">dust bathing
+    <option value="sand bathing">sand bathing
+    <option value="sun bathing">sun bathing
+    </optgroup>
+    <option value="being mobbed">being mobbed
+    <option value="begging">begging
+    <optgroup label="calling">
+    <option value="calling">calling
+    <option value="unison calling">unison calling
+    <option value="singing">singing
+    <option value="duetting">duetting
+    </optgroup>
+    <optgroup label="courtship">
+    <option value="courtship">courtship
+    <option value="courtship display">courtship display
+    </optgroup>
+    <optgroup label="display">
+    <option value="display">display
+    <option value="display">display
+    <option value="displaying">displaying
+    <option value="display flight">display flight
+    <option value="distraction display">distraction display
+    <option value="greeting display">greeting display
+    <option value="jumping display">jumping display
+    <option value="threat display">threat display
+    <option value="territorial display">territorial display
+    <option value="courtship feeding">courtship feeding
+    </optgroup>
+    <option value="dancing">dancing
+    <option value="defaecating">defaecating
+    <option value="dispute">dispute
+    <option value="drinking">drinking
+    <option value="drying wings">drying wings
+    <option value="egg laying">egg laying
+    <option value="excavating">excavating
+    <option value="feeding">feeding
+    <option value="fighting">fighting
+    <option value="fishing">fishing
+    <option value="flycatching">flycatching
+    <option value="flocking">flocking
+    <option value="foraging">foraging
+    <option value="hatching">hatching
+    <option value="incubating">incubating
+    <option value="kneeling">kneeling
+    <option value="loafing">loafing
+    <option value="lying down">lying down
+    <option value="mating">mating
+    <option value="nest building">nest building
+    <option value="perched">perched
+    <option value="preening">preening
+    <option value="quarrelling over prey">quarrelling over prey
+    <option value="regurgitating a pellet">regurgitating a pellet
+    <option value="roosting">roosting
+    <option value="roosting place">roosting place
+    <option value="running">running
+    <option value="searching">searching
+    <option value="sitting">sitting
+    <option value="squabbling">squabbling
+    <option value="swimming">swimming
+    <option value="taking off">taking off
+    <option value="talon grappling">talon grappling
+    <option value="territorial dispute">territorial dispute
+    <option value="walking">walking
+    <option value="wing stretching">wing stretching
+    <option value="with fish">with fish
+    <option value="with prey">with prey
+    <option value="yawning">yawning
+    </select>
+
+    <label for=age>Age:</label>
+    <select class=span4 name=age>
+    <option value="">
+    <option value="adult/s">adult/s
+    <option value="subadult/s">subadult/s
+    <optgroup label="young">
+    <option value="young">young
+    <option value="immature/subadult">immature/subadult
+    <option value="immature/s">immature/s
+    <optgroup label="immature/s">
+    <optgroup label="by calendar year">
+    <option value="1st calendar year">1st calendar year
+    <option value="2nd calendar year">2nd calendar year
+    <option value="3rd calendar year">3rd calendar year
+    <option value="4th calendar year">4th calendar year
+    <option value="5th calendar year">5th calendar year
+    <option value="6th calendar year">6th calendar year
+    </optgroup>
+    <optgroup label="winter">
+    <option value="1st winter">1st winter
+    <option value="2nd winter">2nd winter
+    <option value="3rd winter">3rd winter
+    <option value="4th winter">4th winter
+    <option value="5th winter">5th winter
+    </optgroup>
+    <optgroup label="summer">
+    <option value="1st summer">1st summer
+    <option value="2nd summer">2nd summer
+    <option value="3rd summer">3rd summer
+    <option value="4th summer">4th summer
+    </optgroup>
+    <option value="1st winter to 1st summer">1st winter to 1st summer
+    <option value="1st summer to 2nd winter">1st summer to 2nd winter
+    <option value="2nd winter to 2nd summer">2nd winter to 2nd summer
+    <option value="2nd summer to 3rd winter">2nd summer to 3rd winter
+    <option value="3rd summer to adult winter">3rd summer to adult winter
+    </optgroup>
+    <option value="juvenile/s">juvenile/s
+    <option value="juvenile/immature">juvenile/immature
+    <option value="juvenile/1st winter">juvenile/1st winter
+    <optgroup label="chick/s">
+    <option value="fledgling/s">fledgling/s
+    <option value="nestling/s">nestling/s
+    <option value="unfledged young">unfledged young
+    <option value="downy young">downy young
+    <option value="hatchling/s">hatchling/s
+    <option value="pullus/pulli">pullus/pulli
+    <option value="cygnet/s">cygnet/s
+    <option value="duckling/s">duckling/s
+    <option value="squab/s">squab/s
+    </optgroup>
+    <option value="egg/s">egg/s
+    </select>
+
+    <label for=sex>Gender:</label>
+    <select class=span4 name=sex>
+    <option value="">
+    <option value="male">male
+    <option value="female">female
+    <option value="female/juvenile">female/juvenile
+    <option value="female/immature">female/immature
+    <option value="female/1st winter male">female/1st winter male
+    </select>
+
+    <label for=number>Number:</label>
+    <select class=span4 name=number>
+    <option value="">
+    <option value="pair">pair
+    <option value="family group">family group
+    <option value="flock">flock
+    <option value="group">group
+    <option value="colony">colony
+    <option value="crèche">crèche
+    <option value="heronry">heronry
+    </select>
+
+    <label for=plumage>Plumage:</label>
+    <select class=span4 name=plumage>
+    <option value="">
+    <optgroup label="adult plumage">
+    <option value="adult plumage">adult plumage
+    <option value="beginning to assume adult plumage">beginning to assume adult plumage
+    <option value="moulting into adult plumage">moulting into adult plumage
+    </optgroup>
+    <option value="albino">albino
+    <optgroup label="breeding plumage">
+    <option value="breeding plumage">breeding plumage
+    <option value="beginning to assume breeding plumage">beginning to assume breeding plumage
+    <option value="assuming breeding plumage">assuming breeding plumage
+    <option value="moulting into breeding plumage">moulting into breeding plumage
+    <option value="partial breeding plumage">partial breeding plumage
+    <option value="full breeding plumage">full breeding plumage
+    <option value="peak breeding plumage">peak breeding plumage
+    </optgroup>
+    <optgroup label="eclipse">
+    <option value="eclipse">eclipse
+    <option value="eclipse plumage">eclipse plumage
+    <option value="assuming eclipse plumage">assuming eclipse plumage
+    </optgroup>
+    <option value="fresh">fresh
+    <option value="fresh plumage">fresh plumage
+    <option value="hepatic">hepatic
+    <option value="hybrid">hybrid
+    <option value="in moult">in moult
+    <option value="leucistic">leucistic
+    <option value="melanistic">melanistic
+    <optgroup label="morph">
+    <option value="brown morph">brown morph
+    <option value="dark morph">dark morph
+    <option value="dusky morph">dusky morph
+    <option value="fulvous morph">fulvous morph
+    <option value="grey morph">grey morph
+    <option value="intermediate morph">intermediate morph
+    <option value="pale morph">pale morph
+    <option value="rufous morph">rufous morph
+    <option value="white morph">white morph
+    <option value="yellow morph">yellow morph
+    </optgroup>
+    <option value="moulting">moulting
+    <optgroup label="non-breeding plumage">
+    <option value="non-breeding plumage">non-breeding plumage
+    <option value="beginning to assume non-breeding plumage">beginning to assume non-breeding plumage
+    <option value="assuming non-breeding plumage">assuming non-breeding plumage
+    <option value="moulting into non-breeding plumage">moulting into non-breeding plumage
+    </optgroup>
+    <option value="post-breeding plumage">post-breeding plumage
+    <option value="summer">summer
+    <option value="transitional">transitional
+    <option value="wet plumage">wet plumage
+    <option value="winter">winter
+    <optgroup label="worn">
+    <option value="worn">worn
+    <option value="worn plumage">worn plumage
+    <option value="worn breeding plumage">worn breeding plumage
+    <option value="worn non-breeding plumage">worn non-breeding plumage
+    <option value="worn summer plumage">worn summer plumage
+    <option value="worn winter plumage">worn winter plumage
+    </optgroup>
+    </select>
+
+    <label for=nest>Nest-related:</label>
+    <select class=span4 name=nest>
+    <option value="">
+    <option value="nest">nest
+    <option value="nests">nests
+    <option value="nest hole">nest hole
+    <option value="nest holes">nest holes
+    <option value="nesting">nesting
+    <option value="nesting colony">nesting colony
+    <option value="nesting habitat">nesting habitat
+    <option value="nesting material">nesting material
+    <option value="nest sanitation">nest sanitation
+    <option value="nest tree">nest tree
+    <option value="at/in/on nest">at/in/on nest
+    <option value="at/in nest hole">at/in nest hole
+    <option value="carrying nesting material">carrying nesting material
+    <option value="gathering nesting material">gathering nesting material
+    </select>
+
+    <label for=parts>Body parts:</label>
+    <select class=span4 name=parts>
+    <option value="">
+    <option value="bill">bill
+    <option value="eye/s">eye/s
+    <option value="head">head
+    <option value="foot/feet">foot/feet
+    <option value="leg/s">leg/s
+    <option value="feather/s">feather/s
+    <option value="nictitating membrane">nictitating membrane
+    <option value="plumage">plumage
+    <option value="plumage detail">plumage detail
+    <option value="rump">rump
+    <option value="speculum">speculum
+    <option value="tail">tail
+    <option value="tail">tail
+    <option value="tail pattern">tail pattern
+    <option value="uppertail">uppertail
+    <option value="undertail">undertail
+    <option value="throat">throat
+    <option value="toes">toes
+    <option value="tongue">tongue
+    <option value="underparts">underparts
+    <option value="upperparts">upperparts
+    <option value="wing">wing
+    <option value="wing">wing
+    <option value="upperwing">upperwing
+    <option value="underwing">underwing
+    <option value="wing pattern">wing pattern
+    <option value="wing spur/s">wing spur/s
+    </select>
+
+    <label for=food>Food:</label>
+    <select class=span4 name=food>
+    <option value="">
+    <option value="food item/s">food item/s
+    <option value="food plant/s">food plant/s
+    <option value="pellet/s">pellet/s
+    <option value="prey item/s">prey item/s
+    <option value="with fish">with fish
+    <option value="with fruit">with fruit
+    <option value="with prey">with prey
+    </select>
 </fieldset>
 
 <fieldset>
@@ -147,14 +576,6 @@ $('#addfile').click(function () {
 
 $('input[name=species]').completer('/data/species', 'species_id');
 $('input[name=location]').completer('/data/locations', 'location_id');
-$('input[name=date]').datepicker({format:'yyyy-mm-dd',viewMode:2});
-$('input[name=tags]').tagsManager({
-    typeahead: true,
-    typeaheadAjaxSource: '/data/tags',
-    typeaheadAjaxPolling: true,
-    preventSubmitOnEnter: true,
-    backspace: []
-});
 
 $('#submit').click(function () {
     window.alert('Thanks for your contribution!');
