@@ -5,6 +5,8 @@
 % requires 'jquery-ui';
 % requires '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
 % requires '/js/bootstrap.min.js';
+% requires '/js/bootstrap-tagmanager.js';
+% requires '/css/bootstrap-tagmanager.css';
 
 <div style="height: 10px"></div>
 
@@ -34,6 +36,32 @@ filling in these details again.)
 
 % }
 
+<div id=type>
+<fieldset>
+ <legend>What do you want to upload?</legend>
+ <label class=checkbox>
+  <input type=checkbox id=individual> One or more photos of a single individual
+ </label>
+
+ <label class=checkbox>
+  <input type=checkbox id=family> Photos of a pair, family, or flock of
+  the same species
+ </label>
+
+ <label class=checkbox>
+  <input type=checkbox id=multiple> Photos of a single individual over
+  multiple observations (moderators only)
+ </label>
+
+ <label class=checkbox>
+  <input type=checkbox id=comparison> A comparison between different
+  species (moderators only)
+ </label>
+</fieldset>
+</div>
+
+<div id=stuff style="display: none">
+
 <fieldset>
 <legend>About the contribution</legend>
 
@@ -48,7 +76,7 @@ filling in these details again.)
 </fieldset>
 
 <fieldset>
-<legend>When and where?</legend>
+<legend>When?</legend>
 
     <label for=date>Date:</label>
     <div class=row-fluid>
@@ -130,6 +158,19 @@ filling in these details again.)
      </select>
     </div></div>
 
+    <label class=checkbox>
+     <input type=checkbox> OR extract date from EXIF
+    </label>
+</fieldset>
+
+<fieldset>
+<legend>Where?</legend>
+    <label for=location>Location:</label>
+    <input type=text name=location class=span5 required>
+
+    <label for=province>Province:</label>
+    <input type=text name=province class=span5 required>
+
     <label for=country>Country:</label>
     <select name=country class=span5 required>
      <option value="">
@@ -163,20 +204,18 @@ filling in these details again.)
      <option value=VN>Vietnam
     </select>
 
-    <label for=province>Province:</label>
-    <input type=text name=province class=span5 required>
-
-    <label for=location>Location:</label>
-    <input type=text name=location class=span5 required>
+    <label for=altitude>Altitude (optional):</label>
+    <input type=text name=altitude class=span5>
 
     <label for=habitat>Habitat (optional):</label>
     <input type=text name=habitat class=span5>
 
-    <label for=altitude>Altitude (optional):</label>
-    <input type=text name=altitude class=span5>
+    <label class=checkbox>
+     <input type=checkbox> OR extract GPS location from EXIF
+    </label>
 </fieldset>
 
-<fieldset>
+<fieldset id=categories>
 <legend>Categories</legend>
 
     <label for=basic>The photo shows a bird…</label>
@@ -499,24 +538,26 @@ filling in these details again.)
     <table class=table id=files>
      <thead>
       <tr>
-       <th width="5%"># <th width="25%">Select file <th>Caption (optional)
+       <th width="5%"># <th width="25%">Select file <th>Caption (optional) <th class=tags>Tags
      <tbody>
       <tr>
        <td>1
        <td><input type=file name=f1>
        <td><input type=text name=d1 class=span8>
+       <td class=tags><input type=text name=blah class=span5>
      <tfoot>
       <tr>
-       <td colspan=3><a href="#" id=addfile class=btn>Add another file</a>
+       <td colspan=4><a href="#" id=addfile class=btn>Add another file</a>
     </table>
 
     <p>
-    Guidelines about file sizes go here.
-
+    (Guidelines about file sizes go here.)
 </fieldset>
 
 <div class=form-actions>
   <button id=submit type=submit class="btn btn-primary">Upload</button>
+</div>
+
 </div>
 
 <% end %>
@@ -527,13 +568,31 @@ filling in these details again.)
     overflow-y: auto;
     overflow-x: hidden;
 }
+.tags { display: none; }
 <% end %>
 
 <% ready begin %>
 var n = 2;
 var t = $('#files');
+var type;
 $('#addfile').click(function () {
-    t.find('tbody').append('<tr><td>'+n+'<td><input type=file name=f' + n + '><td><input type=text name=d' + n + ' class=span8>');
+    var row = '<tr><td>'+n+'<td><input type=file name=f'+n+'><td><input type=text name=d'+n+' class=span8>';
+    if (type != 'individual') {
+        row += '<td><input type=text name=blah class=span5>';
+    }
+    else {
+        row += '<td class=tags><input type=text class=span5>';
+    }
+
+    $('input[name=blah]').tagsManager({
+        typeahead: true,
+        typeaheadAjaxSource: '/data/tags',
+        typeaheadAjaxPolling: true,
+        preventSubmitOnEnter: true,
+        backspace: []
+    });
+
+    t.find('tbody').append(row);
     n++;
     return false;
 });
@@ -576,6 +635,41 @@ $('#addfile').click(function () {
 
 $('input[name=species]').completer('/data/species', 'species_id');
 $('input[name=location]').completer('/data/locations', 'location_id');
+$('input[name=blah]').tagsManager({
+    typeahead: true,
+    typeaheadAjaxSource: '/data/tags',
+    typeaheadAjaxPolling: true,
+    preventSubmitOnEnter: true,
+    backspace: []
+});
+
+var stuff = $('#stuff');
+var ind = $('#individual').click(function () {
+    type = 'individual';
+    $('#type input[type=checkbox]').not(this).attr('checked',false);
+    if (ind.is(":checked")) {
+        stuff.show();
+        $('#categories').show();
+        $('.tags').hide();
+    }
+    else
+        stuff.hide();
+});
+var fam = $('#family').click(function () {
+    type = 'family';
+    $('#type input[type=checkbox]').not(this).attr('checked',false);
+    if (fam.is(":checked")) {
+        stuff.show();
+        $('#categories').hide();
+        $('.tags').show();
+    }
+    else
+        stuff.hide();
+});
+$('#multiple, #comparison').click(function () {
+    alert("Sorry, you're not responsible enough to use this function! (just kidding :-)");
+    return false;
+});
 
 $('#submit').click(function () {
     window.alert('Thanks for your contribution!');
