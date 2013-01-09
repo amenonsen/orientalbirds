@@ -27,6 +27,7 @@ sub startup {
 
     $p->get('/')->to(template => 'index');
     $p->get('/upload')->to('upload#index');
+    $p->get('/upload/corrections')->to('upload#corrections');
     $p->post('/upload')->to('upload#upload');
 
     $r->get('/data/species')->to('data#species');

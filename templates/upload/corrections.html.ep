@@ -1,0 +1,212 @@
+% layout 'default';
+% title 'Oriental Birds :: Upload an exhibit';
+% heading 'Upload an exhibit';
+
+% requires 'jquery-ui';
+% requires '//ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css';
+% requires '/js/bootstrap.min.js';
+
+<div style="height: 10px"></div>
+
+<%= post_form '/upload' => begin %>
+
+<fieldset>
+<legend>When?</legend>
+
+    <p>The EXIF data could not be processed. Please select the date
+    below.
+
+    <label for=date>Date:</label>
+    <div class=row-fluid>
+    <div class=span5 style="clear: both">
+     <select style="width: 33%" name=year required>
+      <option value="">
+      <option value=2012>2012
+      <option value=2011>2011
+      <option value=2010>2010
+      <option value=2009>2009
+      <option value=2008>2008
+      <option value=2007>2007
+      <option value=2006>2006
+      <option value=2005>2005
+      <option value=2004>2004
+      <option value=2003>2003
+      <option value=2002>2002
+      <option value=2001>2001
+      <option value=2000>2000
+      <option value=1999>1999
+      <option value=1998>1998
+      <option value=1997>1997
+      <option value=1996>1996
+      <option value=1995>1995
+      <option value=1994>1994
+      <option value=1993>1993
+      <option value=1992>1992
+      <option value=1991>1991
+      <option value=1990>1990
+     </select>
+     <select style="width: 33%" name=month required>
+      <option value="">
+      <option value=1>January
+      <option value=2>February
+      <option value=3>March
+      <option value=4>April
+      <option value=5>May
+      <option value=6>June
+      <option value=7>July
+      <option value=8>August
+      <option value=9>September
+      <option value=10>October
+      <option value=11>November
+      <option value=12>December
+     </select>
+     <select style="width: 31%" name=day required>
+      <option value="">
+      <option value=01>01
+      <option value=02>02
+      <option value=03>03
+      <option value=04>04
+      <option value=05>05
+      <option value=06>06
+      <option value=07>07
+      <option value=08>08
+      <option value=09>09
+      <option value=10>10
+      <option value=11>11
+      <option value=12>12
+      <option value=13>13
+      <option value=14>14
+      <option value=15>15
+      <option value=16>16
+      <option value=17>17
+      <option value=18>18
+      <option value=19>19
+      <option value=20>20
+      <option value=21>21
+      <option value=22>22
+      <option value=23>23
+      <option value=24>24
+      <option value=25>25
+      <option value=26>26
+      <option value=27>27
+      <option value=28>28
+      <option value=29>29
+      <option value=30>30
+      <option value=31>31
+     </select>
+    </div></div>
+</fieldset>
+
+<fieldset>
+<legend>Where?</legend>
+    <p>The EXIF data could not be processed. Please specify a location
+    below.
+
+    <label for=location>Location:</label>
+    <input type=text name=location class=span5 required>
+
+    <label for=province>Province:</label>
+    <input type=text name=province class=span5 required>
+
+    <label for=country>Country:</label>
+    <select name=country class=span5 required>
+     <option value="">
+     <option value=BD>Bangladesh
+     <option value=BT>Bhutan
+     <option value=BN>Brunei
+     <option value=KH>Cambodia
+     <option value=BIOT>Chagos Archipelago
+     <option value=CN>China
+     <option value=HK>Hong Kong
+     <option value=IN>India
+     <option value=ID>Indonesia (excluding Papua)
+     <option value=JP>Japan
+     <option value=KP>Korea, North
+     <option value=KR>Korea, South
+     <option value=LA>Laos
+     <option value=MY>Malaysia
+     <option value=MV>Maldives
+     <option value=MN>Mongolia
+     <option value=MM>Myanmar (Burma)
+     <option value=NP>Nepal
+     <option value=PK>Pakistan
+     <option value=PH>Philippines
+     <option value=RU>Russia (east of 90°)
+     <option value=SG>Singapore
+     <option value=SL>Sri Lanka
+     <option value=TW>Taiwan
+     <option value=TH>Thailand
+     <option value=TI>Tibet
+     <option value=TL>Timor-Leste (East Timor)
+     <option value=VN>Vietnam
+    </select>
+
+    <label for=altitude>Altitude (optional):</label>
+    <input type=text name=altitude class=span5>
+
+    <label for=habitat>Habitat (optional):</label>
+    <input type=text name=habitat class=span5>
+</fieldset>
+
+<div class=form-actions>
+  <button id=submit type=submit class="btn btn-primary">Upload</button>
+</div>
+
+</div>
+
+<% end %>
+
+<% css begin %>
+.ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.tags { display: none; }
+<% end %>
+
+<% ready begin %>
+(function ($) {
+    $.fn.completer = function (url, id) {
+        var term = this;
+        var hid = $('<input type=hidden name='+id+'>');
+        term.after(hid);
+        term.change(function () {
+            hid.val(term.data('matched') == term.val() ? term.data('value') : 0);
+        });
+        term.bind(
+            'paste', function () {
+                setTimeout(function () {
+                    term.autocomplete('search', term.val());
+                }, 0);
+            }
+        );
+        term.autocomplete({
+            source: function (rq, rp) {
+                $.getJSON(
+                    url, {term: rq.term}, function (res) { rp(res.matches) }
+                );
+            },
+            select: function (e, ui) {
+                term.data('matched', ui.item.label);
+                term.data('value', ui.item.value);
+                term.val(ui.item.label);
+                hid.val(ui.item.value);
+                return false;
+            },
+            focus: function (e, ui) {
+                term.val(ui.item.label);
+                return false;
+            }
+        });
+    };
+})(jQuery);
+
+$('input[name=location]').completer('/data/locations', 'location_id');
+
+$('#submit').click(function () {
+    alert('Thanks for your contribution!');
+    return false;
+});
+
+<% end %>

@@ -672,7 +672,8 @@ $('#multiple, #comparison').click(function () {
 });
 
 $('#submit').click(function () {
-    window.alert('Thanks for your contribution!');
+    window.location.pathname = '/upload/corrections';
+    // alert('Thanks for your contribution!');
     return false;
 });
 
