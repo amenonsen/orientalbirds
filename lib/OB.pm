@@ -41,6 +41,8 @@ sub startup {
     $p->route('/contributors/:contributor_id', contributor_id => $id)
         ->via('get')->to('contributors#profile');
 
+    $p->get('/exhibits/1')->to('exhibits#index');
+
     my $admin = $auth->allow_roles('admin');
 
     $admin->get('/users')->to('users#index');
