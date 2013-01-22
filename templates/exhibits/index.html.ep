@@ -1,0 +1,107 @@
+% layout 'default', heading => "Hume's Reed Warbler";
+
+<h2 style="margin-top: -7px; margin-bottom: 20px"><i>Acrocephalus orinus</i></h2>
+
+<div style="border: 1px solid maroon; width: 38em; padding: 1em; margin-bottom: 1em">
+<p>
+<b>Contributor</b>: <a href="#">Philip D. Round/The Wetland Trust</a>
+
+<p>
+<b>Location</b>: Laem Phak Bia, Ban Laem district, Phetchaburi, Thailand
+
+<p>
+<b>Date</b>: 27 March 2006
+</div>
+
+<div style="border: 1px solid maroon; width: 28em; padding: 1em;
+margin-bottom: 1em; float: right">
+<p>
+<b>Comments</b>:
+These are photos of one of the world's least-known birds. A specimen
+taken in India 139 years previously was the only known individual of
+this species until Philip Round mistnetted this bird at a wastewater
+treatment centre near Bangkok. 
+
+<p>
+Note the following features: an entirely unstreaked Acrocephalus with
+warm olive-brown upperparts, slightly paler edges to the greater
+coverts, tertials and inner secondaries, long large bill with entirely
+pale (fleshy pink) lower mandible and blackish upper mandible, short
+whitish supercilium ending at the back of the eye, whitish crescent
+below the eye, short blackish line behind and before the eye not
+extending onto the lores, whitish underparts washed with buff on breast,
+flanks and undertail coverts, short wings (short primary projection
+approximately one third the length of the visible tertials and six
+primary tips visible) making the tail appear relatively long,
+brownish-grey legs.
+
+<p>
+<b>Taxonomic notes</b>:
+Originally described from a single specimen collected in the Sutlej
+Valley near Rampoor, Himachal Pradesh, India in 1867, this species was
+long the subject of various theories as to whether it was a separate
+species or simply a hybrid or variant of some other species. However, a
+thorough investigation of the only known specimen carried out in 2002
+proved that it was indeed a separate species based on its morphology and
+mitochondrial DNA.
+
+<p>
+Since then the first ever live specimen has been trapped in March 2006
+in Thailand, and another specimen (collected in October 1869 at
+Mussourie, Uttarakhand, India) has been discovered among the collection
+of Blyth's Reed Warbler Acrocephalus dumetorum skins at the Natural
+History Museum at Tring in the UK. 
+
+<p>
+Refs: <br>
+Bensch, S. and Pearson, D. (2002) The Large-billed Reed Warbler
+Acrocephalus orinus revisited. Ibis 144: 259-267. <br>
+Philip D. Round, Bengt Hansson, David J. Pearson, Peter R. Kennerley, Staffan Bensch. (2007) Lost and found: the enigmatic large-billed reed warbler Acrocephalus orinus rediscovered after 139 years. Journal of Avian Biology 38:2 133
+</div>
+
+<div>
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_3_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_3a_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_9_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_19_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_21_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_21a_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_24_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_29_pdr.jpg">
+
+<p>
+<img src="/img/acrocephalus_orinus_2a19365_29a_pdr.jpg">
+
+<div id=mediaplayer style="margin: 10px 0 10px 0"></div>
+</div>
+
+<p style="margin-top: 10px">
+(Wrong species? Wrong details? Please <a href="#">report the problem</a>.)
+</p>
+
+<script type='text/javascript' src='/jwplayer/jwplayer.js'></script>
+<script type="text/javascript">
+  jwplayer('mediaplayer').setup({
+    'flashplayer': '/jwplayer/player.swf',
+    'id': 'playerID',
+    'width': '560',
+    'height': '24',
+    'file': '/img/larks.mp3',
+    'controlbar': 'bottom'
+  });
+</script>
