@@ -17,6 +17,12 @@ sub development_mode {
     $app->log->path(undef);
 }
 
+sub production_mode {
+    my $app = shift;
+    my $name = lc ref $app;
+    $app->log->path("logs/${name}.log");
+}
+
 sub config_defaults {
     my $self = shift;
     my $name = lc ref $self;
@@ -43,18 +49,33 @@ sub gadwall_setup {
         config => { file => "${name}.conf", default => { $app->config_defaults } }
     );
 
-    $app->secret($conf->{secret});
+    my $secrets = "secrets.conf";
+    if (-f $app->home->rel_file($secrets)) {
+        $conf = $app->plugin(
+            config => { file => $secrets }
+        );
+    }
+
+    if (exists $conf->{secret}) {
+        $app->secret($conf->{secret});
+        delete $conf->{secret};
+    }
     $app->sessions->secure(1);
 
-    (ref $app)->attr(
-        db => sub { new_dbh(@$conf{qw/db_name db_user db_pass/}) }
-    );
+    {
+        my ($db_name, $db_user, $db_pass) =
+            @$conf{qw/db_name db_user db_pass/};
+
+        (ref $app)->attr(
+            db => sub { new_dbh($db_name, $db_user, $db_pass) }
+        );
+
+        delete $conf->{db_user};
+    }
 
     (ref $app)->attr(
         cache => sub { new_cache(@$conf{qw/memcached_port memcached_namespace/}) }
     );
-
-    delete @$conf{qw/secret db_pass/};
 
     push @{$app->renderer->classes}, qw(Gadwall::Auth Gadwall::Users Gadwall::Confirm);
 
@@ -100,7 +121,7 @@ sub setup_random_source {
                 );
             }
         );
-        $main::random_secret => encode_base64($main::prng->get_bits(128), ""),
+        $main::random_secret = encode_base64($main::prng->get_bits(128), "");
     }
 }
 
@@ -199,11 +220,6 @@ sub _shadow_controllers {
         require "$class/$name.pm";
         push @done, $name;
     }
-
-    $app->log->debug(
-        "Created shadow classes under ${class}:: for Gadwall::".
-        join(", ", @done)
-    ) if @done;
 }
 
 1;
