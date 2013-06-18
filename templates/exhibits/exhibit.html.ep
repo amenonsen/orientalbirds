@@ -32,21 +32,6 @@ margin-bottom: 1em; float: right">
 % }
 </div>
 
-<!-- div id=mediaplayer style="margin: 10px 0 10px 0"></div>
-</div -->
-
 <p style="margin-top: 10px">
 (Wrong species? Wrong details? Please <a href="#">report the problem</a>.)
 </p>
-
-<script type='text/javascript' src='/jwplayer/jwplayer.js'></script>
-<script type="text/javascript">
-  jwplayer('mediaplayer').setup({
-    'flashplayer': '/jwplayer/player.swf',
-    'id': 'playerID',
-    'width': '560',
-    'height': '24',
-    'file': '/img/larks.mp3',
-    'controlbar': 'bottom'
-  });
-</script>
