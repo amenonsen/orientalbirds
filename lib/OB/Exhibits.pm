@@ -15,6 +15,7 @@ sub exhibit {
             from exhibits e
                 join observations o using (observation_id)
                 join contributors c using (contributor_id)
+                left join species s on (e.species_id=s.species_id)
             where exhibit_id = \$1
     SQL
 
