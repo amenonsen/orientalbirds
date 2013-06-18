@@ -11,11 +11,14 @@ sub exhibit {
     my $eid = $self->stash('exhibit_id');
 
     my $exhibit = $dbh->selectrow_hashref(<<"    SQL", {}, $eid);
-        select *
+        select *, e.comments
             from exhibits e
                 join observations o using (observation_id)
                 join contributors c using (contributor_id)
                 left join species s on (e.species_id=s.species_id)
+                left join locations l using (location_id)
+                left join provinces p using (province_id)
+                left join countries on (l.country_id=countries.country_id)
             where exhibit_id = \$1
     SQL
 

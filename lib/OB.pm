@@ -17,7 +17,7 @@ sub startup {
     $app->gadwall_setup();
 
     my $r = $app->routes;
-    my $id = qr/[1-9][0-9]*/;
+
     my $auth = $app->plugin('login');
     my $secure = $r->find('secure');
 
