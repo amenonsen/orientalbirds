@@ -15,5 +15,6 @@ create table contributors (
     photo text,
     profile text
 );
+grant select, insert, update on contributors to :user;
 
 alter table users add email_confirmed boolean not null default true;

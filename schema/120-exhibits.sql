@@ -28,13 +28,14 @@ create table observations (
     constraint observation_identity
         check (coalesce(species_id, taxon_id) is not null),
     constraint observation_location
-        check (coalesce(location_id, approximate_location) is not null),
+        check (coalesce(location_id::text, approximate_location) is not null),
     constraint observation_time
-        check (coalesce(observed_at, approximate_date) is not null),
+        check (coalesce(observed_at::text, approximate_date) is not null),
 
     comments text,
     url text
 );
+grant select, insert, update on observations to :user;
 
 -- An exhibit is a collection of files from one or more observations. We
 -- use this structure with optional references in order to accommodate a
@@ -61,6 +62,7 @@ create table exhibits (
     comments text,
     url text
 );
+grant select, insert, update on exhibits to :user;
 
 -- A file is just a blob of data of a particular type, associated with a
 -- particular observation and contributor. We don't care about the name
@@ -71,6 +73,7 @@ create table mime_types (
     mime_type_id serial primary key,
     mime_type text not null unique
 );
+grant select on mime_types to :user;
 
 create table files (
     file_id serial primary key,
@@ -82,19 +85,22 @@ create table files (
     mime_type_id integer not null
         references mime_types
 );
+grant select, insert, update, delete on files to :user;
 
 -- Optional per-file metadata derived from EXIF or similar. May not be
 -- available for historical files, but should become more common and
 -- more extensive as time goes by.
 
 create table file_metadata (
-    file_id integer not null references files,
+    file_id integer not null references files
+        on delete cascade,
     recorded_at timestamptz,
     position point,
     altitude integer,
     pos_accuracy integer,
     alt_accuracy integer
 );
+grant select, insert, update, delete on file_metadata to :user;
 
 -- 1–N files per exhibit, in order.
 
@@ -104,3 +110,4 @@ create table exhibit_files (
     unique (exhibit_id, file_id),
     slno integer not null
 );
+grant select, insert, update, delete on exhibit_files to :user;

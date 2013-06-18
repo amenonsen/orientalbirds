@@ -7,6 +7,7 @@ create table countries (
     country_name text not null unique,
     country_code text not null unique
 );
+grant select on countries to :user;
 
 -- We store a list of provinces for each country, but we make no attempt
 -- to store further administrative subdivisions; nor do we care overmuch
@@ -18,6 +19,7 @@ create table provinces (
     province_name text not null,
     country_id integer not null references countries
 );
+grant select on provinces to :user;
 
 -- Using the above data, we maintain a big list of named locations that
 -- people can use while defining observations.
@@ -33,3 +35,4 @@ create table locations (
     pos_accuracy integer,
     alt_accuracy integer
 );
+grant select, insert, update on locations to :user;
