@@ -17,7 +17,7 @@ sub startup {
     $app->gadwall_setup();
 
     my $r = $app->routes;
-
+    my $id = qr/[1-9][0-9]*/;
     my $auth = $app->plugin('login');
     my $secure = $r->find('secure');
 
@@ -41,7 +41,11 @@ sub startup {
     $p->route('/contributors/:contributor_id', contributor_id => $id)
         ->via('get')->to('contributors#profile');
 
-    $p->get('/exhibits/1')->to('exhibits#index');
+    my $exhibits = $p->route('/exhibits');
+    my $exhibit = $exhibits->bridge(
+        '/:exhibit_id', exhibit_id => $id
+    )->to('exhibits#exhibit');
+    $exhibit->get->to('exhibits#show');
 
     my $admin = $auth->allow_roles('admin');
 
