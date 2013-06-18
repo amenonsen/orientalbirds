@@ -25,11 +25,11 @@ create table provinces (
 create table locations (
     location_id serial primary key,
     location_name text not null,
-    location_details text,
+    location_extra text,
     country_id integer not null references countries,
     province_id integer not null references provinces,
     coordinates point,
-    altitude numeric(8,2),
+    altitude integer,
     pos_accuracy integer,
     alt_accuracy integer
 );
