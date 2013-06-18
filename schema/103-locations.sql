@@ -4,8 +4,8 @@
 
 create table countries (
     country_id serial primary key,
-    country_name text not null unique,
-    country_code text not null unique
+    country_code text not null unique,
+    country_name text not null unique
 );
 grant select on countries to :user;
 
