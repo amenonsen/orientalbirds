@@ -71,9 +71,13 @@ grant select, insert, update on exhibits to :user;
 
 create table mime_types (
     mime_type_id serial primary key,
-    mime_type text not null unique
+    mime_type text not null unique,
+    extension text not null
 );
 grant select on mime_types to :user;
+
+insert into mime_types (mime_type, extension) values
+    ('image/jpeg', 'jpeg');
 
 create table files (
     file_id serial primary key,

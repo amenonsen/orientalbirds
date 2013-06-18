@@ -1,1 +1,1 @@
-insert into schema (name, version) values ('ob', 2);
+insert into schema (name, version) values ('ob', 3);
