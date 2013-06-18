@@ -29,8 +29,9 @@ sub exhibit {
 
     my $files = $dbh->selectall_arrayref(<<"    SQL", {Slice => {}}, $eid);
         select *
-            from exhibit_files f
-                join file_metadata using (file_id)
+            from exhibit_files ef
+                join files f using (file_id)
+                left join file_metadata using (file_id)
             where exhibit_id = \$1
             order by slno asc
     SQL
