@@ -21,16 +21,18 @@ create table observations (
     location_id integer references locations,
     approximate_location text,
     observed_at timestamptz,
+    observed_date date,
     approximate_date text,
 
     -- Approximate or not, we invariably need to know what, where, and
     -- when this observation refers to.
-    constraint observation_identity
+    constraint observation_what
         check (coalesce(species_id, taxon_id) is not null),
-    constraint observation_location
+    constraint observation_where
         check (coalesce(location_id::text, approximate_location) is not null),
-    constraint observation_time
-        check (coalesce(observed_at::text, approximate_date) is not null),
+    constraint observation_when
+        check (coalesce(observed_at::text, observed_date::text, approximate_date)
+            is not null),
 
     comments text,
     url text
