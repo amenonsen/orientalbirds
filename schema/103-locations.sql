@@ -29,7 +29,7 @@ create table locations (
     location_name text not null,
     location_extra text,
     country_id integer not null references countries,
-    province_id integer not null references provinces,
+    province_id integer references provinces,
     coordinates point,
     altitude integer,
     pos_accuracy integer,
